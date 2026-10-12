@@ -130,9 +130,11 @@ The paint is a grey-blue. Where it is chipped, and round the edges of the
 plates, a brighter blue shows beneath it, so it has been repainted at least
 once.
 
-Still open is which headstock it carries, of half a dozen, and which slide
-rest and tailstocks. The headstock above all decides how it must be treated:
-some run in adjustable bronze bearings and some on ball races.
+The headstock has a lever-operated collet closer, a nosepiece that looks
+made for dead-length collets, an oil nipple on the back bearing and an open
+hole where I would expect one on the front. Which of the catalogue's types
+that makes it is [not yet settled](identification.md). The slide rest and
+tailstocks are still to come.
 
 It is standing on two wooden blocks, and Andrew is satisfied it is stable.
 
@@ -160,15 +162,13 @@ slotted bed, and stable where it stands.
 
 *The headstock on the machine, and then the spare one*
 
-5. What is on the left-hand end of the spindle: a handwheel, a lever, or
-   nothing.
-6. The nose: a coarse thread about 1¾ in across, to take a chuck, or only a
-   fine thread for a cap. And what is fitted to it now.
-7. Whether there is a short lever in front of the left-hand bearing, or a
-   handle on the front face of the headstock.
-8. How each bearing is oiled: cups, flip-lid oilers, plain holes, plugs.
-   Whether there is oil in them and what it looks like.
+Questions 5 to 8 I answered myself from two photographs Andrew sent, and have
+asked him to correct: a lever closer with a handwheel, a capped nose and not
+a bare thread, no gear lever, oil nipples. Still to ask:
+
 9. Any letters or numbers on it.
+
+And the same five for the spare headstock.
 
 *The drive*
 

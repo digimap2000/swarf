@@ -81,8 +81,37 @@ offered with a choice of headstocks, half a dozen of them, and of tailstocks,
 one of which, the TUC, sits on a sole plate so that it can be set over for
 slight tapers.
 
-Which headstock is on it is still open, and matters a good deal, because
-they differ in exactly the things that decide how it is treated.
+### The headstock on it
+
+Not yet named. This is what two of Andrew's photographs show, and it is my
+reading of them, not his.
+
+- **The left-hand end of the spindle** carries both a lever and a handwheel.
+  A long lever with a black grip hangs from a yoke that is pivoted above the
+  spindle and wraps a steel drum; outboard of the drum is a fluted aluminium
+  handwheel. That is a lever-operated collet closer, with the handwheel to
+  set its grip.
+- **Between the closer and the headstock** are a ring nut with tommy-bar
+  holes, and a disc with holes drilled in it. A knurled plunger on the front
+  of the headstock lines up with the disc, which I take to be a spindle lock.
+- **The nose** is not a bare thread. It carries a plain cylindrical cap about
+  the size of a fist, with a notched ring behind it and, set into its face, a
+  separate ring with two pin-spanner holes round a bore of roughly an inch.
+  It looks like a nosepiece for dead-length collets. The metal beside the
+  notch is chewed, as if the ring had been driven round with a punch.
+- **The back bearing** has an oil nipple on top of its housing, and there is
+  another on the pivot of the lever. That explains the plate: a nipple
+  invites a grease gun, and the plate says use oil only.
+- **The front bearing** has an open hole on top of its housing where I would
+  expect the same nipple, wet with dark oil. If the nipple is missing,
+  that hole leads straight into the bearing.
+- **The pulley** is a stepped one for a flat belt, brown with old oil and
+  light rust, with slotted screws in its hub.
+
+A lever closer on bronze bearings would make it a PRH. A lever that also
+worked a brake and clutch would make it an LPH. The photographs do not settle
+it, and the difference matters: the two have different bearings at the back.
+
 
 ## What a Model L looks like
 
