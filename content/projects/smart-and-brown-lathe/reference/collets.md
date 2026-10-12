@@ -147,7 +147,7 @@ And for the model, which no source gives:
 | --- | --- |
 | The taper that closes the collet: its diameter at each end and its length | Bore gauge and depth gauge. The three give the angle. **So far: 24.55 mm at the small end, 1.18 in (29.97 mm) at the mouth. The plain 24.55 mm bore behind it is roughly 30 mm long. The length of the taper itself is still wanted.** |
 | The hole in the cap, and the thread the cap screws on by | Calipers and a thread gauge. **The hole measured: 1.0 in.** |
-| What the lever moves inside the spindle, and how far | By eye, lever open and closed, and a rule |
+| What the lever moves inside the spindle, and how far | By eye, lever open and closed, and a rule. **The sleeve, by 0.97 mm.** |
 | Any key or pin that would stop a collet turning | By eye, and its width |
 
 Photographs of the nose with the cap off, of the inside of the cap, and
