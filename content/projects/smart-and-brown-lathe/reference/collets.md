@@ -47,7 +47,8 @@ This is the one Andrew wants proved first.
 The collet does not move. A cap on the spindle nose holds it endwise, and it
 is closed by something pushed forward over it from behind, so that the work
 stays where it was put. On the plain PDH the cap itself does the closing. On
-this one there is a lever at the back, which I take to push a tube. The
+this one there is a lever at the back, which pushes a sleeve forward inside the
+nose. The
 collet has no thread.
 
 The catalogue names the collet as **Smart & Brown Type 4B**, of 11/16 in
@@ -116,8 +117,10 @@ back rides in the narrow part of a sleeve, the sleeve's mouth is a taper
 that closes on the back of the collet's head when the sleeve is pushed
 forward, and the cap in front stops the collet moving. A No. 10's head is
 listed at 1.115 in, larger than the cap's 1.0 in aperture, so the cap would
-hold it. What I have not seen is the sleeve move. Until the lever is worked
-with the cap off and something is seen to slide, the mechanism is a guess.
+hold it. Andrew has since worked the lever with the cap off: the sleeve
+moves fore and aft a small distance. So the mechanism is as described. The
+lever pushes the sleeve, the sleeve closes the collet, and the cap holds the
+collet still.
 
 The later lever closers were also listed for the Crawford T980 Multibore and
 the Pratt & Burnerd EA Multisize, both of 1 in capacity. I do not think
