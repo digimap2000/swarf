@@ -84,8 +84,10 @@ slight tapers.
 ### The two headstocks
 
 Both look to me like the PRH: the bronze-bearing headstock with a lever-action
-collet closer. Neither has been found to carry any letters, so that is a
-reading of Andrew's photographs against the catalogue and no more.
+collet closer. Neither has been found to carry any letters. For the spare
+there is now more than my reading of photographs: Andrew has compared it
+with the catalogue's cutaway of the PRH and says everything he can see
+matches.
 
 **The one on the machine.** The left-hand end of the spindle carries both a
 lever and a handwheel. A long lever with a black grip hangs from a yoke that
