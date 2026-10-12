@@ -158,72 +158,72 @@ On the spare, for later: the bore behind the taper, the taper's diameter at
 the nose face and its depth, any key, and the thread in the end of the draw
 tube, to compare with 0.984 in and 0.902 in by 24.
 
-## The space model
+## Specification of the Brown & Sharpe No. 10, for drawing
 
-Andrew's suggestion: before a collet is bought or cut in steel, print its
-shape in plastic and try it in the spindle.
+Andrew is drawing the collet himself. This is everything I can give him to
+draw it from, sorted by how far each figure can be trusted. It is not a
+complete specification, and I have not found one.
 
-Only one of the two kinds has a thread. The draw-in collet for the spare has
-a threaded tail, because the tube pulls it by that thread, and a print
-cannot prove a thread. The dead-length collet for the lathe's own headstock
-has no thread at all, and its model is a plain turned shape from end to end.
+### Published
 
-### The first one: a Brown & Sharpe No. 10
+From the present maker's listings for the No. 10. These are the collet.
 
-Andrew's instruction was to draw it faithfully to the dimensions a No. 10 is
-expected to have and not to anything measured on the lathe, and to make no
-allowance for the printer. A model shaped to fit the headstock would prove
-only that it had been shaped to fit.
+| Feature | Inches | Millimetres | Note |
+| --- | --- | --- | --- |
+| Length overall | 2.500 | 63.50 | |
+| Back bearing diameter | 0.936 | 23.77 | Given as 15/16 in on one listing, 0.936 on another and 0.9362 on a third |
+| Head diameter | 1.115 | 28.32 | |
+| Head angle, each side | 15° 7′ | | The taper is on the back of the head, facing the rear. From a search result's summary of a listing I could not open. |
+| Round capacity | 1/16 to 5/8 | 1.6 to 15.9 | Smart & Brown give their Type 4B as 11/16 in |
 
-[The model](brown-sharpe-no10-half-inch.stl) is to these figures:
+### Fixed by the headstock
 
-| What | Figure | Where it is from |
+Measured by Andrew on the lathe. These are not the collet, but the collet
+has to live inside them.
+
+| Feature | Measured | What it means for the collet |
 | --- | --- | --- |
-| Length overall | 2.500 in | The present maker's listing for a No. 10 |
-| Back bearing diameter | 0.9362 in | The same maker's listing for a No. 10 with a short bearing; 15/16 in on the standard one |
-| Head diameter | 1.115 in | The same |
-| Head angle | 15° 7′ a side | The same listing. I have it from a search result's summary of the page and could not open the page itself. |
-| Bore | 0.500 in | Mine: it makes it a half-inch collet, within the No. 10's range |
-| Parallel length of the head, in front of the taper | 0.125 in | Mine. No source gives it. |
-| Slits | Three, 3/64 in wide, 1¾ in long from the front | Mine. No source gives them. They leave ¾ in of the back solid. |
+| Seat bore at the back of the sleeve | 23.84 mm | The back bearing runs in this: 23.77 mm leaves 0.07 mm |
+| Bore of the sleeve in front of the seat | 24.55 mm, about 30 mm long | The body must be under this for that length |
+| Closing taper in the sleeve's mouth | 24.55 mm opening to 29.97 mm (1.18 in) over about 9.9 mm (0.39 in) | 15.3° a side, against the published 15° 7′. A 28.32 mm head meets it about 3 mm inside the mouth. |
+| Stroke of the sleeve | 0.97 mm | Closes the collet by about 0.52 mm on diameter at most |
+| Aperture in the cap | 1.000 in | The front of the head bears on the cap in a ring about 1.5 mm wide |
 
-The first file I sent had no slits. I had left them out for want of figures,
-which Andrew pointed out, kindly, was to leave out the thing that makes it a
-collet: without them it cannot close, and the trial could not show whether
-the sleeve grips. They are in now, to my own figures, three being the usual
-number for this pattern.
+Not yet measured, and wanted: the distance from the cap's inside seat to the
+mouth of the sleeve with the cap screwed home, the depth of the 23.84 mm
+seat, and the form of the coned seat inside the cap.
 
-Two things about a real collet are still left out because I have no figures
-for them: any relief of the body between the back bearing and the head, and
-any chamfer on the front face. The body is the back-bearing diameter all the
-way along, which makes its fingers stiffer than a real collet's.
+### Not known
 
-The angle is worth a remark. Before this figure turned up, Andrew's
-measurements of the closing sleeve, 24.55 mm opening to 29.97 mm over about
-0.39 in, had given 15.3° a side. The published figure for the collet is
-15° 7′, which is 15.1°.
+No source I have found gives any of these.
 
-`tools/revolve-stl` wrote the file, and checks before writing that the solid
-is closed, wound the same way throughout, and of the volume the shape should
-hold. Read back independently before the slits were added, the file measured
-2.5000 in long, 0.9362 in across the back, 1.1150 in across the head, with a
-head angle of 15° 7′. With the slits in, a second reader tested twelve
-points: there is air on the line of each of the three slits, in the head and
-5 mm above their bottoms, air 0.3 mm off a slit's centre and plastic 0.9 mm
-off it, and solid plastic all round below where the slits end.
+| Feature | What I can say |
+| --- | --- |
+| Parallel length of the head, in front of the taper | The first unknown above would give it: it is that distance, plus about 3 mm |
+| Chamfer on the front of the head | The cap's seat is coned, so there is probably one to match |
+| Length of the back bearing | Not more than the depth of the seat |
+| Diameter and length of the sprung part of the body | Under 24.55 mm. Real collets are thinned here to make them spring. |
+| Slits | Three is usual for the pattern. Width, length and any hole at their ends unknown. |
+| Bore behind the gripping length | Usually opened out. Lengths unknown. |
+| Any slot for a key or pin to stop it turning | Unknown |
 
-### What the fit will show
+### Ways to an exact figure
 
-1. Whether the back enters the seat. The seat measured 23.84 mm and the
-   model's back is 23.78 mm.
-2. Whether the cap screws home with the model in place and the lever open.
-3. Whether the model is then held endwise or is free to slide.
-4. Whether closing the lever brings the sleeve up onto the head, and closes
-   the bore onto a half-inch bar.
+1. One real No. 10 collet, measured. They are common second-hand, mostly in
+   America. It turns every line of the last table into a measurement, and it
+   is the trial fit as well.
+2. The maker's catalogue. A reprint of a Brown & Sharpe catalogue of
+   [screw machine tools, spring collets and feeding fingers](https://store.lathes.co.uk/document/mb655a)
+   is sold, and may carry the dimension tables. I have not seen inside it.
+3. Working the unknowns out from the headstock, which fixes the two that
+   matter most for a fit: the length of the head and the length of the
+   bearing.
 
-**I expect** the back to enter the seat with a little clearance, and the head
-to sit about 3 mm inside the mouth of the sleeve. The one figure of mine that
-bears on the fit is the eighth of an inch of parallel head. If the cap will
-not go home, that figure is too long, and the gap under the cap says by how
-much. If the model slides endwise with the cap on, it is too short, and the
-slide says by how much. Either way the print measures what no source gives.
+### The file I made
+
+Before Andrew said he would rather draw it, I made
+[a model](brown-sharpe-no10-half-inch.stl) to the published figures above,
+with a half-inch bore. Where the tables above say unknown it uses figures of
+my own: an eighth of an inch of parallel head, no chamfer, no thinning of the
+body, and three slits 3/64 in wide and 1¾ in long. It is there if wanted.
+His drawing supersedes it.
