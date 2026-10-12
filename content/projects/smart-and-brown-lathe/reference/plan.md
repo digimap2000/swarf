@@ -138,8 +138,8 @@ off dirt and not metal, which is his to judge and not mine from a
 photograph. I had taken parts resting on a bed for an assembled lathe and
 never asked.
 
-With the headstock off, its underside can be seen, which is the quickest way
-to learn how its oilways run.
+The headstock has since been looked at from underneath, which showed how its
+oilways run, and is back on the bed and clamped down.
 
 What the lathe lacks: a belt, a motor of the kind it was built for, any
 collets, and the four small plugs that close its oil holes. There is grease
@@ -167,8 +167,8 @@ motor with one speed. To be settled at stage 3.
 
 ## The job sheet outstanding: session 2
 
-The headstock, slide rest and tailstock are off the bed, as they came. No
-power.
+The headstock is back on the bed and clamped. The slide rest and tailstock
+are off. No power.
 
 ### 1. Find out whether oil gets through each spindle bearing
 
@@ -212,32 +212,32 @@ sits under the headstock as the reference, since nothing has slid there.
 **I expect** the bed to be within a thousandth or two of an inch along its
 length, because nothing slides on it under load.
 
-### Still owed: the play in the spindle
+### The play in the spindle
 
-Andrew had a go at this with the headstock on the bench and found nothing
-good to measure from: the nose carries a recessed collet closer, and there
-are no collets to hold a test bar. That was my doing. I asked for it in a way
-that read like a test of how true the spindle runs, which does need a true
-surface, and I said it could be done on the bench, which it cannot.
+The headstock is back on the bed and clamped down, and Andrew has taken the
+first reading.
 
-What I want is the lift, which is a different thing. The indicator sits on
-anything solid on the spindle, the outside of the nose cap will do, and
-reads how far the spindle moves when it is lifted and pressed down. The
-surface need not run true, because the spindle is not turned. But the
-headstock has to be held down, or lifting the nose only tips it. So this
-waits until the headstock is clamped to the bed again.
+**At the nose: nothing.** With a 0.01 mm indicator on top of the piece that
+screws onto the spindle nose, lifting the spindle moved the needle not at
+all. He points out the difficulty with that surface. Screwed home, the piece
+sits down inside the bearing's adjusting nut and nothing stands proud to
+measure from; left a little way out, there is a surface, but any slack in
+its thread is in the reading too. A reading of nothing with that slack
+included is a good one: whatever play the front bearing has is less than
+the indicator can show.
 
-Then, three times each, with the indicator's base on the headstock:
+I had expected less than one division, and for once was right.
 
-1. *At the nose.* Plunger on top of the nose cap near the bearing. Lift the
-   nose with a wooden lever, firmly, and read. Press down and read.
-2. *At the back.* Plunger on the plain part of the spindle between the back
+**Still to take,** three times each, with the indicator's base on the
+headstock:
+
+1. *At the back.* Plunger on the plain part of the spindle between the back
    bearing and the closer. Lift and press that end.
-3. *End float.* Plunger square on the end of the spindle or the face of the
-   cap. Push the spindle one way and pull it the other.
+2. *End float.* Plunger square on the end of the spindle. Push the spindle
+   one way and pull it the other.
 
 How true the spindle runs is a later question. It needs the collet seat or
-the nose register to measure from, and so the cap off.
+the nose register to measure from.
 
 The bed measures about 32¾ in long by Andrew's tape, as I read it from his
 photograph.

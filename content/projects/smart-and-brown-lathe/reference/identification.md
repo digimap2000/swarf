@@ -109,11 +109,13 @@ notched ring behind it, bruised in the same way. A three-step flat-belt
 pulley sits between the bearings, and behind the front bearing are two thin
 notched rings.
 
-**What I got wrong about the nose.** Seeing only the capped nose, I read the
-cap as a nosepiece for dead-length collets, which would have meant a
-different headstock. The spare shows what is under a cap like that: an
-ordinary threaded nose. I now think the cap is a cover screwed over the same
-thread.
+**What I got wrong about the nose.** Twice. Seeing only the capped nose, I
+read the large plain cylinder as a nosepiece for dead-length collets. Then,
+seeing the spare's bare thread, I called it a cover screwed over the thread.
+Andrew, with it in his hands, says the large cylinder is the adjusting nut
+of the front bearing, and that it is the smaller piece set into its face
+that screws onto the spindle nose, going down inside the nut until nothing
+stands proud. He calls that piece a collet closer. I have not seen it off.
 
 **What I got wrong about the oil holes.** There is a hole on top of each
 bearing housing, four in all. One photograph showed a nipple in the back hole
