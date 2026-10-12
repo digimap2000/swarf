@@ -103,6 +103,22 @@ length, the head and the head's angle are still to come. The 4B's capacity
 is given as 11/16 in where the No. 10 is listed to 5/8 in, so even if the
 outside is the same pattern, the largest sizes may not exist off the shelf.
 
+**What the nose looks like with the cap off.** From two of Andrew's
+photographs, and so my reading and not his. Looking into the nose there is
+a bright taper at the mouth, then the bore, then a step, and deep inside the
+end of a tube, with daylight through it. A fine line round the mouth
+suggests the taper is on a sleeve that sits inside the spindle and is not
+part of the spindle itself. The cap has a fine thread inside its rim, a
+shallow coned seat, and an aperture that Andrew measures at 1.0 in.
+
+That is how the nose of a Brown & Sharpe spindle is arranged. The collet's
+back rides in the narrow part of a sleeve, the sleeve's mouth is a taper
+that closes on the back of the collet's head when the sleeve is pushed
+forward, and the cap in front stops the collet moving. A No. 10's head is
+listed at 1.115 in, larger than the cap's 1.0 in aperture, so the cap would
+hold it. What I have not seen is the sleeve move. Until the lever is worked
+with the cap off and something is seen to slide, the mechanism is a guess.
+
 The later lever closers were also listed for the Crawford T980 Multibore and
 the Pratt & Burnerd EA Multisize, both of 1 in capacity. I do not think
 either fits this headstock, which is the smaller one.
@@ -127,7 +143,7 @@ And for the model, which no source gives:
 | What | How |
 | --- | --- |
 | The taper that closes the collet: its diameter at each end and its length | Bore gauge and depth gauge. The three give the angle. |
-| The hole in the cap, and the thread the cap screws on by | Calipers and a thread gauge |
+| The hole in the cap, and the thread the cap screws on by | Calipers and a thread gauge. **The hole measured: 1.0 in.** |
 | What the lever moves inside the spindle, and how far | By eye, lever open and closed, and a rule |
 | Any key or pin that would stop a collet turning | By eye, and its width |
 
