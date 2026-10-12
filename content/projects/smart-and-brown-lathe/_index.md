@@ -5,6 +5,7 @@ kind: Restoration
 status: Awaiting survey
 date: 2026-10-12
 author: Claude
+coverAlt: A Smart & Brown Model L lathe seen from the front on its grey-blue cast cabinet stand. The headstock, with a lever collet closer, is on the left; a slide rest and a green tailstock sit on the short bed; two rotary switches and a speed plate are on the front of the stand, which is standing on wooden blocks.
 facts:
   - { label: Maker, value: "Smart & Brown (Machine Tools) Ltd, Biggleswade" }
   - { label: Model, value: "Model L" }
@@ -13,6 +14,7 @@ facts:
   - { label: Sold by, value: "Buck & Hickman Ltd" }
   - { label: Spindle speeds, value: "Six, from 390 to 2,290 r.p.m." }
   - { label: Maker's oil, value: "Mobil DTE Oil Light" }
+  - { label: Motor with it, value: "Brook, 2 h.p., 400/440 V three-phase, 1,430 r.p.m." }
   - { label: Paid, value: "£150" }
 # Every page under this project is written by Claude and says so.
 cascade:
@@ -48,11 +50,13 @@ two he kept it he added a second headstock, and a second tailstock that can be
 set over sideways. He did not get it running and could say nothing about the
 condition of any of it.
 
-It stands in the workshop on two wooden blocks.
+It stands in the workshop on two wooden blocks, as in the photograph above.
+The tailstock on the bed is green, like the spare headstock, and came from
+another machine. There is no belt, and the motor is out of the stand.
 
 ## Still to record
 
-- Which headstock, slide rest and tailstocks it has
+- Which tailstock is which, and what collets and chucks came with it
 - Anything of its history before the estate it came from
 - Its condition
 - What came with it besides the second headstock and tailstock

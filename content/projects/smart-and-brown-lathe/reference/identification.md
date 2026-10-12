@@ -137,6 +137,35 @@ handwheel, the yoke and the lever exactly as they are on this machine, a
 spindle in two bronze bearings with a threaded ring either side of each, the
 pulley on ball races of its own, and a threaded nose.
 
+### The drive
+
+The stand has two rotary switches. Their plates read Reversing Switch, with
+positions for reverse, off and forward, and Change Pole Switch, with low, off
+and high. A change-pole switch is for a motor with two speeds, which is what
+the speed plate implies.
+
+The motor that came with the lathe is not one. Its plate reads Brook Motors
+Limited, Huddersfield: frame C182, serial number Y17894, 400/440 volts, three
+phase, 3.1 amps at full load, 1,430 r.p.m., 50 cycles, 2 horsepower. One
+speed. At 1,430 r.p.m. it would give the second row of the speed plate, 785,
+1370 and 2290, and nothing would give the first. So either the lathe's own
+motor has been replaced, or this one never belonged to it. It is out of the
+stand, lying on the floor, and there is no belt.
+
+I had expected a plate with one voltage and two speeds. The voltage was
+right. The two speeds are on the lathe's switch and not on this motor.
+
+### The stand, the slide rest and the tailstock
+
+From Andrew's photograph of the whole machine. The stand is a cast cabinet
+with a tray round the top, a large door at the front and a smaller one low
+on the left, and it is not the pattern in the early catalogue pictures, which
+has double doors and louvres. The slide rest is a compound one worked by
+screw handles, with a swivelling top slide and a pillar toolpost, which is
+the catalogue's Type CSP. The tailstock on the bed is painted green, like the
+spare headstock, and so came from the same other machine. The cover for the
+pulley is off and lying in the tray.
+
 ## What a Model L looks like
 
 From the catalogue pictures on the

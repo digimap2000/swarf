@@ -139,7 +139,19 @@ first read wrongly, are on the [identification page](identification.md), and
 what is wrong so far is in the [condition register](condition.md). The drive,
 slide rest and tailstocks are still to come.
 
-It is standing on two wooden blocks, and Andrew is satisfied it is stable.
+It cannot be run as it stands. There is no belt, and the motor is out of the
+stand. The motor is a single-speed Brook of 2 h.p. for 400/440 V, while the
+lathe's own switches are a reverser and a change-pole switch for a motor
+with two speeds. How it is to be driven is a question for the electrical
+stage, and my intention is to keep both switches doing their jobs if an
+inverter can be made to obey them.
+
+The slide rest is the screw-feed compound type. The tailstock on the bed is
+green, like the spare headstock, so the lathe has parts of two machines on
+it.
+
+It is standing on two wooden blocks under a cast cabinet stand, and Andrew
+is satisfied it is stable.
 
 ## The job sheet outstanding: session 1, which Model L
 
@@ -171,12 +183,8 @@ the PRH.
 
 *The drive*
 
-10. The motor plate, in full: maker, volts, phase, horsepower, speed or
-    speeds, and anything about star and delta.
-11. How the drive gets from motor to spindle: a belt straight up from a
-    stepped pulley on the motor, or by way of a countershaft in the base.
-    Whether the belt is there, what it is made of and what state it is in.
-12. What switchgear there is.
+Questions 10 to 12 are answered: a single-speed Brook motor out of the
+stand, no belt, and a reversing switch and a change-pole switch on the stand.
 
 *The slide rest and the tailstocks*
 
@@ -221,8 +229,7 @@ tailstocks; inside the stand; the top of the bed; and whatever answers 17 and
 18. Put them in `inbox/`.
 
 **What I expect.** About 4 in from bed to spindle centre and a short bed. A
-collet closer on the left-hand end of the spindle. A motor plate giving one
-voltage and two speeds. The spare tailstock the heavier of the two, with a 1¼ in
+collet closer on the left-hand end of the spindle. The spare tailstock the heavier of the two, with a 1¼ in
 barrel on a separate sole plate. At least one of the two headstocks with
 bronze bearings. I am least sure of the drive and the stand, and will not
 guess at them.
