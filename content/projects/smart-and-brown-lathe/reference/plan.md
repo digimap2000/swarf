@@ -156,26 +156,39 @@ motor with one speed. To be settled at stage 3.
 
 No power. Nothing dismantled. Three jobs.
 
-### 1. Oil the spindle bearings
+### 1. Find out whether oil gets through the spindle bearings
 
-**Why.** The spindle has been turned and I do not know when its bearings
-last had oil. They are bronze, and the maker's plate names what they want.
+**What has been found.** Andrew looked down the oil holes, cleaned them and
+filled them. Each is a short pocket with the bronze of the bearing at the
+bottom, and what may be a small hole in its side near the top. The nipple
+over the back bearing was only pushed in, and the pocket under it was packed
+with grease. Filled with oil, both pockets stayed full. The same done to the
+spare headstock ran straight through and out underneath.
+
+I had expected a felt or a well down each hole and the oil to soak away. Both
+wrong.
+
+**Why it matters.** Somebody has greased a bearing that the maker's plate
+says is to have oil only. A pocket that stays full is what a close plain
+bearing does when it is standing still, so that alone proves nothing. But I
+do not yet know that oil can get past the grease into the back bearing, and
+the lathe cannot be run until I do.
 
 **Do.**
 
-1. With a torch, look down each of the two oil holes on the headstock that
-   is on the lathe, before putting anything in. Tell me what is down there:
-   felt, bare metal, old oil, dirt.
-2. Put ten drops of oil in each. For this session, the Shell Morlina S2 BL 10
-   that Andrew has. It is a spindle oil of the right kind but a thinner
-   grade, [ISO VG 10](https://shop.sclubricants.com/pub/media/pds/shell/Shell-Morlina-S2-BL-10.pdf)
-   against the ISO VG 32 of the maker's Mobil DTE Light, about a third of
-   the viscosity. That does not matter for turning by hand. It does for
-   running under power, and the maker's grade has to be in before then.
-3. Turn the spindle twenty turns by hand.
-4. Look down the holes again, and at each end of each bearing. Then ten more
-   drops and twenty more turns.
-5. Cover the holes again.
+1. Keep both pockets topped up with the Morlina. Its thinness is now an
+   advantage: it will work through old grease where a heavier oil would sit
+   on it.
+2. Turn the spindle by hand fifty turns at a time, and tell me whether the
+   level in each pocket falls.
+3. Wipe round each end of each bearing with a clean white rag, and tell me
+   what comes out and what colour: clear oil, black oil, grease, or anything
+   that glitters.
+4. With a pipe cleaner or a length of soft copper wire, feel into the small
+   side hole near the top of a pocket. On the spare headstock first. Tell me
+   how far it goes and which way. Nothing hard, and no force.
+5. Turn the spare headstock over and find where the oil came out of it. A
+   photograph of its underside.
 
 **Leave alone.** The notched rings beside the bearings. The cutaway shows
 them to be what sets the bearings, and both headstocks show that somebody
@@ -183,8 +196,11 @@ has already been at them with a punch.
 
 **Stop if** the spindle stiffens or grates at any point.
 
-**I expect** a felt or a dark well down each hole, the oil to soak away, and
-no oil to show at the ends of the bearings after twenty drops.
+**I expect** the level in the front pocket to fall slowly and clear or dark
+oil to show at the ends of the front bearing. I expect the back pocket to
+fall more slowly or not at all at first, and grease to show at its ends
+before oil does. On the spare I expect to find an opening underneath that
+something once closed.
 
 ### 2. Measure the play in the spindle
 
