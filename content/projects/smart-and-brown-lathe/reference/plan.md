@@ -133,8 +133,10 @@ once.
 Both headstocks look like the PRH, the bronze-bearing type with a lever
 collet closer; the spare is green, from another machine, and has a bare
 threaded nose. Each bearing has a plain oil hole above it, which Andrew
-thinks fed a well or a felt. The reasoning, and two things I first read
-wrongly, are on the [identification page](identification.md). The drive,
+thinks fed a well or a felt, and which the catalogue shows closed by a
+knurled plug; all four plugs are missing. The reasoning, and two things I
+first read wrongly, are on the [identification page](identification.md), and
+what is wrong so far is in the [condition register](condition.md). The drive,
 slide rest and tailstocks are still to come.
 
 It is standing on two wooden blocks, and Andrew is satisfied it is stable.

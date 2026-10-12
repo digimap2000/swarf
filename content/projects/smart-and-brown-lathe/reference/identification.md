@@ -123,8 +123,19 @@ the other three looks threaded, so the nipple is the odd one out and not the
 pattern. He suggests each hole fed a drip oiler or a small well with a felt.
 That agrees with an owner of another Model L, who describes
 [an oil hole leading to a well under the bearing](https://www.model-engineer.co.uk/?p=29271),
-perhaps with a wick. What, if anything, was meant to close the holes I do not
-know.
+perhaps with a wick.
+
+Andrew then found the answer in the catalogue's own cutaway drawing of the
+PRH, on the [Model L page](https://www.lathes.co.uk/smart-and-brown-model-L).
+Each hole is closed by a small knurled plug with a short stem. As he pointed
+out, the holes sit under the cover that closes over the pulley, so there is
+no room there for anything that stands up. The plugs are gone from all four
+holes, and the one nipple is somebody's substitute.
+
+The same drawing is the best evidence yet for the type. It shows the fluted
+handwheel, the yoke and the lever exactly as they are on this machine, a
+spindle in two bronze bearings with a threaded ring either side of each, the
+pulley on ball races of its own, and a threaded nose.
 
 ## What a Model L looks like
 
