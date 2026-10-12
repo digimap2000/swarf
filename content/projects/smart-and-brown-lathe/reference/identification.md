@@ -36,19 +36,53 @@ by distance between centres.
 
 ## Which one this is
 
-A Model L, on Andrew's word: he has it in front of him and it is a
-plain-turning lathe, with a cross-slide and a top slide and nothing driven.
-No leadscrew, no changewheels, nothing that could be called an apron. I have
-not yet seen it.
+A Model L, serial number S10312. Andrew read both off the machine and sent
+photographs of the plates and the stamping.
 
-I had guessed as much beforehand, from one thing he was told when he bought
-it: that its last owner had added a second headstock, and a second tailstock
-with sideways adjustment. The Model L is the one that was offered with a
-choice of headstocks, half a dozen of them, and of tailstocks, one of which,
-the TUC, sits on a sole plate so that it can be set over for slight tapers.
+- **The speed plate** is headed MODEL-L and gives six spindle speeds in two
+  rows: 390, 685 and 1140, then 785, 1370 and 2290. Each speed in the second
+  row is twice the one above it. So the drive is a three-step pulley and a
+  motor with two speeds, the arrangement the catalogue gives for its
+  high-speed machines, though with slightly different figures.
+- **The serial number** is stamped into the top of the bed at the tailstock
+  end, on the land beside the slot, with a dab of red paint after it. No
+  source I had read says where to look. It was in the first place Andrew did.
+- **A cast plate on the front of the headstock** reads Smart & Brown (Machine
+  Tools) Ltd, Biggleswade, and under that: use oil only, recommended grade
+  Mobil DTE Oil Light. That is the maker's own figure for the oil, on the
+  machine. The oil sold under that name today is an
+  [ISO VG 32 circulating oil](https://www.mcmaster.com/oil/trade-name~mobil-dte-light).
+- **A red badge** below it reads Smart & Brown, London.
+- **A dealer's plate** on the stand reads Buck & Hickman Ltd, Engineers, with
+  branches at Watford, London, Birmingham, Manchester, Bristol, Glasgow and
+  Leeds. It was sold through them.
+- **The bed** has a flat top with a slot down the middle, and the headstock
+  and tailstock clamp to it by round buttons in the slot. The castings are in
+  the rounded style of the 1950s. Both from Andrew.
 
-Which Model L is still open, and it matters a good deal which headstock is on
-it, because they differ in exactly the things that decide how it is treated.
+### How old it is
+
+About 1960, as an estimate. The [Sabel page](https://www.lathes.co.uk/sabel)
+at lathes.co.uk says Smart & Brown numbered their machines in one sequence as
+they left the works, whatever the model, and lists a few survivors: 8385 from
+1955 and 9562 from 1958 among them. That is a little under four hundred
+machines a year. At that rate 10312 left about two years after 9562.
+
+It rests on three things I cannot check: that the sequence really was shared
+by every model, that the rate held, and that the S in front of this number
+does not mean it belongs to a different series.
+
+### How I got there
+
+I had guessed a Model L before any of this, from one thing Andrew was told
+when he bought it: that its last owner had added a second headstock, and a
+second tailstock with sideways adjustment. The Model L is the one that was
+offered with a choice of headstocks, half a dozen of them, and of tailstocks,
+one of which, the TUC, sits on a sole plate so that it can be set over for
+slight tapers.
+
+Which headstock is on it is still open, and matters a good deal, because
+they differ in exactly the things that decide how it is treated.
 
 ## What a Model L looks like
 

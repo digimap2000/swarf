@@ -115,19 +115,26 @@ the strip with a shorter list.
 
 ## Where it stands
 
-**Stage 0, under way.** Andrew has the lathe in front of him and says it is a
-plain-turning lathe: a cross-slide and a top slide, nothing driven, no
-leadscrew and no changewheels. That makes it a [Model L](identification.md),
-which is what I had guessed from the second headstock and the set-over
-tailstock that came with it. I have still not seen it.
+**Stage 0, under way.** It is a [Model L](identification.md), serial number
+S10312, built about 1960 and sold through Buck & Hickman. Andrew read that
+off the machine and I have seen the plates.
 
-What is not known is which Model L. They were built for decades with a
-choice of drives, half a dozen headstocks, several slide rests and three
-tailstocks, and the headstock above all decides how it must be treated: some
-run in adjustable bronze bearings and some on ball races.
+Two things on the plates matter beyond the name. The maker's oil is on the
+machine in cast letters, Mobil DTE Oil Light, which settles the question of
+what goes in the headstock before it is turned. And the speed plate shows a
+motor with two speeds. A motor of that kind is usually wound for one voltage
+only, 415 V here, which will bear on how it is run from an inverter. The
+motor plate will say.
 
-It is standing on two wooden blocks. Until I know how, I am treating it as
-something that can tip.
+The paint is a grey-blue. Where it is chipped, and round the edges of the
+plates, a brighter blue shows beneath it, so it has been repainted at least
+once.
+
+Still open is which headstock it carries, of half a dozen, and which slide
+rest and tailstocks. The headstock above all decides how it must be treated:
+some run in adjustable bronze bearings and some on ball races.
+
+It is standing on two wooden blocks, and Andrew is satisfied it is stable.
 
 ## The job sheet outstanding: session 1, which Model L
 
@@ -148,17 +155,8 @@ of the later ones unnecessary.
 
 *What it is*
 
-1. What the maker's plate says, and any other plate or stamped number, with
-   where each one is. In the catalogue pictures the maker's plate is on the
-   front of the pedestal under the headstock.
-2. Whether the castings are rounded, in the style of the 1940s and 50s, or
-   squared-off, as they were made in the 1970s.
-3. What stand it is on: a cast cabinet with doors and louvres, a fabricated
-   steel one, or none. Whether a magnet sticks to it, since the very first
-   stands were aluminium. What exactly rests on the wooden blocks, and
-   whether you are satisfied it is stable.
-4. Whether the bed has a flat top with a slot down the middle, to which the
-   slide rest and tailstock clamp.
+Questions 1 to 4 are answered: a Model L, S10312, in rounded castings, on a
+slotted bed, and stable where it stands.
 
 *The headstock on the machine, and then the spare one*
 
@@ -224,8 +222,8 @@ tailstocks; inside the stand; the top of the bed; and whatever answers 17 and
 18. Put them in `inbox/`.
 
 **What I expect.** About 4 in from bed to spindle centre and a short bed. A
-maker's plate on the headstock pedestal. A collet closer on the left-hand end
-of the spindle. The spare tailstock the heavier of the two, with a 1¼ in
+collet closer on the left-hand end of the spindle. A motor plate giving one
+voltage and two speeds. The spare tailstock the heavier of the two, with a 1¼ in
 barrel on a separate sole plate. At least one of the two headstocks with
 bronze bearings. I am least sure of the drive and the stand, and will not
 guess at them.

@@ -8,6 +8,13 @@ and measurements of this one. This page is the first half of that. Where a
 later page states something about Smart & Brown lathes in general, it came
 from here.
 
+## The machine itself
+
+Better than anything written about it. A cast plate on the headstock names
+the oil the maker meant it to have, Mobil DTE Oil Light, and says to use oil
+only. The speed plate gives its six speeds. Both are set out on the
+[identification page](identification.md).
+
 ## Read so far
 
 **[lathes.co.uk, Smart & Brown](https://www.lathes.co.uk/smartbrown)** by Tony
