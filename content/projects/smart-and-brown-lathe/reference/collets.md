@@ -80,9 +80,14 @@ the inside of the cap, and what the lever moves inside the spindle.
 
 Andrew's suggestion: before a collet is bought or cut in steel, print its
 shape in plastic and try it in the spindle. It will show whether the body,
-the head and the length are right and whether the closer reaches it. It will
-not show whether a thread fits, which a printed thread cannot, so the tail
-is modelled as a plain spigot at the thread's outside diameter.
+the head and the length are right and whether the closer reaches it.
+
+Only one of the two kinds has a thread. The draw-in collet for the spare has
+a threaded tail, because the tube pulls it by that thread. A print cannot
+prove a thread, so on that model the tail is a plain spigot at the thread's
+outside diameter. The dead-length collet for the lathe's own headstock has
+no thread at all: it is held by the cap and closed by being pushed, and its
+model is a plain turned shape from end to end.
 
 `tools/revolve-stl` turns a profile of radii and lengths into a file to
 print, and checks before writing it that the solid is closed and of the
