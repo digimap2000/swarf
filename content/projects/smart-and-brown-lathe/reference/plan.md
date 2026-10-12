@@ -212,12 +212,32 @@ sits under the headstock as the reference, since nothing has slid there.
 **I expect** the bed to be within a thousandth or two of an inch along its
 length, because nothing slides on it under load.
 
-### Still owed
+### Still owed: the play in the spindle
 
-The play in the spindle: three readings at the nose, at the back and
-endwise, with the indicator's base on the headstock itself. Before the
-headstock goes back on the bed, a wipe of the bed and of the faces it seats
-on, and oil.
+Andrew had a go at this with the headstock on the bench and found nothing
+good to measure from: the nose carries a recessed collet closer, and there
+are no collets to hold a test bar. That was my doing. I asked for it in a way
+that read like a test of how true the spindle runs, which does need a true
+surface, and I said it could be done on the bench, which it cannot.
+
+What I want is the lift, which is a different thing. The indicator sits on
+anything solid on the spindle, the outside of the nose cap will do, and
+reads how far the spindle moves when it is lifted and pressed down. The
+surface need not run true, because the spindle is not turned. But the
+headstock has to be held down, or lifting the nose only tips it. So this
+waits until the headstock is clamped to the bed again.
+
+Then, three times each, with the indicator's base on the headstock:
+
+1. *At the nose.* Plunger on top of the nose cap near the bearing. Lift the
+   nose with a wooden lever, firmly, and read. Press down and read.
+2. *At the back.* Plunger on the plain part of the spindle between the back
+   bearing and the closer. Lift and press that end.
+3. *End float.* Plunger square on the end of the spindle or the face of the
+   cap. Push the spindle one way and pull it the other.
+
+How true the spindle runs is a later question. It needs the collet seat or
+the nose register to measure from, and so the cap off.
 
 The bed measures about 32¾ in long by Andrew's tape, as I read it from his
 photograph.
