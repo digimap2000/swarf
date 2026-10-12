@@ -165,13 +165,20 @@ Ask for measurements in the form you will use: three readings, not one;
 where on the part; the instrument and its resolution. A number without its
 method cannot be compared with the next one.
 
-**Say what counts as dismantling.** On a Model L the headstock, slide rest and
-tailstock unclamp from the bed by design, and to Andrew taking one off is not
-taking the lathe apart. A sheet that said "nothing dismantled" did not stop
-all three coming off and the bed being cleaned with abrasive before it had
-been seen or measured. Name the things that are to stay where they are, and
-ask him to say before a unit comes off, so that a measurement can be asked
-for first. He works ahead of the sheet; write the sheet for that.
+**Ask how it arrived before reading a photograph of it.** The lathe came to
+Andrew in pieces, with the headstock, slide rest and tailstock sitting on the
+bed and not fixed. Claude took a photograph of that for an assembled lathe,
+and when he lifted the parts off and cleaned the bed, wrote on the public
+plan that he had dismantled it against the sheet and lost its alignment.
+None of that was true, and it had to be corrected in public. Ask what state
+a thing is in and how it came to be so before saying anything was changed.
+
+**He is an experienced engineer and it is his workshop.** His words: not his
+first rodeo. How a bed is cleaned, what a pad takes off, how a thing is
+lifted: those are his to judge on the day. Set what is to be found out and
+what is to be decided. Do not police routine workshop practice, and do not
+write to him as if he needed telling. Say once, briefly, if something
+matters to a later measurement, and leave it there.
 
 ## Stops
 
@@ -204,9 +211,9 @@ Standing rules, to be restated on any sheet they bear on:
 
 ## Never, on this machine
 
-- Abrasive of any kind on a slideway, a spindle, a taper or a bearing journal.
-  Not emery, not Scotch-Brite, not a wire wheel. Rust on a precision surface
-  is taken off with oil and a scraper blade held flat, or left.
+- Anything that removes metal from a spindle, a taper, a bearing journal or
+  the working face of a slide: no emery, no wire wheel. Cleaning a surface
+  with a polish and a pad is Andrew's call, and he made it on the bed.
 - A hammer on a spindle, a bearing or a leadscrew, or a puller on a part whose
   fit you do not know.
 - An air line into a bearing, a gearbox or electrical gear.

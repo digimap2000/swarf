@@ -50,7 +50,9 @@ two he kept it he added a second headstock, and a second tailstock that can be
 set over sideways. He did not get it running and could say nothing about the
 condition of any of it.
 
-It stands in the workshop on two wooden blocks, as in the photograph above.
+It came in pieces. In the photograph above, the headstock, slide rest and
+tailstock are sitting on the bed and are not fixed to it. The stand is on
+two wooden blocks.
 The tailstock on the bed is green, like the spare headstock, and came from
 another machine. There is no belt, and the motor is out of the stand. With
 it came a three-jaw chuck, a backplate for it not yet machined, and a second

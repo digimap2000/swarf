@@ -117,7 +117,7 @@ the strip with a shorter list.
 
 ## Where it stands
 
-**Stage 1, the survey at rest, under way, and not in the order I set.**
+**Stage 1, the survey at rest, under way.**
 
 What the lathe is: a [Model L](identification.md), serial number S10312,
 built about 1960 and sold through Buck & Hickman, with a Type PRH headstock
@@ -125,19 +125,21 @@ on bronze bearings, a lever collet closer, a screw-feed compound slide rest
 and a plain tailstock. What is wrong with it so far is in the
 [condition register](condition.md).
 
-Andrew has gone ahead of the job sheet. The headstock, the slide rest and
-the tailstock are all off the bed, and he has cleaned the bed bright, with a
-rubbing compound and an abrasive pad by the look of his photographs. My sheet
-said nothing was to be dismantled and no abrasive was to go on a slideway.
-On this lathe I think little is lost by either. Its units are made to
-unclamp from the bed, and they are clamped to it when cutting and do not
-slide on it under load. What is lost is the bed as it was found, which I had
-not seen, and the chance to measure the spindle where it stood. I should
-have said in so many words that taking a unit off the bed counted as
-dismantling.
+It came to Andrew in pieces. The headstock, the slide rest and the tailstock
+were sitting on the bed, not fixed to it, which I had not understood from
+the photographs. He has lifted them off and cleaned the bed with T-Cut and a
+Brillo pad.
 
-Something is gained as well. The underside of the headstock can now be seen,
-which is the quickest way to learn how its oilways run.
+For a short while this page said something different: that he had dismantled
+the lathe against the job sheet, and that the bed as found and the alignment
+of the headstock had been lost by it. That was wrong. There was no alignment
+to lose, since nothing was fastened down, and he tells me the cleaning took
+off dirt and not metal, which is his to judge and not mine from a
+photograph. I had taken parts resting on a bed for an assembled lathe and
+never asked.
+
+With the headstock off, its underside can be seen, which is the quickest way
+to learn how its oilways run.
 
 What the lathe lacks: a belt, a motor of the kind it was built for, any
 collets, and the four small plugs that close its oil holes. There is grease
@@ -163,60 +165,49 @@ motor's supply: forward, off and reverse from one, and from the other two
 set frequencies, which would give back both rows of the speed plate from a
 motor with one speed. To be settled at stage 3.
 
-## The job sheet outstanding: session 2, as it now stands
+## The job sheet outstanding: session 2
 
-The headstock, slide rest and tailstock are off the bed. No power. Nothing
-taken apart further, and nothing refitted yet.
+The headstock, slide rest and tailstock are off the bed, as they came. No
+power.
 
-### 1. Wash the bed and oil it
-
-**Why.** Rubbing compound and abrasive pads leave their grit behind, in the
-slot most of all, and anything clamped down on it or slid along it will
-carry it. And bare iron cleaned of all its oil rusts overnight.
-
-**Do.** Wash the top of the bed, both bevels and the inside of the slot with
-solvent and clean rags, until a white rag comes away clean. Then oil it all
-with the Tellus. No more abrasive on it.
-
-### 2. Look at the underside of the headstock
+### 1. Look at the underside of the headstock
 
 **Why.** To see how the oilways run and what the headstock sits on.
 
-**Do.** A photograph of its underside, and of the faces it seats on the bed
-by. Tell me what is under each bearing: a plug, a hole, a felt, a well. Tell
-me what the notch across the front bevel of the bed, near the headstock end,
-is for, and whether anything on the headstock sits in it.
+**Do.** A photograph of its underside. Tell me what is under each bearing: a
+plug, a hole, a felt, a well. Tell me whether anything on the headstock sits
+in the groove that is cut across the front bevel of the bed near the
+headstock end, which Andrew and I both take to be deliberate.
 
-**Leave alone.** Its seating faces get solvent and a rag and nothing else.
-No abrasive on them, nor on the bases of the slide rest and tailstock: those
-faces are what set the height and line of the spindle.
+### 2. Carry on with the oil
 
-### 3. Carry on with the oil
-
-As before, with the headstock on the bench. Keep both pockets topped up with
-the Morlina, turn the spindle fifty turns at a time, and tell me whether the
+With the headstock on the bench. Keep both pockets topped up with the
+Morlina, turn the spindle fifty turns at a time, and tell me whether the
 level falls and what a white rag picks up at each end of each bearing.
 
-### 4. Measure the wear in the bed
+**Stop if** the spindle stiffens or grates.
 
-**Why.** Andrew wants it, and it tells how true the bed still is where the
-slide rest and tailstock have lived.
+**I expect** the level in the front pocket to fall slowly and clear or dark
+oil to show at the ends of the front bearing. I expect the back pocket to
+fall more slowly or not at all at first, and grease to show at its ends
+before oil does.
 
-**Do.** First tell me how you mean to measure it. My own suggestion, if the
-undersides of the slot's two lips are machined: with a micrometer, the
-thickness of each lip every two inches along the bed, written down as two
-columns. The part that was under the headstock has had nothing slid on it
-and is the reference.
+### 3. Measure the wear in the bed
+
+Andrew has the bed clean and means to measure it. How is his to choose. If
+it helps: where the undersides of the slot's lips are machined, the
+thickness of each lip by micrometer every two inches, with the part that
+sits under the headstock as the reference, since nothing has slid there.
 
 **I expect** the bed to be within a thousandth or two of an inch along its
 length, because nothing slides on it under load.
 
 ### Still owed
 
-The play in the spindle, three readings at the nose, at the back and
-endwise, as set out before. It can be taken with the headstock on the bench
-and the indicator's base on the headstock itself.
+The play in the spindle: three readings at the nose, at the back and
+endwise, with the indicator's base on the headstock itself. Before the
+headstock goes back on the bed, a wipe of the bed and of the faces it seats
+on, and oil.
 
 The bed measures about 32¾ in long by Andrew's tape, as I read it from his
-photograph. The height of the spindle centre above the bed is still to be
-measured, when the headstock is back on.
+photograph.
