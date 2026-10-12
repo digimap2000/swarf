@@ -52,11 +52,12 @@ condition of any of it.
 
 It stands in the workshop on two wooden blocks, as in the photograph above.
 The tailstock on the bed is green, like the spare headstock, and came from
-another machine. There is no belt, and the motor is out of the stand.
+another machine. There is no belt, and the motor is out of the stand. With
+it came a three-jaw chuck, a backplate for it not yet machined, and a second
+tailstock that sets over. No collets came with it at all.
 
 ## Still to record
 
-- Which tailstock is which, and what collets and chucks came with it
 - Anything of its history before the estate it came from
 - Its condition
 - What came with it besides the second headstock and tailstock

@@ -166,6 +166,21 @@ the catalogue's Type CSP. The tailstock on the bed is painted green, like the
 spare headstock, and so came from the same other machine. The cover for the
 pulley is off and lying in the tray.
 
+There is a second tailstock, loose in the tray, and that is the one with
+set-over. Most of its paint has gone, and what is left is a brighter green
+than the one on the bed, over red. So there are two tailstocks and neither is
+in the lathe's own colour.
+
+### What came with it, and what did not
+
+- A three-jaw chuck, and a backplate for it that has the right thread for the
+  spindle nose and has not yet been machined to fit the chuck.
+- Two stepped pulleys for the motor, loose.
+- The motor, which was loose when Andrew got the lathe and has not been in
+  the stand in his time.
+- No collets at all. For a headstock built round a lever collet closer that
+  is the largest thing missing.
+
 ## What a Model L looks like
 
 From the catalogue pictures on the

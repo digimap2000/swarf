@@ -148,7 +148,14 @@ inverter can be made to obey them.
 
 The slide rest is the screw-feed compound type. The tailstock on the bed is
 green, like the spare headstock, so the lathe has parts of two machines on
-it.
+it. No collets came with it, only a three-jaw chuck and a backplate still to
+be machined.
+
+**What is being restored.** The lathe as it stands: its own headstock, the
+slide rest, and the tailstock that is on the bed. The spare headstock and the
+set-over tailstock are parked. They are kept oiled and covered and are not
+worked on until the lathe is finished, unless something on them is needed
+for it.
 
 It is standing on two wooden blocks under a cast cabinet stand, and Andrew
 is satisfied it is stable.
@@ -186,18 +193,11 @@ the PRH.
 Questions 10 to 12 are answered: a single-speed Brook motor out of the
 stand, no belt, and a reversing switch and a change-pole switch on the stand.
 
-*The slide rest and the tailstocks*
+*The slide rest, the tailstocks, and what came with it*
 
-13. Whether the slide rest is worked by screw handles or by levers, what
-    toolpost it has, and whether anything else came that mounts on the bed:
-    a capstan, a cut-off slide, a hand rest.
-14. For each tailstock: screw or lever feed, the barrel diameter, the Morse
-    taper if you can tell, and on the spare, how the set-over is arranged.
-
-*What came with it*
-
-15. Collets: how many, and what is stamped on them. Any draw tube or closer.
-    Chucks and their backplates. Anything else.
+Questions 13 to 15 are answered: a screw-feed compound slide rest, a plain
+tailstock on the bed and a set-over one spare, a three-jaw chuck with an
+unmachined backplate, and no collets.
 
 *Your reading of it*
 
