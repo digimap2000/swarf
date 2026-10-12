@@ -130,11 +130,12 @@ The paint is a grey-blue. Where it is chipped, and round the edges of the
 plates, a brighter blue shows beneath it, so it has been repainted at least
 once.
 
-The headstock has a lever-operated collet closer, a nosepiece that looks
-made for dead-length collets, an oil nipple on the back bearing and an open
-hole where I would expect one on the front. Which of the catalogue's types
-that makes it is [not yet settled](identification.md). The slide rest and
-tailstocks are still to come.
+Both headstocks look like the PRH, the bronze-bearing type with a lever
+collet closer; the spare is green, from another machine, and has a bare
+threaded nose. Each bearing has a plain oil hole above it, which Andrew
+thinks fed a well or a felt. The reasoning, and two things I first read
+wrongly, are on the [identification page](identification.md). The drive,
+slide rest and tailstocks are still to come.
 
 It is standing on two wooden blocks, and Andrew is satisfied it is stable.
 
@@ -162,13 +163,9 @@ slotted bed, and stable where it stands.
 
 *The headstock on the machine, and then the spare one*
 
-Questions 5 to 8 I answered myself from two photographs Andrew sent, and have
-asked him to correct: a lever closer with a handwheel, a capped nose and not
-a bare thread, no gear lever, oil nipples. Still to ask:
-
-9. Any letters or numbers on it.
-
-And the same five for the spare headstock.
+Questions 5 to 9 are answered, from three photographs and Andrew's own look
+at the oil holes: both headstocks have lever collet closers and look like
+the PRH.
 
 *The drive*
 

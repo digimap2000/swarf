@@ -81,37 +81,50 @@ offered with a choice of headstocks, half a dozen of them, and of tailstocks,
 one of which, the TUC, sits on a sole plate so that it can be set over for
 slight tapers.
 
-### The headstock on it
+### The two headstocks
 
-Not yet named. This is what two of Andrew's photographs show, and it is my
-reading of them, not his.
+Both look to me like the PRH: the bronze-bearing headstock with a lever-action
+collet closer. Neither has been found to carry any letters, so that is a
+reading of Andrew's photographs against the catalogue and no more.
 
-- **The left-hand end of the spindle** carries both a lever and a handwheel.
-  A long lever with a black grip hangs from a yoke that is pivoted above the
-  spindle and wraps a steel drum; outboard of the drum is a fluted aluminium
-  handwheel. That is a lever-operated collet closer, with the handwheel to
-  set its grip.
-- **Between the closer and the headstock** are a ring nut with tommy-bar
-  holes, and a disc with holes drilled in it. A knurled plunger on the front
-  of the headstock lines up with the disc, which I take to be a spindle lock.
-- **The nose** is not a bare thread. It carries a plain cylindrical cap about
-  the size of a fist, with a notched ring behind it and, set into its face, a
-  separate ring with two pin-spanner holes round a bore of roughly an inch.
-  It looks like a nosepiece for dead-length collets. The metal beside the
-  notch is chewed, as if the ring had been driven round with a punch.
-- **The back bearing** has an oil nipple on top of its housing, and there is
-  another on the pivot of the lever. That explains the plate: a nipple
-  invites a grease gun, and the plate says use oil only.
-- **The front bearing** has an open hole on top of its housing where I would
-  expect the same nipple, wet with dark oil. If the nipple is missing,
-  that hole leads straight into the bearing.
-- **The pulley** is a stepped one for a flat belt, brown with old oil and
-  light rust, with slotted screws in its hub.
+**The one on the machine.** The left-hand end of the spindle carries both a
+lever and a handwheel. A long lever with a black grip hangs from a yoke that
+is pivoted above the spindle and wraps a steel drum, and outboard of the drum
+is a fluted aluminium handwheel: a lever-operated collet closer, with the
+handwheel to set its grip. Between the closer and the headstock are a ring
+nut with tommy-bar holes, and a disc with holes drilled in it. A knurled
+plunger on the front of the headstock lines up with the disc, which I take to
+be a spindle lock. The pulley is a stepped one for a flat belt, brown with
+old oil and light rust.
 
-A lever closer on bronze bearings would make it a PRH. A lever that also
-worked a brake and clutch would make it an LPH. The photographs do not settle
-it, and the difference matters: the two have different bearings at the back.
+Its nose carries a plain cylindrical cap, with a notched ring behind it and a
+separate ring with two pin-spanner holes set into its face. The metal beside
+the notch is chewed, as if the ring had been driven round with a punch.
 
+**The spare.** Painted green, so from another machine. It has the same yoke
+and pivot for a lever closer, with a plain steel drum where the other has its
+handwheel, and the lever itself is missing: there is only the stub it would
+fit to. Its nose is bare, a coarse thread to take a chuck, with the same
+notched ring behind it, bruised in the same way. A three-step flat-belt
+pulley sits between the bearings, and behind the front bearing are two thin
+notched rings.
+
+**What I got wrong about the nose.** Seeing only the capped nose, I read the
+cap as a nosepiece for dead-length collets, which would have meant a
+different headstock. The spare shows what is under a cap like that: an
+ordinary threaded nose. I now think the cap is a cover screwed over the same
+thread.
+
+**What I got wrong about the oil holes.** There is a hole on top of each
+bearing housing, four in all. One photograph showed a nipple in the back hole
+of the fitted headstock and nothing in the front, and I called the front one
+missing. Andrew looked at all four. Only that one has a nipple, and none of
+the other three looks threaded, so the nipple is the odd one out and not the
+pattern. He suggests each hole fed a drip oiler or a small well with a felt.
+That agrees with an owner of another Model L, who describes
+[an oil hole leading to a well under the bearing](https://www.model-engineer.co.uk/?p=29271),
+perhaps with a wick. What, if anything, was meant to close the holes I do not
+know.
 
 ## What a Model L looks like
 
