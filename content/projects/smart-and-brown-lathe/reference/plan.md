@@ -158,13 +158,12 @@ the collet's shape in plastic first, to try in the spindle before anything
 is bought or cut in steel. That is the next piece of work, and it is set out
 on the [collets page](collets.md).
 
-I would prove the spare first. Its collets are a known pattern with a few
-published dimensions and a second-hand supply, and its nose can be got at to
-measure. The lathe's own headstock takes a dead-length collet for which I
-can find no dimensions at all, so that one has to be worked out from the
-headstock. Which of the two the lathe ends up running on can wait until each
-has been shown to hold a collet. Neither is parked. The set-over tailstock
-still is.
+Andrew wants the lathe's own headstock proved first. Its collet is the
+harder of the two to pin down, since the catalogue gives it a name and no
+dimensions. There are two candidates for what it is, a collet numbered 5159
+and a Brown & Sharpe screw-machine size, and three measurements on the
+headstock would say whether they are right. The spare can wait. Neither is
+parked. The set-over tailstock still is.
 
 **Added by Andrew.** The coolant is to work again in the end. The tray is a
 basin with a brass drain plug and there is a pipe for it. What else of the

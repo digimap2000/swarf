@@ -42,39 +42,78 @@ dimensions, make this the easier of the two to prove.
 
 ## The lathe's own headstock, of the PDH family: dead-length collets
 
+This is the one Andrew wants proved first.
+
 The collet does not move. A cap on the spindle nose holds it endwise, and it
 is closed by something pushed forward over it from behind, so that the work
 stays where it was put. On the plain PDH the cap itself does the closing. On
-this one there is a lever at the back, which I take to push a tube.
+this one there is a lever at the back, which I take to push a tube. The
+collet has no thread.
 
-- The catalogue names the collet as **Smart & Brown Type 4B**, of 11/16 in
-  capacity.
-- Lever closers for dead-length collets were also listed for the Brown &
-  Sharpe Type 21, the Crawford T980 Multibore and the Pratt & Burnerd EA
-  Multisize, all of 1 in capacity, on later headstocks.
-- I have found no dimension of any kind for the Type 4B, and nobody selling
-  one.
-- [One other owner](https://www.mig-welding.co.uk/forum/threads/smart-brown-lever-operated-dead-length-collet-closer.144859/)
-  of what sounds like the same lever closer asked in 2025 how it is set up,
-  and has had no answer. He has a parts diagram.
+The catalogue names the collet as **Smart & Brown Type 4B**, of 11/16 in
+capacity, and gives no dimensions. I have found none anywhere, and nobody
+selling a collet under that name. What I have found is two candidates for
+what a 4B is, and they may be the same thing.
 
-So a collet for this headstock has to be worked out from the headstock.
+**A collet numbered 5159.** A member of the Model Engineer forum had a
+[job lot of collets](https://www.model-engineer.co.uk/forums/topic/collet-identification-2/)
+marked Crawford and S&B, numbered 5159, 2.5 in long and 0.937 in across the
+back. Another member thought they were probably for a Model L with the PDH
+headstock. That is one man's guess about another man's collets, but it is
+the only description I have found of a Smart & Brown collet that is not the
+draw-in kind.
+
+**The Brown & Sharpe screw-machine pattern.** Collets for Brown & Sharpe
+automatics are of the same kind, held by a cap and closed by a pushed
+sleeve, and one of the smaller sizes is listed by its present maker at
+[2.500 in long, 0.936 in across the back bearing and 1.115 in across the head](https://shop.hardinge.com/All-Products/Workholding/Collets/Automatic-Collets/10SC-Brown-%26-Sharpe-Stop-Collet-Customer-Blank/p/32131000000000).
+Those are the length and back diameter of the 5159 to a thousandth. Smart &
+Brown's later lever closers were listed for the Brown & Sharpe Type 21
+outright, so the firm did build round that maker's patterns. If the 4B is a
+Brown & Sharpe size under another name, it is a collet still in production
+and common second-hand, which would matter a great deal.
+
+What I do not know is which Brown & Sharpe size, if any. The listing above
+is for one of 9/16 in capacity, and the 4B is given as 11/16 in. The next
+size is
+[made up to 13/16 in](https://www.s-mcollets.com/sw-product/brown-sharpe-1/),
+and I have no dimensions for it. I have no head angle for any of them.
+
+The later lever closers were also listed for the Crawford T980 Multibore and
+the Pratt & Burnerd EA Multisize, both of 1 in capacity. I do not think
+either fits this headstock, which is the smaller one.
+
+[One other owner](https://www.mig-welding.co.uk/forum/threads/smart-brown-lever-operated-dead-length-collet-closer.144859/)
+of what sounds like the same lever closer asked in 2025 how it is set up, and
+has had no answer. He has a parts diagram.
 
 ## What has to be measured
 
-On the spare, whose nose is bare and can be got at:
+On the lathe's own headstock, with the cap off the nose. Three figures would
+say whether the candidates above are right:
 
-| What | How | Published figure to compare |
+| What | How | Figure to compare |
 | --- | --- | --- |
-| Bore of the spindle behind the taper | Bore gauge | 0.984 in for the collet body |
-| Diameter of the taper at the nose face | Bore gauge or calipers | None |
-| Depth from the nose face to where the taper meets the parallel bore | Depth gauge | None. With the two diameters it gives the angle. |
-| Any key or pin in the bore | By eye, and its width | None |
-| The thread in the end of the draw tube | Its bore, and a thread gauge | 0.902 in by 24, Whitworth |
-| How far the tube's thread is from the nose face, lever open and lever closed | Depth gauge | 3.625 in for the collet's length |
+| The bore the back of the collet sits in | Bore gauge | 0.936 to 0.937 in |
+| The length a collet has to fill, from the inside face of the cap to whatever it seats against behind | Depth gauge, with the cap's own depth | 2.5 in |
+| The largest diameter of the taper that closes on the collet's head | Bore gauge or calipers | 1.115 in for the head |
 
-On the lathe's own headstock, photographs first: the nose with the cap off,
-the inside of the cap, and what the lever moves inside the spindle.
+And for the model, which no source gives:
+
+| What | How |
+| --- | --- |
+| The taper that closes the collet: its diameter at each end and its length | Bore gauge and depth gauge. The three give the angle. |
+| The hole in the cap, and the thread the cap screws on by | Calipers and a thread gauge |
+| What the lever moves inside the spindle, and how far | By eye, lever open and closed, and a rule |
+| Any key or pin that would stop a collet turning | By eye, and its width |
+
+Photographs of the nose with the cap off, of the inside of the cap, and
+down the spindle from the nose would tell me how much of this I have
+understood.
+
+On the spare, for later: the bore behind the taper, the taper's diameter at
+the nose face and its depth, any key, and the thread in the end of the draw
+tube, to compare with 0.984 in and 0.902 in by 24.
 
 ## The space model
 
