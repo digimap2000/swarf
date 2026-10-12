@@ -170,27 +170,37 @@ motor with one speed. To be settled at stage 3.
 The headstock, slide rest and tailstock are off the bed, as they came. No
 power.
 
-### 1. Look at the underside of the headstock
+### 1. Find out whether oil gets through each spindle bearing
 
-**Why.** To see how the oilways run and what the headstock sits on.
+**What the underside showed.** Andrew photographed the headstock from
+below. It is an open frame. There is no plug, felt or well under either
+bearing that the photograph shows, only the hollow of the casting, coated
+inside with black oily dirt, heaviest under the front bearing. Down the
+middle runs a machined rib carrying the two slotted buttons that clamp it to
+the bed, and at each end is a machined band, notched to sit on the bed's
+bevels.
 
-**Do.** A photograph of its underside. Tell me what is under each bearing: a
-plug, a hole, a felt, a well. Tell me whether anything on the headstock sits
-in the groove that is cut across the front bevel of the bed near the
-headstock end, which Andrew and I both take to be deliberate.
+So the oiling is total-loss. Oil goes into the pocket above a bearing, works
+through it, and drops out inside the casting. That is why oil poured into
+the spare ran out underneath, and the dirt inside this one says oil has been
+getting through its front bearing at least. I had expected to find something
+underneath that once closed an opening. There is nothing to close.
 
-### 2. Carry on with the oil
-
-With the headstock on the bench. Keep both pockets topped up with the
-Morlina, turn the spindle fifty turns at a time, and tell me whether the
-level falls and what a white rag picks up at each end of each bearing.
+**Do.** Stand the headstock upright on two blocks over a sheet of white
+paper. Fill both pockets with the Morlina. Turn the spindle fifty turns at a
+time. Tell me whether each level falls, and where the drips land: under the
+front bearing, under the back one, or neither.
 
 **Stop if** the spindle stiffens or grates.
 
-**I expect** the level in the front pocket to fall slowly and clear or dark
-oil to show at the ends of the front bearing. I expect the back pocket to
-fall more slowly or not at all at first, and grease to show at its ends
-before oil does.
+**I expect** drips under the front bearing within the first hundred turns,
+dark at first. Under the back bearing, where the grease was, I expect
+nothing for longer, and grease or grey oil before clean oil.
+
+### 2. One thing about the underside
+
+There is a small hole drilled in the middle rib, about a third of the way
+along from the back. Does it go anywhere?
 
 ### 3. Measure the wear in the bed
 
