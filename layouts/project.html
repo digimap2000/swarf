@@ -1,0 +1,52 @@
+{{ define "main" }}
+{{- $log := partial "log.html" . }}
+{{- $reference := (where .RegularPagesRecursive "Path" "like" `/reference/`).ByTitle }}
+<article>
+  <header class="page-header">
+    {{ partial "crumbs.html" . }}
+    <h1>{{ .Title }}</h1>
+    <p class="meta">
+      {{- with .Params.kind }}<span>{{ . }}</span>{{ end }}
+      {{- with .Params.status }}<span class="status">{{ . }}</span>{{ end }}
+      {{- if not .Date.IsZero }}<span>Started {{ .Date | time.Format "January 2006" }}</span>{{ end }}
+    </p>
+  </header>
+
+  {{- with .Resources.GetMatch "cover.*" }}
+  {{- $large := .Fit "1600x1600 webp" }}
+  <figure class="cover">
+    <a href="{{ .RelPermalink }}"><img src="{{ $large.RelPermalink }}" width="{{ $large.Width }}" height="{{ $large.Height }}" alt="{{ $.Params.coverAlt | default $.Title }}"></a>
+  </figure>
+  {{- end }}
+
+  {{- with .Params.facts }}
+  <dl class="facts">
+    {{- range . }}
+    <div><dt>{{ .label }}</dt><dd>{{ .value }}</dd></div>
+    {{- end }}
+  </dl>
+  {{- end }}
+
+  <div class="prose">{{ .Content }}</div>
+
+  <section>
+    <h2 class="label">Log</h2>
+    {{- with $log }}
+    {{ partial "entry-list.html" (dict "pages" . "project" false) }}
+    {{- else }}
+    <p class="empty">No entries yet.</p>
+    {{- end }}
+  </section>
+
+  {{- with $reference }}
+  <section>
+    <h2 class="label">Reference</h2>
+    <ul class="reference">
+      {{- range . }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ with .Params.summary }} <span class="in">{{ . }}</span>{{ end }}</li>
+      {{- end }}
+    </ul>
+  </section>
+  {{- end }}
+</article>
+{{ end }}

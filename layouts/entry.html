@@ -1,0 +1,28 @@
+{{ define "main" }}
+{{- /* Earlier and later are worked out by position in the project's own log,
+       oldest first. Hugo's PrevInSection would also step onto the project's
+       reference pages, which are not part of the story. */ -}}
+{{- $log := (partial "log.html" .CurrentSection).Reverse }}
+{{- $at := -1 }}
+{{- range $i, $p := $log }}{{ if eq $p $ }}{{ $at = $i }}{{ end }}{{ end }}
+<article>
+  <header class="page-header">
+    {{ partial "crumbs.html" . }}
+    <h1>{{ .Title }}</h1>
+    <p class="meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "2 January 2006" }}</time></p>
+  </header>
+
+  <div class="prose">{{ .Content }}</div>
+
+  {{- if gt (len $log) 1 }}
+  <nav class="pager" aria-label="Log">
+    {{- if gt $at 0 }}{{ with index $log (sub $at 1) }}
+    <a class="earlier" href="{{ .RelPermalink }}"><span>Earlier</span>{{ .Title }}</a>
+    {{- end }}{{ end }}
+    {{- if lt (add $at 1) (len $log) }}{{ with index $log (add $at 1) }}
+    <a class="later" href="{{ .RelPermalink }}"><span>Later</span>{{ .Title }}</a>
+    {{- end }}{{ end }}
+  </nav>
+  {{- end }}
+</article>
+{{ end }}

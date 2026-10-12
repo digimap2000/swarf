@@ -1,0 +1,32 @@
+{{- /* A grid of photos, for a sequence where no single one needs the full
+       width. The photos inside are ordinary Markdown images, so each keeps its
+       own description and caption, and the page still reads on GitHub.
+
+         {{< gallery >}}
+         ![description](one.jpg "caption")
+         ![description](two.jpg "caption")
+         {{< /gallery >}}
+
+       Each photo is rendered on its own. Markdown would otherwise read photos
+       on consecutive lines as one paragraph of inline images, and they would
+       lose their captions and their links. A line that does not start a photo
+       is taken as the rest of the one before, so a long description can wrap. */ -}}
+{{- $photos := slice -}}
+{{- range split .Inner "\n" -}}
+  {{- $line := trim . " \t\r" -}}
+  {{- if $line -}}
+    {{- if or (hasPrefix $line "![") (not $photos) -}}
+      {{- $photos = $photos | append $line -}}
+    {{- else -}}
+      {{- $n := sub (len $photos) 1 -}}
+      {{- $photos = first $n $photos | append (printf "%s %s" (index $photos $n) $line) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- .Page.Store.Set "gallery" true -}}
+<div class="gallery">
+{{- range $photos }}
+{{ . | $.Page.RenderString (dict "display" "block") }}
+{{- end }}
+</div>
+{{- .Page.Store.Set "gallery" false -}}

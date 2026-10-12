@@ -1,0 +1,60 @@
+#!/usr/bin/env bash
+#
+# Refuse any photo that still carries camera metadata.
+#
+#   tools/check-photos              every image under content/
+#   tools/check-photos <file>...    just these
+#
+# The rule is "no metadata at all" rather than "no location", because it is
+# the rule that cannot be got subtly wrong: a photo either went through
+# tools/intake or it did not. The pre-commit hook runs this on what is staged,
+# so the check happens before a photo can reach a public repository rather
+# than after.
+
+set -euo pipefail
+
+command -v magick >/dev/null || { echo "check-photos: ImageMagick not found: brew install imagemagick" >&2; exit 2; }
+
+cd_root() { cd "$(dirname "$0")/.."; }
+
+FILES=()
+if [[ $# -eq 0 ]]; then
+    cd_root
+    while IFS= read -r -d '' F; do
+        FILES+=("$F")
+    done < <(find content -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \
+                 -o -iname '*.heic' -o -iname '*.heif' -o -iname '*.tif' -o -iname '*.tiff' \) -print0)
+else
+    FILES=("$@")
+fi
+
+BAD=0
+for F in ${FILES[@]+"${FILES[@]}"}; do
+    case "$(printf '%s' "${F##*.}" | tr '[:upper:]' '[:lower:]')" in
+        heic|heif|tif|tiff)
+            printf 'not a web format, run it through tools/intake: %s\n' "$F" >&2
+            BAD=1
+            continue ;;
+    esac
+    # [0] reads only the first frame, so a multi-frame file is not listed twice.
+    # A file that cannot be read at all is refused rather than waved through:
+    # an unreadable file is one nobody has shown to be clean.
+    if ! TAGS="$(magick identify -format '%[EXIF:*]' "${F}[0]" 2>/dev/null)"; then
+        printf 'cannot read: %s\n' "$F" >&2
+        BAD=1
+        continue
+    fi
+    if [[ -n "${TAGS}" ]]; then
+        if grep -qi '^exif:GPS' <<<"${TAGS}"; then
+            printf 'carries a LOCATION, run it through tools/intake: %s\n' "$F" >&2
+        else
+            printf 'carries camera metadata, run it through tools/intake: %s\n' "$F" >&2
+        fi
+        BAD=1
+    fi
+done
+
+if [[ "${BAD}" == "1" ]]; then
+    exit 1
+fi
+printf 'check-photos: %d clean\n' "${#FILES[@]}"

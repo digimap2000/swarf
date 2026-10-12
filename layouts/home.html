@@ -1,0 +1,20 @@
+{{ define "main" }}
+<section class="intro">
+  <h1>{{ site.Params.description }}</h1>
+  <div class="prose">{{ .Content }}</div>
+</section>
+
+{{ with site.GetPage "/projects" }}
+<section>
+  <h2 class="label">Projects</h2>
+  {{ partial "project-list.html" .Sections }}
+</section>
+{{ end }}
+
+{{ with partial "log.html" . | first 8 }}
+<section>
+  <h2 class="label">Latest entries</h2>
+  {{ partial "entry-list.html" (dict "pages" . "project" true) }}
+</section>
+{{ end }}
+{{ end }}

@@ -1,0 +1,52 @@
+# Swarf - workshop projects, written up as they happen.
+#
+# The deploy workflow overrides baseURL with whatever GitHub Pages reports, so
+# moving to a custom domain needs no change here. This value is what a local
+# build and `hugo server` use.
+baseURL = "https://digimap2000.github.io/swarf/"
+title = "Swarf"
+locale = "en-GB"
+enableRobotsTXT = true
+
+# No tags or categories yet. A project's folder is its only classification
+# until there are enough projects for a second axis to earn its keep.
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  author = "Andrew Shelley"
+  description = "Workshop projects, written up as they happen."
+  repo = "https://github.com/digimap2000/swarf"
+
+[markup.goldmark.parser]
+  # A photo on a line of its own becomes a <figure>, not a paragraph holding
+  # an image, which is what lets it carry a caption and break out of the column.
+  wrapStandAloneImageWithinParagraph = false
+
+[markup.goldmark.renderer]
+  # Content is Markdown and shortcodes only. Raw HTML in an entry is dropped,
+  # which keeps every page readable on GitHub exactly as it is on the site.
+  unsafe = false
+
+[markup.goldmark.renderHooks.link]
+  # Lets an entry link to another by its file path (../reference/spec.md), so
+  # the same link works on GitHub and on the site.
+  useEmbedded = "always"
+
+[imaging]
+  resampleFilter = "Lanczos"
+  [imaging.jpeg]
+    quality = 82
+  [imaging.webp]
+    quality = 82
+
+# Processed photos are cached outside the repo so CI can restore them between
+# builds: resizing every photo on every push is the only slow part of a build.
+[caches.images]
+  dir = ":cacheDir/images"
+
+[outputs]
+  home = ["html", "rss"]
+  section = ["html", "rss"]
+
+[services.rss]
+  limit = 30

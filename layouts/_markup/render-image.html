@@ -1,0 +1,75 @@
+{{- /* Every photo in an entry is written as plain Markdown:
+
+         ![what the photo shows](headstock-bearing.jpg "why it matters")
+
+       and this turns it into a set of resized WebP files the browser chooses
+       between, linked to the copy that was committed. The alt text is the
+       description, the quoted title is the caption.
+
+       A photo that is not in the page's own folder stops the build. A broken
+       image on a published page is found by a reader; a failed build is found
+       by whoever pushed. */ -}}
+{{- $url := urls.Parse .Destination -}}
+{{- $img := false -}}
+{{- if not $url.IsAbs -}}
+  {{- $img = .PageInner.Resources.Get (strings.TrimPrefix "./" $url.Path) -}}
+  {{- if not $img -}}
+    {{- errorf "%s: photo %q is not in the page's folder" .PageInner.File.Path .Destination -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $src := .Destination -}}
+{{- $href := .Destination -}}
+{{- $srcset := slice -}}
+{{- $width := 0 -}}
+{{- $height := 0 -}}
+{{- if and $img (in (slice "jpeg" "png" "webp") $img.MediaType.SubType) -}}
+  {{- $href = $img.RelPermalink -}}
+  {{- $width = $img.Width -}}
+  {{- $height = $img.Height -}}
+  {{- /* Never upscale: only the widths narrower than the photo, then the
+         photo's own width as the largest candidate. */ -}}
+  {{- range slice 640 1024 1600 -}}
+    {{- if lt . $img.Width -}}
+      {{- $r := $img.Resize (printf "%dx webp" .) -}}
+      {{- $srcset = $srcset | append (printf "%s %dw" $r.RelPermalink $r.Width) -}}
+      {{- if le . 1024 }}{{ $src = $r.RelPermalink }}{{ end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $full := $img.Resize (printf "%dx webp" $img.Width) -}}
+  {{- $srcset = $srcset | append (printf "%s %dw" $full.RelPermalink $full.Width) -}}
+  {{- if le $img.Width 1024 }}{{ $src = $full.RelPermalink }}{{ end -}}
+{{- else if $img -}}
+  {{- $src = $img.RelPermalink -}}
+  {{- $href = $img.RelPermalink -}}
+{{- end -}}
+
+{{- /* The gallery shortcode sets this while it renders its photos, which are
+       shown a third of the width and should not be fetched at full size. */ -}}
+{{- $sizes := "(min-width: 60rem) 56rem, 100vw" -}}
+{{- /* Only the first photo on a page is fetched at once; the rest wait until
+       they are scrolled near. A gallery's photos always wait: the shortcode
+       renders them one at a time, so each would otherwise count as first. */ -}}
+{{- $loading := cond (eq .Ordinal 0) "eager" "lazy" -}}
+{{- if .PageInner.Store.Get "gallery" -}}
+  {{- $sizes = "(min-width: 60rem) 18rem, (min-width: 36rem) 33vw, 50vw" -}}
+  {{- $loading = "lazy" -}}
+{{- end -}}
+
+{{- define "_partials/inline/img.html" -}}
+<img src="{{ .src }}"
+  {{- with .srcset }} srcset="{{ delimit . ", " }}" sizes="{{ $.sizes }}"{{ end }}
+  {{- with .width }} width="{{ . }}" height="{{ $.height }}"{{ end }} alt="{{ .alt }}" loading="{{ .loading }}" decoding="async">
+{{- end -}}
+
+{{- $attrs := dict "src" $src "srcset" $srcset "sizes" $sizes "width" $width "height" $height "alt" .PlainText "loading" $loading -}}
+{{- if .IsBlock -}}
+<figure>
+  <a href="{{ $href }}">{{ partial "inline/img.html" $attrs }}</a>
+  {{- with .Title }}
+  <figcaption>{{ . | $.PageInner.RenderString }}</figcaption>
+  {{- end }}
+</figure>
+{{- else -}}
+{{ partial "inline/img.html" $attrs }}
+{{- end -}}

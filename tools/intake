@@ -1,0 +1,77 @@
+#!/usr/bin/env bash
+#
+# Bring photos into a page's folder, ready to commit.
+#
+#   tools/intake <page-folder> <photo>...
+#
+# This repository is public and a phone writes where it was into every photo
+# it takes, so a photo copied straight in would publish the workshop's
+# coordinates to anyone who downloads it. Everything goes through here instead:
+#
+#   - HEIC and wide-gamut photos are converted to sRGB JPEG, which every
+#     browser shows the same way
+#   - the long edge is cut to 2400 px, which is plenty for a screen and keeps
+#     a photo near half a megabyte, so the repository stays cloneable
+#   - the rotation the camera recorded is baked into the pixels
+#   - all metadata is removed, and the result is read back to prove it
+#
+# The originals are not kept here. They stay in the photo library.
+#
+# Needs sips (part of macOS) and ImageMagick (brew install imagemagick).
+
+set -euo pipefail
+
+MAX_EDGE=2400
+QUALITY=86
+SRGB="/System/Library/ColorSync/Profiles/sRGB Profile.icc"
+
+fail() { printf 'intake: %s\n' "$1" >&2; exit 1; }
+
+[[ $# -ge 2 ]] || { printf 'usage: %s <page-folder> <photo>...\n' "$0" >&2; exit 2; }
+command -v sips >/dev/null   || fail "sips not found (this script is macOS only)"
+command -v magick >/dev/null || fail "ImageMagick not found: brew install imagemagick"
+
+DEST="${1%/}"; shift
+[[ -d "${DEST}" ]] || fail "no such folder: ${DEST}"
+
+WORK="$(mktemp -d)"
+trap 'rm -rf "${WORK}"' EXIT
+
+for SRC in "$@"; do
+    [[ -f "${SRC}" ]] || fail "no such file: ${SRC}"
+
+    BASE="$(basename "${SRC}")"
+    EXT="$(printf '%s' "${BASE##*.}" | tr '[:upper:]' '[:lower:]')"
+    # Lower case, hyphens for anything that is not a letter or digit: the name
+    # becomes part of a URL.
+    STEM="$(printf '%s' "${BASE%.*}" | tr '[:upper:]' '[:lower:]' | tr -cs 'a-z0-9' '-' | sed 's/^-*//; s/-*$//')"
+    [[ -n "${STEM}" ]] || fail "cannot make a file name from: ${BASE}"
+
+    # A PNG is a drawing or a screenshot and stays a PNG; a JPEG of line work
+    # is worse and bigger. Everything else is a photograph.
+    if [[ "${EXT}" == "png" ]]; then
+        OUT="${DEST}/${STEM}.png"
+        [[ ! -e "${OUT}" ]] || fail "refusing to overwrite ${OUT}"
+        magick "${SRC}" -resize "${MAX_EDGE}x${MAX_EDGE}>" -strip "${OUT}"
+    else
+        OUT="${DEST}/${STEM}.jpg"
+        [[ ! -e "${OUT}" ]] || fail "refusing to overwrite ${OUT}"
+        # sips first because it reads HEIC, which this ImageMagick does not,
+        # and because it converts Display P3 to sRGB properly. Stripping the
+        # profile from a P3 photo without converting it leaves the colours dull.
+        sips -s format jpeg -s formatOptions best --matchTo "${SRGB}" \
+            "${SRC}" --out "${WORK}/decoded.jpg" >/dev/null \
+            || fail "sips could not read ${SRC}"
+        magick "${WORK}/decoded.jpg" -auto-orient -resize "${MAX_EDGE}x${MAX_EDGE}>" \
+            -strip -interlace JPEG -quality "${QUALITY}" "${OUT}"
+    fi
+
+    # Read it back. A strip that silently did nothing is the failure that
+    # matters here, and it is the one nobody would notice.
+    "$(dirname "$0")/check-photos" "${OUT}" >/dev/null \
+        || { rm -f "${OUT}"; fail "${OUT} still carried metadata after stripping, and has been removed"; }
+
+    printf '%s  %s  %s\n' "${OUT}" \
+        "$(magick identify -format '%wx%h' "${OUT}")" \
+        "$(du -h "${OUT}" | cut -f1 | tr -d ' ')"
+done

@@ -1,0 +1,10 @@
+{{ define "main" }}
+<article>
+  <header class="page-header">
+    {{ partial "crumbs.html" . }}
+    <h1>{{ .Title }}</h1>
+    {{- with .Params.summary }}<p class="meta"><span>{{ . }}</span></p>{{ end }}
+  </header>
+  <div class="prose">{{ .Content }}</div>
+</article>
+{{ end }}

@@ -1,0 +1,10 @@
+# Built site and Hugo's working files. The site is rebuilt from content/ on
+# every push, so nothing generated is ever committed.
+/public/
+/resources/
+.hugo_build.lock
+
+# Where photos wait before tools/intake has made them safe to commit.
+/inbox/
+
+.DS_Store

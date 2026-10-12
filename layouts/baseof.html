@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="{{ site.Language.Locale }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ site.Title }} - {{ site.Params.description }}{{ else }}{{ .Title }} - {{ site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ with .Params.summary }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+  <meta name="author" content="{{ site.Params.author }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <meta property="og:title" content="{{ .Title }}">
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:site_name" content="{{ site.Title }}">
+  {{- with partial "cover.html" . }}
+  <meta property="og:image" content="{{ (.Fit "1200x1200 jpg").Permalink }}">
+  {{- end }}
+  <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+  {{- range .AlternativeOutputFormats }}
+  <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ site.Title }}">
+  {{- end }}
+  {{- with resources.Get "css/main.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
+  {{- end }}
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="{{ site.Home.RelPermalink }}" {{- if .IsHome }} aria-current="page"{{ end }}>
+      {{ partial "mark.html" . }}<span>{{ site.Title }}</span>
+    </a>
+    <nav aria-label="Site">
+      {{- with site.GetPage "/projects" }}
+      <a href="{{ .RelPermalink }}" {{- if or (eq $ .) ($.IsDescendant .) }} aria-current="true"{{ end }}>{{ .Title }}</a>
+      {{- end }}
+    </nav>
+  </header>
+  <main id="main">
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer class="site-footer">
+    <p>{{ site.Params.author }}</p>
+    <p>
+      <a href="{{ site.Params.repo }}">Source</a>
+      {{- with site.Home.OutputFormats.Get "rss" }} · <a href="{{ .RelPermalink }}">RSS</a>{{ end }}
+    </p>
+  </footer>
+</body>
+</html>

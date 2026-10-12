@@ -1,0 +1,5 @@
+{{- /* The dated entries under a section, newest first. Called on a project it
+       gives that project's log; called on the home page it gives every log.
+       An entry is whatever sits in a log/ folder - the path is the only
+       marker, so nothing in an entry's front matter can get it wrong. */ -}}
+{{- return (where .RegularPagesRecursive "Path" "like" `/log/`).ByDate.Reverse -}}

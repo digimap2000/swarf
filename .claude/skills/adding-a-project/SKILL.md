@@ -1,0 +1,70 @@
+---
+name: adding-a-project
+description: Start documenting a new project on swarf - choosing its permanent folder name, writing the overview page and its front matter, and setting up its cover photo and reference pages. Use when Andrew wants a new project on the site, including one that is already finished or lives in another repository.
+---
+
+# Adding a project
+
+A project is a folder under `content/projects/`. Its place in the tree is all
+that makes it a project; there is nothing to register.
+
+## The order
+
+1. **Agree the folder name with Andrew.** Lower case, hyphens, the thing's own
+   name (`smart-and-brown-lathe`). It is the URL for the project and for every
+   entry under it, and it cannot change once pushed.
+2. **Write `_index.md`** in that folder.
+3. **Add a cover** if there is a photo that stands for the project: bring it in
+   with `tools/intake` and name it `cover.jpg`. A project with no cover is
+   listed without a thumbnail, which is fine.
+4. **Build, show Andrew, commit, push**, as for an entry.
+
+## The overview
+
+```markdown
+---
+title: Smart & Brown lathe
+summary: An old Smart & Brown lathe, bought for restoration.
+kind: Restoration
+status: Acquired
+date: 2026-10-12
+coverAlt: The lathe as collected, on its cabinet stand
+facts:
+  - { label: Maker, value: Smart & Brown }
+  - { label: Model, value: Model A }
+---
+
+What it is and why it is here, in a paragraph or two.
+```
+
+- `summary` is the one line shown in the list of projects.
+- `kind` is what sort of project it is, in a word: Restoration, Build,
+  Software, Electronics. Reuse a word already in use before adding one.
+- `status` is where it stands now, in a word or two, and is the field that
+  changes as work goes on: Acquired, Stripping, Reassembly, In use, Finished.
+- `date` is when the project started, and shows as "Started October 2026".
+- `facts` is the short table at the top of the page: only what is established,
+  in the order given. Leave a fact out rather than writing "unknown".
+- `coverAlt` describes the cover photo.
+
+## Reference pages
+
+Undated pages under `reference/`, one subject each: a specification, a parts
+list, the sources consulted. They are listed at the foot of the project page in
+alphabetical order by title.
+
+```markdown
+---
+title: Specification
+summary: Capacities, speeds and threads, from the maker's manual.
+---
+```
+
+Say on the page where each figure came from - measured, or from which document.
+
+## A project that lives somewhere else
+
+For software or a design with its own repository, the overview links to the
+repository and to anything running, and says what the project is in terms a
+visitor can follow. Do not copy the other repository's README in; it will go
+stale. The log is optional for a project that is not being worked on here.

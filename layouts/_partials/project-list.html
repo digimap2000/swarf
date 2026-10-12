@@ -1,0 +1,28 @@
+{{- /* Takes a list of project sections. */ -}}
+<ul class="projects">
+  {{- range $project := . }}
+  {{- $log := partial "log.html" . }}
+  <li class="project">
+    {{- with partial "cover.html" . }}
+    {{- $thumb := .Fill "480x360 webp" }}
+    <a class="thumb" href="{{ $project.RelPermalink }}" tabindex="-1" aria-hidden="true">
+      <img src="{{ $thumb.RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" alt="" loading="lazy" decoding="async">
+    </a>
+    {{- end }}
+    <div>
+      <p class="meta">
+        {{- with .Params.kind }}<span>{{ . }}</span>{{ end }}
+        {{- with .Params.status }}<span class="status">{{ . }}</span>{{ end }}
+      </p>
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      {{- with .Params.summary }}<p>{{ . }}</p>{{ end }}
+      {{- with $log }}
+      <p class="meta">
+        <span>{{ len . }} {{ cond (eq (len .) 1) "entry" "entries" }}</span>
+        <span>latest {{ (index . 0).Date | time.Format "2 January 2006" }}</span>
+      </p>
+      {{- end }}
+    </div>
+  </li>
+  {{- end }}
+</ul>
