@@ -84,13 +84,24 @@ and listings:
 
 I have no head angle for either.
 
-**The first measurement does not fit.** Andrew measured the inner bore of
-the nose at 24.55 mm. That is 0.9665 in. A No. 10 collet, or the 5159, wants
-a seat of 23.81 mm, which is three-quarters of a millimetre smaller, and the
-No. 11 is far too big. The nearest plain figure is 31/32 in, 24.61 mm. So
-either that bore is not the one a collet's back sits in, and I have not yet
-understood the nose, or both candidates are wrong and the Type 4B is a size
-of Smart & Brown's own. I do not know which.
+**What the bore measures.** Andrew measured the bore of the nose in two
+places. The main body of it is 24.55 mm. The section at the back is 23.84 mm.
+
+The back section is the one that matters. A No. 10 collet's back bearing is
+15/16 in, which is 23.81 mm, so it would sit in that bore with about three
+hundredths of a millimetre to spare, which is what a seat for it should have.
+The wider bore in front is then clearance round the sprung middle of the
+collet.
+
+When only the first figure had come in I wrote here that it fitted neither
+candidate, which was true of that figure and said nothing about the seat. It
+was Andrew who thought to look further back.
+
+So the Type 4B has the back diameter of a Brown & Sharpe No. 10, and of the
+5159. That is one dimension out of the four that would settle it. The
+length, the head and the head's angle are still to come. The 4B's capacity
+is given as 11/16 in where the No. 10 is listed to 5/8 in, so even if the
+outside is the same pattern, the largest sizes may not exist off the shelf.
 
 The later lever closers were also listed for the Crawford T980 Multibore and
 the Pratt & Burnerd EA Multisize, both of 1 in capacity. I do not think
@@ -107,7 +118,7 @@ say whether the candidates above are right:
 
 | What | How | Figure to compare |
 | --- | --- | --- |
-| The bore the back of the collet sits in | Bore gauge | 0.936 to 0.937 in |
+| The bore the back of the collet sits in | Bore gauge | 0.936 to 0.937 in. **Measured: 23.84 mm, 0.9386 in.** |
 | The length a collet has to fill, from the inside face of the cap to whatever it seats against behind | Depth gauge, with the cap's own depth | 2.5 in |
 | The largest diameter of the taper that closes on the collet's head | Bore gauge or calipers | 1.115 in for the head |
 
