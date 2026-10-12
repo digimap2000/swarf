@@ -166,9 +166,12 @@ last had oil. They are bronze, and the maker's plate names what they want.
 1. With a torch, look down each of the two oil holes on the headstock that
    is on the lathe, before putting anything in. Tell me what is down there:
    felt, bare metal, old oil, dirt.
-2. Put ten drops of oil in each. Mobil DTE Light if there is any. If not, any
-   ISO VG 32 turbine or hydraulic oil, which is the same grade, and not a
-   gear oil. Tell me which was used.
+2. Put ten drops of oil in each. For this session, the Shell Morlina S2 BL 10
+   that Andrew has. It is a spindle oil of the right kind but a thinner
+   grade, [ISO VG 10](https://shop.sclubricants.com/pub/media/pds/shell/Shell-Morlina-S2-BL-10.pdf)
+   against the ISO VG 32 of the maker's Mobil DTE Light, about a third of
+   the viscosity. That does not matter for turning by hand. It does for
+   running under power, and the maker's grade has to be in before then.
 3. Turn the spindle twenty turns by hand.
 4. Look down the holes again, and at each end of each bearing. Then ten more
    drops and twenty more turns.
