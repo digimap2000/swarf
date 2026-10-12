@@ -9,7 +9,7 @@
   <header class="page-header">
     {{ partial "crumbs.html" . }}
     <h1>{{ .Title }}</h1>
-    <p class="meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "2 January 2006" }}</time></p>
+    <p class="meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "2 January 2006" }}</time>{{ with .Params.author }}<span>Written by {{ . }}</span>{{ end }}</p>
   </header>
 
   <div class="prose">{{ .Content }}</div>

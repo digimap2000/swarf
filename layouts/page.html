@@ -3,7 +3,8 @@
   <header class="page-header">
     {{ partial "crumbs.html" . }}
     <h1>{{ .Title }}</h1>
-    {{- with .Params.summary }}<p class="meta"><span>{{ . }}</span></p>{{ end }}
+    {{- with .Params.summary }}<p class="lede">{{ . }}</p>{{ end }}
+    {{- with .Params.author }}<p class="meta"><span>Written by {{ . }}</span></p>{{ end }}
   </header>
   <div class="prose">{{ .Content }}</div>
 </article>

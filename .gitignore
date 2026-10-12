@@ -8,3 +8,6 @@
 /inbox/
 
 .DS_Store
+
+# Notes that must not be published: see the restoring-the-lathe skill.
+/private/
