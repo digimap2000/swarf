@@ -120,9 +120,10 @@ the strip with a shorter list.
 **Stage 1, the survey at rest, under way.**
 
 What the lathe is: a [Model L](identification.md), serial number S10312,
-built about 1960 and sold through Buck & Hickman, with a Type PRH headstock
-on bronze bearings, a lever collet closer, a screw-feed compound slide rest
-and a plain tailstock. What is wrong with it so far is in the
+built about 1960 and sold through Buck & Hickman, with a screw-feed compound
+slide rest and a plain tailstock. Its own headstock is of the
+[PDH family](identification.md): bronze at the front, ball races at the
+back, and a nose that takes dead-length collets and nothing else. What is wrong with it so far is in the
 [condition register](condition.md).
 
 It came to Andrew in pieces. The headstock, the slide rest and the tailstock
@@ -149,11 +150,19 @@ is shown to pass through.
 The maker's manual is still not in hand. It is needed before any headstock
 is taken apart.
 
-**What is being restored.** The lathe as it stands: its own headstock, the
-slide rest, and the tailstock that is on the bed. The spare headstock and the
-set-over tailstock are parked. They are kept oiled and covered and are not
-worked on until the lathe is finished, unless something on them is needed
-for it.
+**Which headstock.** This is open again, and it is Andrew's to settle,
+since it decides what the lathe is for. Its own headstock cannot take a
+chuck, and there are no collets for it. The spare, a PRH from another
+machine, takes the chuck that came with the lathe, and getting one was
+evidently why the spare was bought. I had parked the spare. That was
+decided when I thought the two were alike, and it does not stand.
+
+My recommendation is both. The PRH as the working headstock, because it can
+hold work now. The PDH restored to the same standard and kept, because it is
+the one this lathe was built with, and it is the faster of the two if
+dead-length collets are ever found or made for it. The Model L was sold to
+be used that way, with headstocks changed to suit the job. The set-over
+tailstock stays parked.
 
 **Added by Andrew.** The coolant is to work again in the end. The tray is a
 basin with a brass drain plug and there is a pipe for it. What else of the
@@ -210,32 +219,25 @@ sits under the headstock as the reference, since nothing has slid there.
 **I expect** the bed to be within a thousandth or two of an inch along its
 length, because nothing slides on it under load.
 
-### The play in the spindle
+### The play in the two spindles
 
-The headstock is back on the bed and clamped down, and Andrew has taken the
-first reading.
+**The lathe's own headstock, at the nose: nothing.** With a 0.01 mm
+indicator on top of the collet-closing cap, left a little proud, lifting the
+spindle moved the needle not at all. Whatever play its front bearing has is
+less than the indicator can show.
 
-**At the nose: nothing.** With a 0.01 mm indicator on top of the piece that
-screws onto the spindle nose, lifting the spindle moved the needle not at
-all. He points out the difficulty with that surface. Screwed home, the piece
-sits down inside the bearing's adjusting nut and nothing stands proud to
-measure from; left a little way out, there is a surface, but any slack in
-its thread is in the reading too. A reading of nothing with that slack
-included is a good one: whatever play the front bearing has is less than
-the indicator can show.
+Still to take on it, three times each: the lift at the back, on the plain
+part of the spindle between the back bearing and the closer, and the end
+float. The back bearing is a preloaded pair of ball races, so both should be
+nothing. Any movement there means the preload has gone.
 
-I had expected less than one division, and for once was right.
+**The PRH** has not been measured at all, and oil runs straight through it.
+When it is on the bed and clamped: the lift at the nose and at the back, the
+end float, and, since its nose has a true register, how far that runs out
+when the spindle is turned.
 
-**Still to take,** three times each, with the indicator's base on the
-headstock:
-
-1. *At the back.* Plunger on the plain part of the spindle between the back
-   bearing and the closer. Lift and press that end.
-2. *End float.* Plunger square on the end of the spindle. Push the spindle
-   one way and pull it the other.
-
-How true the spindle runs is a later question. It needs the collet seat or
-the nose register to measure from.
+**To settle which is which beyond doubt,** the bore of each spindle. The
+catalogue gives 29/32 in for the PDH and 63/64 in for the PRH.
 
 The bed measures about 32¾ in long by Andrew's tape, as I read it from his
 photograph.

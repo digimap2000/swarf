@@ -83,63 +83,66 @@ slight tapers.
 
 ### The two headstocks
 
-Both look to me like the PRH: the bronze-bearing headstock with a lever-action
-collet closer. Neither has been found to carry any letters. For the spare
-there is now more than my reading of photographs: Andrew has compared it
-with the catalogue's cutaway of the PRH and says everything he can see
-matches.
+They are not the same type, and for most of a day I said they were.
 
-**The one on the machine.** The left-hand end of the spindle carries both a
-lever and a handwheel. A long lever with a black grip hangs from a yoke that
-is pivoted above the spindle and wraps a steel drum, and outboard of the drum
-is a fluted aluminium handwheel: a lever-operated collet closer, with the
-handwheel to set its grip. Between the closer and the headstock are a ring
-nut with tommy-bar holes, and a disc with holes drilled in it. A knurled
-plunger on the front of the headstock lines up with the disc, which I take to
-be a spindle lock. The pulley is a stepped one for a flat belt, brown with
-old oil and light rust.
+**The one on the machine is of the PDH family.** Andrew, with it in his
+hands, finds no way to mount a backplate on it. The spindle nose has only a
+fine thread, carrying a collet-closing cap that screws down inside the front
+bearing's adjusting nut until nothing stands proud. That is the catalogue's
+[Type PDH](https://www.lathes.co.uk/smart-and-brown-model-L): a bronze
+bearing at the front, a pair of preloaded ball races at the back that need
+no adjusting, a bore of 29/32 in, and a nose that takes dead-length collets
+and nothing else. No chuck can go on it.
 
-Its nose carries a plain cylindrical cap, with a notched ring behind it and a
-separate ring with two pin-spanner holes set into its face. The metal beside
-the notch is chewed, as if the ring had been driven round with a punch.
+It also has a lever-operated closer at the back end of the spindle, with a
+fluted handwheel outboard of it, which at first looks like a contradiction,
+since the catalogue says the plain PDH has no draw-bar. I do not think it is
+one. A dead-length collet is closed by pushing, not pulling: the cap at the
+nose holds the collet endwise and a tube through the spindle is pushed
+forward to close it. The same pages list a lever closer, Type DL, made for
+dead-length collets, and a later headstock, the LPH, which is the PDH with a
+lever that works a brake and a clutch as well as the collet, and a handwheel
+on the left-hand end of the spindle to set the grip. So this is either a PDH
+with the lever closer or an LPH. What would tell them apart is whether the
+lever works a brake and clutch, and I do not know. Either way the bearings
+and the nose are the same.
 
-**The spare.** Painted green, so from another machine. It has the same yoke
-and pivot for a lever closer, with a plain steel drum where the other has its
-handwheel, and the lever itself is missing: there is only the stub it would
-fit to. Its nose is bare, a coarse thread to take a chuck, with the same
-notched ring behind it, bruised in the same way. A three-step flat-belt
-pulley sits between the bearings, and behind the front bearing are two thin
-notched rings.
+Between the closer and the headstock are a ring nut with tommy-bar holes and
+a disc with holes drilled in it. A knurled plunger on the front of the
+headstock lines up with the disc, which I take to be a spindle lock. The
+pulley is a stepped one for a flat belt.
 
-**What I got wrong about the nose.** Twice. Seeing only the capped nose, I
-read the large plain cylinder as a nosepiece for dead-length collets. Then,
-seeing the spare's bare thread, I called it a cover screwed over the thread.
-Andrew, with it in his hands, says the large cylinder is the adjusting nut
-of the front bearing, and that it is the smaller piece set into its face
-that screws onto the spindle nose, going down inside the nut until nothing
-stands proud. He calls that piece a collet closer. I have not seen it off.
+**The spare is a PRH.** Painted green, so from another machine. Andrew has
+compared it with the catalogue's cutaway of the PRH and says everything he
+can see matches: a hardened spindle in two adjustable bronze bearings, the
+pulley on ball races of its own, a lever collet closer of the draw-in kind,
+and a nose threaded to take a chuck. Its closer lever is missing, with only
+the stub it fits to.
 
-**What I got wrong about the oil holes.** There is a hole on top of each
-bearing housing, four in all. One photograph showed a nipple in the back hole
-of the fitted headstock and nothing in the front, and I called the front one
-missing. Andrew looked at all four. Only that one has a nipple, and none of
-the other three looks threaded, so the nipple is the odd one out and not the
-pattern. He suggests each hole fed a drip oiler or a small well with a felt.
-That agrees with an owner of another Model L, who describes
-[an oil hole leading to a well under the bearing](https://www.model-engineer.co.uk/?p=29271),
-perhaps with a wick.
+**What this explains.** A lathe whose own headstock can hold only collets,
+and which has no collets, can hold nothing. Andrew's reading of it is that
+the last owner but one bought the second headstock and the chuck for exactly
+that reason, and the chuck's backplate, threaded and not yet machined, fits
+the spare's nose and not this one's. I think he is right.
 
-Andrew then found the answer in the catalogue's own cutaway drawing of the
-PRH, on the [Model L page](https://www.lathes.co.uk/smart-and-brown-model-L).
-Each hole is closed by a small knurled plug with a short stem. As he pointed
-out, the holes sit under the cover that closes over the pulley, so there is
-no room there for anything that stands up. The plugs are gone from all four
-holes, and the one nipple is somebody's substitute.
+**How I got it wrong.** My first reading of the capped nose was a nosepiece
+for dead-length collets, and I wrote that it would mean a different
+headstock with different bearings. That was correct. Then I saw the spare's
+bare threaded nose and decided the cap on the other must be a cover over the
+same thread, and that both were PRH. The spare told me nothing about the
+fitted one: they are from two machines. I also wrote that the catalogue's
+cutaway matched this machine part for part, when it matched at one end and
+I had explained away the other. Andrew settled it by trying to see how a
+backplate would go on.
 
-The same drawing is the best evidence yet for the type. It shows the fluted
-handwheel, the yoke and the lever exactly as they are on this machine, a
-spindle in two bronze bearings with a threaded ring either side of each, the
-pulley on ball races of its own, and a threaded nose.
+**The oil holes.** There is a hole on top of each bearing housing, four in
+all. One photograph showed a nipple in the back hole of the fitted headstock
+and nothing in the front, and I called the front one missing. Andrew looked
+at all four: only that one had a nipple, pushed in and not screwed, and none
+of the others is threaded. The catalogue's cutaway of the PRH shows each
+hole closed by a small knurled plug with a short stem, and, as he pointed
+out, the holes sit under the cover that closes over the pulley, where
+nothing taller would fit. So the plugs are gone from all four.
 
 ### The drive
 

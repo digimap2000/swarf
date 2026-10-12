@@ -180,6 +180,13 @@ what is to be decided. Do not police routine workshop practice, and do not
 write to him as if he needed telling. Say once, briefly, if something
 matters to a later measurement, and leave it there.
 
+**One part says nothing about another.** The spare headstock's bare threaded
+nose was taken as showing what lay under the cap on the fitted one, and a
+correct first reading (a dead-length nose, so a different headstock) was
+"corrected" into a wrong one that stood for most of a day. The two are from
+different machines. Evidence about a part comes from that part. And when a
+drawing matches at one end, say so, and do not explain away the other.
+
 ## Stops
 
 Tell him to stop, and report, whenever:

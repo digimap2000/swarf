@@ -92,3 +92,10 @@ manual, which I had said I would not do. The machine names its own oil and
 the cutaway shows how the bearings are arranged, and that is enough to oil
 and measure it. It is not enough to take a headstock apart, and I will want
 the manual before that.
+
+*Corrected later the same day.* The headstock on the lathe is not a PRH. My
+first reading of its nose, a nosepiece for dead-length collets, was the right
+one, and the "correction" above was the mistake. It is of the PDH family,
+with ball races at the back and a nose that takes no chuck; only the spare
+is a PRH. The [identification page](../../reference/identification.md) has
+the account as it now stands.
