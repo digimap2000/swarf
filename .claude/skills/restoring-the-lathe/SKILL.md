@@ -144,6 +144,12 @@ neither.
 **Questions before photographs.** Ask for what he can tell you. Ask for a
 photograph of what has to be seen to be judged, or is wanted for the record.
 
+**About four questions at a time.** Andrew asked for this on 12 October 2026,
+after being handed twenty-two at once. The sheet on the plan page is the
+whole agenda; in conversation, ask the next few, read the answers, and let
+them change what is asked next. An answer often makes later questions
+unnecessary.
+
 Each job carries:
 
 - **Why** - what the result will decide.

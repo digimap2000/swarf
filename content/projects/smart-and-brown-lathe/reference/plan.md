@@ -142,7 +142,9 @@ been turned yet, leave them for the next session. Do not lean on the machine
 or pull against it while it is on the blocks.
 
 **Tell me.** An answer of "don't know" is an answer; I will ask for a
-photograph of whatever it is.
+photograph of whatever it is. This is the whole list. I am asking it a few
+questions at a time, at Andrew's request, and expect his answers to make some
+of the later ones unnecessary.
 
 *What it is*
 
