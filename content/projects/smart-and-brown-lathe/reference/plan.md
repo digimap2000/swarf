@@ -217,7 +217,7 @@ cleaned or adjusted.
 **Do.**
 
 1. Wipe the exposed slideways of the rest and the top of the bed with a rag
-   and paraffin, then oil them. No abrasive of any kind.
+   and paraffin, then oil them with the Tellus 68. No abrasive of any kind.
 2. Wind each slide of the rest over its whole travel. Tell me where it is
    tighter or looser, if anywhere.
 3. On each handle: what one division of the dial is, and how many divisions
