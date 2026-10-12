@@ -171,8 +171,13 @@ I was right; what I decided next. A wrong call is written down as a wrong
 call in the entry where it came to light.
 
 Everything in `writing-a-log-entry` still applies: photos through
-`tools/intake`, alt text and captions written from the photo, build clean,
-show Andrew before pushing unless he has said otherwise.
+`tools/intake`, alt text and captions written from the photo, build clean.
+
+**Publish without asking, then say what went out.** Andrew said on 12 October
+2026 that lathe pages are to be pushed after each session without being shown
+to him first. That covers pages under this project only, and it does not
+loosen Privacy below. After a push, tell him which pages changed and give the
+links. He can have anything altered or taken down.
 
 ## Privacy
 
