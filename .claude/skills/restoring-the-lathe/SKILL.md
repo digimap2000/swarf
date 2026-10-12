@@ -181,9 +181,11 @@ links. He can have anything altered or taken down.
 
 ## Privacy
 
-The repository is public. Do not publish the seller's name, where the lathe
-came from more closely than Andrew offers, what he paid, his address, or his
-budget, unless he says a particular thing may go in. Keep those in
+The repository is public. Andrew said on 12 October 2026 that costs may be
+published and identities may not. So what he paid and what is spent can go
+in. Do not publish anyone's name, the seller's or his family's or anyone
+else's, where the lathe came from more closely than he offers, or his
+address. Keep those in
 `private/lathe.md`, which git ignores. A photo that shows a house number, a
 vehicle plate, a face or paperwork with a name on it is left out or cropped.
 

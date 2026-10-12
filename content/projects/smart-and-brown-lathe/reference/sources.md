@@ -32,16 +32,31 @@ machine weighs somewhere between 1,300 lb and three-quarters of a ton,
 depending on who is asked and what is bolted to it. None of this applies
 unless the lathe turns out to be a Model A.
 
+**[A Model L thread on the same forum](https://www.model-engineer.co.uk/?p=29271).**
+An owner trying to draw the spindle from a Model L headstock with a bronze
+front bearing and a roller bearing at the back. Three things worth having.
+The bronze bearing is oiled through a hole that leads to a well beneath it,
+perhaps with a felt wick to lift the oil. The threaded rings beside the
+bearings set their clearance and are to be left alone. And the spindle came
+out three-quarters of an inch and stopped, with nobody in the thread able to
+say what was holding it. That last is the best argument I have read for not
+pulling a spindle to see what is inside. It applies only if this lathe is a
+Model L, and then only to that type of headstock.
+
 ## Not yet in hand
 
 **The maker's manual.** Reproductions of the operating, maintenance and parts
 manuals for most models are sold through the
 [lathes.co.uk archive](https://store.lathes.co.uk/smart-and-brown). I will not
 ask for anything to be dismantled, or any oil chosen, before the right one is
-on the bench. Which one that is waits on the model.
+on the bench. Which one that is waits on the model. The budget for this job
+is small on purpose, so I will look for a copy that is free before I ask for
+one to be bought.
 
 **The owners' group.** There is a Smart & Brown lathes group on groups.io. I
-have seen only listings of it, not its contents.
+have seen only listings of it, not its contents. A poster in the Model L
+thread says it holds the files of an earlier Yahoo group, which makes it the
+first place to look for a manual that costs nothing.
 
 **Serial numbers.** The Sabel page lists a handful of surviving numbers
 against years and says machines were numbered in turn as they left the works,

@@ -35,6 +35,23 @@ in a photograph of fresh paint. If the old finish is sound it stays.
 7. **Say what I expect before I look.** Each job is set with a prediction, and
    the log records whether it was right.
 
+## What there is to work with
+
+- **Supply.** Single-phase, with inverters to make three-phase from it, one
+  of them on a socket kept for jobs like this. A three-phase motor is no
+  obstacle in principle. Whether this one can run from an inverter depends on
+  how it is wound, which its plate should say.
+- **Measuring.** Dial indicators reading to 0.01 mm, micrometers, bore gauges
+  and a precision level. Enough for the tests in stage 5. Readings go in the
+  record in millimetres, as taken, whatever the lathe was built in.
+- **Making.** A Colchester Chipmaster and an old South Bend lathe, a Centec 2A
+  universal mill, a hydraulic press, TIG welding, and an engine crane for
+  lifting. A worn or missing part can be made here.
+- **Money.** The lathe cost £150 and the budget is small on purpose: the point
+  is the engineering, so a part is mended or made before one is bought. I
+  will hold to that. The one thing I may yet argue for buying is the maker's
+  manual, if no free copy turns up.
+
 ## The order of work
 
 | Stage | What happens | It ends when |
@@ -53,10 +70,18 @@ first run, and a first run can send the job back to the survey.
 
 ## Where it stands
 
-**Stage 0, not yet begun.** I have not seen the machine. All I know is that it
-is a Smart & Brown lathe, which could be any of [six quite different
-machines](identification.md), and almost every instruction I could give
-depends on which.
+**Stage 0, not yet begun.** I have not seen the machine. I know what Andrew
+was told when he bought it: that it came from a deceased estate, was never got
+running by the man he bought it from, and had gathered a second headstock and
+a second tailstock with sideways adjustment along the way.
+
+That last is a clue. It is what an owner of a Model L would collect, and on
+the strength of it [my guess is a Model L](identification.md). If so it is a
+plain-turning lathe with no screwcutting, and which of half a dozen headstocks
+it carries will matter more than anything else about it.
+
+It is standing on two wooden blocks. Until I have seen how, I am treating it
+as something that can tip.
 
 ## The job sheet outstanding: session 1, identify and record
 
@@ -70,6 +95,9 @@ and do not turn the spindle: I do not yet know how its bearings are oiled, and
 dry grit on a slideway scores it. Covers that hinge open or lift off by hand
 may be opened. Anything that needs a spanner stays shut.
 
+It is on wooden blocks and I have not seen how it sits. Do not lean on it,
+pull against it or lift anything heavy off it.
+
 Mind old switchgear and any brake or clutch lining. Parts of that age can
 contain asbestos. Photograph them as they are, and do not brush or blow out
 any dust.
@@ -78,10 +106,13 @@ any dust.
 
 1. *The whole machine.* Square-on from the front, the back and each end, and
    from both front corners. One with a tape or rule in the frame. The floor
-   beneath it, for leaks.
+   beneath it, for leaks. And how it stands: each wooden block and what rests
+   on it, taken from low down at both ends.
 2. *Anything with writing on it.* The maker's plate, speed and screwcutting
-   charts, the motor plate, plates on the switchgear, a dealer's plate, any
-   inventory or asset tag. Close enough to read.
+   charts, plates on the switchgear, a dealer's plate, any inventory or asset
+   tag. Close enough to read. The motor plate above all, the whole of it:
+   voltages, and any mention of star and delta, decide whether it can run
+   from the inverter.
 3. *The serial number.* I have found no source that says where Smart & Brown
    stamped it. On lathes generally it is on the bed at the tailstock end,
    either on top between the ways or on the front face, or on a plate on the
@@ -106,10 +137,14 @@ any dust.
     the base, any tank or pump, the chip tray.
 11. *The electrics,* from outside. Inside an enclosure only if its door opens
     without tools and the machine is disconnected from any supply.
-12. *Everything that came with it,* laid out: chucks and the backs of them,
-    faceplates, collets, steadies, changewheels, centres, drawbar, handles,
-    paperwork.
-13. *Anything odd.* Cracks, welds or brazing, broken teeth, missing handles,
+12. *The second headstock and the second tailstock.* Each from every side
+    and from underneath, where it would sit on the bed. Both ends of the
+    spare spindle. Any letters or numbers anywhere on either. Do not try
+    either of them on the bed.
+13. *Everything else that came with it,* laid out: chucks and the backs of
+    them, faceplates, collets, steadies, changewheels, centres, drawbar,
+    handles, paperwork.
+14. *Anything odd.* Cracks, welds or brazing, broken teeth, missing handles,
     parts that look newer or cruder than the rest, dents in the ways near the
     headstock.
 
@@ -121,10 +156,13 @@ any dust.
 - the diameter of the spindle nose where a chuck screws or locks on, if
   nothing is fitted to it. A chuck that is on stays on.
 
-**What I expect.** Nothing I would defend. The range ran from a plain
-second-operation lathe to a 5½-inch toolroom machine, and "an old Smart &
-Brown" fits most of it. Saying so is better than a guess dressed as a
-prediction.
+**What I expect.** When I first wrote this sheet I had nothing I would
+defend. Since then Andrew has told me about the second headstock and the
+set-over tailstock, and I now expect a Model L: about 4 in from bed to spindle
+centre, a short bed, no leadscrew anywhere, and a collet closer on the
+left-hand end of the spindle. I expect the spare tailstock to be the heavier
+of the two, with a 1¼ in barrel on a separate sole plate. I am least sure
+which headstock is fitted, and will not guess.
 
 **It is finished when** I can name the model and version from the photographs,
 and nothing on the machine has changed.

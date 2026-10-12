@@ -36,4 +36,37 @@ by distance between centres.
 
 ## Which one this is
 
-Not yet known. The first session is to find out.
+Not yet known, and no photograph has been taken. But there is one clue. The
+man Andrew bought it from had added a second headstock, and a second tailstock
+with sideways adjustment.
+
+That is what an owner of a Model L would do. The Model L is the one that was
+offered with a choice of headstocks, half a dozen of them, and of tailstocks,
+one of which, the TUC, sits on a sole plate so that it can be set over for
+slight tapers. So my guess, on one sentence of hearsay, is a Model L. A Model
+M would be my second.
+
+If that is right, this is a plain-turning lathe: no leadscrew and no
+screwcutting. It also matters a good deal which headstock is on it, because
+they differ in exactly the things that decide how it is treated.
+
+## If it is a Model L: the headstocks
+
+The original six are all given as 4 in centre height. From the
+[Model L pages](https://www.lathes.co.uk/smart-and-brown-model-L) at
+lathes.co.uk.
+
+| Type | How to know it | Spindle bearings |
+| --- | --- | --- |
+| PLH | Handwheel draw-in collet closer. Nose 1¾ in × 8 t.p.i., bore 63/64 in. | Lapped, adjustable phosphor bronze. The pulley runs on ball bearings of its own. |
+| PRH | A PLH with a lever collet closer in place of the handwheel. | As the PLH. |
+| PSH | For small work: collets to 5/16 in only. | Not given. |
+| PDH | No thread for a chuck: the nose has only a fine thread for a collet-closing cap, and it takes dead-length collets. | Bronze at the front, a pair of preloaded ball races at the back, needing no adjustment. |
+| PGH, PFH | A short lever in front of the left-hand bearing, which engages a 3 to 1 reduction gear inside the pulley. The PFH is the same with a lever closer. | As the PDH. |
+| LPH | One handle on the front that works brake, clutch and collet closer together. | Plain at the front, ball race at the back. |
+| PRH/1 and late types | Take 5C collets. Nose 2 in × 8 t.p.i. on the PRH/1. | Angular-contact ball races at the nose, roller at the back. |
+
+And the tailstocks: the TSC, a one-piece casting with a 1 in barrel and a
+No. 1 Morse taper; the TUC, heavier, with a 1¼ in barrel, No. 2 Morse taper
+and the sole plate for set-over; and the TTC, which carries small collets, for
+production work and sensitive drilling.
