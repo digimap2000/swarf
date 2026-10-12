@@ -161,18 +161,57 @@ tube, to compare with 0.984 in and 0.902 in by 24.
 ## The space model
 
 Andrew's suggestion: before a collet is bought or cut in steel, print its
-shape in plastic and try it in the spindle. It will show whether the body,
-the head and the length are right and whether the closer reaches it.
+shape in plastic and try it in the spindle.
 
 Only one of the two kinds has a thread. The draw-in collet for the spare has
-a threaded tail, because the tube pulls it by that thread. A print cannot
-prove a thread, so on that model the tail is a plain spigot at the thread's
-outside diameter. The dead-length collet for the lathe's own headstock has
-no thread at all: it is held by the cap and closed by being pushed, and its
-model is a plain turned shape from end to end.
+a threaded tail, because the tube pulls it by that thread, and a print
+cannot prove a thread. The dead-length collet for the lathe's own headstock
+has no thread at all, and its model is a plain turned shape from end to end.
 
-`tools/revolve-stl` turns a profile of radii and lengths into a file to
-print, and checks before writing it that the solid is closed and of the
-volume the profile says it should be. A collet's outside is a turned shape,
-so that is all it needs. The model waits on the measurements above: I will
-not draw one round an angle I have had to guess.
+### The first one: a Brown & Sharpe No. 10
+
+Andrew's instruction was to draw it faithfully to the dimensions a No. 10 is
+expected to have and not to anything measured on the lathe, and to make no
+allowance for the printer. A model shaped to fit the headstock would prove
+only that it had been shaped to fit.
+
+[The model](brown-sharpe-no10-half-inch.stl) is to these figures:
+
+| What | Figure | Where it is from |
+| --- | --- | --- |
+| Length overall | 2.500 in | The present maker's listing for a No. 10 |
+| Back bearing diameter | 0.9362 in | The same maker's listing for a No. 10 with a short bearing; 15/16 in on the standard one |
+| Head diameter | 1.115 in | The same |
+| Head angle | 15° 7′ a side | The same listing. I have it from a search result's summary of the page and could not open the page itself. |
+| Bore | 0.500 in | Mine: it makes it a half-inch collet, within the No. 10's range |
+| Parallel length of the head, in front of the taper | 0.125 in | Mine. No source gives it. |
+
+Three things about a real collet are left out because I have no figures for
+them: the slits, any relief of the body between the back bearing and the
+head, and any chamfer on the front face. The body is the back-bearing
+diameter all the way along.
+
+The angle is worth a remark. Before this figure turned up, Andrew's
+measurements of the closing sleeve, 24.55 mm opening to 29.97 mm over about
+0.39 in, had given 15.3° a side. The published figure for the collet is
+15° 7′, which is 15.1°.
+
+`tools/revolve-stl` wrote the file, and checks before writing that the solid
+is closed and of the volume its profile says. Read back independently, the
+file measures 2.5000 in long, 0.9362 in across the back, 1.1150 in across the
+head, with a head angle of 15° 7′.
+
+### What the fit will show
+
+1. Whether the back enters the seat. The seat measured 23.84 mm and the
+   model's back is 23.78 mm.
+2. Whether the cap screws home with the model in place and the lever open.
+3. Whether the model is then held endwise or is free to slide.
+4. Whether closing the lever brings the sleeve up onto the head.
+
+**I expect** the back to enter the seat with a little clearance, and the head
+to sit about 3 mm inside the mouth of the sleeve. The one figure of mine that
+bears on the fit is the eighth of an inch of parallel head. If the cap will
+not go home, that figure is too long, and the gap under the cap says by how
+much. If the model slides endwise with the cap on, it is too short, and the
+slide says by how much. Either way the print measures what no source gives.

@@ -156,7 +156,7 @@ different kinds, and there are no collets for either. He is willing to make
 or find one collet to prove a headstock works, and has suggested printing
 the collet's shape in plastic first, to try in the spindle before anything
 is bought or cut in steel. That is the next piece of work, and it is set out
-on the [collets page](collets.md).
+on the [collets page](collets/index.md).
 
 Andrew wants the lathe's own headstock proved first. Its collet is the
 harder of the two to pin down, since the catalogue gives it a name and no
