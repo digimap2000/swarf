@@ -87,8 +87,10 @@ each point will be settled part by part when the time comes.
 - **Making.** A Colchester Chipmaster and an old South Bend lathe, a Centec 2A
   universal mill, a hydraulic press, TIG welding, and an engine crane for
   lifting. A worn or missing part can be made here.
-- **Finishing.** A paint booth, and plating, both in house. Which plating
-  processes is one of the questions outstanding.
+- **Finishing.** A paint booth, and plating, both in house.
+- **Drive.** An inverter that gives up to 415 V three-phase from the
+  single-phase supply, which suits the 400/440 V motor that came with the
+  lathe as it is.
 - **Money.** The lathe cost £150 and the budget is small on purpose: the point
   is the engineering, so a part is mended or made before one is bought. The
   one thing I may yet argue for buying is the maker's manual, if no free copy
@@ -115,41 +117,24 @@ the strip with a shorter list.
 
 ## Where it stands
 
-**Stage 0, under way.** It is a [Model L](identification.md), serial number
-S10312, built about 1960 and sold through Buck & Hickman. Andrew read that
-off the machine and I have seen the plates.
+**Stage 1, the survey at rest, about to begin.** Stage 0 is done, with one
+thing left over.
 
-Two things on the plates matter beyond the name. The maker's oil is on the
-machine in cast letters, Mobil DTE Oil Light, which settles the question of
-what goes in the headstock before it is turned. And the speed plate shows a
-motor with two speeds. A motor of that kind is usually wound for one voltage
-only, 415 V here, which will bear on how it is run from an inverter. The
-motor plate will say.
+What the lathe is: a [Model L](identification.md), serial number S10312,
+built about 1960 and sold through Buck & Hickman, with a Type PRH headstock
+on bronze bearings, a lever collet closer, a screw-feed compound slide rest
+and a plain tailstock. What is wrong with it so far is in the
+[condition register](condition.md). Andrew has turned the spindle and wound
+the slides by hand and finds everything smooth.
 
-The paint is a grey-blue. Where it is chipped, and round the edges of the
-plates, a brighter blue shows beneath it, so it has been repainted at least
-once.
+What it lacks: a belt, a motor of the kind it was built for, any collets,
+and the four small plugs that close its oil holes.
 
-Both headstocks look like the PRH, the bronze-bearing type with a lever
-collet closer; the spare is green, from another machine, and has a bare
-threaded nose. Each bearing has a plain oil hole above it, which Andrew
-thinks fed a well or a felt, and which the catalogue shows closed by a
-knurled plug; all four plugs are missing. The reasoning, and two things I
-first read wrongly, are on the [identification page](identification.md), and
-what is wrong so far is in the [condition register](condition.md). The drive,
-slide rest and tailstocks are still to come.
-
-It cannot be run as it stands. There is no belt, and the motor is out of the
-stand. The motor is a single-speed Brook of 2 h.p. for 400/440 V, while the
-lathe's own switches are a reverser and a change-pole switch for a motor
-with two speeds. How it is to be driven is a question for the electrical
-stage, and my intention is to keep both switches doing their jobs if an
-inverter can be made to obey them.
-
-The slide rest is the screw-feed compound type. The tailstock on the bed is
-green, like the spare headstock, so the lathe has parts of two machines on
-it. No collets came with it, only a three-jaw chuck and a backplate still to
-be machined.
+What is left over from stage 0 is the maker's manual, which I do not have. I
+had said I would not go on without it. I am going on, because the lathe
+names its own oil on a plate and the catalogue's cutaway shows how the
+bearings are arranged, and that is enough to oil and measure it. It is not
+enough to take a headstock apart. The manual is needed before stage 6.
 
 **What is being restored.** The lathe as it stands: its own headstock, the
 slide rest, and the tailstock that is on the bed. The spare headstock and the
@@ -157,82 +142,90 @@ set-over tailstock are parked. They are kept oiled and covered and are not
 worked on until the lathe is finished, unless something on them is needed
 for it.
 
-It is standing on two wooden blocks under a cast cabinet stand, and Andrew
-is satisfied it is stable.
+**Added by Andrew.** The coolant is to work again in the end. The tray is a
+basin with a brass drain plug and there is a pipe for it. What else of the
+system survives has not been looked at.
 
-## The job sheet outstanding: session 1, which Model L
+**For the drive.** My intention is that the two original switches go on
+doing their jobs, as signals to the inverter and not as switches in the
+motor's supply: forward, off and reverse from one, and from the other two
+set frequencies, which would give back both rows of the speed plate from a
+motor with one speed. To be settled at stage 3.
 
-**Why.** To learn which headstock, drive, slide rest and tailstocks this
-machine has, what state Andrew judges it to be in, and what finish it has now
-and is to have. The next session moves things by hand, and I cannot say how
-to oil a spindle before turning it until I know what it runs in.
+## The job sheet outstanding: session 2, oil it and measure the spindle
 
-**The rules for this session.** No power. Nothing dismantled. A cover that
-hinges or lifts off by hand may be opened. If the spindle and slides have not
-been turned yet, leave them for the next session. Do not lean on the machine
-or pull against it while it is on the blocks.
+No power. Nothing dismantled. Three jobs.
 
-**Tell me.** An answer of "don't know" is an answer; I will ask for a
-photograph of whatever it is. This is the whole list. I am asking it a few
-questions at a time, at Andrew's request, and expect his answers to make some
-of the later ones unnecessary.
+### 1. Oil the spindle bearings
 
-*What it is*
+**Why.** The spindle has been turned and I do not know when its bearings
+last had oil. They are bronze, and the maker's plate names what they want.
 
-Questions 1 to 4 are answered: a Model L, S10312, in rounded castings, on a
-slotted bed, and stable where it stands.
+**Do.**
 
-*The headstock on the machine, and then the spare one*
+1. With a torch, look down each of the two oil holes on the headstock that
+   is on the lathe, before putting anything in. Tell me what is down there:
+   felt, bare metal, old oil, dirt.
+2. Put ten drops of oil in each. Mobil DTE Light if there is any. If not, any
+   ISO VG 32 turbine or hydraulic oil, which is the same grade, and not a
+   gear oil. Tell me which was used.
+3. Turn the spindle twenty turns by hand.
+4. Look down the holes again, and at each end of each bearing. Then ten more
+   drops and twenty more turns.
+5. Cover the holes again.
 
-Questions 5 to 9 are answered, from three photographs and Andrew's own look
-at the oil holes: both headstocks have lever collet closers and look like
-the PRH.
+**Leave alone.** The notched rings beside the bearings. The cutaway shows
+them to be what sets the bearings, and both headstocks show that somebody
+has already been at them with a punch.
 
-*The drive*
+**Stop if** the spindle stiffens or grates at any point.
 
-Questions 10 to 12 are answered: a single-speed Brook motor out of the
-stand, no belt, and a reversing switch and a change-pole switch on the stand.
+**I expect** a felt or a dark well down each hole, the oil to soak away, and
+no oil to show at the ends of the bearings after twenty drops.
 
-*The slide rest, the tailstocks, and what came with it*
+### 2. Measure the play in the spindle
 
-Questions 13 to 15 are answered: a screw-feed compound slide rest, a plain
-tailstock on the bed and a set-over one spare, a three-jaw chuck with an
-unmachined backplate, and no collets.
+**Why.** It is the one number that says whether those bearings are sound,
+and it can be had without running the lathe.
 
-*Your reading of it*
+**Do.** With a 0.01 mm indicator on a magnetic base, the base on the
+headstock casting or on the bed and not on the tray or the stand:
 
-16. Whether you have already turned the spindle or wound the slides, and what
-    you felt if you have.
-17. Rust, damage, missing parts and bodges: what is the worst of it, and where.
-18. Anything you cannot identify.
+1. *At the nose.* Plunger on top of the nose cap, as near the bearing as it
+   will go. Lift the nose firmly with both hands, a steady pull and not a
+   jerk, and read. Press down and read. Three times.
+2. *At the back.* Plunger on top of the plain part of the spindle between the
+   back bearing and the collet closer. Lift and press the closer end in the
+   same way. Three times.
+3. *End float.* Plunger square on the face of the nose cap. Push the spindle
+   towards the tailstock, read, pull it back, read. Three times.
 
-*The finish*
+**Send back** all nine pairs of readings, and where the base stood.
 
-19. The paint as it is: what colour, and whether it looks like the maker's
-    or a later coat, which a chip showing another colour underneath would
-    tell. Whether there is filler under it.
-20. What is bright metal rather than painted, such as handles, handwheels,
-    levers and dials, and whether each looks polished, plated or blued.
-21. What you can do in house: which plating processes, what paint system,
-    and how you strip a casting, whether by blasting, and with what, or
-    chemically.
-22. What you want it to look like: as it left the works, with the original
-    colour matched, or a finish of your own choosing.
+**I expect** less than one division, 0.01 mm, in each of the three. That is
+my expectation of a precision spindle in good order and not a figure from
+the maker. Anything over 0.03 mm at either end would want looking into.
 
-**Two measurements,** with a steel rule: from the flat top of the bed up to
-the centre of the spindle, and the length of the bed.
+### 3. Feel the slide rest and the tailstock
 
-**Photographs.** About a dozen, for the record as much as for me, taken from
-wherever shows the thing best: the whole machine from the front and from the
-back; the headstock on it; the spare headstock; the slide rest; both
-tailstocks; inside the stand; the top of the bed; and whatever answers 17 and
-18. Put them in `inbox/`.
+**Why.** To learn what the screws and slides are like before anything is
+cleaned or adjusted.
 
-**What I expect.** About 4 in from bed to spindle centre and a short bed. A
-collet closer on the left-hand end of the spindle. The spare tailstock the heavier of the two, with a 1¼ in
-barrel on a separate sole plate. At least one of the two headstocks with
-bronze bearings. I am least sure of the drive and the stand, and will not
-guess at them.
+**Do.**
 
-**It is finished when** I can name the headstock, the drive, the slide rest
-and both tailstocks, and nothing on the machine has changed.
+1. Wipe the exposed slideways of the rest and the top of the bed with a rag
+   and paraffin, then oil them. No abrasive of any kind.
+2. Wind each slide of the rest over its whole travel. Tell me where it is
+   tighter or looser, if anywhere.
+3. On each handle: what one division of the dial is, and how many divisions
+   the handle turns from one direction to the other before the slide moves.
+4. Wind the tailstock barrel right out and back. Measure its diameter with a
+   micrometer. Look into its taper for scoring.
+
+**I expect** five to fifteen thousandths of lost motion in each screw, the
+slides a little tighter at the ends of their travel than in the middle, and
+a tailstock barrel of 1 in.
+
+**Also,** two measurements with a steel rule that are still owed from the
+first sheet: from the flat top of the bed to the centre of the spindle, and
+the length of the bed.

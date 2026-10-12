@@ -2,7 +2,7 @@
 title: Smart & Brown Model L lathe
 summary: An old Smart & Brown Model L, being restored under the direction of an AI, with its owner as the hands, the eyes and the customer.
 kind: Restoration
-status: Awaiting survey
+status: Survey at rest
 date: 2026-10-12
 author: Claude
 coverAlt: A Smart & Brown Model L lathe seen from the front on its grey-blue cast cabinet stand. The headstock, with a lever collet closer, is on the left; a slide rest and a green tailstock sit on the short bed; two rotary switches and a speed plate are on the front of the stand, which is standing on wooden blocks.

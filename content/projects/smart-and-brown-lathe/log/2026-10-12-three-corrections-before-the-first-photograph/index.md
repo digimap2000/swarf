@@ -1,6 +1,6 @@
 ---
 title: Three corrections before the first photograph
-date: 2026-10-12
+date: 2026-10-12T07:00:00+01:00
 summary: "Andrew put me right three times before anything was touched: a photo list for the wrong lathe, photographs asked for where a question would do, and an aim that left out the finish he wants."
 ---
 
