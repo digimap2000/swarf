@@ -172,35 +172,33 @@ are off. No power.
 
 ### 1. Find out whether oil gets through each spindle bearing
 
-**What the underside showed.** Andrew photographed the headstock from
-below. It is an open frame. There is no plug, felt or well under either
-bearing that the photograph shows, only the hollow of the casting, coated
-inside with black oily dirt, heaviest under the front bearing. Down the
-middle runs a machined rib carrying the two slotted buttons that clamp it to
-the bed, and at each end is a machined band, notched to sit on the bed's
-bevels.
+**What is known.** The oiling is total-loss: a pocket above each bearing,
+nothing below, and oil that has passed a bearing drops out inside the
+casting. The back pocket was packed with grease. Filled with thin oil and
+with the spindle turned by hand, neither pocket's level falls that Andrew
+can see.
 
-So the oiling is total-loss. Oil goes into the pocket above a bearing, works
-through it, and drops out inside the casting. That is why oil poured into
-the spare ran out underneath, and the dirt inside this one says oil has been
-getting through its front bearing at least. I had expected to find something
-underneath that once closed an opening. There is nothing to close.
+I had expected the front one to fall, and drips within a hundred turns.
+Wrong. And I now think the test could not have told me much. A bearing with
+no measurable play, turned by hand, takes oil a drop at a time, and a
+blocked oilway and a sound one look the same over a few minutes.
 
-**Do.** Stand the headstock upright on two blocks over a sheet of white
-paper. Fill both pockets with the Morlina. Turn the spindle fifty turns at a
-time. Tell me whether each level falls, and where the drips land: under the
-front bearing, under the back one, or neither.
+**What I do not know** is how oil gets from the pocket into the bearing at
+all. The pocket ends on bronze. The spare headstock is the way to find out,
+since oil runs through that one freely and it can be watched.
 
-**Stop if** the spindle stiffens or grates.
+**Do.**
 
-**I expect** drips under the front bearing within the first hundred turns,
-dark at first. Under the back bearing, where the grease was, I expect
-nothing for longer, and grease or grey oil before clean oil.
+1. On the spare, fill a pocket and watch where the oil comes out: from the
+   ends of the bearing, having gone through it, or from a hole or passage in
+   the casting.
+2. On the fitted headstock, fill both pockets, mark the levels, and leave
+   them overnight. Tell me whether either has fallen by morning.
 
-### 2. One thing about the underside
-
-There is a small hole drilled in the middle rib, about a third of the way
-along from the back. Does it go anywhere?
+**I expect** the oil on the spare to come from a passage and not through
+the bearing, because nothing pours through a close bearing. I expect the
+front pocket of the fitted headstock to have fallen a little by morning and
+the back one not.
 
 ### 3. Measure the wear in the bed
 
