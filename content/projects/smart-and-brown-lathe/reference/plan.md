@@ -150,19 +150,21 @@ is shown to pass through.
 The maker's manual is still not in hand. It is needed before any headstock
 is taken apart.
 
-**Which headstock.** This is open again, and it is Andrew's to settle,
-since it decides what the lathe is for. Its own headstock cannot take a
-chuck, and there are no collets for it. The spare, a PRH from another
-machine, takes the chuck that came with the lathe, and getting one was
-evidently why the spare was bought. I had parked the spare. That was
-decided when I thought the two were alike, and it does not stand.
+**Which headstock.** What Andrew wants from the lathe is a good collet
+system, more than a chuck. Both headstocks are collet headstocks, of
+different kinds, and there are no collets for either. He is willing to make
+or find one collet to prove a headstock works, and has suggested printing
+the collet's shape in plastic first, to try in the spindle before anything
+is bought or cut in steel. That is the next piece of work, and it is set out
+on the [collets page](collets.md).
 
-My recommendation is both. The PRH as the working headstock, because it can
-hold work now. The PDH restored to the same standard and kept, because it is
-the one this lathe was built with, and it is the faster of the two if
-dead-length collets are ever found or made for it. The Model L was sold to
-be used that way, with headstocks changed to suit the job. The set-over
-tailstock stays parked.
+I would prove the spare first. Its collets are a known pattern with a few
+published dimensions and a second-hand supply, and its nose can be got at to
+measure. The lathe's own headstock takes a dead-length collet for which I
+can find no dimensions at all, so that one has to be worked out from the
+headstock. Which of the two the lathe ends up running on can wait until each
+has been shown to hold a collet. Neither is parked. The set-over tailstock
+still is.
 
 **Added by Andrew.** The coolant is to work again in the end. The tray is a
 basin with a brass drain plug and there is a pipe for it. What else of the
