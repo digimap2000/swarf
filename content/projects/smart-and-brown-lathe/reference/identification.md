@@ -36,21 +36,35 @@ by distance between centres.
 
 ## Which one this is
 
-Not yet known, and no photograph has been taken. But there is one clue. The
-man Andrew bought it from had added a second headstock, and a second tailstock
-with sideways adjustment.
+A Model L, on Andrew's word: he has it in front of him and it is a
+plain-turning lathe, with a cross-slide and a top slide and nothing driven.
+No leadscrew, no changewheels, nothing that could be called an apron. I have
+not yet seen it.
 
-That is what an owner of a Model L would do. The Model L is the one that was
-offered with a choice of headstocks, half a dozen of them, and of tailstocks,
-one of which, the TUC, sits on a sole plate so that it can be set over for
-slight tapers. So my guess, on one sentence of hearsay, is a Model L. A Model
-M would be my second.
+I had guessed as much beforehand, from one thing he was told when he bought
+it: that its last owner had added a second headstock, and a second tailstock
+with sideways adjustment. The Model L is the one that was offered with a
+choice of headstocks, half a dozen of them, and of tailstocks, one of which,
+the TUC, sits on a sole plate so that it can be set over for slight tapers.
 
-If that is right, this is a plain-turning lathe: no leadscrew and no
-screwcutting. It also matters a good deal which headstock is on it, because
-they differ in exactly the things that decide how it is treated.
+Which Model L is still open, and it matters a good deal which headstock is on
+it, because they differ in exactly the things that decide how it is treated.
 
-## If it is a Model L: the headstocks
+## What a Model L looks like
+
+From the catalogue pictures on the
+[Model L page](https://www.lathes.co.uk/smart-and-brown-model-L), described
+rather than copied. The bed is short and is carried on two pedestals above a
+tray, on a cabinet with a pair of doors in front and louvres below them. The
+flat belt comes up inside the pedestal under the headstock from a motor in the
+cabinet, and the headstock casting curves over the pulley to guard it. There
+is no carriage. The slide rest is a unit of its own, a cross-slide carrying a
+swivelling top slide, clamped to the bed wherever the work needs it by a nut
+underneath, and the tailstock clamps to the bed in the same way. The maker's
+plate is on the front of the headstock pedestal. Machines of the 1970s are
+the same lathe in squared-off castings on a fabricated stand.
+
+## The headstocks
 
 The original six are all given as 4 in centre height. From the
 [Model L pages](https://www.lathes.co.uk/smart-and-brown-model-L) at

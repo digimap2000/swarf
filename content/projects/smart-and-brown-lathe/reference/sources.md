@@ -21,6 +21,12 @@ models apart, for capacities and drive arrangements, and for dates, which it
 gives as approximate. It does not say where the serial number is stamped on
 any of them. [Telling the models apart](identification.md) is built on it.
 
+I read these pages twice. The first time I took the text and wrote
+instructions from it. The second time, after Andrew had corrected me, I
+looked at the catalogue pictures on the Model L page as well, and learned
+more about how the machine is laid out from three photographs than from the
+words. What a Model L looks like, on the identification page, is from them.
+
 **[A Model A thread on the Model Engineer forum](https://www.model-engineer.co.uk/?p=19346).**
 Owners' experience, which is a different kind of evidence from a catalogue.
 What I have taken from it: that sound plain headstock bearings on a Model A

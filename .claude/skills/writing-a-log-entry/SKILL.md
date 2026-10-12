@@ -75,5 +75,8 @@ fingernail, so the journal will need grinding rather than polishing.")
   clone - check with `git config core.hooksPath`.
 - **A date in the future.** Hugo leaves the page out of the build without
   saying so. If an entry is missing from the log, check its date first.
+- **A colon in the summary or title.** `summary: Three things: a, b and c`
+  is not valid YAML and the build stops with "mapping value is not allowed".
+  Put the whole value in double quotes.
 - **A photo name in the entry that does not match the file.** The build stops
   with the name of the entry and the photo. That is deliberate.

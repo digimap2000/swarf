@@ -5,35 +5,75 @@ summary: The aim, the rules, the order of work, and where it has got to.
 
 ## The aim
 
-A lathe that is safe to stand at, does accurate work, and is still
-recognisably the machine that left the works. In that order.
+Andrew is the customer, and he wants both: the engineering done correctly,
+and a beautiful finish, with the painting and plating done in his own
+workshop.
 
-This is not a repaint. A lathe can be stripped, painted and reassembled to
-look new and turn worse than it did before. What matters in a machine like
-this is the fit of its slides and the truth of its spindle, and neither shows
-in a photograph of fresh paint. If the old finish is sound it stays.
+I first wrote this aim differently. I set it as a working lathe with its old
+paint left alone, on the argument that a repaint proves nothing about
+accuracy. The argument is true and beside the point. What the lathe is to be
+at the end was never mine to decide, only how to get it there.
+
+What survives of my first version is an order of precedence. Where finish
+and fit pull against each other, fit wins, and the finish is got some other
+way. A slideway is never painted to the edge by sanding the edge; a bearing
+is never disturbed because the casting round it would be easier to paint
+without it.
 
 ## The rules I am working to
 
 1. **Look before touching.** The state it arrived in is evidence, and cleaning
    destroys it: where oil has been reaching and where it has not, where swarf
-   has packed, where something has leaked. It is photographed first.
-2. **Go no further than the evidence.** Look, measure, clean, adjust,
-   dismantle, repair, replace: each is a step further from what can be undone.
-   Most of what ails an old machine is dirt, dried oil and maladjustment.
-3. **Run it before stripping it.** A lathe turning under power reports on its
-   own bearings, gears and alignments in an afternoon. The same lathe in boxes
-   reports nothing, and tends to stay in boxes.
-4. **One assembly open at a time**, closed and proved before the next is
-   opened.
-5. **Nothing that cannot be undone on a guess.** Scraping, grinding,
-   machining, drilling and repainting need a measurement that calls for them,
-   and Andrew's agreement, written down first.
-6. **Maker's figures or none.** Clearances, oil grades and the order a thing
+   has packed, where something has leaked. The original finish is evidence
+   too. Its colour, what was painted, what was bright, what was plated or
+   blued, where each plate sat: all recorded before any of it is removed.
+2. **Run it and measure it before it comes apart.** The lathe will be stripped
+   for finishing whatever is found. So it should come apart once, with the
+   list of what to put right already written, and with a set of measurements
+   to prove the finished machine against. A lathe turning under power reports
+   on its own bearings and alignments in an afternoon; in boxes it reports
+   nothing.
+3. **No fit is altered without evidence.** Everything comes off to be
+   finished. But a bearing, a slideway or a taper that measures well is
+   cleaned and put back exactly as it was. Most of what is ruined in a
+   restoration was ruined by improving something that was fine.
+4. **One assembly on the bench at a time.** Its parts are bagged and labelled
+   together, go to paint and plating as a set, and are back together and
+   proved before the next is opened.
+5. **Finish never touches a working surface.** No paint, filler, plating or
+   blasting grit on a slideway, a bearing, a taper, a thread, a face that one
+   casting locates on another by, a graduation or an oilway. Each is masked
+   or plugged before the part goes to the booth or the tank, and checked when
+   it comes back.
+6. **Nothing that cannot be undone on a guess.** Scraping, grinding,
+   machining and drilling need a measurement that calls for them, and
+   Andrew's agreement, written down first. So do blasting and plating of any
+   part that has a fit on it.
+7. **Maker's figures or none.** Clearances, oil grades and the order a thing
    comes apart come from the maker's manual for this model. Where I do not
    have it, I say so rather than supply a figure of my own.
-7. **Say what I expect before I look.** Each job is set with a prediction, and
+8. **Say what I expect before I look.** Each job is set with a prediction, and
    the log records whether it was right.
+
+## The finish, and where it can hurt
+
+This is general workshop practice, not anything Smart & Brown wrote down, and
+each point will be settled part by part when the time comes.
+
+- **Grit.** Blasting media bed themselves into cast iron and bronze and stay
+  there as lapping compound. A slideway is never blasted, nor a casting with
+  a bearing still in it, and every oil hole is plugged first.
+- **Thickness.** Plating adds metal. Nothing with a fit is plated: not a
+  journal, a bore, a taper, a feed screw or a gib.
+- **Hardness.** Pickling and electroplating can leave hydrogen in hardened
+  steel and make it brittle. Hardened parts and springs are either baked
+  straight after plating or left unplated.
+- **Filler and paint** stop short of every joint face, so that castings still
+  meet metal to metal.
+- **The spindle.** Whether a headstock is painted with its spindle in place
+  and masked, or stripped bare, depends on what the bearings measure and on
+  what the manual says about getting the spindle out. One owner of a Model L
+  got his out three-quarters of an inch and no further.
 
 ## What there is to work with
 
@@ -47,122 +87,146 @@ in a photograph of fresh paint. If the old finish is sound it stays.
 - **Making.** A Colchester Chipmaster and an old South Bend lathe, a Centec 2A
   universal mill, a hydraulic press, TIG welding, and an engine crane for
   lifting. A worn or missing part can be made here.
+- **Finishing.** A paint booth, and plating, both in house. Which plating
+  processes is one of the questions outstanding.
 - **Money.** The lathe cost £150 and the budget is small on purpose: the point
-  is the engineering, so a part is mended or made before one is bought. I
-  will hold to that. The one thing I may yet argue for buying is the maker's
-  manual, if no free copy turns up.
+  is the engineering, so a part is mended or made before one is bought. The
+  one thing I may yet argue for buying is the maker's manual, if no free copy
+  turns up.
 
 ## The order of work
 
 | Stage | What happens | It ends when |
 | --- | --- | --- |
-| 0. Identify and record | Photographs, plates, serial number, what came with it, what is known of its past. Nothing moved, nothing cleaned. | The model and version are known and the maker's manual is in hand. |
-| 1. Survey at rest | With no power: the slideways cleaned and oiled only so that things can be moved without harm, then everything turned and traversed by hand. Wear that can be measured without power is measured. Oil, belts and wiring inspected. | Every assembly has a line in the condition register and a decision: leave, clean and adjust, or open up. |
+| 0. Identify | Which Model L it is, what came with it, what is known of its past, and Andrew's reading of its condition. Nothing moved. | The headstock, drive, slide rest and tailstocks are named and the maker's manual is in hand. |
+| 1. Survey at rest | With no power: the slideways cleaned and oiled only so that things can be moved without harm, then everything turned and traversed by hand. Wear that can be measured without power is measured. Oil, belt and wiring inspected. The finish recorded as found. | Every assembly has a line in the condition register. |
 | 2. Lubricate | Old oil out, the maker's grades in, and every oil point shown to deliver. | Oil is known to reach each bearing and slide. |
 | 3. Electrical | The motor plate decides how it will be supplied. Wiring and switchgear inspected; earth continuity and insulation resistance measured before anything is energised. | It passes, and a supply for it is in place. |
-| 4. First run | No load, lowest speed, short runs, working up. Noise, vibration and bearing temperature watched. | It runs at every speed without distress. |
-| 5. Measure | Levelled, then the standard alignment tests: spindle runout, headstock to bed, cross-slide, tailstock, leadscrew. | There is a table of its errors against what a lathe of its class should hold. |
-| 6. Put right | Only what stages 1, 4 and 5 showed to be wrong, in this order: what is dangerous, what stops it working, what makes it inaccurate, what it looks like. | Each fault is closed by measuring again. |
-| 7. Prove | Test cuts, and a part made to a drawing. | It does the work. |
+| 4. First run | No load, lowest speed, short runs, working up. Noise, vibration and bearing temperature watched. | It runs at every speed without distress, or the reason it cannot is known. |
+| 5. Measure | The standard alignment tests for a plain lathe: spindle runout and end float, headstock to bed, the slide rest, tailstock to headstock. | There is a table of its errors, which is both the list of what to put right and the mark the finished machine has to meet. |
+| 6. Strip and put right | Assembly by assembly: dismantled, photographed, cleaned, inspected. Whatever stages 1, 4 and 5 condemned is repaired or remade. Nothing else with a fit on it is changed. | Each assembly's faults are closed and its parts are ready for finishing. |
+| 7. Finish | Castings stripped, filled and painted. Bright parts polished or plated. Working surfaces masked throughout. | Every part is finished and its working surfaces are as they went in. |
+| 8. Reassemble and measure again | Built back up with the maker's clearances and oils, and the tests of stage 5 repeated. | It measures as well as it did before it came apart, or better. |
+| 9. Prove | Test cuts, and a part made to a drawing. | It does the work. |
 
-The stages are not a staircase. A survey can find something that forbids a
-first run, and a first run can send the job back to the survey.
+The stages are not a staircase. If the lathe cannot be run safely as it
+stands, stages 4 and 5 are done as far as they can be by hand and it goes to
+the strip with a shorter list.
 
 ## Where it stands
 
-**Stage 0, not yet begun.** I have not seen the machine. I know what Andrew
-was told when he bought it: that it came from a deceased estate, was never got
-running by the man he bought it from, and had gathered a second headstock and
-a second tailstock with sideways adjustment along the way.
+**Stage 0, under way.** Andrew has the lathe in front of him and says it is a
+plain-turning lathe: a cross-slide and a top slide, nothing driven, no
+leadscrew and no changewheels. That makes it a [Model L](identification.md),
+which is what I had guessed from the second headstock and the set-over
+tailstock that came with it. I have still not seen it.
 
-That last is a clue. It is what an owner of a Model L would collect, and on
-the strength of it [my guess is a Model L](identification.md). If so it is a
-plain-turning lathe with no screwcutting, and which of half a dozen headstocks
-it carries will matter more than anything else about it.
+What is not known is which Model L. They were built for decades with a
+choice of drives, half a dozen headstocks, several slide rests and three
+tailstocks, and the headstock above all decides how it must be treated: some
+run in adjustable bronze bearings and some on ball races.
 
-It is standing on two wooden blocks. Until I have seen how, I am treating it
-as something that can tip.
+It is standing on two wooden blocks. Until I know how, I am treating it as
+something that can tip.
 
-## The job sheet outstanding: session 1, identify and record
+## The job sheet outstanding: session 1, which Model L
 
-**Why.** To find out which lathe this is, and to record how it arrived before
-anything changes. Every later decision hangs on the model: how the spindle
-runs, how it is oiled, and what its manual says.
+**Why.** To learn which headstock, drive, slide rest and tailstocks this
+machine has, what state Andrew judges it to be in, and what finish it has now
+and is to have. The next session moves things by hand, and I cannot say how
+to oil a spindle before turning it until I know what it runs in.
 
-**The rules for this session.** No power: if it has a plug, it stays out. No
-cleaning, no oiling, no adjusting. Do not traverse the saddle or the slides,
-and do not turn the spindle: I do not yet know how its bearings are oiled, and
-dry grit on a slideway scores it. Covers that hinge open or lift off by hand
-may be opened. Anything that needs a spanner stays shut.
+**The rules for this session.** No power. Nothing dismantled. A cover that
+hinges or lifts off by hand may be opened. If the spindle and slides have not
+been turned yet, leave them for the next session. Do not lean on the machine
+or pull against it while it is on the blocks.
 
-It is on wooden blocks and I have not seen how it sits. Do not lean on it,
-pull against it or lift anything heavy off it.
+**Tell me.** An answer of "don't know" is an answer; I will ask for a
+photograph of whatever it is.
 
-Mind old switchgear and any brake or clutch lining. Parts of that age can
-contain asbestos. Photograph them as they are, and do not brush or blow out
-any dust.
+*What it is*
 
-**Photographs.** More is better, and badly lit is better than missing.
+1. What the maker's plate says, and any other plate or stamped number, with
+   where each one is. In the catalogue pictures the maker's plate is on the
+   front of the pedestal under the headstock.
+2. Whether the castings are rounded, in the style of the 1940s and 50s, or
+   squared-off, as they were made in the 1970s.
+3. What stand it is on: a cast cabinet with doors and louvres, a fabricated
+   steel one, or none. Whether a magnet sticks to it, since the very first
+   stands were aluminium. What exactly rests on the wooden blocks, and
+   whether you are satisfied it is stable.
+4. Whether the bed has a flat top with a slot down the middle, to which the
+   slide rest and tailstock clamp.
 
-1. *The whole machine.* Square-on from the front, the back and each end, and
-   from both front corners. One with a tape or rule in the frame. The floor
-   beneath it, for leaks. And how it stands: each wooden block and what rests
-   on it, taken from low down at both ends.
-2. *Anything with writing on it.* The maker's plate, speed and screwcutting
-   charts, plates on the switchgear, a dealer's plate, any inventory or asset
-   tag. Close enough to read. The motor plate above all, the whole of it:
-   voltages, and any mention of star and delta, decide whether it can run
-   from the inverter.
-3. *The serial number.* I have found no source that says where Smart & Brown
-   stamped it. On lathes generally it is on the bed at the tailstock end,
-   either on top between the ways or on the front face, or on a plate on the
-   headstock. Look in those places, and photograph any number stamped into
-   the saddle, the cross-slide and the tailstock too.
-4. *The headstock.* Front, top, back and the left-hand end, then again with
-   every hinged or lift-off cover open: belt and pulleys, back gear, the gear
-   train at the left-hand end. Any oilers, sight glasses or pump plunger.
-5. *The spindle nose,* from the front and from the side, with whatever is
-   fitted to it. Then the other end of the spindle.
-6. *The bed.* The ways close up in three places: just in front of the
-   headstock, in the middle, and at the tailstock end. Then with a torch laid
-   low along them, to show any ridge. And underneath, looking for where the
-   leadscrew runs.
-7. *The carriage.* The saddle from above, the cross-slide and top slide, the
-   toolpost, each dial close enough to read its graduations, the front of the
-   apron with all its levers, the leadscrew and any shaft beside it, and their
-   brackets at each end.
-8. *The screwcutting gearbox or changewheels,* with any chart.
-9. *The tailstock,* both sides.
-10. *The stand.* Doors open: the motor, belts, any gearbox or countershaft in
-    the base, any tank or pump, the chip tray.
-11. *The electrics,* from outside. Inside an enclosure only if its door opens
-    without tools and the machine is disconnected from any supply.
-12. *The second headstock and the second tailstock.* Each from every side
-    and from underneath, where it would sit on the bed. Both ends of the
-    spare spindle. Any letters or numbers anywhere on either. Do not try
-    either of them on the bed.
-13. *Everything else that came with it,* laid out: chucks and the backs of
-    them, faceplates, collets, steadies, changewheels, centres, drawbar,
-    handles, paperwork.
-14. *Anything odd.* Cracks, welds or brazing, broken teeth, missing handles,
-    parts that look newer or cruder than the rest, dents in the ways near the
-    headstock.
+*The headstock on the machine, and then the spare one*
 
-**Three measurements,** with a steel rule, to the nearest sixteenth:
+5. What is on the left-hand end of the spindle: a handwheel, a lever, or
+   nothing.
+6. The nose: a coarse thread about 1¾ in across, to take a chuck, or only a
+   fine thread for a cap. And what is fitted to it now.
+7. Whether there is a short lever in front of the left-hand bearing, or a
+   handle on the front face of the headstock.
+8. How each bearing is oiled: cups, flip-lid oilers, plain holes, plugs.
+   Whether there is oil in them and what it looks like.
+9. Any letters or numbers on it.
 
-- from the flat top of the bed up to the centre of the spindle;
-- the length of the bed ways, from the face of the headstock to the
-  right-hand end of the bed;
-- the diameter of the spindle nose where a chuck screws or locks on, if
-  nothing is fitted to it. A chuck that is on stays on.
+*The drive*
 
-**What I expect.** When I first wrote this sheet I had nothing I would
-defend. Since then Andrew has told me about the second headstock and the
-set-over tailstock, and I now expect a Model L: about 4 in from bed to spindle
-centre, a short bed, no leadscrew anywhere, and a collet closer on the
-left-hand end of the spindle. I expect the spare tailstock to be the heavier
-of the two, with a 1¼ in barrel on a separate sole plate. I am least sure
-which headstock is fitted, and will not guess.
+10. The motor plate, in full: maker, volts, phase, horsepower, speed or
+    speeds, and anything about star and delta.
+11. How the drive gets from motor to spindle: a belt straight up from a
+    stepped pulley on the motor, or by way of a countershaft in the base.
+    Whether the belt is there, what it is made of and what state it is in.
+12. What switchgear there is.
 
-**It is finished when** I can name the model and version from the photographs,
-and nothing on the machine has changed.
+*The slide rest and the tailstocks*
+
+13. Whether the slide rest is worked by screw handles or by levers, what
+    toolpost it has, and whether anything else came that mounts on the bed:
+    a capstan, a cut-off slide, a hand rest.
+14. For each tailstock: screw or lever feed, the barrel diameter, the Morse
+    taper if you can tell, and on the spare, how the set-over is arranged.
+
+*What came with it*
+
+15. Collets: how many, and what is stamped on them. Any draw tube or closer.
+    Chucks and their backplates. Anything else.
+
+*Your reading of it*
+
+16. Whether you have already turned the spindle or wound the slides, and what
+    you felt if you have.
+17. Rust, damage, missing parts and bodges: what is the worst of it, and where.
+18. Anything you cannot identify.
+
+*The finish*
+
+19. The paint as it is: what colour, and whether it looks like the maker's
+    or a later coat, which a chip showing another colour underneath would
+    tell. Whether there is filler under it.
+20. What is bright metal rather than painted, such as handles, handwheels,
+    levers and dials, and whether each looks polished, plated or blued.
+21. What you can do in house: which plating processes, what paint system,
+    and how you strip a casting, whether by blasting, and with what, or
+    chemically.
+22. What you want it to look like: as it left the works, with the original
+    colour matched, or a finish of your own choosing.
+
+**Two measurements,** with a steel rule: from the flat top of the bed up to
+the centre of the spindle, and the length of the bed.
+
+**Photographs.** About a dozen, for the record as much as for me, taken from
+wherever shows the thing best: the whole machine from the front and from the
+back; the headstock on it; the spare headstock; the slide rest; both
+tailstocks; inside the stand; the top of the bed; and whatever answers 17 and
+18. Put them in `inbox/`.
+
+**What I expect.** About 4 in from bed to spindle centre and a short bed. A
+maker's plate on the headstock pedestal. A collet closer on the left-hand end
+of the spindle. The spare tailstock the heavier of the two, with a 1¼ in
+barrel on a separate sole plate. At least one of the two headstocks with
+bronze bearings. I am least sure of the drive and the stand, and will not
+guess at them.
+
+**It is finished when** I can name the headstock, the drive, the slide rest
+and both tailstocks, and nothing on the machine has changed.
