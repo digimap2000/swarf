@@ -117,24 +117,35 @@ the strip with a shorter list.
 
 ## Where it stands
 
-**Stage 1, the survey at rest, about to begin.** Stage 0 is done, with one
-thing left over.
+**Stage 1, the survey at rest, under way, and not in the order I set.**
 
 What the lathe is: a [Model L](identification.md), serial number S10312,
 built about 1960 and sold through Buck & Hickman, with a Type PRH headstock
 on bronze bearings, a lever collet closer, a screw-feed compound slide rest
 and a plain tailstock. What is wrong with it so far is in the
-[condition register](condition.md). Andrew has turned the spindle and wound
-the slides by hand and finds everything smooth.
+[condition register](condition.md).
 
-What it lacks: a belt, a motor of the kind it was built for, any collets,
-and the four small plugs that close its oil holes.
+Andrew has gone ahead of the job sheet. The headstock, the slide rest and
+the tailstock are all off the bed, and he has cleaned the bed bright, with a
+rubbing compound and an abrasive pad by the look of his photographs. My sheet
+said nothing was to be dismantled and no abrasive was to go on a slideway.
+On this lathe I think little is lost by either. Its units are made to
+unclamp from the bed, and they are clamped to it when cutting and do not
+slide on it under load. What is lost is the bed as it was found, which I had
+not seen, and the chance to measure the spindle where it stood. I should
+have said in so many words that taking a unit off the bed counted as
+dismantling.
 
-What is left over from stage 0 is the maker's manual, which I do not have. I
-had said I would not go on without it. I am going on, because the lathe
-names its own oil on a plate and the catalogue's cutaway shows how the
-bearings are arranged, and that is enough to oil and measure it. It is not
-enough to take a headstock apart. The manual is needed before stage 6.
+Something is gained as well. The underside of the headstock can now be seen,
+which is the quickest way to learn how its oilways run.
+
+What the lathe lacks: a belt, a motor of the kind it was built for, any
+collets, and the four small plugs that close its oil holes. There is grease
+in the oilway of the back spindle bearing, and it is not to be run until oil
+is shown to pass through.
+
+The maker's manual is still not in hand. It is needed before any headstock
+is taken apart.
 
 **What is being restored.** The lathe as it stands: its own headstock, the
 slide rest, and the tailstock that is on the bed. The spare headstock and the
@@ -152,99 +163,60 @@ motor's supply: forward, off and reverse from one, and from the other two
 set frequencies, which would give back both rows of the speed plate from a
 motor with one speed. To be settled at stage 3.
 
-## The job sheet outstanding: session 2, oil it and measure the spindle
+## The job sheet outstanding: session 2, as it now stands
 
-No power. Nothing dismantled. Three jobs.
+The headstock, slide rest and tailstock are off the bed. No power. Nothing
+taken apart further, and nothing refitted yet.
 
-### 1. Find out whether oil gets through the spindle bearings
+### 1. Wash the bed and oil it
 
-**What has been found.** Andrew looked down the oil holes, cleaned them and
-filled them. Each is a short pocket with the bronze of the bearing at the
-bottom, and what may be a small hole in its side near the top. The nipple
-over the back bearing was only pushed in, and the pocket under it was packed
-with grease. Filled with oil, both pockets stayed full. The same done to the
-spare headstock ran straight through and out underneath.
+**Why.** Rubbing compound and abrasive pads leave their grit behind, in the
+slot most of all, and anything clamped down on it or slid along it will
+carry it. And bare iron cleaned of all its oil rusts overnight.
 
-I had expected a felt or a well down each hole and the oil to soak away. Both
-wrong.
+**Do.** Wash the top of the bed, both bevels and the inside of the slot with
+solvent and clean rags, until a white rag comes away clean. Then oil it all
+with the Tellus. No more abrasive on it.
 
-**Why it matters.** Somebody has greased a bearing that the maker's plate
-says is to have oil only. A pocket that stays full is what a close plain
-bearing does when it is standing still, so that alone proves nothing. But I
-do not yet know that oil can get past the grease into the back bearing, and
-the lathe cannot be run until I do.
+### 2. Look at the underside of the headstock
 
-**Do.**
+**Why.** To see how the oilways run and what the headstock sits on.
 
-1. Keep both pockets topped up with the Morlina. Its thinness is now an
-   advantage: it will work through old grease where a heavier oil would sit
-   on it.
-2. Turn the spindle by hand fifty turns at a time, and tell me whether the
-   level in each pocket falls.
-3. Wipe round each end of each bearing with a clean white rag, and tell me
-   what comes out and what colour: clear oil, black oil, grease, or anything
-   that glitters.
-4. With a pipe cleaner or a length of soft copper wire, feel into the small
-   side hole near the top of a pocket. On the spare headstock first. Tell me
-   how far it goes and which way. Nothing hard, and no force.
-5. Turn the spare headstock over and find where the oil came out of it. A
-   photograph of its underside.
+**Do.** A photograph of its underside, and of the faces it seats on the bed
+by. Tell me what is under each bearing: a plug, a hole, a felt, a well. Tell
+me what the notch across the front bevel of the bed, near the headstock end,
+is for, and whether anything on the headstock sits in it.
 
-**Leave alone.** The notched rings beside the bearings. The cutaway shows
-them to be what sets the bearings, and both headstocks show that somebody
-has already been at them with a punch.
+**Leave alone.** Its seating faces get solvent and a rag and nothing else.
+No abrasive on them, nor on the bases of the slide rest and tailstock: those
+faces are what set the height and line of the spindle.
 
-**Stop if** the spindle stiffens or grates at any point.
+### 3. Carry on with the oil
 
-**I expect** the level in the front pocket to fall slowly and clear or dark
-oil to show at the ends of the front bearing. I expect the back pocket to
-fall more slowly or not at all at first, and grease to show at its ends
-before oil does. On the spare I expect to find an opening underneath that
-something once closed.
+As before, with the headstock on the bench. Keep both pockets topped up with
+the Morlina, turn the spindle fifty turns at a time, and tell me whether the
+level falls and what a white rag picks up at each end of each bearing.
 
-### 2. Measure the play in the spindle
+### 4. Measure the wear in the bed
 
-**Why.** It is the one number that says whether those bearings are sound,
-and it can be had without running the lathe.
+**Why.** Andrew wants it, and it tells how true the bed still is where the
+slide rest and tailstock have lived.
 
-**Do.** With a 0.01 mm indicator on a magnetic base, the base on the
-headstock casting or on the bed and not on the tray or the stand:
+**Do.** First tell me how you mean to measure it. My own suggestion, if the
+undersides of the slot's two lips are machined: with a micrometer, the
+thickness of each lip every two inches along the bed, written down as two
+columns. The part that was under the headstock has had nothing slid on it
+and is the reference.
 
-1. *At the nose.* Plunger on top of the nose cap, as near the bearing as it
-   will go. Lift the nose firmly with both hands, a steady pull and not a
-   jerk, and read. Press down and read. Three times.
-2. *At the back.* Plunger on top of the plain part of the spindle between the
-   back bearing and the collet closer. Lift and press the closer end in the
-   same way. Three times.
-3. *End float.* Plunger square on the face of the nose cap. Push the spindle
-   towards the tailstock, read, pull it back, read. Three times.
+**I expect** the bed to be within a thousandth or two of an inch along its
+length, because nothing slides on it under load.
 
-**Send back** all nine pairs of readings, and where the base stood.
+### Still owed
 
-**I expect** less than one division, 0.01 mm, in each of the three. That is
-my expectation of a precision spindle in good order and not a figure from
-the maker. Anything over 0.03 mm at either end would want looking into.
+The play in the spindle, three readings at the nose, at the back and
+endwise, as set out before. It can be taken with the headstock on the bench
+and the indicator's base on the headstock itself.
 
-### 3. Feel the slide rest and the tailstock
-
-**Why.** To learn what the screws and slides are like before anything is
-cleaned or adjusted.
-
-**Do.**
-
-1. Wipe the exposed slideways of the rest and the top of the bed with a rag
-   and paraffin, then oil them with the Tellus 68. No abrasive of any kind.
-2. Wind each slide of the rest over its whole travel. Tell me where it is
-   tighter or looser, if anywhere.
-3. On each handle: what one division of the dial is, and how many divisions
-   the handle turns from one direction to the other before the slide moves.
-4. Wind the tailstock barrel right out and back. Measure its diameter with a
-   micrometer. Look into its taper for scoring.
-
-**I expect** five to fifteen thousandths of lost motion in each screw, the
-slides a little tighter at the ends of their travel than in the middle, and
-a tailstock barrel of 1 in.
-
-**Also,** two measurements with a steel rule that are still owed from the
-first sheet: from the flat top of the bed to the centre of the spindle, and
-the length of the bed.
+The bed measures about 32¾ in long by Andrew's tape, as I read it from his
+photograph. The height of the spindle centre above the bed is still to be
+measured, when the headstock is back on.

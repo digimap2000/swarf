@@ -165,6 +165,14 @@ Ask for measurements in the form you will use: three readings, not one;
 where on the part; the instrument and its resolution. A number without its
 method cannot be compared with the next one.
 
+**Say what counts as dismantling.** On a Model L the headstock, slide rest and
+tailstock unclamp from the bed by design, and to Andrew taking one off is not
+taking the lathe apart. A sheet that said "nothing dismantled" did not stop
+all three coming off and the bed being cleaned with abrasive before it had
+been seen or measured. Name the things that are to stay where they are, and
+ask him to say before a unit comes off, so that a measurement can be asked
+for first. He works ahead of the sheet; write the sheet for that.
+
 ## Stops
 
 Tell him to stop, and report, whenever:
