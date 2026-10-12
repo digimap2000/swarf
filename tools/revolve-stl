@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Turn a profile into a solid of revolution and write it as an STL to print.
 
-    tools/revolve-stl <out.stl> <radius,z> <radius,z> ...
+    tools/revolve-stl <out.stl> [--slits n,width,length] <radius,z> <radius,z> ...
 
 All dimensions in millimetres. The profile is the outline of half the
 section, given in order from one end of the axis to the other; it is closed
@@ -10,12 +10,19 @@ radius 0 for a solid, or give an inner profile as well for a bore:
 
     tools/revolve-stl plug.stl 0,0 5,0 5,20 3,20 3,30 0,30
 
-This exists for space models: a plain turned shape, printed to try in a
-spindle before anything is bought or made in steel. It needs nothing but
-Python, and it proves its own output before writing it - every edge shared by
-exactly two triangles, and the volume agreeing with the profile's - because a
-model that slices wrongly wastes a print and a model of the wrong size wastes
-a collet.
+--slits cuts n parallel-sided slits of the given width, equally spaced, from
+the far end of the axis back by the given length, which is what makes a
+collet a collet. It wants a tube: a profile that starts and ends at the same
+bore radius, with the outside given in between from one end to the other.
+
+    tools/revolve-stl collet.stl --slits 3,1.2,44 6,0 12,0 12,50 14,58 14,63 6,63
+
+This exists for space models: a turned shape, printed to try in a spindle
+before anything is bought or made in steel. It needs nothing but Python, and
+it proves its own output before writing it - every edge used once in each
+direction by exactly two triangles, and the volume agreeing with what the
+shape should hold - because a model that slices wrongly wastes a print and a
+model of the wrong size wastes a collet.
 """
 import math
 import struct
@@ -71,6 +78,100 @@ def revolve(profile, n=SEGMENTS):
     return tris
 
 
+def slitted(profile, count, width, length, n=SEGMENTS):
+    """Triangles for a tube with parallel-sided slits cut in from its far end.
+
+    The tube is built as `count` fingers standing on a solid ring. A slit's
+    two walls are planes parallel to its centre line and half its width
+    either side, so the angle a finger spans is a little less at the bore
+    than at the outside, and less again where the outside is smaller. Every
+    surface is meshed from the same grid of points - station along the axis,
+    finger, position round the finger - which is what keeps the mesh closed
+    where a wall meets a cone.
+    """
+    bore = profile[0][0]
+    if bore <= 0 or profile[-1][0] != bore:
+        fail("--slits wants a tube: the profile must start and end at the same bore radius")
+    outer = profile[1:-1]
+    z0, ztop = profile[0][1], profile[-1][1]
+    if outer[0][1] != z0 or outer[-1][1] != ztop or any(b[1] < a[1] for a, b in zip(outer, outer[1:])):
+        fail("--slits wants the outside given in order from one end of the axis to the other")
+    if ztop <= z0:
+        fail("--slits cuts in from the far end, which must be the larger z")
+    half = width / 2
+    if not 0 < length < ztop - z0:
+        fail("the slits must be shorter than the tube")
+    if half >= bore:
+        fail("the slits are wider than the bore")
+
+    # A station wherever the outside changes, and one at the bottom of the slits.
+    zs = ztop - length
+    stations = []
+    for (ra, za), (rb, zb) in zip(outer, outer[1:]):
+        if not stations or stations[-1] != (ra, za):
+            stations.append((ra, za))
+        if za < zs < zb:
+            stations.append((ra + (rb - ra) * (zs - za) / (zb - za), zs))
+    stations.append(outer[-1])
+    s = next(i for i, (_, z) in enumerate(stations) if abs(z - zs) < 1e-9)
+
+    m = max(2, n // count)                # facets round each finger
+
+    def point(radius, z, k, j):
+        beta = math.asin(half / radius)
+        lo = 2 * math.pi * k / count + beta
+        hi = 2 * math.pi * (k + 1) / count - beta
+        t = lo + (hi - lo) * j / m
+        return (radius * math.cos(t), radius * math.sin(t), z)
+
+    out = [[[point(r, z, k, j) for j in range(m + 1)] for k in range(count)] for r, z in stations]
+    inn = [[[point(bore, z, k, j) for j in range(m + 1)] for k in range(count)] for _, z in stations]
+
+    tris = []
+
+    def quad(a, b, c, d):                 # a-b-c-d wound so the normal faces out
+        tris.append((a, b, c))
+        tris.append((a, c, d))
+
+    last = len(stations) - 1
+    for i in range(last):
+        if stations[i][1] == stations[i + 1][1]:
+            # A step in the outside: a flat ring between two radii at one height.
+            for k in range(count):
+                for j in range(m):
+                    a, b = out[i][k][j], out[i][k][j + 1]
+                    c, d = out[i + 1][k][j + 1], out[i + 1][k][j]
+                    quad(a, b, c, d)
+                if i + 1 <= s:
+                    quad(out[i][k][m], out[i][(k + 1) % count][0],
+                         out[i + 1][(k + 1) % count][0], out[i + 1][k][m])
+                else:
+                    fail("a step in the outside above the bottom of the slits is not handled")
+            continue
+        for k in range(count):
+            nxt = (k + 1) % count
+            for j in range(m):
+                quad(out[i][k][j], out[i][k][j + 1], out[i + 1][k][j + 1], out[i + 1][k][j])
+                quad(inn[i][k][j], inn[i + 1][k][j], inn[i + 1][k][j + 1], inn[i][k][j + 1])
+            if i + 1 <= s:
+                # Below the slits the ring is whole: carry the surfaces across.
+                quad(out[i][k][m], out[i][nxt][0], out[i + 1][nxt][0], out[i + 1][k][m])
+                quad(inn[i][k][m], inn[i + 1][k][m], inn[i + 1][nxt][0], inn[i][nxt][0])
+            else:
+                # The two walls of this finger, each a plane.
+                quad(inn[i][k][0], out[i][k][0], out[i + 1][k][0], inn[i + 1][k][0])
+                quad(inn[i][k][m], inn[i + 1][k][m], out[i + 1][k][m], out[i][k][m])
+
+    for k in range(count):
+        nxt = (k + 1) % count
+        for j in range(m):
+            quad(inn[0][k][j], inn[0][k][j + 1], out[0][k][j + 1], out[0][k][j])              # near end
+            quad(inn[last][k][j], out[last][k][j], out[last][k][j + 1], inn[last][k][j + 1])  # far end
+        quad(inn[0][k][m], inn[0][nxt][0], out[0][nxt][0], out[0][k][m])                      # near end, across
+        quad(inn[s][k][m], out[s][k][m], out[s][nxt][0], inn[s][nxt][0])                      # floor of a slit
+    return tris, stations
+
+
 def volume(tris):
     """Signed volume by summing tetrahedra to the origin."""
     v = 0.0
@@ -91,21 +192,44 @@ def profile_volume(profile, n=SEGMENTS):
     return abs(v) * area_factor
 
 
-def check(tris, profile):
-    edges = {}
+def slit_volume(profile, count, width, length, steps=2000):
+    """The metal the slits remove, by integrating their true section along the axis."""
+    bore, half = profile[0][0], width / 2
+    outer = profile[1:-1]
+    ztop = profile[-1][1]
+
+    def radius_at(z):
+        for (ra, za), (rb, zb) in zip(outer, outer[1:]):
+            if za <= z <= zb and zb > za:
+                return ra + (rb - ra) * (z - za) / (zb - za)
+        return outer[-1][0]
+
+    def lens(a):                          # area between the walls inside radius a, one side of the axis
+        return half * math.sqrt(a * a - half * half) + a * a * math.asin(half / a)
+
+    h = length / steps
+    total = 0.0
+    for i in range(steps + 1):
+        z = ztop - length + i * h
+        area = lens(radius_at(z)) - lens(bore)
+        total += area * (1 if i in (0, steps) else 4 if i % 2 else 2)
+    return count * total * h / 3
+
+
+def closed(tris):
+    """Every edge used once each way: closed, and wound the same way throughout."""
     key = lambda p: (round(p[0], 6), round(p[1], 6), round(p[2], 6))
+    seen = {}
     for t in tris:
         ks = [key(p) for p in t]
+        if len(set(ks)) < 3:
+            fail("the mesh has a triangle of no area")
         for i in range(3):
-            e = tuple(sorted((ks[i], ks[(i + 1) % 3])))
-            edges[e] = edges.get(e, 0) + 1
-    open_edges = sum(1 for c in edges.values() if c != 2)
-    if open_edges:
-        fail(f"the mesh is not closed: {open_edges} edges are not shared by exactly two triangles")
-    got, want = abs(volume(tris)), profile_volume(profile)
-    if want == 0 or abs(got - want) / want > 1e-6:
-        fail(f"volume {got:.3f} mm3 does not agree with the profile's {want:.3f} mm3")
-    return got
+            e = (ks[i], ks[(i + 1) % 3])
+            seen[e] = seen.get(e, 0) + 1
+    bad = sum(1 for (a, b), c in seen.items() if c != 1 or seen.get((b, a), 0) != 1)
+    if bad:
+        fail(f"the mesh is not closed and consistently wound: {bad} edges are wrong")
 
 
 def write(path, tris, flip):
@@ -123,18 +247,46 @@ def write(path, tris, flip):
 
 
 def main():
-    if len(sys.argv) < 5:
+    args = sys.argv[1:]
+    slits = None
+    if "--slits" in args:
+        i = args.index("--slits")
+        try:
+            count, width, length = args[i + 1].split(",")
+            slits = (int(count), float(width), float(length))
+        except (IndexError, ValueError):
+            fail("--slits wants n,width,length")
+        del args[i:i + 2]
+        if slits[0] < 1 or slits[1] <= 0:
+            fail("--slits wants at least one slit of some width")
+    if len(args) < 4:
         print(__doc__.strip().splitlines()[2].strip(), file=sys.stderr)
         sys.exit(2)
-    out, profile = sys.argv[1], parse(sys.argv[2:])
-    tris = revolve(profile)
-    vol = check(tris, profile)
+    out, profile = args[0], parse(args[1:])
+
+    if slits:
+        tris, _ = slitted(profile, *slits)
+        closed(tris)
+        # The slits are cut with their true sides, so the check allows only
+        # for the facets: a tenth of one per cent.
+        want = profile_volume(profile) - slit_volume(profile, *slits)
+        tolerance = 1e-3
+    else:
+        tris = revolve(profile)
+        closed(tris)
+        want = profile_volume(profile)
+        tolerance = 1e-6
+    got = abs(volume(tris))
+    if want <= 0 or abs(got - want) / want > tolerance:
+        fail(f"volume {got:.3f} mm3 does not agree with the {want:.3f} mm3 the shape should hold")
+
     # Outward-facing triangles enclose a positive volume; a profile given the
     # other way round comes out inside-out, so it is turned over here.
     write(out, tris, flip=volume(tris) < 0)
     zs = [z for _, z in profile]
+    note = f", {slits[0]} slits {slits[1]:g} mm wide and {slits[2]:g} mm long" if slits else ""
     print(f"{out}: {len(tris)} triangles, {max(r for r, _ in profile) * 2:.3f} mm across, "
-          f"{max(zs) - min(zs):.3f} mm long, {vol / 1000:.2f} cm3, closed")
+          f"{max(zs) - min(zs):.3f} mm long, {got / 1000:.2f} cm3{note}, closed")
 
 
 if __name__ == "__main__":

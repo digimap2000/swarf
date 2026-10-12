@@ -185,11 +185,18 @@ only that it had been shaped to fit.
 | Head angle | 15° 7′ a side | The same listing. I have it from a search result's summary of the page and could not open the page itself. |
 | Bore | 0.500 in | Mine: it makes it a half-inch collet, within the No. 10's range |
 | Parallel length of the head, in front of the taper | 0.125 in | Mine. No source gives it. |
+| Slits | Three, 3/64 in wide, 1¾ in long from the front | Mine. No source gives them. They leave ¾ in of the back solid. |
 
-Three things about a real collet are left out because I have no figures for
-them: the slits, any relief of the body between the back bearing and the
-head, and any chamfer on the front face. The body is the back-bearing
-diameter all the way along.
+The first file I sent had no slits. I had left them out for want of figures,
+which Andrew pointed out, kindly, was to leave out the thing that makes it a
+collet: without them it cannot close, and the trial could not show whether
+the sleeve grips. They are in now, to my own figures, three being the usual
+number for this pattern.
+
+Two things about a real collet are still left out because I have no figures
+for them: any relief of the body between the back bearing and the head, and
+any chamfer on the front face. The body is the back-bearing diameter all the
+way along, which makes its fingers stiffer than a real collet's.
 
 The angle is worth a remark. Before this figure turned up, Andrew's
 measurements of the closing sleeve, 24.55 mm opening to 29.97 mm over about
@@ -197,9 +204,13 @@ measurements of the closing sleeve, 24.55 mm opening to 29.97 mm over about
 15° 7′, which is 15.1°.
 
 `tools/revolve-stl` wrote the file, and checks before writing that the solid
-is closed and of the volume its profile says. Read back independently, the
-file measures 2.5000 in long, 0.9362 in across the back, 1.1150 in across the
-head, with a head angle of 15° 7′.
+is closed, wound the same way throughout, and of the volume the shape should
+hold. Read back independently before the slits were added, the file measured
+2.5000 in long, 0.9362 in across the back, 1.1150 in across the head, with a
+head angle of 15° 7′. With the slits in, a second reader tested twelve
+points: there is air on the line of each of the three slits, in the head and
+5 mm above their bottoms, air 0.3 mm off a slit's centre and plastic 0.9 mm
+off it, and solid plastic all round below where the slits end.
 
 ### What the fit will show
 
@@ -207,7 +218,8 @@ head, with a head angle of 15° 7′.
    model's back is 23.78 mm.
 2. Whether the cap screws home with the model in place and the lever open.
 3. Whether the model is then held endwise or is free to slide.
-4. Whether closing the lever brings the sleeve up onto the head.
+4. Whether closing the lever brings the sleeve up onto the head, and closes
+   the bore onto a half-inch bar.
 
 **I expect** the back to enter the seat with a little clearance, and the head
 to sit about 3 mm inside the mouth of the sleeve. The one figure of mine that
