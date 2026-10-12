@@ -164,6 +164,8 @@ Andrew is drawing the collet himself. This is everything I can give him to
 draw it from, sorted by how far each figure can be trusted. It is not a
 complete specification, and I have not found one.
 
+![Two scale drawings. The first shows a Brown and Sharpe No. 10 collet from the side: a plain body 0.936 inch in diameter and 2.500 inches long overall, widening at the front through a taper of 15 degrees 7 minutes a side to a head 1.115 inches across, with the length of the parallel part of the head marked as not known. The second shows the same collet in section inside the lathe's closing sleeve and cap, with the measured sizes: a 23.84 millimetre seat at the back, a 24.55 millimetre bore about 30 millimetres long, a taper opening to 29.97 millimetres over 9.9 millimetres at the mouth, a stroke of 0.97 millimetres and a one inch hole in the cap.](no10-collet-drawing.svg "Drawn to scale from the tables below. Black is what the maker publishes, blue is what Andrew measured on the lathe, and anything dashed in orange is not known.")
+
 ### Published
 
 From the present maker's listings for the No. 10. These are the collet.

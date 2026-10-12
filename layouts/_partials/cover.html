@@ -1,13 +1,22 @@
 {{- /* A page's cover is the photo named cover.* in its own folder. An entry
        with no cover falls back to its first photo by name, so a log line gets a
        thumbnail without anyone having to nominate one. Returns nothing when
-       the page has no photos at all - every caller has to cope with that. */ -}}
+       the page has no photos at all - every caller has to cope with that.
+
+       Only a photograph will do. Every caller resizes what it is given, and a
+       drawing kept as an SVG cannot be resized: the first page to carry one
+       stopped the build here. */ -}}
 {{- $cover := false -}}
-{{- with .Resources.GetMatch "cover.*" -}}
-  {{- $cover = . -}}
-{{- else -}}
-  {{- if .IsPage -}}
-    {{- with index (.Resources.ByType "image") 0 -}}{{- $cover = . -}}{{- end -}}
+{{- $photos := slice -}}
+{{- range .Resources.ByType "image" -}}
+  {{- if in (slice "jpeg" "png" "webp") .MediaType.SubType -}}
+    {{- $photos = $photos | append . -}}
   {{- end -}}
+{{- end -}}
+{{- range $photos -}}
+  {{- if and (not $cover) (hasPrefix .Name "cover.") -}}{{- $cover = . -}}{{- end -}}
+{{- end -}}
+{{- if and (not $cover) .IsPage -}}
+  {{- with index $photos 0 -}}{{- $cover = . -}}{{- end -}}
 {{- end -}}
 {{- return $cover -}}

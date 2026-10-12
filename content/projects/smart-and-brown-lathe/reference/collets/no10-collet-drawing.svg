@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 940" width="1000" height="940" role="img" aria-labelledby="ttl dsc">
+<title id="ttl">A Brown &amp; Sharpe No. 10 collet, and the nose of the headstock it has to fit</title>
+<desc id="dsc">Two drawings to scale. The first is the collet with its four published dimensions: 2.500 inches long, 0.936 inch back bearing, 1.115 inch head, head angle 15 degrees 7 minutes a side. The second is the collet in section inside the closing sleeve and cap, with the dimensions measured on the lathe: a 23.84 mm seat, a 24.55 mm bore about 30 mm long, a taper opening to 29.97 mm over 9.9 mm, a 0.97 mm stroke and a 1.000 inch hole in the cap. Lengths that are not known are drawn dashed and marked with a question mark.</desc>
+<style>
+  .bg{fill:#f6f4ee} .t{font:13px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#1d1c1a}
+  .s{font:12px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#68645c}
+  .h{font:600 15px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#1d1c1a}
+  .part{fill:#1d1c1a;fill-opacity:.09;stroke:#1d1c1a;stroke-width:1.8;stroke-linejoin:round}
+  .sleeve{fill:#2b4a7a;fill-opacity:.16;stroke:#2b4a7a;stroke-width:1.6;stroke-linejoin:round}
+  .cap{fill:#68645c;fill-opacity:.2;stroke:#68645c;stroke-width:1.4;stroke-linejoin:round}
+  .centre{stroke:#68645c;stroke-width:1;stroke-dasharray:14 4 3 4;fill:none}
+  .hidden{stroke:#68645c;stroke-width:1;stroke-dasharray:5 4;fill:none}
+  .dim{stroke-width:1;fill:none} .ext{stroke-width:.7;fill:none} .head{stroke:none}
+  .pub{stroke:#1d1c1a} .pub.head,.t.pub{fill:#1d1c1a} .s.pub{fill:#68645c}
+  .meas{stroke:#2b4a7a} .meas.head,.t.meas,.s.meas{fill:#2b4a7a}
+  .unk{stroke:#a2590c} .unk.head,.t.unk,.s.unk{fill:#a2590c}
+  .unkline{stroke:#a2590c;stroke-width:1.6;stroke-dasharray:6 4;fill:none}
+  .sch{stroke:#68645c;stroke-width:1;stroke-dasharray:2 3;fill:none}
+  @media (prefers-color-scheme:dark){
+    .bg{fill:#15171a} .t,.h{fill:#e7e3da} .s{fill:#9c978c}
+    .part{fill:#e7e3da;stroke:#e7e3da} .sleeve{fill:#9db9e4;stroke:#9db9e4} .cap{fill:#9c978c;stroke:#9c978c}
+    .centre,.hidden,.sch{stroke:#9c978c}
+    .pub{stroke:#e7e3da} .pub.head,.t.pub{fill:#e7e3da} .s.pub{fill:#9c978c}
+    .meas{stroke:#9db9e4} .meas.head,.t.meas,.s.meas{fill:#9db9e4}
+    .unk,.unkline{stroke:#e0a04a} .unk.head,.t.unk,.s.unk{fill:#e0a04a}
+  }
+</style>
+<rect class="bg" width="1000" height="940"/>
+<text x="30.0" y="34.0" class="h" text-anchor="start">A. The collet: Brown &amp; Sharpe No. 10, as published</text>
+<text x="30.0" y="54.0" class="s" text-anchor="start">Drawn to scale. The back of the collet is on the left and the head, which faces out of the spindle, on the right.</text>
+<path d="M255.0,131.8 L618.4,131.8 L677.3,115.9 L699.5,115.9 L699.5,314.1 L677.3,314.1 L618.4,298.2 L255.0,298.2 Z" class="part"/>
+<line x1="225.0" y1="215.0" x2="729.5" y2="215.0" class="centre"/>
+<line x1="255.0" y1="170.6" x2="699.5" y2="170.6" class="hidden"/>
+<line x1="255.0" y1="259.4" x2="699.5" y2="259.4" class="hidden"/>
+<text x="436.7" y="163.6" class="s" text-anchor="middle">bore to suit the work, 1/16 to 5/8 in</text>
+<line x1="677.3" y1="115.9" x2="677.3" y2="314.1" class="unkline"/>
+<line x1="677.3" y1="115.9" x2="677.3" y2="83.9" class="unk ext"/>
+<line x1="699.5" y1="115.9" x2="699.5" y2="83.9" class="unk ext"/>
+<line x1="677.3" y1="89.9" x2="699.5" y2="89.9" class="unk dim"/>
+<polygon points="677.3,89.9 686.3,86.7 686.3,93.1" class="unk head"/>
+<polygon points="699.5,89.9 690.5,93.1 690.5,86.7" class="unk head"/>
+<text x="688.4" y="81.9" class="t unk" text-anchor="middle">?</text>
+<text x="711.5" y="93.9" class="s unk" text-anchor="start">length of the parallel head</text>
+<text x="711.5" y="109.9" class="s unk" text-anchor="start">not published</text>
+<line x1="255.0" y1="314.1" x2="255.0" y2="376.1" class="pub ext"/>
+<line x1="699.5" y1="314.1" x2="699.5" y2="376.1" class="pub ext"/>
+<line x1="255.0" y1="370.1" x2="699.5" y2="370.1" class="pub dim"/>
+<polygon points="255.0,370.1 264.0,366.9 264.0,373.3" class="pub head"/>
+<polygon points="699.5,370.1 690.5,373.3 690.5,366.9" class="pub head"/>
+<text x="477.2" y="388.1" class="t pub" text-anchor="middle">2.500 in  (63.50 mm)</text>
+<line x1="255.0" y1="131.8" x2="207.0" y2="131.8" class="pub ext"/>
+<line x1="255.0" y1="298.2" x2="207.0" y2="298.2" class="pub ext"/>
+<line x1="213.0" y1="131.8" x2="213.0" y2="298.2" class="pub dim"/>
+<polygon points="213.0,131.8 216.2,140.8 209.8,140.8" class="pub head"/>
+<polygon points="213.0,298.2 209.8,289.2 216.2,289.2" class="pub head"/>
+<text x="203.0" y="203.0" class="t pub" text-anchor="end">Ø 0.936 in</text>
+<text x="203.0" y="219.0" class="s pub" text-anchor="end">(23.77 mm)</text>
+<text x="203.0" y="235.0" class="s pub" text-anchor="end">back bearing</text>
+<line x1="699.5" y1="115.9" x2="747.5" y2="115.9" class="pub ext"/>
+<line x1="699.5" y1="314.1" x2="747.5" y2="314.1" class="pub ext"/>
+<line x1="741.5" y1="115.9" x2="741.5" y2="314.1" class="pub dim"/>
+<polygon points="741.5,115.9 744.7,124.9 738.3,124.9" class="pub head"/>
+<polygon points="741.5,314.1 738.3,305.1 744.7,305.1" class="pub head"/>
+<text x="751.5" y="203.0" class="t pub" text-anchor="start">Ø 1.115 in</text>
+<text x="751.5" y="219.0" class="s pub" text-anchor="start">(28.32 mm)</text>
+<text x="751.5" y="235.0" class="s pub" text-anchor="start">head</text>
+<line x1="618.4" y1="131.8" x2="704.4" y2="131.8" class="pub ext"/>
+<path d="M692.4,131.8 A74,74 0 0 0 689.8,112.5" class="pub dim"/>
+<text x="548.4" y="97.8" class="t pub" text-anchor="end">15° 7′ each side</text>
+<line x1="554.4" y1="93.8" x2="690.4" y2="122.8" class="pub ext"/>
+<text x="261.0" y="316.2" class="s unk" text-anchor="start">length of this bearing ?</text>
+<text x="466.7" y="316.2" class="s unk" text-anchor="start">body thinned and slit here: sizes ?</text>
+<text x="30.0" y="432.0" class="h" text-anchor="start">B. In the nose of the headstock: what Andrew measured</text>
+<text x="30.0" y="452.0" class="s" text-anchor="start">A section through the closing sleeve and the cap, with the same collet in place. The lever pushes the sleeve to the right.</text>
+<path d="M716.0,555.1 L646.7,574.1 L436.7,574.1 L436.7,576.6 L250.5,576.6 L250.5,527.0 L716.0,527.0 Z" class="sleeve"/>
+<path d="M716.0,764.9 L646.7,745.9 L436.7,745.9 L436.7,743.4 L250.5,743.4 L250.5,793.0 L716.0,793.0 Z" class="sleeve"/>
+<path d="M272.6,576.8 L636.0,576.8 L694.9,560.9 L717.1,560.9 L717.1,759.1 L694.9,759.1 L636.0,743.2 L272.6,743.2 Z" class="part"/>
+<line x1="272.6" y1="615.5" x2="717.1" y2="615.5" class="hidden"/>
+<line x1="272.6" y1="704.5" x2="717.1" y2="704.5" class="hidden"/>
+<line x1="210.5" y1="660.0" x2="826.0" y2="660.0" class="centre"/>
+<path d="M717.1,571.1 L766.1,571.1 L766.1,501.0 L656.0,501.0 L656.0,521.0 L717.1,521.0 Z" class="cap"/>
+<path d="M717.1,748.9 L766.1,748.9 L766.1,819.0 L656.0,819.0 L656.0,799.0 L717.1,799.0 Z" class="cap"/>
+<line x1="436.7" y1="574.1" x2="436.7" y2="477.0" class="meas ext"/>
+<line x1="646.7" y1="574.1" x2="646.7" y2="477.0" class="meas ext"/>
+<line x1="436.7" y1="483.0" x2="646.7" y2="483.0" class="meas dim"/>
+<polygon points="436.7,483.0 445.7,479.8 445.7,486.2" class="meas head"/>
+<polygon points="646.7,483.0 637.7,486.2 637.7,479.8" class="meas head"/>
+<text x="541.7" y="475.0" class="t meas" text-anchor="middle">about 30 mm</text>
+<line x1="646.7" y1="555.1" x2="646.7" y2="477.0" class="meas ext"/>
+<line x1="716.0" y1="555.1" x2="716.0" y2="477.0" class="meas ext"/>
+<line x1="646.7" y1="483.0" x2="716.0" y2="483.0" class="meas dim"/>
+<polygon points="646.7,483.0 655.7,479.8 655.7,486.2" class="meas head"/>
+<polygon points="716.0,483.0 707.0,486.2 707.0,479.8" class="meas head"/>
+<text x="681.3" y="475.0" class="t meas" text-anchor="middle"></text>
+<text x="730.0" y="487.0" class="t meas" text-anchor="start">9.9 mm (0.39 in)</text>
+<line x1="343.6" y1="743.4" x2="319.6" y2="839.0" class="meas ext"/>
+<polygon points="343.6,743.4 344.5,752.9 338.3,751.4" class="meas head"/>
+<text x="314.6" y="843.0" class="t meas" text-anchor="end">Ø 23.84 mm seat</text>
+<line x1="541.7" y1="745.9" x2="551.7" y2="839.0" class="meas ext"/>
+<polygon points="541.7,745.9 545.8,754.5 539.4,755.2" class="meas head"/>
+<text x="556.7" y="843.0" class="t meas" text-anchor="start">Ø 24.55 mm bore</text>
+<line x1="716.0" y1="764.9" x2="682.0" y2="869.0" class="meas ext"/>
+<polygon points="716.0,764.9 716.2,774.5 710.2,772.5" class="meas head"/>
+<text x="677.0" y="873.0" class="t meas" text-anchor="end">Ø 29.97 mm (1.18 in) at the mouth</text>
+<line x1="766.1" y1="571.1" x2="806.1" y2="605.1" class="meas ext"/>
+<polygon points="766.1,571.1 775.0,574.5 770.9,579.4" class="meas head"/>
+<text x="811.1" y="609.1" class="t meas" text-anchor="start">Ø 1.000 in</text>
+<text x="811.1" y="625.1" class="s meas" text-anchor="start">hole in the cap</text>
+<line x1="716.0" y1="527.0" x2="716.0" y2="506.0" class="meas ext"/>
+<line x1="716.0" y1="511.0" x2="746.0" y2="511.0" class="meas dim"/>
+<polygon points="746.0,511.0 737.0,514.2 737.0,507.8" class="meas head"/>
+<text x="754.0" y="515.0" class="t meas" text-anchor="start">stroke 0.97 mm</text>
+<text x="240.5" y="620.0" class="s unk" text-anchor="end">? depth</text>
+<text x="240.5" y="636.0" class="s unk" text-anchor="end">of the seat</text>
+<line x1="250.5" y1="576.6" x2="250.5" y2="743.4" class="unkline"/>
+<line x1="694.9" y1="560.9" x2="694.9" y2="759.1" class="unkline"/>
+<line x1="715.1" y1="752.9" x2="806.1" y2="774.9" class="unk ext"/>
+<polygon points="715.1,752.9 724.5,754.4 721.5,760.0" class="unk head"/>
+<text x="811.1" y="778.9" class="s unk" text-anchor="start">? how far the cap's seat</text>
+<text x="811.1" y="794.9" class="s unk" text-anchor="start">stands off the sleeve's mouth</text>
+<text x="811.1" y="834.9" class="s" text-anchor="start">Cap and outside of the</text>
+<text x="811.1" y="850.9" class="s" text-anchor="start">sleeve are schematic.</text>
+<text x="30.0" y="901.0" class="s" text-anchor="start">From these figures the largest part of the head meets the taper about 3 mm inside the mouth of the sleeve.</text>
+<line x1="30.0" y1="916.0" x2="70.0" y2="916.0" class="pub dim"/>
+<text x="78.0" y="920.0" class="s pub" text-anchor="start">published by the maker</text>
+<line x1="260.0" y1="916.0" x2="300.0" y2="916.0" class="meas dim"/>
+<text x="308.0" y="920.0" class="s meas" text-anchor="start">measured on the lathe</text>
+<line x1="490.0" y1="916.0" x2="530.0" y2="916.0" class="unkline"/>
+<text x="538.0" y="920.0" class="s unk" text-anchor="start">not known</text>
+<text x="970.0" y="920.0" class="s" text-anchor="end">7 px to the millimetre</text>
+</svg>

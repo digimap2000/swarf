@@ -1,0 +1,226 @@
+#!/usr/bin/env python3
+"""Draw the No. 10 collet and the nose it has to fit, to scale, as an SVG.
+
+    tools/draw-no10-collet <out.svg>
+
+Every length comes from the tables on the lathe's collets page, and they are
+set out as named figures at the top so that the drawing can be made again
+when one of them changes. Nothing is drawn that is not in those tables,
+except where a line is marked as schematic or not known.
+"""
+import math, sys
+
+S = 7.0                      # pixels to the millimetre
+W, H = 1000, 940
+
+# --- the collet, as published -------------------------------------------------
+LEN   = 2.500 * 25.4         # overall length
+D_BB  = 0.936 * 25.4         # back bearing diameter
+D_HD  = 1.115 * 25.4         # head diameter
+ANG   = 15 + 7 / 60          # head angle, each side
+LAND  = 0.125 * 25.4         # NOT published: drawn dashed
+BORE  = 0.500 * 25.4         # an example: the bore suits the work
+TAPER = (D_HD - D_BB) / 2 / math.tan(math.radians(ANG))
+
+# --- the nose, as measured ----------------------------------------------------
+D_SEAT, D_MAIN, D_MOUTH = 23.84, 24.55, 1.18 * 25.4
+L_FLARE, L_MAIN = 0.39 * 25.4, 30.0
+STROKE = 0.97
+D_CAP = 1.000 * 25.4
+MEET = (D_MOUTH - D_HD) / 2 / math.tan(math.atan((D_MOUTH - D_MAIN) / 2 / L_FLARE))   # head meets taper this far in
+
+out = []
+def add(s): out.append(s)
+
+def line(x1, y1, x2, y2, cls): add(f'<line x1="{x1:.1f}" y1="{y1:.1f}" x2="{x2:.1f}" y2="{y2:.1f}" class="{cls}"/>')
+def path(d, cls): add(f'<path d="{d}" class="{cls}"/>')
+def text(x, y, s, cls="t", anchor="start"): add(f'<text x="{x:.1f}" y="{y:.1f}" class="{cls}" text-anchor="{anchor}">{s}</text>')
+
+def arrow(x, y, dx, dy, cls):
+    """A small filled arrowhead at (x, y) pointing along (dx, dy)."""
+    n = math.hypot(dx, dy); ux, uy = dx / n, dy / n
+    px, py = -uy, ux
+    a, b = 9, 3.2
+    pts = [(x, y), (x - a * ux + b * px, y - a * uy + b * py), (x - a * ux - b * px, y - a * uy - b * py)]
+    add('<polygon points="' + " ".join(f"{p[0]:.1f},{p[1]:.1f}" for p in pts) + f'" class="{cls} head"/>')
+
+def hdim(x1, x2, y, label, cls, ext_from=None, below=True, sub=None):
+    """A horizontal dimension between x1 and x2 at height y."""
+    if ext_from is not None:
+        for x in (x1, x2):
+            line(x, ext_from, x, y + (6 if y > ext_from else -6), cls + " ext")
+    line(x1, y, x2, y, cls + " dim")
+    arrow(x1, y, -1, 0, cls); arrow(x2, y, 1, 0, cls)
+    ty = y + 18 if below else y - 8
+    text((x1 + x2) / 2, ty, label, "t " + cls, "middle")
+    if sub: text((x1 + x2) / 2, ty + 16, sub, "s " + cls, "middle")
+
+def vdim(x, y1, y2, labels, cls, ext_from=None, side="left"):
+    """A vertical dimension between y1 and y2 at x, with its label beside it."""
+    if ext_from is not None:
+        for y in (y1, y2):
+            line(ext_from, y, x + (-6 if x < ext_from else 6), y, cls + " ext")
+    line(x, y1, x, y2, cls + " dim")
+    arrow(x, y1, 0, -1, cls); arrow(x, y2, 0, 1, cls)
+    tx = x - 10 if side == "left" else x + 10
+    anchor = "end" if side == "left" else "start"
+    ym = (y1 + y2) / 2 - 8 * (len(labels) - 1) + 4
+    for i, s in enumerate(labels):
+        text(tx, ym + 16 * i, s, ("t " if i == 0 else "s ") + cls, anchor)
+
+add(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" '
+    f'aria-labelledby="ttl dsc">')
+add('<title id="ttl">A Brown &amp; Sharpe No. 10 collet, and the nose of the headstock it has to fit</title>')
+add('<desc id="dsc">Two drawings to scale. The first is the collet with its four published dimensions: 2.500 inches '
+    'long, 0.936 inch back bearing, 1.115 inch head, head angle 15 degrees 7 minutes a side. The second is the collet '
+    'in section inside the closing sleeve and cap, with the dimensions measured on the lathe: a 23.84 mm seat, a '
+    '24.55 mm bore about 30 mm long, a taper opening to 29.97 mm over 9.9 mm, a 0.97 mm stroke and a 1.000 inch hole '
+    'in the cap. Lengths that are not known are drawn dashed and marked with a question mark.</desc>')
+add('''<style>
+  .bg{fill:#f6f4ee} .t{font:13px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#1d1c1a}
+  .s{font:12px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#68645c}
+  .h{font:600 15px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#1d1c1a}
+  .part{fill:#1d1c1a;fill-opacity:.09;stroke:#1d1c1a;stroke-width:1.8;stroke-linejoin:round}
+  .sleeve{fill:#2b4a7a;fill-opacity:.16;stroke:#2b4a7a;stroke-width:1.6;stroke-linejoin:round}
+  .cap{fill:#68645c;fill-opacity:.2;stroke:#68645c;stroke-width:1.4;stroke-linejoin:round}
+  .centre{stroke:#68645c;stroke-width:1;stroke-dasharray:14 4 3 4;fill:none}
+  .hidden{stroke:#68645c;stroke-width:1;stroke-dasharray:5 4;fill:none}
+  .dim{stroke-width:1;fill:none} .ext{stroke-width:.7;fill:none} .head{stroke:none}
+  .pub{stroke:#1d1c1a} .pub.head,.t.pub{fill:#1d1c1a} .s.pub{fill:#68645c}
+  .meas{stroke:#2b4a7a} .meas.head,.t.meas,.s.meas{fill:#2b4a7a}
+  .unk{stroke:#a2590c} .unk.head,.t.unk,.s.unk{fill:#a2590c}
+  .unkline{stroke:#a2590c;stroke-width:1.6;stroke-dasharray:6 4;fill:none}
+  .sch{stroke:#68645c;stroke-width:1;stroke-dasharray:2 3;fill:none}
+  @media (prefers-color-scheme:dark){
+    .bg{fill:#15171a} .t,.h{fill:#e7e3da} .s{fill:#9c978c}
+    .part{fill:#e7e3da;stroke:#e7e3da} .sleeve{fill:#9db9e4;stroke:#9db9e4} .cap{fill:#9c978c;stroke:#9c978c}
+    .centre,.hidden,.sch{stroke:#9c978c}
+    .pub{stroke:#e7e3da} .pub.head,.t.pub{fill:#e7e3da} .s.pub{fill:#9c978c}
+    .meas{stroke:#9db9e4} .meas.head,.t.meas,.s.meas{fill:#9db9e4}
+    .unk,.unkline{stroke:#e0a04a} .unk.head,.t.unk,.s.unk{fill:#e0a04a}
+  }
+</style>''')
+add(f'<rect class="bg" width="{W}" height="{H}"/>')
+
+# ================================ A: the collet ================================
+cy = 215
+x0 = 255                                   # back end
+xf = x0 + LEN * S                          # front face
+xl = xf - LAND * S                         # where the parallel head begins
+xt = xl - TAPER * S                        # where the taper begins
+rb, rh, rbore = D_BB / 2 * S, D_HD / 2 * S, BORE / 2 * S
+
+text(30, 34, "A. The collet: Brown &amp; Sharpe No. 10, as published", "h")
+text(30, 54, "Drawn to scale. The back of the collet is on the left and the head, which faces out of the spindle, on the right.", "s")
+
+path(f"M{x0:.1f},{cy-rb:.1f} L{xt:.1f},{cy-rb:.1f} L{xl:.1f},{cy-rh:.1f} L{xf:.1f},{cy-rh:.1f} "
+     f"L{xf:.1f},{cy+rh:.1f} L{xl:.1f},{cy+rh:.1f} L{xt:.1f},{cy+rb:.1f} L{x0:.1f},{cy+rb:.1f} Z", "part")
+line(x0 - 30, cy, xf + 30, cy, "centre")
+line(x0, cy - rbore, xf, cy - rbore, "hidden"); line(x0, cy + rbore, xf, cy + rbore, "hidden")
+text((x0 + xt) / 2, cy - rbore - 7, "bore to suit the work, 1/16 to 5/8 in", "s", "middle")
+
+# what is not known, dashed
+line(xl, cy - rh, xl, cy + rh, "unkline")
+hdim(xl, xf, cy - rh - 26, "?", "unk", ext_from=cy - rh, below=False)
+text(xf + 12, cy - rh - 22, "length of the parallel head", "s unk")
+text(xf + 12, cy - rh - 6, "not published", "s unk")
+
+# published dimensions
+hdim(x0, xf, cy + rh + 56, "2.500 in  (63.50 mm)", "pub", ext_from=cy + rh)
+vdim(x0 - 42, cy - rb, cy + rb, ["Ø 0.936 in", "(23.77 mm)", "back bearing"], "pub", ext_from=x0)
+vdim(xf + 42, cy - rh, cy + rh, ["Ø 1.115 in", "(28.32 mm)", "head"], "pub", ext_from=xf, side="right")
+
+# the angle, shown against a line parallel to the axis, on the upper taper
+ax, ay = xt, cy - rb
+line(ax, ay, ax + 86, ay, "pub ext")
+r_arc = 74
+ex, ey = ax + r_arc * math.cos(math.radians(ANG)), ay - r_arc * math.sin(math.radians(ANG))
+path(f"M{ax + r_arc:.1f},{ay:.1f} A{r_arc},{r_arc} 0 0 0 {ex:.1f},{ey:.1f}", "pub dim")
+text(ax - 70, ay - 34, "15° 7′ each side", "t pub", "end")
+line(ax - 64, ay - 38, ax + r_arc - 2, ay - 9, "pub ext")
+
+# the other unknowns, noted where they are
+text(x0 + 6, cy + rb + 18, "length of this bearing ?", "s unk")
+text((x0 + xt) / 2 + 30, cy + rb + 18, "body thinned and slit here: sizes ?", "s unk")
+
+# ============================ B: in the nose ==================================
+cy2 = 660
+xm = 716                                   # the mouth of the sleeve
+X = lambda mm: xm + mm * S                 # mm forward of the mouth -> px
+text(30, 432, "B. In the nose of the headstock: what Andrew measured", "h")
+text(30, 452, "A section through the closing sleeve and the cap, with the same collet in place. The lever pushes the sleeve to the right.", "s")
+
+r_seat, r_main, r_mouth = D_SEAT / 2 * S, D_MAIN / 2 * S, D_MOUTH / 2 * S
+r_out = 19.0 * S                           # outside of the sleeve: not measured, schematic
+x_fl = X(-L_FLARE); x_st = X(-L_FLARE - L_MAIN); x_end = X(-66.5)
+
+for sgn in (-1, 1):                        # the sleeve, both halves
+    path(f"M{xm:.1f},{cy2 + sgn*r_mouth:.1f} L{x_fl:.1f},{cy2 + sgn*r_main:.1f} L{x_st:.1f},{cy2 + sgn*r_main:.1f} "
+         f"L{x_st:.1f},{cy2 + sgn*r_seat:.1f} L{x_end:.1f},{cy2 + sgn*r_seat:.1f} L{x_end:.1f},{cy2 + sgn*r_out:.1f} "
+         f"L{xm:.1f},{cy2 + sgn*r_out:.1f} Z", "sleeve")
+
+# the collet, placed where its head meets the taper
+c_hd = X(-MEET)                            # the largest part of the head sits here
+c_tp = c_hd - TAPER * S                    # taper begins
+c_fr = c_hd + LAND * S                     # front face: depends on the unknown
+c_bk = c_fr - LEN * S
+path(f"M{c_bk:.1f},{cy2-rb:.1f} L{c_tp:.1f},{cy2-rb:.1f} L{c_hd:.1f},{cy2-rh:.1f} L{c_fr:.1f},{cy2-rh:.1f} "
+     f"L{c_fr:.1f},{cy2+rh:.1f} L{c_hd:.1f},{cy2+rh:.1f} L{c_tp:.1f},{cy2+rb:.1f} L{c_bk:.1f},{cy2+rb:.1f} Z", "part")
+line(c_bk, cy2 - rbore, c_fr, cy2 - rbore, "hidden"); line(c_bk, cy2 + rbore, c_fr, cy2 + rbore, "hidden")
+line(x_end - 40, cy2, xm + 110, cy2, "centre")
+
+# the cap: only its aperture is measured
+r_cap = D_CAP / 2 * S
+cap_in, cap_out = c_fr, c_fr + 7.0 * S
+for sgn in (-1, 1):
+    path(f"M{cap_in:.1f},{cy2 + sgn*r_cap:.1f} L{cap_out:.1f},{cy2 + sgn*r_cap:.1f} L{cap_out:.1f},{cy2 + sgn*(r_out + 26):.1f} "
+         f"L{xm - 60:.1f},{cy2 + sgn*(r_out + 26):.1f} L{xm - 60:.1f},{cy2 + sgn*(r_out + 6):.1f} "
+         f"L{cap_in:.1f},{cy2 + sgn*(r_out + 6):.1f} Z", "cap")
+
+# measured dimensions
+top = cy2 - r_out - 44
+hdim(x_st, x_fl, top, "about 30 mm", "meas", ext_from=cy2 - r_main, below=False)
+hdim(x_fl, xm, top, "", "meas", ext_from=cy2 - r_mouth, below=False)
+text(xm + 14, top + 4, "9.9 mm (0.39 in)", "t meas")
+
+def leader(x, y, tx, ty, label, cls, sub=None, anchor="start"):
+    line(x, y, tx, ty, cls + " ext"); arrow(x, y, x - tx, y - ty, cls)
+    text(tx + (5 if anchor == "start" else -5), ty + 4, label, "t " + cls, anchor)
+    if sub: text(tx + (5 if anchor == "start" else -5), ty + 20, sub, "s " + cls, anchor)
+
+bot = cy2 + r_out + 46
+leader((x_st + x_end) / 2, cy2 + r_seat, (x_st + x_end) / 2 - 24, bot, "Ø 23.84 mm seat", "meas", anchor="end")
+leader((x_st + x_fl) / 2, cy2 + r_main, (x_st + x_fl) / 2 + 10, bot, "Ø 24.55 mm bore", "meas")
+leader(xm, cy2 + r_mouth, xm - 34, bot + 30, "Ø 29.97 mm (1.18 in) at the mouth", "meas", anchor="end")
+leader(cap_out, cy2 - r_cap, cap_out + 40, cy2 - r_cap + 34, "Ø 1.000 in", "meas", sub="hole in the cap")
+
+# the stroke
+sy = cy2 - r_out - 16
+line(xm, cy2 - r_out, xm, sy - 5, "meas ext")
+line(xm, sy, xm + 30, sy, "meas dim"); arrow(xm + 30, sy, 1, 0, "meas")
+text(xm + 38, sy + 4, "stroke 0.97 mm", "t meas")
+
+# what is not known here
+text(x_end - 10, cy2 - 40, "? depth", "s unk", "end")
+text(x_end - 10, cy2 - 24, "of the seat", "s unk", "end")
+line(x_end, cy2 - r_seat, x_end, cy2 + r_seat, "unkline")
+line(c_hd, cy2 - rh, c_hd, cy2 + rh, "unkline")
+ux, uy = cap_out + 40, cy2 + r_cap + 26
+line(c_fr - 2, cy2 + r_cap + 4, ux, uy, "unk ext"); arrow(c_fr - 2, cy2 + r_cap + 4, -1, -0.55, "unk")
+text(ux + 5, uy + 4, "? how far the cap's seat", "s unk")
+text(ux + 5, uy + 20, "stands off the sleeve's mouth", "s unk")
+text(ux + 5, uy + 60, "Cap and outside of the", "s")
+text(ux + 5, uy + 76, "sleeve are schematic.", "s")
+
+# the one thing that follows from the figures
+text(30, bot + 62, "From these figures the largest part of the head meets the taper about 3 mm inside the mouth of the sleeve.", "s")
+
+# ================================ legend ======================================
+ly = H - 24
+line(30, ly, 70, ly, "pub dim");  text(78, ly + 4, "published by the maker", "s pub")
+line(260, ly, 300, ly, "meas dim"); text(308, ly + 4, "measured on the lathe", "s meas")
+line(490, ly, 530, ly, "unkline"); text(538, ly + 4, "not known", "s unk")
+text(W - 30, ly + 4, "7 px to the millimetre", "s", "end")
+add("</svg>")
+open(sys.argv[1], "w").write("\n".join(out) + "\n")
+print(f"taper length {TAPER:.3f} mm, head meets taper {MEET:.2f} mm inside the mouth, wrote {sys.argv[1]}")
