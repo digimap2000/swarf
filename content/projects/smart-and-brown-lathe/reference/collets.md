@@ -73,11 +73,24 @@ outright, so the firm did build round that maker's patterns. If the 4B is a
 Brown & Sharpe size under another name, it is a collet still in production
 and common second-hand, which would matter a great deal.
 
-What I do not know is which Brown & Sharpe size, if any. The listing above
-is for one of 9/16 in capacity, and the 4B is given as 11/16 in. The next
-size is
-[made up to 13/16 in](https://www.s-mcollets.com/sw-product/brown-sharpe-1/),
-and I have no dimensions for it. I have no head angle for any of them.
+The Brown & Sharpe sizes either side, from the present maker's
+[catalogue](https://forkardthardinge.com/wp-content/uploads/2348J_SpindleTooling.pdf)
+and listings:
+
+| Size | Back bearing | Length | Head | Round capacity |
+| --- | --- | --- | --- | --- |
+| No. 10 | 15/16 in (23.81 mm) | 2½ in | 1.115 in on the stop collet | to 5/8 in |
+| No. 11 | 1.061 in (26.95 mm) | 2.875 in | 1.490 in | to 7/8 in |
+
+I have no head angle for either.
+
+**The first measurement does not fit.** Andrew measured the inner bore of
+the nose at 24.55 mm. That is 0.9665 in. A No. 10 collet, or the 5159, wants
+a seat of 23.81 mm, which is three-quarters of a millimetre smaller, and the
+No. 11 is far too big. The nearest plain figure is 31/32 in, 24.61 mm. So
+either that bore is not the one a collet's back sits in, and I have not yet
+understood the nose, or both candidates are wrong and the Type 4B is a size
+of Smart & Brown's own. I do not know which.
 
 The later lever closers were also listed for the Crawford T980 Multibore and
 the Pratt & Burnerd EA Multisize, both of 1 in capacity. I do not think
