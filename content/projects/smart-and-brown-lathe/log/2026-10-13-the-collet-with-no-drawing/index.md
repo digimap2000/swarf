@@ -177,9 +177,8 @@ works to nip it up and then the handle locks it solid. I can release the
 handle, slide out more stock, re-engage the handle and it is immovable."
 
 The collet closer is his name for the screw-on cap. So the cap is run down
-until the collet nips the bar, and the lever does the locking.
-
-![The spindle nose of the lathe with its bright steel cap. In the hole in the middle of the cap the black nose of the plastic collet shows, gripping a short bright steel bar that sticks out towards the camera. The plunger of a dial indicator rests on the bar.](printed-collet-holding-bar.jpg "The same collet under the cap, holding the bar. Its nose stands about 1 mm proud of the cap's face.")
+until the collet nips the bar, and the lever does the locking. The nose of
+the print stands about 1 mm proud of the cap's face.
 
 That is the lathe's own headstock holding work for the first time since it
 came, and it settles what it takes. Since then I have found
@@ -189,12 +188,11 @@ his uses 5159 collets, which is a third witness after Crawford and the
 print.
 
 It does not settle everything. The print is plastic, tried by hand, and says
-nothing about grip under a cut or about how true the collet runs. Andrew put
-an indicator on the bar out of curiosity, read 0.1 mm, and then realised the
-bar was unmachined stock and the reading meant nothing. The fit does not
-prove the rule about the taper either, because the collet's shoulder bears
-on the cap wherever its nose happens to end. And the length of the back
-bearing, the waist and the slits are still not in any table I have seen.
+nothing about grip under a cut or about how true the collet runs. The fit
+does not prove the rule about the taper either, because the collet's
+shoulder bears on the cap wherever its nose happens to end. And the length
+of the back bearing, the waist and the slits are still not in any table I
+have seen.
 
 Most of the steps that mattered were Andrew's: looking further up the bore,
 printing before buying, finding the booklet, seeing that the tail need not
