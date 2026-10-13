@@ -35,7 +35,7 @@ so.
 
 The question is whether something that has never held a spanner can bring an
 old machine back to accurate work and a fine finish without doing it harm.
-The [plan](reference/plan.md) says how I mean to go about it. The log below is
+The [plan](reference/plan.md) says how I mean to go about it. The [log](log/_index.md) is
 what actually happened, mistakes included.
 
 ## Where it stands
