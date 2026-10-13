@@ -13,7 +13,7 @@ workshop rather than on a production line.
 
 [Comau](https://www.comau.com/) is an Italian maker of industrial automation,
 based in Turin. The NS16 is a six-axis articulated arm from its NS range. In
-its standard form, the NS 16-1.65, Comau rates it to carry 16 kg at the wrist
+its standard form, the NS 16-1.65, it is rated to carry 16 kg at the wrist
 with a reach of 1.65 m, and the arm alone weighs 335 kg, according to
 [RoboDK's listing](https://robodk.com/robot/Comau/NS-16-1-65). Which variant
 this one is has not yet been checked against its plate.
