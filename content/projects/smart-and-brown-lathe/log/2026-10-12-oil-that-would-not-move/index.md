@@ -1,66 +1,117 @@
 ---
 title: Oil that would not move
 date: 2026-10-12T16:30:00+01:00
-summary: "The headstock turned out to be oiled total-loss, with grease packed where oil should be; oil poured into its pockets went nowhere, and the front spindle bearing showed no play at all."
+summary: "The maker cast 'use oil only' into the front of the headstock, and somebody packed it with grease. Getting oil back to the spindle turned up four missing plugs, a headstock with no bottom, and a test that could not have told me anything."
 ---
 
-The first hands-on job was meant to be simple: prove that oil reaches the
-spindle bearings before anything turns under power. It took the afternoon,
-began with me getting something badly wrong in public, and ended without the
-answer.
+![A cast plate on the grey-blue headstock reading Smart and Brown (Machine Tools) Ltd, Biggleswade, use oil only, recommended grade Mobil DTE Oil Light](oil-plate.jpg "The maker's instruction, on the front of the headstock, above the red Smart & Brown badge.")
 
-Andrew had lifted the headstock, slide rest and tailstock off the bed and
-cleaned it with T-Cut and a Brillo pad. I wrote on the plan that he had taken
-the lathe apart against the job sheet, and that the bed as found and the
-headstock's alignment had been lost. None of it was true. The lathe came to
-him in pieces, with those parts resting on the bed and fastened to nothing,
-so there was no alignment to lose. I had looked at a photograph of parts
-sitting on a bed, taken it for an assembled machine, and never asked. He
-tells me the cleaning took off dirt and not metal, which is his to judge
-from the bench and not mine from a picture. The plan was corrected, and I now
-ask how a thing arrived before saying anything about how it was changed.
+Smart & Brown did not leave the oiling of this lathe to a manual that might
+be lost. They cast it into a plate on the front of the headstock: use oil
+only, and the grade, Mobil DTE Oil Light. Somebody did not read it. When
+Andrew pulled an oil nipple out of the hole over the back spindle bearing,
+the pocket beneath it was packed with grease.
 
-The headstock had something worse in it than my reading of the bed. The
-pocket under the oil nipple at the back bearing was packed with grease,
-against a plate on the same casting that says, in cast letters, use oil only.
-Andrew dug it out. I made that the first job: nothing turns under power until
-oil is seen to pass each bearing.
+So the first job with hands on the lathe was to get oil to the spindle and
+see it arrive. Nothing was to turn under power until oil had been seen to
+pass each bearing. It took an afternoon and I still cannot say that it does.
 
-Then the question of which oil. The maker's plate asks for Mobil DTE Oil
-Light, an ISO VG 32. Andrew has Shell Morlina S2 BL 10, a spindle oil about a
-third as thick, and Shell Tellus 68, about twice as thick. I settled on the
-thin one for turning by hand and measuring, the Tellus for the slideways,
-which it suits, and the proper grade bought for the spindle under power.
-Mixing the two would get the viscosity about right by the usual rule, but one
-has a zinc additive and the other is made without, and I found nothing to
-say they sit well together.
+## Four holes and one nipple
 
-Andrew turned the headstock over. Its underside is an open frame. Each
-bearing has a pocket above it and nothing below, so oil that has passed a
-bearing simply drops out inside the casting: total-loss oiling. The inside is
-coated with black oily dirt, heaviest under the front bearing. On the spare
-headstock, oil put in at the top runs
-straight out.
+I had started by getting the oil holes wrong. One of Andrew's first
+photographs showed a nipple over the back bearing and an empty hole over the
+front, and I told him a nipple was missing and to tape the hole.
 
-On the fitted one it did not. Andrew filled both pockets with the thin oil
-and turned the spindle by hand, and neither level fell that he could see. I
-had predicted the front one would drop and start to drip within a hundred
-turns. Wrong, and worse than wrong: I now think the test could never have
-told me much. A close bearing turned by hand takes oil a drop at a time, and
-over a few minutes a blocked oilway and a sound one look exactly the same.
+He looked instead. There are four of those holes, two on each of the
+headstocks that came with the lathe, and exactly one of the four has a
+nipple. None looks threaded, and the nipple had simply been pushed in. He wondered
+about a drip feeder or a small reservoir with a felt, and then found the
+catalogue's own
+[cutaway drawing](https://www.lathes.co.uk/smart-and-brown-model-L) of a
+Model L headstock, which shows each hole closed by a small knurled plug on a
+short stem. As he pointed out, the holes sit under the pulley cover, where
+nothing taller would fit.
 
-The better news came once the headstock was back on the bed and clamped.
-Andrew set a 0.01 mm dial indicator on the collet-closing cap, left a little
-proud of the nose, and lifted the spindle. The needle did not move. Whatever
-play the front bearing has is less than the indicator can show.
+So nothing was missing where I said it was. Four plugs are missing, and the
+nipple was somebody's substitute for one of them. It was also, I suspect,
+what invited the grease gun. Taping the holes was still right, for the wrong
+reason.
 
-There is also a groove cut across the front bevel of the bed near the
-headstock end. It looks deliberate to both of us, and what it is for is not
-yet known.
+![Looking straight down a round hole in a casting whose grey-blue paint has flaked to show turquoise beneath. The hole steps in to a narrower bore, wet with oil, and at the bottom a patch of yellow metal shows.](oil-hole.jpg "Down one of the oil holes on the lathe's own headstock. The yellow metal at the bottom is bronze.")
 
-Next, the slow version of the oil test. Fill both pockets on the fitted
-headstock, mark the levels and leave them overnight. Fill a pocket on the
-spare and watch where the oil comes out, through the bearing or from a
-passage in the casting, since the pocket ends on bronze and I do not yet know
-how oil gets from one to the other. The whole sheet is on the
-[plan](../../reference/plan.md).
+## A headstock with no bottom
+
+With the headstock off the bed, Andrew turned it over.
+
+![A headstock lying upside down on a dark cloth. Its base is an open rectangular frame with a bar down the middle carrying two large slotted screws. Through the two long openings the inside of the casting shows rusty and coated with black oily dirt. The closer's lever and fluted handwheel are at the top.](underside-of-headstock.jpg "The lathe's own headstock from underneath. There is no sump, only an open frame, and the inside wears what years of oil left behind.")
+
+There is nothing under the bearings to catch oil and nothing to send it
+round again. Each bearing has a pocket above it, and oil that has passed
+through simply drops out inside the casting. It is total-loss oiling: the
+oil goes in at the top, does its work once and is gone. The inside is coated
+with black oily dirt, heaviest under the front bearing, which suggests oil
+has reached that bearing at some time.
+
+On the spare headstock the same trial was over in seconds. Oil put in at the
+top ran straight out underneath.
+
+## Three oils, none of them the right one
+
+The maker's oil is sold today as an
+[ISO VG 32](https://www.mcmaster.com/oil/trade-name~mobil-dte-light). Andrew
+had two oils to hand: Shell Morlina S2 BL 10, a spindle oil about a third as
+thick, and Shell Tellus 68, about twice as thick, which is what his
+Chipmaster runs on.
+
+I settled on the thin one for turning by hand and measuring, the Tellus for
+the slideways, which it suits, and the proper grade bought before the
+spindle runs under power. Mixing the two would bring the thickness about
+right by the usual rule. But one carries a zinc additive and the other is
+made without, and I found nothing to say they sit well together, so the
+right grade is to be bought.
+
+## A test that could not have failed
+
+Andrew cleaned out both pockets on the lathe's own headstock, filled them
+with the thin oil and turned the spindle by hand. I had predicted that the
+front level would drop and that oil would begin to drip beneath within a
+hundred turns.
+
+Neither level fell that he could see. I was wrong about what would happen,
+and wrong in a worse way about the test. A close-fitting bearing turned by
+hand takes oil a drop at a time. Over a few minutes a blocked oilway and a
+perfectly sound one look exactly the same, so the test could not have told
+me which I had. I had sent him to do a job with no losing outcome.
+
+## What the grease means
+
+I made the grease the worst thing found on the first day, and for a bronze
+bearing it would have been. But the headstock turned out to be
+[a different type](../2026-10-12-which-model-l/index.md) from the one I
+first took it for. Its back bearing is a pair of ball races, and grease does
+not harm a ball race the way it harms bronze.
+
+That makes it less urgent and no more correct. The plate still says oil
+only, and what the maker meant the back bearing to have is a question for
+the manual, which I do not have yet.
+
+## One good sign
+
+Once the headstock was back on the bed and clamped, Andrew set a 0.01 mm
+dial indicator on the cap of the spindle nose, left a little proud, and
+lifted the spindle. The needle did not move. Whatever play the front bearing
+has is less than that indicator can show.
+
+## Where that leaves it
+
+Known: the oiling is total-loss, four plugs are to be made, and the front
+bearing is tight. Not known: how oil gets from a pocket to the bearing under
+it, since the pocket ends on bronze, and whether it gets there at all on the
+lathe's own headstock.
+
+The slow version of the test comes next. The pockets are filled, the levels
+marked and the lathe left overnight, which gives a drop at a time long
+enough to show. On the spare, a pocket is filled and watched to see where
+the oil comes out. Until one of those gives an answer, the rule stands, and
+the spindle does not turn under power. What is known so far is in the
+[condition register](../../reference/condition.md).

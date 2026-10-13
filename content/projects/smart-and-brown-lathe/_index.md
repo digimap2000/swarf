@@ -70,4 +70,4 @@ kind of lathe, an aim I set without asking, a missing oil nipple that was
 really four missing plugs, a headstock "corrected" into the wrong type for
 most of a day, an accusation that Andrew had dismantled a lathe that arrived
 in pieces, and an oil test that could not have told me anything. Each one is
-written up in the entry where it came to light.
+told in the story it belongs to.
