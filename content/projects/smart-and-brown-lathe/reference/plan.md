@@ -9,16 +9,11 @@ Andrew is the customer, and he wants both: the engineering done correctly,
 and a beautiful finish, with the painting and plating done in his own
 workshop.
 
-I first wrote this aim differently. I set it as a working lathe with its old
-paint left alone, on the argument that a repaint proves nothing about
-accuracy. The argument is true and beside the point. What the lathe is to be
-at the end was never mine to decide, only how to get it there.
-
-What survives of my first version is an order of precedence. Where finish
-and fit pull against each other, fit wins, and the finish is got some other
-way. A slideway is never painted to the edge by sanding the edge; a bearing
-is never disturbed because the casting round it would be easier to paint
-without it.
+What the lathe is to be is his to say; how to get it there is mine. Where
+finish and fit pull against each other, fit wins, and the finish is got some
+other way. A slideway is never painted to the edge by sanding the edge; a
+bearing is never disturbed because the casting round it would be easier to
+paint without it.
 
 ## The rules I am working to
 
@@ -78,9 +73,7 @@ each point will be settled part by part when the time comes.
 ## What there is to work with
 
 - **Supply.** Single-phase, with inverters to make three-phase from it, one
-  of them on a socket kept for jobs like this. A three-phase motor is no
-  obstacle in principle. Whether this one can run from an inverter depends on
-  how it is wound, which its plate should say.
+  of them on a socket kept for jobs like this.
 - **Measuring.** Dial indicators reading to 0.01 mm, micrometers, bore gauges
   and a precision level. Enough for the tests in stage 5. Readings go in the
   record in millimetres, as taken, whatever the lathe was built in.
@@ -88,9 +81,8 @@ each point will be settled part by part when the time comes.
   universal mill, a hydraulic press, TIG welding, and an engine crane for
   lifting. A worn or missing part can be made here.
 - **Finishing.** A paint booth, and plating, both in house.
-- **Drive.** An inverter that gives up to 415 V three-phase from the
-  single-phase supply, which suits the 400/440 V motor that came with the
-  lathe as it is.
+- **Drive.** One of those inverters gives up to 415 V three-phase, which
+  suits the 400/440 V motor that came with the lathe as it is.
 - **Money.** The lathe cost £150 and the budget is small on purpose: the point
   is the engineering, so a part is mended or made before one is bought. The
   one thing I may yet argue for buying is the maker's manual, if no free copy
@@ -117,128 +109,78 @@ the strip with a shorter list.
 
 ## Where it stands
 
-**Stage 1, the survey at rest, under way.**
+**Stage 1, the survey at rest.** The lathe is
+[named](identification.md), and what is wrong with it so far is in the
+[condition register](condition.md). The headstock is back on the bed and
+clamped. The slide rest and tailstock are off. There is no power to it.
 
-What the lathe is: a [Model L](identification.md), serial number S10312,
-built about 1960 and sold through Buck & Hickman, with a screw-feed compound
-slide rest and a plain tailstock. Its own headstock is of the
-[PDH family](identification.md): bronze at the front, ball races at the
-back, and a nose that takes dead-length collets and nothing else. What is wrong with it so far is in the
-[condition register](condition.md).
+A few decisions stand alongside the stages:
 
-It came to Andrew in pieces. The headstock, the slide rest and the tailstock
-were sitting on the bed, not fixed to it, which I had not understood from
-the photographs. He has lifted them off and cleaned the bed with T-Cut and a
-Brillo pad.
+- **Headstock.** The lathe's own headstock, the PDH, is to be proved first,
+  because Andrew wants a good collet system more than a chuck. That waits on
+  a collet, which is on the [collets page](collets/index.md). The spare PRH is
+  not parked: it is the only headstock here that can hold work.
+- **Spares.** The set-over tailstock is parked, to be oiled against rust
+  and left.
+- **The manual.** Still not in hand, and needed before any headstock is taken
+  apart.
+- **Drive.** My intention is that the two original switches go on doing
+  their jobs as signals to the inverter, not as switches in the motor's
+  supply: forward, off and reverse from one, and two set frequencies from the
+  other, which would give back both rows of the speed plate from a motor
+  with one speed. To be settled at stage 3.
+- **Coolant.** Andrew wants it working in the end. What survives of it is
+  looked at when the stand is surveyed.
 
-For a short while this page said something different: that he had dismantled
-the lathe against the job sheet, and that the bed as found and the alignment
-of the headstock had been lost by it. That was wrong. There was no alignment
-to lose, since nothing was fastened down, and he tells me the cleaning took
-off dirt and not metal, which is his to judge and not mine from a
-photograph. I had taken parts resting on a bed for an assembled lathe and
-never asked.
+## The job sheet outstanding
 
-The headstock has since been looked at from underneath, which showed how its
-oilways run, and is back on the bed and clamped down.
+No power for any of this.
 
-What the lathe lacks: a belt, a motor of the kind it was built for, any
-collets, and the four small plugs that close its oil holes. There is grease
-in the oilway of the back spindle bearing, and it is not to be run until oil
-is shown to pass through.
+### 1. Find where the oil goes
 
-The maker's manual is still not in hand. It is needed before any headstock
-is taken apart.
-
-**Which headstock.** What Andrew wants from the lathe is a good collet
-system, more than a chuck. Both headstocks are collet headstocks, of
-different kinds, and there are no collets for either. He is willing to make
-or find one collet to prove a headstock works, and has suggested printing
-the collet's shape in plastic first, to try in the spindle before anything
-is bought or cut in steel. That is the next piece of work, and it is set out
-on the [collets page](collets/index.md).
-
-Andrew wants the lathe's own headstock proved first. Its collet is the
-harder of the two to pin down, since the catalogue gives it a name and no
-dimensions. There are two candidates for what it is, a collet numbered 5159
-and a Brown & Sharpe screw-machine size, and three measurements on the
-headstock would say whether they are right. The spare can wait. Neither is
-parked. The set-over tailstock still is.
-
-**Added by Andrew.** The coolant is to work again in the end. The tray is a
-basin with a brass drain plug and there is a pipe for it. What else of the
-system survives has not been looked at.
-
-**For the drive.** My intention is that the two original switches go on
-doing their jobs, as signals to the inverter and not as switches in the
-motor's supply: forward, off and reverse from one, and from the other two
-set frequencies, which would give back both rows of the speed plate from a
-motor with one speed. To be settled at stage 3.
-
-## The job sheet outstanding: session 2
-
-The headstock is back on the bed and clamped. The slide rest and tailstock
-are off. No power.
-
-### 1. Find out whether oil gets through each spindle bearing
-
-**What is known.** The oiling is total-loss: a pocket above each bearing,
-nothing below, and oil that has passed a bearing drops out inside the
-casting. The back pocket was packed with grease. Filled with thin oil and
-with the spindle turned by hand, neither pocket's level falls that Andrew
-can see.
-
-I had expected the front one to fall, and drips within a hundred turns.
-Wrong. And I now think the test could not have told me much. A bearing with
-no measurable play, turned by hand, takes oil a drop at a time, and a
-blocked oilway and a sound one look the same over a few minutes.
-
-**What I do not know** is how oil gets from the pocket into the bearing at
-all. The pocket ends on bronze. The spare headstock is the way to find out,
-since oil runs through that one freely and it can be watched.
-
-**Do.**
+The oiling is total-loss, and filled pockets on the fitted headstock did not
+fall while the spindle was turned by hand, which a sound close bearing and a
+blocked oilway would both do. What I do not know is how oil gets from a
+pocket into its bearing at all, since the pocket ends on bronze. Oil runs
+freely through the spare, so it can be watched there.
 
 1. On the spare, fill a pocket and watch where the oil comes out: from the
    ends of the bearing, having gone through it, or from a hole or passage in
    the casting.
 2. On the fitted headstock, fill both pockets, mark the levels, and leave
-   them overnight. Tell me whether either has fallen by morning.
+   them overnight. Say whether either has fallen by morning.
 
-**I expect** the oil on the spare to come from a passage and not through
-the bearing, because nothing pours through a close bearing. I expect the
-front pocket of the fitted headstock to have fallen a little by morning and
-the back one not.
+**I expect** the oil on the spare to come from a passage and not through the
+bearing, because nothing pours through a close bearing, and the front pocket
+on the fitted headstock to have fallen a little by morning and the back one
+not.
 
-### 3. Measure the wear in the bed
+### 2. Measure the bed for wear
 
-Andrew has the bed clean and means to measure it. How is his to choose. If
-it helps: where the undersides of the slot's lips are machined, the
-thickness of each lip by micrometer every two inches, with the part that
-sits under the headstock as the reference, since nothing has slid there.
+How is Andrew's to choose. If it helps: where the undersides of the slot's
+lips are machined, the thickness of each lip by micrometer every two inches,
+with the part under the headstock as the reference, since nothing has slid
+there.
 
 **I expect** the bed to be within a thousandth or two of an inch along its
 length, because nothing slides on it under load.
 
-### The play in the two spindles
+### 3. Finish measuring the spindles
 
-**The lathe's own headstock, at the nose: nothing.** With a 0.01 mm
-indicator on top of the collet-closing cap, left a little proud, lifting the
-spindle moved the needle not at all. Whatever play its front bearing has is
-less than the indicator can show.
+On the lathe's own headstock the front bearing has no lift that a 0.01 mm
+indicator can show. Still to take, three readings each: the lift at the back,
+on the plain part of the spindle between the back bearing and the closer, and
+the end float. The back bearing is a preloaded pair of ball races, so both
+should be nothing, and any movement means the preload has gone.
 
-Still to take on it, three times each: the lift at the back, on the plain
-part of the spindle between the back bearing and the closer, and the end
-float. The back bearing is a preloaded pair of ball races, so both should be
-nothing. Any movement there means the preload has gone.
+The spare has not been measured at all. When it is on the bed and clamped:
+the lift at the nose and at the back, the end float, and how far its nose
+register runs out when the spindle is turned.
 
-**The PRH** has not been measured at all, and oil runs straight through it.
-When it is on the bed and clamped: the lift at the nose and at the back, the
-end float, and, since its nose has a true register, how far that runs out
-when the spindle is turned.
+And to settle which headstock is which beyond doubt, the bore of each
+spindle. The catalogue gives 29/32 in for the PDH and 63/64 in for the PRH.
 
-**To settle which is which beyond doubt,** the bore of each spindle. The
-catalogue gives 29/32 in for the PDH and 63/64 in for the PRH.
+### 4. The last of the collet seat
 
-The bed measures about 32¾ in long by Andrew's tape, as I read it from his
-photograph.
+The figures still wanted from the nose are listed on the
+[collets page](collets/index.md#what-is-still-to-measure).
