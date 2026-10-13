@@ -19,11 +19,17 @@
     {{- with $log }}
     {{- $latest := index . 0 }}
     <section class="side-card side-latest" aria-labelledby="side-latest">
-      {{- /* The entry's first photo, when it has one. An entry without a photo
-             shows none, rather than a stand-in. */}}
-      {{- with partial "cover.html" $latest }}
+      {{- /* The latest entry's first photo. When it has none, the newest photo
+             from an earlier entry stands in, linked to the entry it is from;
+             never the project's cover, which the reader has just seen. */}}
+      {{- $thumb := false }}
+      {{- $from := false }}
+      {{- range . }}
+        {{- if not $thumb }}{{ with partial "cover.html" . }}{{ $thumb = . }}{{ end }}{{ if $thumb }}{{ $from = . }}{{ end }}{{ end }}
+      {{- end }}
+      {{- with $thumb }}
       {{- $t := .Fill "640x360 webp" }}
-      <a class="side-thumb" href="{{ $latest.RelPermalink }}" tabindex="-1" aria-hidden="true"><img src="{{ $t.RelPermalink }}" width="{{ $t.Width }}" height="{{ $t.Height }}" alt="" decoding="async"></a>
+      <a class="side-thumb" href="{{ $from.RelPermalink }}" tabindex="-1" aria-hidden="true"><img src="{{ $t.RelPermalink }}" width="{{ $t.Width }}" height="{{ $t.Height }}" alt="" decoding="async"></a>
       {{- end }}
       <h2 class="side-title" id="side-latest">Latest entry</h2>
       <p class="meta"><time datetime="{{ $latest.Date.Format "2006-01-02" }}">{{ $latest.Date | time.Format "2 January 2006" }}</time></p>
