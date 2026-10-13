@@ -1,0 +1,40 @@
+{{- /* The top of every page in a project: the project's name and a row of
+       tabs - Overview, Log, Photos, Reference - so the reader always knows
+       which project they are in and can get to any part of it in one step.
+
+       Takes dict "page" <this page> "current" <tab name> "full" <bool>. On the
+       project's own page ("full") the name is the page's headline, with its
+       standfirst and byline; everywhere else it is a link back, kept small so
+       the page's own title leads. A tab with nothing in it is left out. */ -}}
+{{- $page := .page }}
+{{- $project := partial "project-of.html" $page }}
+{{- with $page.Parent }}{{ if eq .Path "/projects" }}{{ $project = $page }}{{ end }}{{ end }}
+{{- $current := .current }}
+{{- $log := partial "log.html" $project }}
+{{- $photos := partial "project-photos.html" $project }}
+{{- $refs := where $project.RegularPagesRecursive "Path" "like" `/reference/` }}
+{{- $tabs := slice (dict "name" "overview" "label" "Overview" "page" $project "count" 0) }}
+{{- with $project.GetPage "log" }}{{ if $log }}{{ $tabs = $tabs | append (dict "name" "log" "label" "Log" "page" . "count" (len $log)) }}{{ end }}{{ end }}
+{{- with $project.GetPage "photos" }}{{ if $photos }}{{ $tabs = $tabs | append (dict "name" "photos" "label" "Photos" "page" . "count" (len $photos)) }}{{ end }}{{ end }}
+{{- with $project.GetPage "reference" }}{{ if $refs }}{{ $tabs = $tabs | append (dict "name" "reference" "label" "Reference" "page" . "count" (len $refs)) }}{{ end }}{{ end }}
+
+<header class="project-head{{ if not .full }} is-compact{{ end }}">
+  {{- if .full }}
+  <p class="meta">
+    {{- with $project.Params.kind }}<span class="kind">{{ . }}</span>{{ end }}
+    {{- if not $project.Date.IsZero }}<span>Started {{ $project.Date | time.Format "January 2006" }}</span>{{ end }}
+    {{- with $project.Params.author }}<span>Written by {{ . }}</span>{{ end }}
+  </p>
+  <h1>{{ $project.Title }}</h1>
+  {{- with $project.Params.summary }}<p class="standfirst">{{ . }}</p>{{ end }}
+  {{- else }}
+  <p class="project-name"><a href="{{ $project.RelPermalink }}">{{ $project.Title }}</a></p>
+  {{- end }}
+</header>
+{{- if gt (len $tabs) 1 }}
+<nav class="tabs" aria-label="{{ $project.Title }}">
+  {{- range $tabs }}
+  <a href="{{ .page.RelPermalink }}"{{ if eq .name $current }} aria-current="{{ cond (eq .page $page) "page" "true" }}"{{ end }}>{{ .label }}{{ with .count }} <span>{{ . }}</span>{{ end }}</a>
+  {{- end }}
+</nav>
+{{- end }}

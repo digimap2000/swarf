@@ -1,28 +1,46 @@
 {{ define "main" }}
 {{- /* Earlier and later are worked out by position in the project's own log,
        oldest first. Hugo's PrevInSection would also step onto the project's
-       reference pages, which are not part of the story. */ -}}
+       reference pages, which are not part of the story. The side lists the
+       whole log, so a reader can see where this entry sits in it. */ -}}
 {{- $log := (partial "log.html" .CurrentSection).Reverse }}
 {{- $at := -1 }}
 {{- range $i, $p := $log }}{{ if eq $p $ }}{{ $at = $i }}{{ end }}{{ end }}
-<article>
-  <header class="page-header">
-    {{ partial "crumbs.html" . }}
-    <h1>{{ .Title }}</h1>
-    <p class="meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "2 January 2006" }}</time>{{ with .Params.author }}<span>Written by {{ . }}</span>{{ end }}</p>
-  </header>
+{{ partial "project-head.html" (dict "page" . "current" "log") }}
+<div class="doc">
+  <article class="doc-main">
+    <header class="page-header">
+      {{- if gt (len $log) 1 }}<p class="kicker">Entry {{ add $at 1 }} of {{ len $log }}</p>{{ end }}
+      <h1>{{ .Title }}</h1>
+      {{- with .Params.summary }}<p class="standfirst">{{ . }}</p>{{ end }}
+      <p class="meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "2 January 2006" }}</time>{{ with .Params.author }}<span>Written by {{ . }}</span>{{ end }}</p>
+    </header>
 
-  <div class="prose">{{ .Content }}</div>
+    <div class="prose">{{ .Content }}</div>
+
+    {{- if gt (len $log) 1 }}
+    <nav class="pager" aria-label="Log">
+      {{- if gt $at 0 }}{{ with index $log (sub $at 1) }}
+      <a class="earlier" href="{{ .RelPermalink }}"><span>Earlier</span>{{ .Title }}</a>
+      {{- end }}{{ end }}
+      {{- if lt (add $at 1) (len $log) }}{{ with index $log (add $at 1) }}
+      <a class="later" href="{{ .RelPermalink }}"><span>Later</span>{{ .Title }}</a>
+      {{- end }}{{ end }}
+    </nav>
+    {{- end }}
+  </article>
 
   {{- if gt (len $log) 1 }}
-  <nav class="pager" aria-label="Log">
-    {{- if gt $at 0 }}{{ with index $log (sub $at 1) }}
-    <a class="earlier" href="{{ .RelPermalink }}"><span>Earlier</span>{{ .Title }}</a>
-    {{- end }}{{ end }}
-    {{- if lt (add $at 1) (len $log) }}{{ with index $log (add $at 1) }}
-    <a class="later" href="{{ .RelPermalink }}"><span>Later</span>{{ .Title }}</a>
-    {{- end }}{{ end }}
-  </nav>
+  <aside class="doc-side">
+    <nav class="side-card" aria-labelledby="side-log">
+      <h2 class="side-title" id="side-log">In this log</h2>
+      <ol class="side-list">
+        {{- range $log }}
+        <li><a href="{{ .RelPermalink }}"{{ if eq . $ }} aria-current="page"{{ end }}><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "2 Jan" }}</time>{{ .Title }}</a></li>
+        {{- end }}
+      </ol>
+    </nav>
+  </aside>
   {{- end }}
-</article>
+</div>
 {{ end }}

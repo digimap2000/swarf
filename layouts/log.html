@@ -1,13 +1,25 @@
 {{ define "main" }}
-{{- /* Every entry in one project's log, newest first, with its summary. */ -}}
+{{- /* Every entry in one project's log, newest first, each with its summary
+       and the first of its photos. */ -}}
 {{- $log := partial "log.html" . }}
-<header class="page-header">
-  {{ partial "crumbs.html" . }}
-  <h1>Log</h1>
-  <p class="meta"><span>{{ len $log }} {{ cond (eq (len $log) 1) "entry" "entries" }}</span></p>
-</header>
+{{ partial "project-head.html" (dict "page" . "current" "log") }}
+<h1 class="visually-hidden">Log</h1>
 {{- with $log }}
-{{ partial "entry-list.html" (dict "pages" . "project" false) }}
+<ol class="log-list" reversed>
+  {{- range $e := . }}
+  <li>
+    <div>
+      <p class="meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "2 January 2006" }}</time></p>
+      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      {{- with .Params.summary }}<p>{{ . }}</p>{{ end }}
+    </div>
+    {{- with partial "cover.html" . }}
+    {{- $t := .Fill "320x240 webp" }}
+    <a class="thumb" href="{{ $e.RelPermalink }}" tabindex="-1" aria-hidden="true"><img src="{{ $t.RelPermalink }}" width="{{ $t.Width }}" height="{{ $t.Height }}" alt="" loading="lazy" decoding="async"></a>
+    {{- end }}
+  </li>
+  {{- end }}
+</ol>
 {{- else }}
 <p class="empty">No entries yet.</p>
 {{- end }}

@@ -25,4 +25,8 @@ cascade:
       kind: section
       path: "{/projects/*/photos}"
     layout: photos
+  - target:
+      kind: section
+      path: "{/projects/*/reference}"
+    layout: reference
 ---

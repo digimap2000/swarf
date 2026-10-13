@@ -2,11 +2,8 @@
 {{- /* Every photograph in one project. Each links to the page it appears
        on, where its caption says why it was taken. */ -}}
 {{- $photos := partial "project-photos.html" .Parent }}
-<header class="page-header">
-  {{ partial "crumbs.html" . }}
-  <h1>Photos</h1>
-  <p class="meta"><span>{{ len $photos }} {{ cond (eq (len $photos) 1) "photo" "photos" }}</span></p>
-</header>
+{{ partial "project-head.html" (dict "page" . "current" "photos") }}
+<h1 class="visually-hidden">Photos</h1>
 {{- with $photos }}
 <ul class="photo-grid">
   {{- range . }}

@@ -1,11 +1,33 @@
 {{ define "main" }}
-<article>
-  <header class="page-header">
-    {{ partial "crumbs.html" . }}
-    <h1>{{ .Title }}</h1>
-    {{- with .Params.summary }}<p class="lede">{{ . }}</p>{{ end }}
-    {{- with .Params.author }}<p class="meta"><span>Written by {{ . }}</span></p>{{ end }}
-  </header>
-  <div class="prose">{{ .Content }}</div>
-</article>
+{{- /* A page that is not an entry: in practice, a project's reference page.
+       Inside a project it takes the project's tabs, and the side lists the
+       project's other reference pages. */ -}}
+{{- $project := partial "project-of.html" . }}
+{{- $refs := slice }}
+{{- with $project }}{{ $refs = (where .RegularPagesRecursive "Path" "like" `/reference/`).ByTitle }}{{ end }}
+{{- with $project }}{{ partial "project-head.html" (dict "page" $ "current" "reference") }}{{ end }}
+<div class="doc{{ if lt (len $refs) 2 }} is-single{{ end }}">
+  <article class="doc-main">
+    <header class="page-header">
+      {{- if not $project }}{{ partial "crumbs.html" . }}{{ end }}
+      <h1>{{ .Title }}</h1>
+      {{- with .Params.summary }}<p class="standfirst">{{ . }}</p>{{ end }}
+      {{- with .Params.author }}<p class="meta"><span>Written by {{ . }}</span></p>{{ end }}
+    </header>
+    <div class="prose">{{ .Content }}</div>
+  </article>
+
+  {{- if gt (len $refs) 1 }}
+  <aside class="doc-side">
+    <nav class="side-card" aria-labelledby="side-reference">
+      <h2 class="side-title" id="side-reference">Reference</h2>
+      <ul class="side-list">
+        {{- range $refs }}
+        <li><a href="{{ .RelPermalink }}"{{ if eq . $ }} aria-current="page"{{ end }}>{{ .Title }}</a></li>
+        {{- end }}
+      </ul>
+    </nav>
+  </aside>
+  {{- end }}
+</div>
 {{ end }}

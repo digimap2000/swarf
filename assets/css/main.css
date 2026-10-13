@@ -238,12 +238,7 @@ h1 {
 .page-header { margin-bottom: clamp(2rem, 1.5rem + 2vw, 3rem); }
 .page-header h1 { max-width: 22ch; }
 .page-header .meta { margin-top: 1.1rem; }
-.lede { max-width: var(--measure); margin: 1rem 0 0; font-size: 1.25rem; line-height: 1.5; color: var(--muted); }
 
-.intro { margin-top: 0; }
-.intro h1 { max-width: 24ch; font-size: clamp(1.875rem, 1.3rem + 2.4vw, 3rem); line-height: 1.05; }
-.intro .prose { margin-top: 0.75rem; color: var(--muted); font-size: 1.0625rem; line-height: 1.55; }
-.intro + section { margin-top: clamp(2rem, 1.5rem + 2vw, 3rem); }
 .home-projects { margin-top: 0; }
 
 /* --- prose ---------------------------------------------------------------- */
@@ -293,65 +288,117 @@ figcaption p { margin: 0; }
 .gallery figure a { width: auto; }
 .gallery img { width: 100%; max-height: none; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 10px; }
 
-/* A project's cover is a banner, cropped to the same shape whatever the photo. */
-.cover { margin: 0 0 2.5rem; }
-.cover a { width: auto; }
-.cover img { width: 100%; max-height: none; aspect-ratio: 16 / 9; object-fit: cover; border-radius: calc(var(--radius) + 6px); }
 
-/* --- a project's dashboard ------------------------------------------------ */
+/* --- inside a project --------------------------------------------------- */
 
-/* The top of a project's page: the log beside the photos and the reference
-   pages, each a panel like the ones on the home page, so a reader can go
-   straight to what they came for. The overview follows underneath. */
-.project-page .page-header { margin-bottom: 1.75rem; }
-.dashboard { display: grid; grid-template-columns: 7fr 5fr; gap: 1.25rem; margin: 0 0 2.5rem; align-items: start; }
-.panel { padding: 1.1rem 1.25rem 1.25rem; background: var(--surface); border: 1px solid var(--rule); border-radius: calc(var(--radius) + 6px); box-shadow: var(--shadow); }
-.dashboard-col { display: grid; gap: 1.25rem; }
-.dashboard .panel { margin-top: 0; }
-.panel-title { display: flex; align-items: baseline; gap: 0.5rem; margin: 0 0 0.6rem; font: 600 0.75rem/1.3 var(--mono); letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
-.panel-title a { color: inherit; text-decoration: none; }
-.panel-title a:hover { color: var(--blue); }
-.panel-title span { padding: 0.05rem 0.45rem; border-radius: 999px; background: var(--wash); letter-spacing: 0; }
-.panel .empty { margin: 0; font-size: 0.9375rem; }
-.panel-list { list-style: none; margin: 0; padding: 0; }
-.panel-list li { padding: 0.55rem 0; border-top: 1px solid var(--rule); }
-.panel-list li:first-child { border-top: 0; padding-top: 0.2rem; }
-.panel-list a { color: var(--ink); font-weight: 600; text-decoration: none; }
-.panel-list a:hover { color: var(--blue); text-decoration: underline; }
-.panel-list p { margin: 0.15rem 0 0; font-size: 0.875rem; line-height: 1.45; color: var(--muted); }
-.panel-log li { display: flex; gap: 0.9rem; align-items: baseline; }
-.panel-log time { flex: none; font: 0.8125rem/1.5 var(--mono); color: var(--muted); }
-.panel-thumbs { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem; }
-.panel-thumbs img, .photo-grid img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 8px; background: var(--wash); }
-.panel-more { margin: 0.75rem 0 0; font: 0.8125rem/1.4 var(--mono); }
-.panel-more a { color: var(--muted); }
-.panel-more a:hover { color: var(--blue); }
+/* Every page in a project starts the same way: the project's name, then its
+   tabs. On the project's own page the name is the headline. */
+.project-head { margin-bottom: 1.5rem; }
+.project-head .meta { margin-bottom: 0.9rem; }
+.project-head .kind { color: var(--straw); font-weight: 600; }
+.project-head h1 { max-width: 22ch; }
+.standfirst { max-width: var(--measure); margin: 1rem 0 0; font-size: 1.25rem; line-height: 1.5; color: var(--muted); }
+.project-head.is-compact { margin-bottom: 0.75rem; }
+/* A project with nothing yet but its overview has no tabs to close the top. */
+.project-head + .doc { padding-top: 2rem; border-top: 1px solid var(--rule); }
+.project-name { margin: 0; font: 700 1.125rem/1.3 var(--display); font-stretch: 87.5%; }
+.project-name a { color: var(--muted); text-decoration: none; }
+.project-name a:hover { color: var(--blue); }
 
-.photo-grid { list-style: none; margin: 1rem 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(9rem, 100%), 1fr)); gap: 0.75rem; }
+/* Tabs sit on a rule, and the current one stands on it in straw. On a
+   phone the row scrolls sideways rather than wrapping. */
+.tabs {
+  display: flex;
+  gap: 0.25rem;
+  margin: 0 0 clamp(1.75rem, 1.25rem + 2vw, 2.75rem);
+  border-bottom: 1px solid var(--rule);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.tabs a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  flex: none;
+  padding: 0.7rem 0.85rem 0.75rem;
+  border-bottom: 2px solid transparent;
+  font: 500 0.9375rem/1 var(--sans);
+  color: var(--muted);
+  text-decoration: none;
+}
+.tabs a:first-child { padding-left: 0; }
+.tabs a:hover { color: var(--ink); }
+.tabs a[aria-current] { color: var(--ink); font-weight: 600; border-bottom-color: var(--straw); }
+.tabs span { padding: 0.15rem 0.45rem; border-radius: 999px; background: var(--wash); font: 500 0.6875rem/1 var(--mono); color: var(--muted); }
+
+/* The reading column and, beside it, the side: things to glance at rather
+   than read. The side stays in view as the column scrolls. */
+.doc { display: grid; grid-template-columns: minmax(0, 44rem) minmax(15rem, 19rem); justify-content: space-between; gap: 2.5rem 3.5rem; align-items: start; }
+.doc.is-single { grid-template-columns: minmax(0, 44rem); }
+.doc-main { min-width: 0; }
+.doc-main .prose > figure, .doc-main .prose > .gallery, .doc-main .prose > .table-wrap, .doc-main .prose > pre { max-width: 100%; }
+.doc-side { position: sticky; top: 5.5rem; display: grid; gap: 1rem; }
+.doc-side > * { margin: 0; }
+
+.side-card { padding: 1.1rem 1.25rem 1.2rem; background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius); }
+.side-title { margin: 0 0 0.75rem; font: 600 0.6875rem/1.3 var(--mono); letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.side-more { margin: 0.85rem 0 0; font: 0.8125rem/1.4 var(--mono); }
+.side-more a { color: var(--muted); }
+.side-more a:hover { color: var(--blue); }
+
+.side-latest .side-headline { display: block; margin-top: 0.3rem; font: 700 1.25rem/1.2 var(--display); font-stretch: 87.5%; color: var(--ink); text-decoration: none; }
+.side-latest .side-headline:hover { color: var(--blue); }
+.side-latest p:not(.meta):not(.side-more) { margin: 0.45rem 0 0; font-size: 0.9375rem; line-height: 1.5; color: var(--muted); }
+
+/* The plate on the side of the machine: label over value, one per line. */
+.spec { margin: 0; }
+.spec > div { padding: 0.55rem 0; border-top: 1px solid var(--rule); }
+.spec > div:first-child { border-top: 0; padding-top: 0; }
+.spec dt { font: 600 0.6875rem/1.3 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.spec dd { margin: 0.2rem 0 0; font-size: 0.9375rem; line-height: 1.4; font-variant-numeric: tabular-nums; }
+
+.thumbs { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.4rem; }
+.thumbs img, .photo-grid img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 8px; background: var(--wash); transition: opacity 0.15s; }
+.thumbs a:hover img, .photo-grid a:hover img { opacity: 0.85; }
+
+/* A list of entries or reference pages in the side, the current one marked. */
+.side-list { list-style: none; margin: 0; padding: 0; }
+.side-list li + li { margin-top: 0.15rem; }
+.side-list a { display: block; padding: 0.45rem 0.6rem; margin-inline: -0.6rem; border-radius: 8px; font-size: 0.9375rem; line-height: 1.35; color: var(--ink); text-decoration: none; }
+.side-list a:hover { background: var(--wash); }
+.side-list a[aria-current] { background: var(--wash); font-weight: 600; box-shadow: inset 2px 0 0 var(--straw); }
+.side-list time { display: block; margin-bottom: 0.1rem; font: 0.75rem/1.3 var(--mono); color: var(--muted); }
+
+.kicker { margin: 0 0 0.75rem; font: 600 0.75rem/1.3 var(--mono); letter-spacing: 0.1em; text-transform: uppercase; color: var(--straw); }
+.doc-main .page-header h1 { font-size: clamp(2rem, 1.3rem + 3vw, 3.25rem); }
+
+/* The log page: newest first, with each entry's first photo beside it. */
+.log-list { list-style: none; margin: 0; padding: 0; max-width: 52rem; }
+.log-list li { display: grid; grid-template-columns: 1fr 10rem; gap: 1.5rem; align-items: start; padding: 1.5rem 0; border-top: 1px solid var(--rule); }
+.log-list li:first-child { border-top: 0; padding-top: 0; }
+.log-list h2 { margin: 0.35rem 0 0.4rem; font-size: 1.5rem; line-height: 1.15; }
+.log-list h2 a { color: var(--ink); text-decoration: none; }
+.log-list h2 a:hover { color: var(--blue); }
+.log-list p:not(.meta) { margin: 0; color: var(--muted); max-width: var(--measure); }
+.log-list .thumb img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 10px; background: var(--wash); }
+
+.photo-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(12rem, 100%), 1fr)); gap: 0.75rem; }
 .photo-grid img { aspect-ratio: 4 / 3; }
 
-@media (max-width: 48rem) {
-  .dashboard { grid-template-columns: 1fr; }
+@media (max-width: 56rem) {
+  .doc, .doc.is-single { grid-template-columns: minmax(0, 1fr); }
+  .doc-side { position: static; }
+  /* On the project page the latest entry is the first thing under the tabs,
+     and the plate and the photos come after the story. */
+  .doc:has(.side-latest) { display: flex; flex-direction: column; }
+  .doc:has(.side-latest) .doc-side { display: contents; }
+  .side-latest { order: -1; }
+  .doc:has(.side-latest) > *, .doc:has(.side-latest) .doc-side > * { margin: 0 0 1.5rem; }
 }
-
-/* --- facts ---------------------------------------------------------------- */
-
-/* The plate on the side of the machine. Each cell draws the hairline above
-   and to the left of itself, and the box clips the ones on its own edges, so
-   a short last row leaves blank plate rather than a hole. */
-.facts {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
-  margin: 0 0 3rem;
-  padding: 0;
-  background: var(--surface);
-  border: 1px solid var(--rule);
-  border-radius: var(--radius);
-  overflow: hidden;
+@media (max-width: 34rem) {
+  .log-list li { grid-template-columns: 1fr 5.5rem; gap: 1rem; }
+  .log-list h2 { font-size: 1.25rem; }
 }
-.facts > div { padding: 0.9rem 1.1rem 1rem; box-shadow: -1px -1px 0 var(--rule); }
-.facts dt { font: 600 0.6875rem/1.3 var(--mono); letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
-.facts dd { margin: 0.35rem 0 0; font: 500 1rem/1.4 var(--sans); font-variant-numeric: tabular-nums; }
 
 /* --- lists of projects and entries ---------------------------------------- */
 

@@ -1,0 +1,11 @@
+{{ define "main" }}
+{{- /* A project's reference pages: the facts worth keeping, each with the
+       summary that says what is on it. */ -}}
+{{ partial "project-head.html" (dict "page" . "current" "reference") }}
+<h1 class="visually-hidden">Reference</h1>
+<ul class="reference">
+  {{- range .RegularPagesRecursive.ByTitle }}
+  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ with .Params.summary }} <span class="in">{{ . }}</span>{{ end }}</li>
+  {{- end }}
+</ul>
+{{ end }}

@@ -65,8 +65,9 @@ when work on it is written up. There is nothing to set by hand.
 ## Reference pages
 
 Undated pages under `reference/`, one subject each: a specification, a parts
-list, the sources consulted. They are listed at the foot of the project page in
-alphabetical order by title.
+list, the sources consulted. Copy `reference/_index.md` from the lathe along
+with the first one: it gives the project its Reference tab, which lists them in
+alphabetical order by title with their summaries.
 
 ```markdown
 ---
