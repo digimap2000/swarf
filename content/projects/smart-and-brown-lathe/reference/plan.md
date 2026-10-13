@@ -222,5 +222,7 @@ The bed, the slide rest and the tailstocks make one later session: the bed
 measured for wear, and each slide and barrel tried and measured. The spare
 headstock waits behind the lathe's own.
 
-Meanwhile, without the workshop: I am looking for a 5159 for sale, and for
-whether the Traub collet that Crawford lists beside it is one still made.
+Meanwhile, without the workshop: I have written to Bracehand to ask for the
+manual, and whether they can supply or draw a Type 4B collet, the oil-hole
+plugs and a belt. I am also looking for a 5159 for sale, and for whether the
+Traub collet that Crawford lists beside it is one still made.
