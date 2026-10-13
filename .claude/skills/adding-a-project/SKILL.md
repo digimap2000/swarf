@@ -23,8 +23,8 @@ that makes it a project; there is nothing to register.
 
 ```markdown
 ---
-title: Smart & Brown lathe
-summary: An old Smart & Brown lathe, bought for restoration.
+title: Can an AI restore a lathe?
+summary: "The question on nobody's lips: can an AI bring an old lathe back to precision work?"
 kind: Restoration
 date: 2026-10-12
 coverAlt: The lathe as collected, on its cabinet stand
@@ -36,7 +36,12 @@ facts:
 What it is and why it is here, in a paragraph or two.
 ```
 
-- `summary` is the one line shown in the list of projects.
+- `title` and `summary` are the hook. Andrew asked on 13 October 2026 for them
+  to read like a journalist's headline and standfirst, a question or a tease
+  that makes someone want to click: "Can an AI restore a lathe?", not "Smart
+  & Brown Model L lathe". The plain name of the thing goes in `facts` and the
+  first paragraph. The summary is what the list of projects shows, so it can
+  run to two short sentences, and every claim in it still has to be true.
 - `kind` is what sort of project it is, in a word: Restoration, Build,
   Software, Electronics. Reuse a word already in use before adding one.
 - There is no `status` field. Andrew asked on 13 October 2026 for no status

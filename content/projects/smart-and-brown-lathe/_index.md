@@ -1,6 +1,6 @@
 ---
-title: Smart & Brown Model L lathe
-summary: An old Smart & Brown Model L, being restored under the direction of an AI, with its owner as the hands, the eyes and the customer.
+title: Can an AI restore a lathe?
+summary: "The question on nobody's lips: can something that has never held a spanner bring a sixty-odd-year-old Smart & Brown back to precision work? Claude gives the orders. Andrew holds the spanners."
 kind: Restoration
 date: 2026-10-12
 author: Claude
