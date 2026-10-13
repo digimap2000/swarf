@@ -1,27 +1,90 @@
-{{- /* Takes a list of project sections. */ -}}
-<ul class="projects">
-  {{- range $project := . }}
-  {{- $log := partial "log.html" . }}
-  <li class="project">
-    {{- with partial "cover.html" . }}
-    {{- $thumb := .Fill "480x360 webp" }}
-    <a class="thumb" href="{{ $project.RelPermalink }}" tabindex="-1" aria-hidden="true">
-      <img src="{{ $thumb.RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" alt="" loading="lazy" decoding="async">
+{{- /* Takes a list of project sections and sets them out in three tiers by
+       how recently they were worked on: the latest as a hero, the next three
+       as cards, and the rest as a short list. The closer a project is to the
+       top, the more of it is shown.
+
+       "Worked on" is the date of a project's newest log entry, the one date
+       that records work rather than an edit to the page. A project with no
+       entries yet goes after every one that has them, in order of title. */ -}}
+{{- $dated := slice }}
+{{- $undated := slice }}
+{{- range $project := . }}
+  {{- with partial "log.html" $project }}
+    {{- $dated = $dated | append (dict "page" $project "latest" (index . 0) "count" (len .) "date" (index . 0).Date) }}
+  {{- else }}
+    {{- $undated = $undated | append (dict "page" $project "title" $project.Title) }}
+  {{- end }}
+{{- end }}
+{{- $ranked := slice }}
+{{- range sort $dated "date" "desc" }}{{ $ranked = $ranked | append . }}{{ end }}
+{{- range sort $undated "title" }}{{ $ranked = $ranked | append . }}{{ end }}
+
+{{- with index $ranked 0 }}
+{{- $p := .page }}
+{{- $count := .count }}
+<article class="hero">
+  {{- with partial "cover.html" $p }}
+  {{- $img := .Fill "1200x900 webp" }}
+  <a class="hero-cover" href="{{ $p.RelPermalink }}" tabindex="-1" aria-hidden="true">
+    <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="" decoding="async">
+  </a>
+  {{- end }}
+  <div class="hero-body">
+    {{- with $p.Params.kind }}<p class="meta"><span>{{ . }}</span></p>{{ end }}
+    <h3><a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a></h3>
+    {{- with $p.Params.summary }}<p class="standfirst">{{ . }}</p>{{ end }}
+    {{- with .latest }}
+    <div class="latest">
+      <p class="meta"><span>Latest entry</span><span>{{ .Date | time.Format "2 January 2006" }}</span></p>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{- with .Params.summary }}<p>{{ . }}</p>{{ end }}
+    </div>
+    <p class="meta"><span><a href="{{ $p.RelPermalink }}">{{ $count }} {{ cond (eq $count 1) "entry" "entries" }} so far</a></span></p>
+    {{- end }}
+  </div>
+</article>
+{{- end }}
+
+{{- with after 1 $ranked | first 3 }}
+<ul class="cards">
+  {{- range . }}
+  {{- $p := .page }}
+  <li class="card">
+    {{- with partial "cover.html" $p }}
+    {{- $img := .Fill "640x480 webp" }}
+    <a class="thumb" href="{{ $p.RelPermalink }}" tabindex="-1" aria-hidden="true">
+      <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="" loading="lazy" decoding="async">
     </a>
     {{- end }}
     <div>
       <p class="meta">
-        {{- with .Params.kind }}<span>{{ . }}</span>{{ end }}
+        {{- with $p.Params.kind }}<span>{{ . }}</span>{{ end }}
+        {{- with .latest }}<span>latest {{ .Date | time.Format "2 Jan 2006" }}</span>{{ end }}
       </p>
-      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-      {{- with .Params.summary }}<p>{{ . }}</p>{{ end }}
-      {{- with $log }}
-      <p class="meta">
-        <span>{{ len . }} {{ cond (eq (len .) 1) "entry" "entries" }}</span>
-        <span>latest {{ (index . 0).Date | time.Format "2 January 2006" }}</span>
-      </p>
-      {{- end }}
+      <h3><a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a></h3>
+      {{- with $p.Params.summary }}<p>{{ . }}</p>{{ end }}
     </div>
   </li>
   {{- end }}
 </ul>
+{{- end }}
+
+{{- with after 4 $ranked }}
+<ul class="rest">
+  {{- range . }}
+  {{- $p := .page }}
+  <li>
+    {{- with partial "cover.html" $p }}
+    {{- $img := .Fill "160x160 webp" }}
+    <a class="thumb" href="{{ $p.RelPermalink }}" tabindex="-1" aria-hidden="true">
+      <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="" loading="lazy" decoding="async">
+    </a>
+    {{- end }}
+    <div>
+      <a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>
+      {{- with $p.Params.summary }}<p>{{ . }}</p>{{ end }}
+    </div>
+  </li>
+  {{- end }}
+</ul>
+{{- end }}

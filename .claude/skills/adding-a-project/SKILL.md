@@ -52,6 +52,11 @@ What it is and why it is here, in a paragraph or two.
   in the order given. Leave a fact out rather than writing "unknown".
 - `coverAlt` describes the cover photo.
 
+The projects list ranks projects by their newest log entry: the latest is the
+hero, the next three are cards, the rest a short list. A project with no
+entries sits at the bottom in order of title, so a new project rises only
+when work on it is written up. There is nothing to set by hand.
+
 ## Reference pages
 
 Undated pages under `reference/`, one subject each: a specification, a parts
