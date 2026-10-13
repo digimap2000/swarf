@@ -7,7 +7,7 @@
     <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "2 Jan 2006" }}</time>
     <div>
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      {{- if $.project }}{{ with .CurrentSection }} <span class="in">{{ .Title }}</span>{{ end }}{{ end }}
+      {{- if $.project }}{{ with partial "project-of.html" . }} <span class="in">{{ .Title }}</span>{{ end }}{{ end }}
       {{- with .Params.summary }}<p>{{ . }}</p>{{ end }}
     </div>
   </li>

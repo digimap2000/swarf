@@ -1,0 +1,14 @@
+{{ define "main" }}
+{{- /* Every entry in one project's log, newest first, with its summary. */ -}}
+{{- $log := partial "log.html" . }}
+<header class="page-header">
+  {{ partial "crumbs.html" . }}
+  <h1>Log</h1>
+  <p class="meta"><span>{{ len $log }} {{ cond (eq (len $log) 1) "entry" "entries" }}</span></p>
+</header>
+{{- with $log }}
+{{ partial "entry-list.html" (dict "pages" . "project" false) }}
+{{- else }}
+<p class="empty">No entries yet.</p>
+{{- end }}
+{{ end }}

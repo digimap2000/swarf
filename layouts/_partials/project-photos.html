@@ -1,0 +1,26 @@
+{{- /* Every photograph in a project, given the project page: the cover
+       first, unless it is a stand-in, then each entry's photos, newest entry
+       first, then any on reference pages. Each carries the description its
+       own page gave it and links to that page, where its caption is. */ -}}
+{{- $project := . }}
+{{- $log := partial "log.html" $project }}
+{{- $reference := (where $project.RegularPagesRecursive "Path" "like" `/reference/`).ByTitle }}
+{{- $photos := slice }}
+{{- with partial "cover.html" $project }}
+  {{- if not $project.Params.coverPlaceholder }}
+    {{- $photos = $photos | append (dict "img" . "alt" ($project.Params.coverAlt | default $project.Title) "href" .RelPermalink) }}
+  {{- end }}
+{{- end }}
+{{- range $log | append $reference }}
+  {{- $page := . }}
+  {{- range .Resources.ByType "image" }}
+    {{- if in (slice "jpeg" "png" "webp") .MediaType.SubType }}
+      {{- $alt := "" }}
+      {{- with findRESubmatch (printf `!\[([^\]]*)\]\(%s` (replaceRE `\.` `\.` .Name)) $page.RawContent 1 }}
+        {{- $alt = index (index . 0) 1 }}
+      {{- end }}
+      {{- $photos = $photos | append (dict "img" . "alt" $alt "href" $page.RelPermalink) }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+{{- return $photos -}}

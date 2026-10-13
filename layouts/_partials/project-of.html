@@ -1,0 +1,9 @@
+{{- /* The project a page belongs to: whichever of its ancestors sits
+       directly under /projects. Returns false for a page outside a project. */ -}}
+{{- $project := false -}}
+{{- range $a := .Ancestors -}}
+  {{- with $a.Parent -}}
+    {{- if and (not $project) (eq .Path "/projects") -}}{{- $project = $a -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $project -}}

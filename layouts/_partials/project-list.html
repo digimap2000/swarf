@@ -50,7 +50,7 @@
     {{- end }}
     {{- $left := sub (len .) 3 }}
     {{- if gt $left 0 }}
-    <p class="meta"><span><a href="{{ $p.RelPermalink }}#log">{{ $left }} more {{ cond (eq $left 1) "entry" "entries" }}</a></span></p>
+    <p class="meta"><span><a href="{{ with $p.GetPage "log" }}{{ .RelPermalink }}{{ else }}{{ $p.RelPermalink }}{{ end }}">{{ $left }} more {{ cond (eq $left 1) "entry" "entries" }}</a></span></p>
     {{- end }}
     {{- end }}
   </div>

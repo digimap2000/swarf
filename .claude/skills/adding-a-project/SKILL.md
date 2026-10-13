@@ -13,7 +13,9 @@ that makes it a project; there is nothing to register.
 1. **Agree the folder name with Andrew.** Lower case, hyphens, the thing's own
    name (`smart-and-brown-lathe`). It is the URL for the project and for every
    entry under it, and it cannot change once pushed.
-2. **Write `_index.md`** in that folder.
+2. **Write `_index.md`** in that folder, and copy `log/_index.md` and
+   `photos/_index.md` from an existing project. They give the project its
+   full log page and its photos page, which the project page links to.
 3. **Add a cover** if there is a photo that stands for the project: bring it in
    with `tools/intake` and name it `cover.jpg`. A project with no cover is
    listed without a thumbnail, which is fine.

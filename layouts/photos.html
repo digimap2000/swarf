@@ -1,0 +1,20 @@
+{{ define "main" }}
+{{- /* Every photograph in one project. Each links to the page it appears
+       on, where its caption says why it was taken. */ -}}
+{{- $photos := partial "project-photos.html" .Parent }}
+<header class="page-header">
+  {{ partial "crumbs.html" . }}
+  <h1>Photos</h1>
+  <p class="meta"><span>{{ len $photos }} {{ cond (eq (len $photos) 1) "photo" "photos" }}</span></p>
+</header>
+{{- with $photos }}
+<ul class="photo-grid">
+  {{- range . }}
+  {{- $t := .img.Fill "640x480 webp" }}
+  <li><a href="{{ .href }}"><img src="{{ $t.RelPermalink }}" width="{{ $t.Width }}" height="{{ $t.Height }}" alt="{{ .alt }}" loading="lazy" decoding="async"></a></li>
+  {{- end }}
+</ul>
+{{- else }}
+<p class="empty">No photos yet.</p>
+{{- end }}
+{{ end }}

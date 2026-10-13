@@ -17,4 +17,12 @@ cascade:
       kind: page
       path: "{/projects/*/log/**}"
     layout: entry
+  - target:
+      kind: section
+      path: "{/projects/*/log}"
+    layout: log
+  - target:
+      kind: section
+      path: "{/projects/*/photos}"
+    layout: photos
 ---

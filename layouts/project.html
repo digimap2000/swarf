@@ -5,28 +5,9 @@
 {{- $log := partial "log.html" . }}
 {{- $reference := (where .RegularPagesRecursive "Path" "like" `/reference/`).ByTitle }}
 
-{{- /* Every photograph in the project: the cover first, unless it is a
-       stand-in, then each entry's photos, newest entry first, then any on
-       reference pages. Each carries the description its own page gave it and
-       links to that page, where its caption is. */ -}}
-{{- $photos := slice }}
-{{- with partial "cover.html" . }}
-  {{- if not $.Params.coverPlaceholder }}
-    {{- $photos = $photos | append (dict "img" . "alt" ($.Params.coverAlt | default $.Title) "href" .RelPermalink) }}
-  {{- end }}
-{{- end }}
-{{- range $log | append $reference }}
-  {{- $page := . }}
-  {{- range .Resources.ByType "image" }}
-    {{- if in (slice "jpeg" "png" "webp") .MediaType.SubType }}
-      {{- $alt := "" }}
-      {{- with findRESubmatch (printf `!\[([^\]]*)\]\(%s` (replaceRE `\.` `\.` .Name)) $page.RawContent 1 }}
-        {{- $alt = index (index . 0) 1 }}
-      {{- end }}
-      {{- $photos = $photos | append (dict "img" . "alt" $alt "href" $page.RelPermalink) }}
-    {{- end }}
-  {{- end }}
-{{- end }}
+{{- $photos := partial "project-photos.html" . }}
+{{- $logPage := .GetPage "log" }}
+{{- $photosPage := .GetPage "photos" }}
 
 <article class="project-page">
   <header class="page-header">
@@ -43,15 +24,15 @@
   <div class="dashboard">
     <div class="dashboard-col">
     <section class="panel panel-log" aria-labelledby="panel-log">
-      <h2 class="panel-title" id="panel-log"><a href="#log">Log</a>{{ with $log }} <span>{{ len . }}</span>{{ end }}</h2>
+      <h2 class="panel-title" id="panel-log">{{ if and $log $logPage }}<a href="{{ $logPage.RelPermalink }}">Log</a>{{ else }}Log{{ end }}{{ with $log }} <span>{{ len . }}</span>{{ end }}</h2>
       {{- with $log }}
       <ol class="panel-list" reversed>
         {{- range first 8 . }}
         <li><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "2 Jan 2006" }}</time> <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
         {{- end }}
       </ol>
-      {{- if gt (len .) 8 }}
-      <p class="panel-more"><a href="#log">All {{ len . }} entries</a></p>
+      {{- with $logPage }}
+      <p class="panel-more"><a href="{{ .RelPermalink }}">All {{ len $log }} {{ cond (eq (len $log) 1) "entry" "entries" }}</a></p>
       {{- end }}
       {{- else }}
       <p class="empty">No entries yet.</p>
@@ -71,7 +52,7 @@
     </div>
 
     <section class="panel panel-photos" aria-labelledby="panel-photos">
-      <h2 class="panel-title" id="panel-photos">{{ if $photos }}<a href="#photos">Photos</a> <span>{{ len $photos }}</span>{{ else }}Photos{{ end }}</h2>
+      <h2 class="panel-title" id="panel-photos">{{ if and $photos $photosPage }}<a href="{{ $photosPage.RelPermalink }}">Photos</a>{{ else }}Photos{{ end }}{{ with $photos }} <span>{{ len . }}</span>{{ end }}</h2>
       {{- with $photos }}
       <ul class="panel-thumbs">
         {{- range first 6 . }}
@@ -79,8 +60,8 @@
         <li><a href="{{ .href }}"><img src="{{ $t.RelPermalink }}" width="{{ $t.Width }}" height="{{ $t.Height }}" alt="{{ .alt }}" loading="lazy" decoding="async"></a></li>
         {{- end }}
       </ul>
-      {{- if gt (len .) 6 }}
-      <p class="panel-more"><a href="#photos">All {{ len . }} photos</a></p>
+      {{- with $photosPage }}
+      <p class="panel-more"><a href="{{ .RelPermalink }}">All {{ len $photos }} {{ cond (eq (len $photos) 1) "photo" "photos" }}</a></p>
       {{- end }}
       {{- else }}
       <p class="empty">No photos yet.</p>
@@ -99,23 +80,5 @@
 
   <div class="prose">{{ .Content }}</div>
 
-  {{- with $log }}
-  <section>
-    <h2 class="label" id="log">Log</h2>
-    {{ partial "entry-list.html" (dict "pages" . "project" false) }}
-  </section>
-  {{- end }}
-
-  {{- with $photos }}
-  <section>
-    <h2 class="label" id="photos">Photos</h2>
-    <ul class="photo-grid">
-      {{- range . }}
-      {{- $t := .img.Fill "640x480 webp" }}
-      <li><a href="{{ .href }}"><img src="{{ $t.RelPermalink }}" width="{{ $t.Width }}" height="{{ $t.Height }}" alt="{{ .alt }}" loading="lazy" decoding="async"></a></li>
-      {{- end }}
-    </ul>
-  </section>
-  {{- end }}
 </article>
 {{ end }}
