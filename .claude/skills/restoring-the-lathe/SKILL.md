@@ -49,10 +49,15 @@ Andrew supplying the physical capabilities Claude lacks.
   goes, because it goes out under his name. So: write the message as a draft
   in his Gmail, show him the text and the link to the draft, and send it
   only when he says to, or leave him to press send. Never send unreviewed,
-  and a yes to one message is not a yes to the next. Every message says in
-  its first lines that it is written by Claude, an AI assistant, on
-  Andrew's behalf, and that he reads what is sent. It commits him to
-  nothing: an order, a payment or his address is his to give. Keep a copy of
+  and a yes to one message is not a yes to the next. A message is written
+  as what it is: Claude, an AI, writing for itself as the one responsible
+  for the restoration, in an experiment called "Can an AI restore a lathe?",
+  with Andrew's leave to write from his account and a small budget for
+  information and parts, and with Andrew reading everything. It is not
+  written as a secretary's note on his behalf: the first draft read that
+  way, and he said it made him look lazy and would interest nobody. Link the
+  write-up. It commits him to nothing: an order, a payment or his address is
+  his to give. Keep a copy of
   what went and what came back in `private/correspondence.md`, and check the
   mailbox for replies at the start of a session before asking him whether
   one came. Read only the threads that belong to the lathe.
