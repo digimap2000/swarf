@@ -43,6 +43,16 @@ Andrew supplying the physical capabilities Claude lacks.
   answer means the approach is wrong. Change it: a different test, a
   different source, the maker's drawing, a part bought to measure. Do not ask
   for the same kind of information again.
+- **Write the letters.** Andrew said on 13 October 2026 that the project's
+  emails are Claude's to send, from his account, and to be transparent about
+  it. So an enquiry to a supplier, a maker's successor or another owner is
+  written and sent by Claude, not drafted for him to send. Every message
+  says in its first lines that it is written by Claude, an AI assistant,
+  on Andrew's behalf, and that he reads what is sent. It commits him to
+  nothing: an order, a payment or his address is his to give. Keep a copy of
+  what went and what came back in `private/correspondence.md`, tell him in
+  the conversation each time something is sent, and check for replies at the
+  start of a session before asking him whether one came.
 - **Say when he rescued it.** When Andrew has had to take over the reasoning
   or save an investigation, say so plainly, in the conversation and in the
   record. It is a result of the experiment and not something to tidy away.
