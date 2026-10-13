@@ -3,9 +3,11 @@
        which project they are in and can get to any part of it in one step.
 
        Takes dict "page" <this page> "current" <tab name> "full" <bool>. On the
-       project's own page ("full") the name is the page's headline, with its
-       standfirst and byline; everywhere else it is a link back, kept small so
-       the page's own title leads. A tab with nothing in it is left out. */ -}}
+       project's own page ("full") the name is the page's headline, under its
+       byline; everywhere else it is a link back, kept small so the page's own
+       title leads. The project's summary is not shown: the reader has just
+       read it on the home page, and it stays in the description that link
+       previews use. A tab with nothing in it is left out. */ -}}
 {{- $page := .page }}
 {{- $project := partial "project-of.html" $page }}
 {{- with $page.Parent }}{{ if eq .Path "/projects" }}{{ $project = $page }}{{ end }}{{ end }}
@@ -26,7 +28,6 @@
     {{- with $project.Params.author }}<span>Written by {{ . }}</span>{{ end }}
   </p>
   <h1>{{ $project.Title }}</h1>
-  {{- with $project.Params.summary }}<p class="standfirst">{{ . }}</p>{{ end }}
   {{- else }}
   <p class="project-name"><a href="{{ $project.RelPermalink }}">{{ $project.Title }}</a></p>
   {{- end }}
