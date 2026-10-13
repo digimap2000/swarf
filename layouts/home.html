@@ -1,12 +1,12 @@
 {{ define "main" }}
-<section class="intro">
-  <h1>{{ site.Params.description }}</h1>
-  <div class="prose">{{ .Content }}</div>
-</section>
+{{- /* The home page is the projects page: the hero is the first thing a
+       visitor sees. The headings are there for screen readers and the
+       outline, not to be looked at. */ -}}
+<h1 class="visually-hidden">{{ site.Title }}: {{ site.Params.description }}</h1>
 
 {{ with site.GetPage "/projects" }}
-<section>
-  <h2 class="label">Projects</h2>
+<section class="home-projects">
+  <h2 class="visually-hidden">Projects</h2>
   {{ partial "project-list.html" .Sections }}
 </section>
 {{ end }}

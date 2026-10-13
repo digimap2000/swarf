@@ -140,6 +140,7 @@ h1, h2, h3, h4 {
 p, li, figcaption { text-wrap: pretty; }
 
 .skip { position: absolute; left: -999rem; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 .skip:focus { left: 1rem; top: 1rem; z-index: 10; background: var(--surface); padding: 0.5rem 0.75rem; border-radius: 8px; }
 
 /* --- header and footer ---------------------------------------------------- */
@@ -243,6 +244,7 @@ h1 {
 .intro h1 { max-width: 24ch; font-size: clamp(1.875rem, 1.3rem + 2.4vw, 3rem); line-height: 1.05; }
 .intro .prose { margin-top: 0.75rem; color: var(--muted); font-size: 1.0625rem; line-height: 1.55; }
 .intro + section { margin-top: clamp(2rem, 1.5rem + 2vw, 3rem); }
+.home-projects { margin-top: 0; }
 
 /* --- prose ---------------------------------------------------------------- */
 

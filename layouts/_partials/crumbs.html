@@ -1,6 +1,6 @@
 {{- $trail := slice -}}
 {{- range .Ancestors.Reverse -}}
-  {{- if not .IsHome -}}{{- $trail = $trail | append . -}}{{- end -}}
+  {{- if not (or .IsHome (eq .Path "/projects")) -}}{{- $trail = $trail | append . -}}{{- end -}}
 {{- end -}}
 {{- with $trail }}
 <nav class="crumbs" aria-label="Breadcrumb">
