@@ -9,7 +9,7 @@ the operating rules.
 
 | Task | Skill |
 | --- | --- |
-| Write up a session of work | `writing-a-log-entry` |
+| Write up work as a story in the log | `writing-a-log-entry` |
 | Start documenting a new project | `adding-a-project` |
 | Anything to do with the Smart & Brown lathe | `restoring-the-lathe` |
 
@@ -30,7 +30,10 @@ ignores.
 
 **Say where background came from.** History of a maker, a specification from a
 manual, a claim from a forum: link the source in the text. Summarise in your
-own words and do not copy passages or photos from other sites.
+own words. A short extract or screen grab from a source that is free to read
+on the web may be shown where the text discusses it, with the source named
+in its caption and linked in the text; Andrew decided that on 13 October
+2026. Not whole pages, and nothing from a source that is sold.
 
 **Every photo goes through `tools/intake`.** The repository is public and a
 phone writes its location into every photo. Never copy a photo into `content/`

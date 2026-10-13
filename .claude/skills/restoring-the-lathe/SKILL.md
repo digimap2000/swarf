@@ -64,9 +64,10 @@ the plan is corrected to match it.
 3. **Record what is now established** on the reference pages: identity, the
    condition register, measurements.
 4. **Decide the next job**, by the rules below.
-5. **Write the log entry** for the session he has just done
-   (`writing-a-log-entry`), then update `plan.md`: the stage, and the new job
-   sheet in place of the old.
+5. **Update `plan.md`**: the stage, and the new job sheet in place of the
+   old. If a topic has reached an ending, **write its story**
+   (`writing-a-log-entry`); a sitting that only moved things along does not
+   need an entry of its own.
 6. **Give him the job sheet** in the conversation as well as on the plan page.
 
 ## How to decide
@@ -241,14 +242,18 @@ carries `author: Claude`, which it inherits from the project's `_index.md`,
 and the templates show it, so a reader of Andrew's site is not left to guess
 whose "I" it is.
 
-An entry for a session says, in this order: what I asked for and why; what
-was found, with the photos and the numbers; what I had expected, and whether
-I was right; what I decided next. A wrong call is written down as a wrong
-call in the entry where it came to light.
+**The log is stories by topic, not a diary of sittings.** Andrew asked for
+this on 13 October 2026: the entries had become "we did this then Andrew did
+that", and he wants them journalistically interesting, each one a topic with
+its history, discovery, work and result. `writing-a-log-entry` says how. A
+story here still carries what makes this an experiment: what I expected, what
+was found, who saw what first, and every wrong call of mine, told where it
+belongs in the story. The first written this way was "The collet with no
+drawing".
 
-**The story goes in the log; the reference pages hold the answer.** Every
-sitting of work gets its own entry, written the same day, even when the work
-came as a run of small messages over an afternoon. A reference page says what
+**The story goes in the log; the reference pages hold the answer.** A
+sitting's facts go on the reference pages the same day, and the story is
+written when its topic has an ending. A reference page says what
 is now known, in short sections, and nothing about how it was found or what
 it used to say: no "for a short while this page said", no "how I got it
 wrong", no corrections layered on corrections. Those are the best part of the

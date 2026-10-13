@@ -1,12 +1,44 @@
 ---
 name: writing-a-log-entry
-description: Turn a session of workshop work into a published log entry on swarf - bringing the photos in safely, writing the entry from Andrew's notes and the photos themselves, building, and pushing. Use when Andrew says what he did on a project, drops photos in the inbox, or asks for something to be written up.
+description: Turn workshop work into a published story in a project's log on swarf - choosing the topic, bringing the photos in safely, writing it from Andrew's notes and the photos themselves, building, and pushing. Use when Andrew says what he did on a project, drops photos in the inbox, or asks for something to be written up.
 ---
 
 # Writing a log entry
 
-An entry is one sitting of work on one project: what was done, what was found,
-what it means for what comes next.
+An entry is a story about one topic on one project, not a diary of one
+sitting.
+
+## A story, not a diary
+
+Andrew asked for this on 13 October 2026. The entries until then went
+sitting by sitting, and he found them "a bit literal": we did this, then
+Andrew did that. He wants the work rolled up into topics that are worth
+reading for their own sake, bringing in history, discovery, work and results.
+His example was the hunt for the lathe's collet: a paper trail through old
+catalogues, checked with 3D prints, is a topic in its own right, though it
+ran over two days and a dozen messages.
+
+- **Pick the topic, not the day.** A topic is a question and how it came out:
+  what collet does it take, why would the oil not move, is the bed worn. One
+  sitting can feed two stories, and one story can take a week.
+- **Write it when it has an ending:** a result, a dead end, or a decision.
+  Until then the facts go on the reference pages and "Where it stands" is
+  kept current, so nothing waits on the story to be recorded.
+- **Open with what makes it worth reading,** which is seldom what happened
+  first. Arrange it by the puzzle, not the clock. A long story can have a few
+  plain crossheads.
+- **Bring in the background** that makes sense of it: who made the thing, how
+  it is meant to work, what the old paper says. Link every source.
+- **Keep the people in.** Who thought of what, in their own words where they
+  are good. Wrong turns and dead ends stay, told as part of the story and not
+  as a list of corrections.
+- **End on what is settled and what is not.**
+- **Roll an older entry in** when the new story covers its ground: write the
+  story in a new folder, put the old entry's path in `aliases`, and remove
+  the old folder, so the old address still arrives somewhere.
+
+Still true of every story: no invented facts, a table for anything measured
+more than once, and nothing in it that Andrew did not say or show.
 
 ## The order
 
@@ -15,9 +47,9 @@ what it means for what comes next.
    that is, what order things happened in - and ask in one go. Do not fill a
    gap with what is usual for machines of the type.
 2. **Make the folder.** `content/projects/<project>/log/<YYYY-MM-DD>-<slug>/`.
-   The date is the day the work was done, not the day it was written up. The
-   slug is a few plain words (`stripping-the-headstock`). It becomes the URL
-   and cannot change after publication.
+   The date is the day the story reached its end, not the day it was written
+   up. The slug is a few plain words (`stripping-the-headstock`). It becomes
+   the URL and cannot change after publication.
 3. **Bring the photos in.**
    ```sh
    tools/intake content/projects/<project>/log/<folder> inbox/*.HEIC
@@ -52,7 +84,7 @@ way along](front-journal-scoring.jpg "The score is deep enough to catch a
 fingernail, so the journal will need grinding rather than polishing.")
 ```
 
-- `title` says what was done, in a few words.
+- `title` is a headline for the story, in a few words.
 - `summary` is one sentence and gives the outcome, because the log shows it and
   most readers will read only that.
 - A photo on a line of its own becomes a full-width figure. The text in square
