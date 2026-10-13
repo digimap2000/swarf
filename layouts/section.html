@@ -1,7 +1,9 @@
 {{ define "main" }}
-<header class="page-header">
+{{- /* A list page's title is a label, not a headline: what a reader came for
+       is the list, and it should start near the top of the screen. */}}
+<header class="index-header">
   {{ partial "crumbs.html" . }}
-  <h1>{{ .Title }}</h1>
+  <h1 class="label">{{ .Title }}</h1>
 </header>
 {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
 {{ partial "project-list.html" .Sections }}
