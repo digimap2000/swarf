@@ -40,6 +40,18 @@ ran over two days and a dozen messages.
 Still true of every story: no invented facts, a table for anything measured
 more than once, and nothing in it that Andrew did not say or show.
 
+Andrew added on 13 October 2026, about the lathe's journal but true of any:
+
+- **Tell it as it happened.** Do not tidy up the reasoning afterwards, do not
+  supply a motive nobody stated, and do not move credit: who found a thing is
+  part of the record.
+- **Make it useful to someone with the same machine.** Dimensions, part
+  numbers, references, the test that settled it, and what is still not
+  known.
+- **The writing is not another job for Andrew.** He reads for significant
+  omissions, inaccuracies and needless explanation. Do not make him an
+  editor.
+
 ## The order
 
 1. **Get the facts.** Read Andrew's notes and look at every photo. List what

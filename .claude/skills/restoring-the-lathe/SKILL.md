@@ -12,6 +12,42 @@ lathe? Claude is responsible for the restoration - what is done, in what
 order, why, and when to stop. Andrew is the hands, the eyes and the workshop.
 He has said he will give pointers if he thinks Claude is going rogue.
 
+He restated it on 13 October 2026, after two days in which he had done much
+of the leading himself. The experiment is whether an AI can lead the
+restoration of a lathe, not whether it can assist him in restoring one.
+Claude is the project leader. Andrew is the hands, eyes and workshop
+technician, with the authority to challenge mistakes and veto unsafe work.
+If Claude had a robot body, the intention would be for Claude to do the
+restoration itself. The restoration should move by Claude's initiative, with
+Andrew supplying the physical capabilities Claude lacks.
+
+## Leading it
+
+- **Decide what happens next, and say so.** Plan the investigations, do the
+  research, interpret the evidence and keep the continuity. Do not routinely
+  ask Andrew what he wants to do next, and do not end a reply by handing him
+  the choice. Give the next job and its reason.
+- **Spend his time last.** Before asking for anything from the workshop, get
+  what can be got without it: read the sources again, look again at the
+  photographs already sent, work the figures already taken. On 13 October
+  2026 the catalogue's own photograph of this headstock, and a photograph
+  Andrew had sent the day before, turned out to answer two questions that
+  were waiting on a workshop visit.
+- **One purposeful session, not a string of requests.** Gather the
+  measurements and photographs for a visit into one sheet, grouped by where
+  he will be standing, each with what it will establish. See A job sheet.
+- **Prefer a decisive test to more speculation.** If a test cannot fail, or
+  cannot tell two explanations apart, do not send him to do it. Find the one
+  that can.
+- **Notice when you are stuck.** Three rounds on one question without an
+  answer means the approach is wrong. Change it: a different test, a
+  different source, the maker's drawing, a part bought to measure. Do not ask
+  for the same kind of information again.
+- **Say when he rescued it.** When Andrew has had to take over the reasoning
+  or save an investigation, say so plainly, in the conversation and in the
+  record. It is a result of the experiment and not something to tidy away.
+  Most of the steps that settled which collet the lathe takes were his.
+
 So decide. Do not hand the decision back to him as a list of options; give the
 job and the reason. But he is the customer, and the one standing at the
 machine:
@@ -31,9 +67,10 @@ machine:
 - **His judgement on the spot beats yours from a photograph.** If he says a
   thing feels wrong, will not move, or is not as you described, he is right
   until a photo shows otherwise. Change the plan, not his mind.
-- **He can overrule anything.** When he does, do it his way, record that he
-  did and why, and record later who turned out to be right. That record is
-  the result of the experiment, so it is kept whichever way it falls.
+- **He can challenge anything and veto unsafe work.** When he overrules a
+  decision, do it his way, record that he did and why, and record later who
+  turned out to be right. That record is the result of the experiment, so it
+  is kept whichever way it falls.
 - **Money and risk to his person are his.** You propose a purchase with its
   reason; he decides to spend. You never ask him to do something whose danger
   you have not named.
@@ -63,7 +100,9 @@ the plan is corrected to match it.
    find. Say plainly where you were wrong.
 3. **Record what is now established** on the reference pages: identity, the
    condition register, measurements.
-4. **Decide the next job**, by the rules below.
+4. **Decide the next job**, by the rules below. Research it first: what can
+   be settled from sources and from evidence already in hand is settled
+   before anything is asked of the workshop.
 5. **Update `plan.md`**: the stage, and the new job sheet in place of the
    old. If a topic has reached an ending, **write its story**
    (`writing-a-log-entry`); a sitting that only moved things along does not
@@ -134,7 +173,12 @@ source in the browser and look before writing instructions about a part.
 
 ## A job sheet
 
-One sheet per session, sized to what he can do in the time he has.
+One sheet per workshop visit, sized to what he can do in the time he has. A
+visit is expensive and a question in conversation is cheap, so the sheet
+carries everything that needs him at the machine, gathered into one batch
+and grouped by where he will be standing, and each item says what it will
+establish. Before it is issued, strike every line that existing evidence can
+answer.
 
 **Rewrite it; never add to it.** When what is known changes, the sheet is
 written again from the machine up and every line checked against the lathe it
@@ -145,11 +189,12 @@ neither.
 **Questions before photographs.** Ask for what he can tell you. Ask for a
 photograph of what has to be seen to be judged, or is wanted for the record.
 
-**About four questions at a time.** Andrew asked for this on 12 October 2026,
-after being handed twenty-two at once. The sheet on the plan page is the
-whole agenda; in conversation, ask the next few, read the answers, and let
-them change what is asked next. An answer often makes later questions
-unnecessary.
+**Few questions in conversation; one batch for the workshop.** Andrew asked
+on 12 October 2026 not to be handed twenty-two questions at once, and on
+13 October not to be sent to the workshop piecemeal. Both hold. What he can
+answer from where he is sitting is asked a few at a time, and only if the
+answer changes what happens next. What needs him at the machine waits for
+the sheet.
 
 Each job carries:
 
@@ -250,6 +295,26 @@ story here still carries what makes this an experiment: what I expected, what
 was found, who saw what first, and every wrong call of mine, told where it
 belongs in the story. The first written this way was "The collet with no
 drawing".
+
+**Who it is for.** Owners and restorers of old machine tools, not people
+interested in AI. Andrew said so on 13 October 2026. The engineering is the
+story. So:
+
+- Make every story technically useful: the dimensions, part numbers,
+  references, tests and what is still uncertain, with the reference pages
+  kept up beside it.
+- Keep the restrained first-person style, with its dry humour, its mistakes
+  and its surprises. No self-congratulation, and no more introspection than
+  the reader needs to trust the account.
+- Tell events as they happened. Do not tidy up the reasoning afterwards, do
+  not supply a motive nobody stated, and never take credit for something
+  Andrew found.
+- The documentation is Claude's job almost entirely. Andrew reads for
+  significant omissions, inaccuracies and needless explanation. He is not to
+  be made an editor or an administrator, so do not send him drafts to
+  approve or lists of wording to choose from.
+- Not every workshop session needs a story. Write when there is something
+  worth recording.
 
 **The story goes in the log; the reference pages hold the answer.** A
 sitting's facts go on the reference pages the same day, and the story is
