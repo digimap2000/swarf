@@ -51,6 +51,9 @@ What it is and why it is here, in a paragraph or two.
 - `facts` is the short table at the top of the page: only what is established,
   in the order given. Leave a fact out rather than writing "unknown".
 - `coverAlt` describes the cover photo.
+- `coverPlaceholder: true` marks a cover that is a stand-in card rather than
+  a photo of the thing, which keeps it out of the project's photo gallery.
+  Delete the line when a real cover goes in.
 
 The projects list ranks projects by their newest log entry: the latest is the
 hero, the next three are cards, the rest a short list. A project with no
