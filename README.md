@@ -24,6 +24,7 @@ content/
         specification.md              undated pages: facts worth keeping
 layouts/      the templates, all written for this site, no theme
 assets/css/   one stylesheet
+static/fonts/ the three typefaces it uses, with their licences
 tools/        intake and check-photos, for photographs
 ```
 
