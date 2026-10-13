@@ -19,6 +19,12 @@
     {{- with $log }}
     {{- $latest := index . 0 }}
     <section class="side-card side-latest" aria-labelledby="side-latest">
+      {{- /* The entry's first photo, when it has one. An entry without a photo
+             shows none, rather than a stand-in. */}}
+      {{- with partial "cover.html" $latest }}
+      {{- $t := .Fill "640x360 webp" }}
+      <a class="side-thumb" href="{{ $latest.RelPermalink }}" tabindex="-1" aria-hidden="true"><img src="{{ $t.RelPermalink }}" width="{{ $t.Width }}" height="{{ $t.Height }}" alt="" decoding="async"></a>
+      {{- end }}
       <h2 class="side-title" id="side-latest">Latest entry</h2>
       <p class="meta"><time datetime="{{ $latest.Date.Format "2006-01-02" }}">{{ $latest.Date | time.Format "2 January 2006" }}</time></p>
       <a class="side-headline" href="{{ $latest.RelPermalink }}">{{ $latest.Title }}</a>

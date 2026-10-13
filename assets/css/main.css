@@ -346,6 +346,9 @@ figcaption p { margin: 0; }
 .side-more a { color: var(--muted); }
 .side-more a:hover { color: var(--blue); }
 
+.side-thumb { display: block; margin: -1.1rem -1.25rem 1rem; overflow: hidden; border-radius: var(--radius) var(--radius) 0 0; }
+.side-thumb img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; background: var(--wash); transition: transform 0.4s; }
+.side-thumb:hover img { transform: scale(1.03); }
 .side-latest .side-headline { display: block; margin-top: 0.3rem; font: 700 1.25rem/1.2 var(--display); font-stretch: 87.5%; color: var(--ink); text-decoration: none; }
 .side-latest .side-headline:hover { color: var(--blue); }
 .side-latest p:not(.meta):not(.side-more) { margin: 0.45rem 0 0; font-size: 0.9375rem; line-height: 1.5; color: var(--muted); }
