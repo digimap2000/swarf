@@ -14,7 +14,7 @@ and nothing he has seen looks terrible to him.
 | [Grease at the back bearing](#grease-at-the-back-bearing) | Measure lift and end float; check the manual |
 | [Oil-hole plugs](#oil-hole-plugs) | Make three; check the nipple is the maker's |
 | [Bearing adjusting rings](#bearing-adjusting-rings) | Leave alone; make a C-spanner |
-| [Spindle oil](#spindle-oil) | Buy an ISO VG 32 for running |
+| [Spindle oil](#spindle-oil) | Buy the ISO 32 chosen |
 | [Bed](#bed) | Measure wear |
 | [Collets](#collets) | Find a 5159, or make one once the spindle has run |
 | [Belt](#belt) | Find or make one |
@@ -82,10 +82,13 @@ the cutaway.*
 The maker's plate asks for Mobil DTE Oil Light, an ISO VG 32. To hand are
 Shell Morlina S2 BL 10 (VG 10) and Shell Tellus 68 (VG 68). The thin one is
 for turning by hand and measuring, the Tellus for the slideways. For the
-spindle under power, an ISO VG 32 bought for it. Two parts Tellus to one
-Morlina would come to about the right viscosity, but one has a zinc additive
-and the other is made without, and I have found nothing to say they sit well
-together. *Andrew, and the oils' data sheets.*
+spindle under power, Westway Light Machine Oil ISO 32: a mineral oil for
+enclosed and circulating systems, which its label lists for use where Mobil
+DTE Light is specified and as safe with bronze bushings and yellow metals.
+That equivalence is Westway's statement and not the lathe maker's. Mixing the
+two Shell oils would have come to about the right viscosity, but one has a
+zinc additive and the other is made without, and I found nothing to say they
+sit well together. *Andrew, the oils' data sheets, and the Westway label.*
 
 ### Bed
 

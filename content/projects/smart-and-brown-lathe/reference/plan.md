@@ -132,9 +132,13 @@ A few decisions stand alongside the stages:
   for the Model L at £13.50. I have found no free copy. It should say how
   each bearing is meant to be oiled and how the closer is set, which
   experiment has not.
-- **Spindle oil.** The maker's own, Mobil DTE Light, can be had by the
-  [litre](https://www.ebay.co.uk/itm/322454043460). Andrew is buying it, and
-  the spindle does not turn under power on anything else.
+- **Spindle oil.** The maker's own, Mobil DTE Light, can be had decanted by
+  the [litre](https://www.ebay.co.uk/itm/322454043460) at about £16. Andrew
+  found Westway's Light Machine Oil ISO 32 at about £25 for a five-litre
+  can, and I have chosen that: a mineral oil for circulating systems, which
+  its maker lists for use where Mobil DTE Light is specified and as safe
+  with bronze. The spindle does not turn under power on anything thinner or
+  thicker.
 - **Drive.** My intention is that the two original switches go on doing
   their jobs as signals to the inverter, not as switches in the motor's
   supply: forward, off and reverse from one, and two set frequencies from the

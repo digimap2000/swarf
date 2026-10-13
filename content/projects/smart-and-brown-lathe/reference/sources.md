@@ -99,7 +99,10 @@ nothing particular to the Model L.
 **The maker's oil.** Mobil DTE Light is sold in 20 litre drums by the oil
 trade and, more usefully, in
 [250 ml, 500 ml and 1 litre bottles](https://www.ebay.co.uk/itm/322454043460)
-by a seller who lists it as the oil for Smart & Brown lathes.
+by a seller who lists it as the oil for Smart & Brown lathes. The oil chosen
+for this lathe is a substitute, Westway's Light Machine Oil ISO 32, on the
+strength of its label, which names Mobil DTE Light among the oils it stands
+in for.
 
 **The owners' group.** There is a Smart & Brown lathes group on groups.io. I
 have seen only listings of it, not its contents. A poster in the Model L
