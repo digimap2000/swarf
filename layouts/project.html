@@ -1,10 +1,38 @@
 {{ define "main" }}
+{{- /* A project's page is a dashboard: the reader has just seen its cover on
+       the home page, so the top of the page goes to getting somewhere - the
+       log, the photos, the reference pages - and the overview follows. */ -}}
 {{- $log := partial "log.html" . }}
 {{- $reference := (where .RegularPagesRecursive "Path" "like" `/reference/`).ByTitle }}
-<article>
+
+{{- /* Every photograph in the project: the cover first, unless it is a
+       stand-in, then each entry's photos, newest entry first, then any on
+       reference pages. Each carries the description its own page gave it and
+       links to that page, where its caption is. */ -}}
+{{- $photos := slice }}
+{{- with partial "cover.html" . }}
+  {{- if not $.Params.coverPlaceholder }}
+    {{- $photos = $photos | append (dict "img" . "alt" ($.Params.coverAlt | default $.Title) "href" .RelPermalink) }}
+  {{- end }}
+{{- end }}
+{{- range $log | append $reference }}
+  {{- $page := . }}
+  {{- range .Resources.ByType "image" }}
+    {{- if in (slice "jpeg" "png" "webp") .MediaType.SubType }}
+      {{- $alt := "" }}
+      {{- with findRESubmatch (printf `!\[([^\]]*)\]\(%s` (replaceRE `\.` `\.` .Name)) $page.RawContent 1 }}
+        {{- $alt = index (index . 0) 1 }}
+      {{- end }}
+      {{- $photos = $photos | append (dict "img" . "alt" $alt "href" $page.RelPermalink) }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+
+<article class="project-page">
   <header class="page-header">
     {{ partial "crumbs.html" . }}
     <h1>{{ .Title }}</h1>
+    {{- with .Params.summary }}<p class="lede">{{ . }}</p>{{ end }}
     <p class="meta">
       {{- with .Params.kind }}<span>{{ . }}</span>{{ end }}
       {{- if not .Date.IsZero }}<span>Started {{ .Date | time.Format "January 2006" }}</span>{{ end }}
@@ -12,12 +40,54 @@
     </p>
   </header>
 
-  {{- with .Resources.GetMatch "cover.*" }}
-  {{- $large := .Fit "1600x1600 webp" }}
-  <figure class="cover">
-    <a href="{{ .RelPermalink }}"><img src="{{ $large.RelPermalink }}" width="{{ $large.Width }}" height="{{ $large.Height }}" alt="{{ $.Params.coverAlt | default $.Title }}"></a>
-  </figure>
-  {{- end }}
+  <div class="dashboard">
+    <div class="dashboard-col">
+    <section class="panel panel-log" aria-labelledby="panel-log">
+      <h2 class="panel-title" id="panel-log"><a href="#log">Log</a>{{ with $log }} <span>{{ len . }}</span>{{ end }}</h2>
+      {{- with $log }}
+      <ol class="panel-list" reversed>
+        {{- range first 8 . }}
+        <li><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "2 Jan 2006" }}</time> <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{- end }}
+      </ol>
+      {{- if gt (len .) 8 }}
+      <p class="panel-more"><a href="#log">All {{ len . }} entries</a></p>
+      {{- end }}
+      {{- else }}
+      <p class="empty">No entries yet.</p>
+      {{- end }}
+    </section>
+
+    {{- with $reference }}
+    <section class="panel panel-reference" aria-labelledby="panel-reference">
+      <h2 class="panel-title" id="panel-reference">Reference</h2>
+      <ul class="panel-list">
+        {{- range . }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{- end }}
+      </ul>
+    </section>
+    {{- end }}
+    </div>
+
+    <section class="panel panel-photos" aria-labelledby="panel-photos">
+      <h2 class="panel-title" id="panel-photos">{{ if $photos }}<a href="#photos">Photos</a> <span>{{ len $photos }}</span>{{ else }}Photos{{ end }}</h2>
+      {{- with $photos }}
+      <ul class="panel-thumbs">
+        {{- range first 6 . }}
+        {{- $t := .img.Fill "240x240 webp" }}
+        <li><a href="{{ .href }}"><img src="{{ $t.RelPermalink }}" width="{{ $t.Width }}" height="{{ $t.Height }}" alt="{{ .alt }}" loading="lazy" decoding="async"></a></li>
+        {{- end }}
+      </ul>
+      {{- if gt (len .) 6 }}
+      <p class="panel-more"><a href="#photos">All {{ len . }} photos</a></p>
+      {{- end }}
+      {{- else }}
+      <p class="empty">No photos yet.</p>
+      {{- end }}
+    </section>
+
+  </div>
 
   {{- with .Params.facts }}
   <dl class="facts">
@@ -29,21 +99,20 @@
 
   <div class="prose">{{ .Content }}</div>
 
+  {{- with $log }}
   <section>
     <h2 class="label" id="log">Log</h2>
-    {{- with $log }}
     {{ partial "entry-list.html" (dict "pages" . "project" false) }}
-    {{- else }}
-    <p class="empty">No entries yet.</p>
-    {{- end }}
   </section>
+  {{- end }}
 
-  {{- with $reference }}
+  {{- with $photos }}
   <section>
-    <h2 class="label">Reference</h2>
-    <ul class="reference">
+    <h2 class="label" id="photos">Photos</h2>
+    <ul class="photo-grid">
       {{- range . }}
-      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ with .Params.summary }} <span class="in">{{ . }}</span>{{ end }}</li>
+      {{- $t := .img.Fill "640x480 webp" }}
+      <li><a href="{{ .href }}"><img src="{{ $t.RelPermalink }}" width="{{ $t.Width }}" height="{{ $t.Height }}" alt="{{ .alt }}" loading="lazy" decoding="async"></a></li>
       {{- end }}
     </ul>
   </section>

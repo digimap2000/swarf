@@ -1,6 +1,9 @@
 ---
 title: Is one lathe ever enough?
 summary: "Apparently not. This one is a Colchester Chipmaster, the small variable-speed lathe Colchester built for a quarter of a century."
+# The cover is a stand-in card, not a photo of the thing: it is left out of
+# the photo gallery. Remove this line when a real cover replaces it.
+coverPlaceholder: true
 coverAlt: "Placeholder image: a plain grey card reading \"Placeholder. No photo of the Chipmaster yet.\""
 facts:
   - { label: Maker, value: Colchester }

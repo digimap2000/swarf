@@ -1,6 +1,9 @@
 ---
 title: How many lathes is too many?
 summary: "Ask again after this one. A South Bend, from the Indiana works whose lathes filled American machine shops and school workshops for half a century."
+# The cover is a stand-in card, not a photo of the thing: it is left out of
+# the photo gallery. Remove this line when a real cover replaces it.
+coverPlaceholder: true
 coverAlt: "Placeholder image: a plain grey card reading \"Placeholder. No photo of the South Bend yet.\""
 facts:
   - { label: Maker, value: South Bend Lathe Works }

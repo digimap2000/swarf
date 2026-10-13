@@ -2,6 +2,9 @@
 title: What becomes of an old trailer tent?
 summary: "It gets a job. An old trailer tent off Marketplace is being stripped of its holiday ambitions and rebuilt to haul leaves."
 kind: Build
+# The cover is a stand-in card, not a photo of the thing: it is left out of
+# the photo gallery. Remove this line when a real cover replaces it.
+coverPlaceholder: true
 coverAlt: "Placeholder image: a plain grey card reading \"Placeholder. No photo of the trailer yet.\""
 facts:
   - { label: Starting point, value: An old trailer tent }

@@ -2,6 +2,9 @@
 title: Does a workshop need an industrial robot?
 summary: "Need is a strong word. Andrew is rescuing a Comau NS16, a six-axis arm built for factory work, to make itself useful around the workshop. Nobody has asked the robot."
 kind: Restoration
+# The cover is a stand-in card, not a photo of the thing: it is left out of
+# the photo gallery. Remove this line when a real cover replaces it.
+coverPlaceholder: true
 coverAlt: "Placeholder image: a plain grey card reading \"Placeholder. No photo of the robot yet.\""
 facts:
   - { label: Maker, value: Comau }

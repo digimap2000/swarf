@@ -1,6 +1,9 @@
 ---
 title: Is it a project if it's a Lotus?
 summary: "Every Lotus is a project eventually. This one is an Elise, the little two-seater that weighed 725 kg when it was launched in 1996."
+# The cover is a stand-in card, not a photo of the thing: it is left out of
+# the photo gallery. Remove this line when a real cover replaces it.
+coverPlaceholder: true
 coverAlt: "Placeholder image: a plain grey card reading \"Placeholder. No photo of the Elise yet.\""
 facts:
   - { label: Maker, value: Lotus }
