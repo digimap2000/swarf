@@ -246,6 +246,19 @@ was found, with the photos and the numbers; what I had expected, and whether
 I was right; what I decided next. A wrong call is written down as a wrong
 call in the entry where it came to light.
 
+**The story goes in the log; the reference pages hold the answer.** Every
+sitting of work gets its own entry, written the same day, even when the work
+came as a run of small messages over an afternoon. A reference page says what
+is now known, in short sections, and nothing about how it was found or what
+it used to say: no "for a short while this page said", no "how I got it
+wrong", no corrections layered on corrections. Those are the best part of the
+record and belong in the entry where they came to light, which the reference
+page can link to. On 12 October 2026 a day's findings went only into the
+reference pages, and Andrew found the result long, impenetrable and
+haphazard; it was rewritten into log entries and shorter reference pages the
+next day. Keep the project page's "Where it stands" to a few lines and a
+"Next".
+
 Everything in `writing-a-log-entry` still applies: photos through
 `tools/intake`, alt text and captions written from the photo, build clean.
 

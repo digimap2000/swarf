@@ -26,7 +26,7 @@ Griffiths. The fullest account of the range in one place: a page each on the
 [1024](https://www.lathes.co.uk/smartbrown/page5.html). Good for telling the
 models apart, for capacities and drive arrangements, and for dates, which it
 gives as approximate. It does not say where the serial number is stamped on
-any of them. [Telling the models apart](identification.md) is built on it.
+any of them. The [identification page](identification.md) is built on it.
 
 I read these pages twice. The first time I took the text and wrote
 instructions from it. The second time, after Andrew had corrected me, I
@@ -34,47 +34,53 @@ looked at the catalogue pictures on the Model L page as well, and learned
 more about how the machine is laid out from three photographs than from the
 words. What a Model L looks like, on the identification page, is from them.
 
-**[A Model A thread on the Model Engineer forum](https://www.model-engineer.co.uk/?p=19346).**
-Owners' experience, which is a different kind of evidence from a catalogue.
-What I have taken from it: that sound plain headstock bearings on a Model A
-should be left alone, neither adjusted nor disturbed by drawing the spindle;
-that a bronze gear in the gearbox is hard to replace, so its teeth are worth
-a look; that the motor is often wound for 440 V only, which matters if
-it is to run from a single-phase supply through an inverter; and that the
-machine weighs somewhere between 1,300 lb and three-quarters of a ton,
-depending on who is asked and what is bolted to it. None of this applies
-unless the lathe turns out to be a Model A.
+**[A Model A thread on the Model Engineer
+forum](https://www.model-engineer.co.uk/?p=19346).** Owners' experience, which
+is a different kind of evidence from a catalogue. What I have taken from it:
+that sound plain headstock bearings on a Model A should be left alone, neither
+adjusted nor disturbed by drawing the spindle; that a bronze gear in the
+gearbox is hard to replace, so its teeth are worth a look; that the motor is
+often wound for 440 V only, which matters if it is to run from a single-phase
+supply through an inverter; and that the machine weighs somewhere between
+1,300 lb and three-quarters of a ton, depending on who is asked and what is
+bolted to it. This lathe is a Model L, so none of it applies directly.
 
-**[A Model L thread on the same forum](https://www.model-engineer.co.uk/?p=29271).**
-An owner trying to draw the spindle from a Model L headstock with a bronze
-front bearing and a roller bearing at the back. Three things worth having.
-The bronze bearing is oiled through a hole that leads to a well beneath it,
-perhaps with a felt wick to lift the oil. The threaded rings beside the
-bearings set their clearance and are to be left alone. And the spindle came
-out three-quarters of an inch and stopped, with nobody in the thread able to
-say what was holding it. That last is the best argument I have read for not
-pulling a spindle to see what is inside. It applies only if this lathe is a
-Model L, and then only to that type of headstock.
+**[A Model L thread on the same
+forum](https://www.model-engineer.co.uk/?p=29271).** An owner trying to draw
+the spindle from a Model L headstock with a bronze front bearing and a roller
+bearing at the back. Three things worth having. The bronze bearing is oiled
+through a hole that leads to a well beneath it, perhaps with a felt wick to
+lift the oil. The threaded rings beside the bearings set their clearance and
+are to be left alone. And the spindle came out three-quarters of an inch and
+stopped, with nobody in the thread able to say what was holding it. That last
+is the best argument I have read for not pulling a spindle to see what is
+inside. A headstock with bronze at the front and a rolling bearing at the back
+may be of the same family as this lathe's own.
+
+**For the collets.** Forum threads on the [draw-in collet's
+thread](https://www.model-engineer.co.uk/forums/topic/collet-closer-identification/),
+on a [job lot of Smart & Brown
+collets](https://www.model-engineer.co.uk/forums/topic/collet-identification-2/)
+and on the [lever dead-length
+closer](https://www.mig-welding.co.uk/forum/threads/smart-brown-lever-operated-dead-length-collet-closer.144859/),
+and the present maker's listings and
+[catalogue](https://forkardthardinge.com/wp-content/uploads/2348J_SpindleTooling.pdf)
+for Brown & Sharpe collets. What each gave is on the [collets
+page](collets/index.md).
 
 ## Not yet in hand
 
 **The maker's manual.** Reproductions of the operating, maintenance and parts
-manuals for most models are sold through the
-[lathes.co.uk archive](https://store.lathes.co.uk/smart-and-brown). I will not
-ask for anything to be dismantled, or any oil chosen, before the right one is
-on the bench. Which one that is waits on the model. The budget for this job
-is small on purpose, so I will look for a copy that is free before I ask for
-one to be bought.
+manuals for most models are sold through the [lathes.co.uk
+archive](https://store.lathes.co.uk/smart-and-brown). I will not ask for a
+headstock to be dismantled before the Model L's is on the bench. The budget
+for this job is small on purpose, so I will look for a copy that is free
+before I ask for one to be bought.
 
 **The owners' group.** There is a Smart & Brown lathes group on groups.io. I
 have seen only listings of it, not its contents. A poster in the Model L
 thread says it holds the files of an earlier Yahoo group, which makes it the
 first place to look for a manual that costs nothing.
-
-**Serial numbers.** The Sabel page lists a handful of surviving numbers
-against years and says machines were numbered in turn as they left the works,
-whatever the model. That may date this one once its number is found. I have
-found nothing that says where to look for it.
 
 ## For method
 
