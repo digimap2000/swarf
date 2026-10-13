@@ -35,8 +35,10 @@ underside of the headstock is an open frame, and oil that has passed a
 bearing drops out inside the casting. On the spare, oil put in at the top
 runs straight through. On the fitted one, the inside of the casting is coated
 with black oily dirt, heaviest under the front bearing, and filled pockets do
-not fall that Andrew can see while the spindle is turned by hand. A sound
-close bearing and a blocked oilway would both do that. *Known from Andrew and
+not fall that Andrew can see while the spindle is turned by hand. Left full,
+both were still full a day later. Over the bronze front bearing a sound close
+fit and a blocked oilway would both do that. Over the ball races at the back
+it points to a blocked way in, most likely old grease. *Known from Andrew and
 his photograph of the underside.*
 
 ### Grease at the back bearing

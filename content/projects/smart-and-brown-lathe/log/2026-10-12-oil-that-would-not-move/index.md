@@ -128,11 +128,16 @@ front bearing is tight. Not known: how oil gets from a pocket to the bearing und
 it, since the pocket ends on bronze, and whether it gets there at all on the
 lathe's own headstock.
 
-I first meant to follow it with the slow version of the same test, full
-pockets left overnight. A better one costs ten minutes. With a pocket
-emptied, a light down it should show how the oil is meant to get in, and
-three or four drops on the bronze cannot hide a loss the way a pocketful
-did. Until that gives an answer the rule stands, and the spindle does not
-turn under power. The sheet for it is on the
-[plan](../../reference/plan.md), and what is known so far is in the
-[condition register](../../reference/condition.md).
+The slow version of the test ran itself. The pockets were left full, and a
+day later Andrew found both exactly as he had left them. Over the bronze
+that still proves nothing. Over the back bearing it says more: thin oil
+standing for a day above a pair of ball races, and not moving, means the way
+down to them is shut, and old grease that the cotton bud could not reach is
+the likeliest thing to have shut it.
+
+A better test costs ten minutes. With a pocket emptied, a light down it
+should show how the oil is meant to get in, and three or four drops on the
+bronze cannot hide a loss the way a pocketful did. Until that gives an
+answer the rule stands, and the spindle does not turn under power. The sheet
+for it is on the [plan](../../reference/plan.md), and what is known so far
+is in the [condition register](../../reference/condition.md).

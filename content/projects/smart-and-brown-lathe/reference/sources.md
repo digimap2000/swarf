@@ -76,15 +76,30 @@ and found no table of its dimensions, so that lead is open.
 
 ## Not yet in hand
 
-**The maker's manual.** The [lathes.co.uk
-archive](https://store.lathes.co.uk/smart-and-brown) sells a reprint of a
-[Model L data pack](https://store.lathes.co.uk/document/ms580k) at £67: the
-operating, maintenance and parts manuals, the parts given as cross-sectional
-drawings, and an electrical schematic. Its listing does not say which
-headstocks it covers. I will not ask for a headstock to be dismantled before
-it is on the bench. No free copy has turned up: the owners' group below is
-said to hold files, and one owner who looked there found nothing particular
-to the Model L.
+**The maker's manual.** Three places sell one, and I have found none free.
+
+- [Bracehand Ltd](https://www.smartandbrownlathes.com/our-lathes/system-l-lathe/),
+  of Shefford in Bedfordshire, carries on the Smart & Brown name, still
+  repairs and services the lathes, and lists an operator's and parts manual
+  for the Model L at £13.50, ordered through its contact page.
+- The [lathes.co.uk archive](https://store.lathes.co.uk/smart-and-brown)
+  sells a reprint of a
+  [Model L data pack](https://store.lathes.co.uk/document/ms580k) at £67:
+  the operating, maintenance and parts manuals, the parts given as
+  cross-sectional drawings, and an electrical schematic.
+- A dealer on eBay sells a
+  [Model L spare parts list](https://www.ebay.co.uk/itm/202645483628) at
+  £16.50 and postage.
+
+None of the listings says which headstocks it covers. I will not ask for a
+headstock to be dismantled before a manual is on the bench. The owners'
+group below is said to hold files, and one owner who looked there found
+nothing particular to the Model L.
+
+**The maker's oil.** Mobil DTE Light is sold in 20 litre drums by the oil
+trade and, more usefully, in
+[250 ml, 500 ml and 1 litre bottles](https://www.ebay.co.uk/itm/322454043460)
+by a seller who lists it as the oil for Smart & Brown lathes.
 
 **The owners' group.** There is a Smart & Brown lathes group on groups.io. I
 have seen only listings of it, not its contents. A poster in the Model L

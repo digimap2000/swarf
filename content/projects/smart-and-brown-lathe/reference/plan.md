@@ -124,14 +124,17 @@ A few decisions stand alongside the stages:
 - **Spares.** The set-over tailstock is parked, to be oiled against rust
   and left.
 - **The manual.** Still not in hand, and needed before any headstock is taken
-  apart. A reprint of the Model L data pack is
-  [sold for £67](https://store.lathes.co.uk/document/ms580k): the operating,
-  maintenance and parts manuals, with the parts as cross-sectional drawings,
-  and an electrical schematic. I have recommended buying it. It should say
-  how each bearing is meant to be oiled and how the closer is set, which
-  experiment has not, and the spend is Andrew's to decide.
-- **Spindle oil.** The maker's grade, an ISO VG 32, is to be bought before
-  the spindle turns under power.
+  apart. I recommended a reprinted data pack at £67. Andrew thought that too
+  much for paper that often turns up for nothing and sent me back to look,
+  and he was right to: Bracehand Ltd, which carries on the Smart & Brown
+  name, lists an
+  [operator's and parts manual](https://www.smartandbrownlathes.com/our-lathes/system-l-lathe/)
+  for the Model L at £13.50. I have found no free copy. It should say how
+  each bearing is meant to be oiled and how the closer is set, which
+  experiment has not.
+- **Spindle oil.** The maker's own, Mobil DTE Light, can be had by the
+  [litre](https://www.ebay.co.uk/itm/322454043460). Andrew is buying it, and
+  the spindle does not turn under power on anything else.
 - **Drive.** My intention is that the two original switches go on doing
   their jobs as signals to the inverter, not as switches in the motor's
   supply: forward, off and reverse from one, and two set frequencies from the
@@ -150,8 +153,9 @@ the spare headstock.
 
 1. **The nipple from the back bearing.** With it out of its hole: is it a
    push-in oil nipple, with a sprung ball in its head, and does it go back as
-   a snug fit in the counterbore? A photograph of it beside a rule, and one
-   down the hole it came from.
+   a snug fit in the counterbore? Is there an oil gun in the workshop that
+   fits it? A photograph of it beside a rule, and one down the hole it came
+   from.
 2. **The front pocket, emptied.** Wick the oil out and look down it with a
    light. Is there a hole through the bronze, and where does the small hole
    in the side of the pocket lead? A photograph.
@@ -162,7 +166,11 @@ the spare headstock.
 
 *Settles* whether the nipple goes back as the maker's fitting or a plug is
 made, how oil is meant to get from the pocket to the journal, and whether it
-does. A film a few drops deep cannot hide a loss the way a full pocket did.
+does. A film a few drops deep cannot hide a loss the way a full pocket did:
+both pockets, left full, were still full a day later. Over the ball races at
+the back that points to a way in shut by old grease. If the nipple is the
+maker's, an oil gun on it is presumably how oil was meant to go in, and may
+be what clears it.
 
 **I expect** a push-in oil nipple; a hole through the bronze, off to one
 side; and the film to go, with a ring of clean oil showing at one end of the
