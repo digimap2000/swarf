@@ -65,8 +65,12 @@ and on the [lever dead-length
 closer](https://www.mig-welding.co.uk/forum/threads/smart-brown-lever-operated-dead-length-collet-closer.144859/),
 and the present maker's listings and
 [catalogue](https://forkardthardinge.com/wp-content/uploads/2348J_SpindleTooling.pdf)
-for Brown & Sharpe collets. What each gave is on the [collets
-page](collets/index.md).
+for Brown & Sharpe collets. The one that settled it was Crawford's
+[application booklet](https://www.lathes.co.uk/crawford-collets), which lists
+by machine which Crawford collet fits what, and gives each collet a row of
+dimensions. A [Model L thread from 2025](https://www.model-engineer.co.uk/?p=813605)
+has an owner with the same kind of headstock and the same collets. What each
+gave is on the [collets page](collets/index.md).
 
 ## Not yet in hand
 

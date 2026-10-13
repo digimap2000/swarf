@@ -16,7 +16,7 @@ and nothing he has seen looks terrible to him.
 | [Bearing adjusting rings](#bearing-adjusting-rings) | Leave alone; make a C-spanner |
 | [Spindle oil](#spindle-oil) | Buy an ISO VG 32 for running |
 | [Bed](#bed) | Measure wear |
-| [Collets](#collets) | Finish measuring the seat; get one No. 10 |
+| [Collets](#collets) | Find a 5159, or make one once the spindle has run |
 | [Belt](#belt) | Find or make one |
 | [Motor](#motor) | Settle at the electrical stage |
 | [Coolant](#coolant) | Look for pump and tank |
@@ -87,11 +87,11 @@ his photographs.*
 ### Collets
 
 None came with it, and they are what Andrew most wants the lathe for. The
-lathe's own headstock takes dead-length collets, and its seat measures as a
-fit for a Brown & Sharpe No. 10. The spare takes draw-in collets of a
-published pattern. Details and what is still to measure are on the
-[collets page](collets/index.md). *Andrew's measurements, and published
-figures.*
+lathe's own headstock takes the Crawford 5159, a dead-length collet, and a
+plastic print made to Crawford's figures locks a bar in it. I have found none
+for sale. The spare takes draw-in collets of a published pattern. Details and
+what is still to measure are on the [collets page](collets/index.md).
+*Andrew's measurements and trial prints, and published figures.*
 
 ### Belt
 

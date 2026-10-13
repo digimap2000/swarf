@@ -8,7 +8,7 @@ through Buck & Hickman. Its own headstock is of the type the catalogue calls
 the PDH, and it carries a second headstock, a PRH, from another machine. How
 that was worked out, and what I got wrong on the way, is in the log entries
 [Which Model L](../log/2026-10-12-which-model-l/index.md) and
-[A collet by another name](../log/2026-10-12-a-collet-by-another-name/index.md).
+[The collet with no drawing](../log/2026-10-13-the-collet-with-no-drawing/index.md).
 
 ## The plates
 

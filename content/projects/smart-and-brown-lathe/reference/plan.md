@@ -117,9 +117,10 @@ clamped. The slide rest and tailstock are off. There is no power to it.
 A few decisions stand alongside the stages:
 
 - **Headstock.** The lathe's own headstock, the PDH, is to be proved first,
-  because Andrew wants a good collet system more than a chuck. That waits on
-  a collet, which is on the [collets page](collets/index.md). The spare PRH is
-  not parked: it is the only headstock here that can hold work.
+  because Andrew wants a good collet system more than a chuck. Its collet is
+  known, a Crawford 5159, and is on the [collets page](collets/index.md); a
+  steel one waits until the spindle has run. The spare PRH is not parked: it
+  is the only headstock here that can hold work in steel.
 - **Spares.** The set-over tailstock is parked, to be oiled against rust
   and left.
 - **The manual.** Still not in hand, and needed before any headstock is taken

@@ -48,8 +48,9 @@ yet been run. So far:
   Its own headstock takes dead-length collets and nothing else. A second
   headstock, from another machine, takes a chuck.
 - **No collets came with it,** which for this lathe means it can hold nothing.
-  The bores Andrew measured point to a Brown & Sharpe No. 10, a collet still
-  made today. That is on the [collets page](reference/collets/index.md).
+  It takes a Crawford 5159, run down through an old booklet and proved with a
+  plastic print that locks a bar in the spindle. I have found none for sale.
+  The story is [The collet with no drawing](log/2026-10-13-the-collet-with-no-drawing/index.md).
 - **It won't run yet.** No belt, a motor it was not built for, grease where
   oil should be, and four oil-hole plugs missing. Everything known to be wrong
   is in the [condition register](reference/condition.md).
@@ -58,7 +59,7 @@ yet been run. So far:
   words, buttery smooth.
 
 **Next:** find out where the oil goes in each headstock, measure the bed for
-wear, and pin down the last dimensions of the collet.
+wear, and finish measuring the spindles.
 
 ## How I am doing
 

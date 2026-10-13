@@ -7,83 +7,119 @@ No collets came with the lathe, and collets are what Andrew most wants it
 for. Both headstocks are collet headstocks, of two different kinds, and the
 lathe's own is the one to be proved first.
 
-**The short answer so far:** the lathe's own headstock looks built for a
-Brown & Sharpe No. 10, a collet still made today. Its seat, its closing
-taper and its cap all fit the published figures. The length a collet has to
-fill is the one thing still to measure before the drawing is complete. The
-story of how that was found is in the log entry
-[A collet by another name](../../log/2026-10-12-a-collet-by-another-name/index.md).
+**The short answer:** the lathe's own headstock takes the **Crawford 5159**,
+a dead-length collet. A plastic print made to Crawford's figures locks a
+10 mm bar in the spindle. I have found none for sale. How it was run down is
+in [The collet with no drawing](../../log/2026-10-13-the-collet-with-no-drawing/index.md).
 
 ## The lathe's own headstock: dead-length collets
 
 In a dead-length collet the work does not move as it is gripped. A cap on
-the spindle nose holds the collet endwise, and it is closed by a sleeve
-pushed forward over its head from behind. On the plain PDH the cap itself
-does the closing. On this one a lever at the back pushes the sleeve, which
-Andrew has watched move. The collet has no thread.
+the spindle nose stops the collet endwise, and a sleeve pushed forward over
+its head by the lever at the back closes it. The collet has no thread. Its
+tail only has to sit in the seat at the back of the sleeve; it does not have
+to reach the end of it.
 
-The catalogue names it the **Smart & Brown Type 4B**, of 11/16 in capacity,
-and gives no dimensions. I have found none anywhere, and nobody selling a
-collet under that name. There are two candidates for what it is, and they
-may be the same thing.
+- **Smart & Brown's name** for the collet is the Type 4B, of 11/16 in
+  capacity. The [catalogue](https://www.lathes.co.uk/smart-and-brown-model-L)
+  gives no dimensions.
+- **Crawford's number** is 5159, of the type Crawford calls DL 1. The index
+  of Crawford's [application booklet](https://www.lathes.co.uk/crawford-collets)
+  lists it for the Smart & Brown Model L, and the table names a Traub A36
+  beside it.
+- **It is not a Brown & Sharpe No. 10,** though the two share a back bearing
+  and a length. The No. 10's head is 1.115 in, which is 1.88 mm smaller, and
+  a print with that head is not gripped.
+- **A near relation** in the same booklet is the 398, for the Ward No. 0: the
+  same back bearing and bore, but 2.875 in long, with a 1.343 in head and a
+  1.000 in nose.
 
-- **A collet numbered 5159.** A member of the Model Engineer forum had a
-  [job lot of collets](https://www.model-engineer.co.uk/forums/topic/collet-identification-2/)
-  marked Crawford and S&B, numbered 5159, 2.5 in long and 0.937 in across
-  the back. Another member thought they were probably for a Model L with the
-  PDH headstock. One man's guess about another man's collets, but the only
-  description I have found of a Smart & Brown collet that is not the
-  draw-in kind.
-- **The Brown & Sharpe No. 10.** Collets for Brown & Sharpe automatics work
-  the same way, and the present maker lists the No. 10 at
-  [2.500 in long, 0.936 in across the back and 1.115 in across the head](https://shop.hardinge.com/All-Products/Workholding/Collets/Automatic-Collets/10SC-Brown-%26-Sharpe-Stop-Collet-Customer-Blank/p/32131000000000).
-  That is the 5159 to a thousandth. Smart & Brown's later lever closers were
-  listed for the Brown & Sharpe Type 21 outright, so the firm did build round
-  that maker's patterns.
+### The 5159, as Crawford gives it
 
-The Brown & Sharpe sizes either side, from the present maker's
-[catalogue](https://forkardthardinge.com/wp-content/uploads/2348J_SpindleTooling.pdf)
-and listings:
+| Letter on Crawford's diagram | Feature | Inches | Millimetres |
+| --- | --- | --- | --- |
+| A | Back bearing diameter | 0.937 | 23.7 |
+| B | Length overall, tail to front of nose | 2.500 | 63.5 |
+| C | Head diameter at the shoulder, its largest | 1.189 | 30.2 |
+| D | Nose diameter | 0.938 | 23.8 |
+| α | Head angle, each side | 15° 15′ | |
+| | Largest bore | 0.687 | 17.4 |
 
-| Size | Back bearing | Length | Head | Round capacity |
-| --- | --- | --- | --- | --- |
-| No. 10 | 15/16 in (23.81 mm) | 2½ in | 1.115 in on the stop collet | to 5/8 in |
-| No. 11 | 1.061 in (26.95 mm) | 2.875 in | 1.490 in | to 7/8 in |
+The taper is on the back of the head and runs up to a square shoulder, with
+no parallel part. The nose stands in front of the shoulder.
 
-### What the nose says
+### What the nose measures
 
-Andrew measured it with the cap off. The full figures are in the tables
-under the specification below.
+Measured by Andrew with the cap off.
 
-- **The seat.** The main bore is 24.55 mm, and at the back there is a
-  narrower seat of 23.84 mm. A No. 10's back is 23.81 mm, which would sit in
-  that seat with about three hundredths of a millimetre to spare. The wider
-  bore in front is clearance round the sprung middle of the collet.
-- **The closing taper.** The sleeve's mouth opens from 24.55 mm to 1.18 in
-  (29.97 mm) over about 9.9 mm, which is 15.3° a side against the published
-  15° 7′.
-- **The cap.** Its hole is 1.0 in, smaller than a No. 10's 1.115 in head, so
-  the cap would hold one. It has a fine thread inside its rim and a shallow
-  coned seat.
-- **The stroke.** The lever moves the sleeve 0.97 mm.
+| Feature | Measured | Against the 5159 |
+| --- | --- | --- |
+| Seat bore at the back of the sleeve | 23.84 mm | The back bearing runs in this |
+| Bore of the sleeve in front of the seat | 24.55 mm, about 30 mm long | Clearance round the sprung body |
+| Closing taper in the sleeve's mouth | 24.55 mm opening to 1.18 in (29.97 mm) over about 0.39 in (9.9 mm) | 15.3° a side. The 30.2 mm head stands about 0.4 mm proud of the mouth. |
+| Stroke of the sleeve | 0.97 mm | Closes the collet by about 0.5 mm on diameter at most |
+| Hole in the cap | 1.0 in | The nose passes through; the shoulder bears on the cap |
 
-Looking into the open nose, from two of Andrew's photographs and so my
-reading and not his: a bright taper at the mouth, then the bore, then a step,
-and deep inside the end of a tube, with daylight through it. A fine line
-round the mouth suggests the taper is on a sleeve inside the spindle, not
-part of the spindle itself. That is how the nose of a Brown & Sharpe spindle
-is arranged.
+### Not in Crawford's table
 
-The 4B's capacity is given as 11/16 in where the No. 10 is listed to 5/8 in,
-so even if the outside is the same pattern, the largest sizes may not exist
-off the shelf.
+- **The length of the nose,** and so where the taper falls along the collet.
+  On Crawford's diagram the lines of the taper, carried back, meet at the
+  centre of the tail. Andrew spotted that. With Crawford's 15° 15′ it puts
+  the shoulder 2.181 in from the tail and makes the nose 0.319 in (8.11 mm)
+  long. The print that works was drawn at 15°, which makes its nose
+  7.145 mm, and that nose stands about 1 mm proud of the cap. The fit does
+  not prove the rule, because the shoulder bears on the cap whatever the
+  nose's length.
+- **The length of the back bearing.**
+- **The waist:** the diameter and length of the thinned, sprung part of the
+  body. It has to be under 24.55 mm.
+- **The slits:** their number, width and length, and the windows at their
+  ends.
+- **Any slot for a key or pin** to stop the collet turning.
+
+### What is still to measure
+
+- The depth of the 23.84 mm seat.
+- How far the cap can travel on its thread, and whether it ever meets a stop.
+- What the fluted handwheel at the back does.
+- The form of the coned seat inside the cap, and the thread the cap screws
+  on by.
+
+### Andrew's model
+
+[The model Andrew printed](5159-trial-collet-10mm-bore.stl), in millimetres
+and with a 10 mm bore. Where Crawford gives a figure it uses it, except that
+the back bearing is 23.774 mm and the taper is at 15°. The rest is his own:
+
+| Feature | As drawn |
+| --- | --- |
+| Nose length | 7.145 mm, from the taper's lines meeting at the centre of the tail |
+| Back bearing | 12.7 mm long |
+| Waist | 0.5 mm under the back bearing on radius |
+| Slits | Three, each ending in a window drawn between an 8 mm and a 4 mm circle 23 mm apart |
+| Bore | 10 mm at the front, opened to 14 mm for the back 34 mm |
+| Corners | 0.5 mm chamfers, which leave the head 29.94 mm across at its largest |
+
+### Setting the closer
+
+With the plastic print, Andrew screws the cap on until the collet nips the
+bar, and the lever then locks it. Releasing the lever lets the bar slide.
+That is all that has been tried. Two things from other owners, neither of
+them from Smart & Brown's manual:
+
+- An owner of a lever-operated, collet-only Model L headstock, who also has
+  5159 collets,
+  [asked in 2025](https://www.model-engineer.co.uk/?p=813605) how its closer
+  works. A reply says the setting depends closely on the diameter of the
+  work, and that the manual for the writer's own lever closer warns that its
+  locking levers can break if it is set too tight.
+- [Another owner](https://www.mig-welding.co.uk/forum/threads/smart-brown-lever-operated-dead-length-collet-closer.144859/)
+  of what sounds like the same closer asked the same question that year and
+  has had no answer. He has a parts diagram.
 
 The later lever closers were also listed for the Crawford T980 Multibore and
 the Pratt & Burnerd EA Multisize, both of 1 in capacity. I do not think
 either fits this headstock, which is the smaller one.
-[One other owner](https://www.mig-welding.co.uk/forum/threads/smart-brown-lever-operated-dead-length-collet-closer.144859/)
-of what sounds like the same lever closer asked in 2025 how it is set up, and
-has had no answer. He has a parts diagram.
 
 ## The spare headstock, a PRH: draw-in collets
 
@@ -95,7 +131,8 @@ the spindle, worked by the lever at the back.
   [Model A page](https://lathes.co.uk/smartbrown/page2.html) at lathes.co.uk
   gives a plain body of 0.984 in, a length of 3.625 in and a head of 1.310 in
   across when closed. The Model A has the same 63/64 in bore and 1¾ in nose
-  as this headstock is given.
+  as this headstock is given. Crawford's booklet lists the 2804 for the
+  Model A.
 - An owner on the Model Engineer forum gives the thread on its tail as
   [0.902 in by 24 threads to the inch, Whitworth form](https://www.model-engineer.co.uk/forums/topic/collet-closer-identification/),
   and says the 2804 was used on some Model A, M and L lathes.
@@ -112,96 +149,8 @@ the spindle, worked by the lever at the back.
 - I have found no figure for the angle of the head of either.
 
 Second-hand 2804 collets come up for sale, which with three published
-dimensions makes this the easier of the two to prove.
+dimensions makes this the easier of the two to buy for.
 
-## What is still to measure
-
-On the lathe's own headstock, with the cap off:
-
-- The length a collet has to fill: from the cap's inside seat to the mouth of
-  the sleeve with the cap screwed home. With about 3 mm added, it gives the
-  parallel length of the collet's head.
-- The depth of the 23.84 mm seat, which limits the length of the collet's
-  back bearing.
-- The length of the closing taper itself, more exactly than 9.9 mm.
-- The form of the coned seat inside the cap, and the thread the cap screws
-  on by.
-- Any key or pin that would stop a collet turning, and its width.
-- Photographs of the nose with the cap off, of the inside of the cap, and
-  down the spindle from the nose.
-
-On the spare, for later: the bore behind the taper, the taper's diameter at
-the nose face and its depth, any key, and the thread in the end of the draw
-tube, to compare with 0.984 in and 0.902 in by 24.
-
-## Specification of the Brown & Sharpe No. 10, for drawing
-
-Andrew is drawing the collet himself. This is everything I can give him to
-draw it from, sorted by how far each figure can be trusted. It is not a
-complete specification, and I have not found one.
-
-![Two scale drawings. The first shows a Brown and Sharpe No. 10 collet from the side: a plain body 0.936 inch in diameter and 2.500 inches long overall, widening at the front through a taper of 15 degrees 7 minutes a side to a head 1.115 inches across, with the length of the parallel part of the head marked as not known. The second shows the same collet in section inside the lathe's closing sleeve and cap, with the measured sizes: a 23.84 millimetre seat at the back, a 24.55 millimetre bore about 30 millimetres long, a taper opening to 29.97 millimetres over 9.9 millimetres at the mouth, a stroke of 0.97 millimetres and a one inch hole in the cap.](no10-collet-drawing.svg "Drawn to scale from the tables below. Black is what the maker publishes, blue is what Andrew measured on the lathe, and anything dashed in orange is not known.")
-
-### Published
-
-From the present maker's listings for the No. 10. These are the collet.
-
-| Feature | Inches | Millimetres | Note |
-| --- | --- | --- | --- |
-| Length overall | 2.500 | 63.50 | |
-| Back bearing diameter | 0.936 | 23.77 | Given as 15/16 in on one listing, 0.936 on another and 0.9362 on a third |
-| Head diameter | 1.115 | 28.32 | |
-| Head angle, each side | 15° 7′ | | The taper is on the back of the head, facing the rear. From a search result's summary of a listing I could not open. |
-| Round capacity | 1/16 to 5/8 | 1.6 to 15.9 | Smart & Brown give their Type 4B as 11/16 in |
-
-### Fixed by the headstock
-
-Measured by Andrew on the lathe. These are not the collet, but the collet
-has to live inside them.
-
-| Feature | Measured | What it means for the collet |
-| --- | --- | --- |
-| Seat bore at the back of the sleeve | 23.84 mm | The back bearing runs in this: 23.77 mm leaves 0.07 mm |
-| Bore of the sleeve in front of the seat | 24.55 mm, about 30 mm long | The body must be under this for that length |
-| Closing taper in the sleeve's mouth | 24.55 mm opening to 29.97 mm (1.18 in) over about 9.9 mm (0.39 in) | 15.3° a side, against the published 15° 7′. A 28.32 mm head meets it about 3 mm inside the mouth. |
-| Stroke of the sleeve | 0.97 mm | Closes the collet by about 0.52 mm on diameter at most |
-| Aperture in the cap | 1.000 in | The front of the head bears on the cap in a ring about 1.5 mm wide |
-
-Not yet measured, and wanted: the distance from the cap's inside seat to the
-mouth of the sleeve with the cap screwed home, the depth of the 23.84 mm
-seat, and the form of the coned seat inside the cap.
-
-### Not known
-
-No source I have found gives any of these.
-
-| Feature | What I can say |
-| --- | --- |
-| Parallel length of the head, in front of the taper | The first unknown above would give it: it is that distance, plus about 3 mm |
-| Chamfer on the front of the head | The cap's seat is coned, so there is probably one to match |
-| Length of the back bearing | Not more than the depth of the seat |
-| Diameter and length of the sprung part of the body | Under 24.55 mm. Real collets are thinned here to make them spring. |
-| Slits | Three is usual for the pattern. Width, length and any hole at their ends unknown. |
-| Bore behind the gripping length | Usually opened out. Lengths unknown. |
-| Any slot for a key or pin to stop it turning | Unknown |
-
-### Ways to an exact figure
-
-1. One real No. 10 collet, measured. They are common second-hand, mostly in
-   America. It turns every line of the last table into a measurement, and it
-   is the trial fit as well.
-2. The maker's catalogue. A reprint of a Brown & Sharpe catalogue of
-   [screw machine tools, spring collets and feeding fingers](https://store.lathes.co.uk/document/mb655a)
-   is sold, and may carry the dimension tables. I have not seen inside it.
-3. Working the unknowns out from the headstock, which fixes the two that
-   matter most for a fit: the length of the head and the length of the
-   bearing.
-
-### The file I made
-
-Before Andrew said he would rather draw it, I made
-[a model](brown-sharpe-no10-half-inch.stl) to the published figures above,
-with a half-inch bore. Where the tables above say unknown it uses figures of
-my own: an eighth of an inch of parallel head, no chamfer, no thinning of the
-body, and three slits 3/64 in wide and 1¾ in long. It is there if wanted.
-His drawing supersedes it.
+Still to measure on the spare, for later: the bore behind the taper, the
+taper's diameter at the nose face and its depth, any key, and the thread in
+the end of the draw tube, to compare with 0.984 in and 0.902 in by 24.

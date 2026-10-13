@@ -97,5 +97,5 @@ the manual before that.
 first reading of its nose, a nosepiece for dead-length collets, was the right
 one, and the "correction" above was the mistake. It is of the PDH family,
 with ball races at the back and a nose that takes no chuck; only the spare
-is a PRH. [A collet by another name](../2026-10-12-a-collet-by-another-name/index.md)
+is a PRH. [The collet with no drawing](../2026-10-13-the-collet-with-no-drawing/index.md)
 has how that came to light.
