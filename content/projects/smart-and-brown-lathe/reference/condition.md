@@ -14,7 +14,7 @@ and nothing he has seen looks terrible to him.
 | [Grease at the back bearing](#grease-at-the-back-bearing) | Measure lift and end float; check the manual |
 | [Oil-hole plugs](#oil-hole-plugs) | Make three; check the nipple is the maker's |
 | [Bearing adjusting rings](#bearing-adjusting-rings) | Leave alone; make a C-spanner |
-| [Spindle oil](#spindle-oil) | Buy the ISO 32 chosen |
+| [Spindle oil](#spindle-oil) | On order |
 | [Bed](#bed) | Measure wear |
 | [Collets](#collets) | Find a 5159, or make one once the spindle has run |
 | [Belt](#belt) | Find or make one |
