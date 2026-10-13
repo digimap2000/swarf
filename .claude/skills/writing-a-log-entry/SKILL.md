@@ -25,9 +25,9 @@ what it means for what comes next.
    Then rename each from the camera's number to what it shows
    (`headstock-front-bearing.jpg`). Leave out the ones that add nothing.
 4. **Write `index.md`.**
-5. **Update the project.** If the work changed where the project stands, change
-   `status` in the project's `_index.md`, and take anything now established out
-   of its "Still to record" list. A fact worth looking up later (a thread, a
+5. **Update the project.** If the work changed where the project stands, rewrite
+   the few lines under "Where it stands" in the project's `_index.md`, in plain
+   sentences and with no status labels. A fact worth looking up later (a thread, a
    bearing number, a clearance) also goes on a reference page.
 6. **Build.** `hugo --gc --minify`, and read the output: no errors, no
    warnings. Look at the page in `hugo server`.

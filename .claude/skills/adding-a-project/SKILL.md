@@ -26,7 +26,6 @@ that makes it a project; there is nothing to register.
 title: Smart & Brown lathe
 summary: An old Smart & Brown lathe, bought for restoration.
 kind: Restoration
-status: Acquired
 date: 2026-10-12
 coverAlt: The lathe as collected, on its cabinet stand
 facts:
@@ -40,8 +39,9 @@ What it is and why it is here, in a paragraph or two.
 - `summary` is the one line shown in the list of projects.
 - `kind` is what sort of project it is, in a word: Restoration, Build,
   Software, Electronics. Reuse a word already in use before adding one.
-- `status` is where it stands now, in a word or two, and is the field that
-  changes as work goes on: Acquired, Stripping, Reassembly, In use, Finished.
+- There is no `status` field. Andrew asked on 13 October 2026 for no status
+  labels anywhere a reader sees them: where a project stands is said in
+  plain sentences on its page, not as a tag like "Survey at rest".
 - `date` is when the project started, and shows as "Started October 2026".
 - `facts` is the short table at the top of the page: only what is established,
   in the order given. Leave a fact out rather than writing "unknown".

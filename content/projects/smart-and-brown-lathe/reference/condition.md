@@ -8,25 +8,25 @@ photographs and from what he has told me, and each item says which. He has
 turned the spindle and wound the slides by hand and finds them all smooth,
 and nothing he has seen looks terrible to him.
 
-| Item | State | Next |
-| --- | --- | --- |
-| [Oilways](#oilways-both-headstocks) | Open | Find where oil goes in the spare; leave the fitted one's pockets overnight |
-| [Grease at the back bearing](#grease-at-the-back-bearing) | Open | Measure lift and end float; check the manual |
-| [Oil-hole plugs](#oil-hole-plugs) | Open | Make four |
-| [Bearing adjusting rings](#bearing-adjusting-rings) | Open | Leave alone; make a C-spanner |
-| [Spindle oil](#spindle-oil) | Open | Buy an ISO VG 32 for running |
-| [Bed](#bed) | Open | Measure wear |
-| [Collets](#collets) | Open | Finish measuring the seat; get one No. 10 |
-| [Belt](#belt) | Open | Find or make one |
-| [Motor](#motor) | Open | Settle at the electrical stage |
-| [Coolant](#coolant) | Open | Look for pump and tank |
-| [Chuck backplate](#chuck-backplate) | Open | Machine on the spare once it runs |
-| [Spare headstock](#spare-headstock-a-prh) | Open | Measure its spindle |
-| [Front spindle bearing](#front-spindle-bearing) | Good | Nothing |
-| [Spare tailstock](#spare-tailstock) | Parked | Oil and leave |
-| [Pulley cover](#pulley-cover), [paint](#paint), [bright steel](#bright-steel-on-the-closer) | Noted | Finishing stage |
+| What | What happens next |
+| --- | --- |
+| [Oilways](#oilways-both-headstocks) | Find where oil goes in the spare; leave the fitted one's pockets overnight |
+| [Grease at the back bearing](#grease-at-the-back-bearing) | Measure lift and end float; check the manual |
+| [Oil-hole plugs](#oil-hole-plugs) | Make four |
+| [Bearing adjusting rings](#bearing-adjusting-rings) | Leave alone; make a C-spanner |
+| [Spindle oil](#spindle-oil) | Buy an ISO VG 32 for running |
+| [Bed](#bed) | Measure wear |
+| [Collets](#collets) | Finish measuring the seat; get one No. 10 |
+| [Belt](#belt) | Find or make one |
+| [Motor](#motor) | Settle at the electrical stage |
+| [Coolant](#coolant) | Look for pump and tank |
+| [Chuck backplate](#chuck-backplate) | Machine on the spare once it runs |
+| [Spare headstock](#spare-headstock-a-prh) | Measure its spindle |
+| [Front spindle bearing](#front-spindle-bearing) | Nothing: it is sound |
+| [Spare tailstock](#spare-tailstock) | Set aside: oil it and leave it |
+| [Pulley cover](#pulley-cover), [paint](#paint), [bright steel](#bright-steel-on-the-closer) | Dealt with when it is painted |
 
-## Open
+## Still to sort out
 
 ### Oilways, both headstocks
 
@@ -126,7 +126,7 @@ Complete but for its closer lever. Oil put in its pockets runs straight
 through. Its bearings have not been measured. It is the only headstock here
 that can hold work, so it is not parked. *Photograph, and Andrew.*
 
-## Good
+## Sound so far
 
 ### Front spindle bearing
 
@@ -135,7 +135,7 @@ indicator can show. Next, the same reading at the back, and the end float.
 *Andrew, measuring on the collet-closing cap, left a little proud of the
 nose.*
 
-## Parked
+## Set aside for now
 
 ### Spare tailstock
 
@@ -143,7 +143,7 @@ The one with set-over. Loose in the tray, most of its paint gone, held
 together with a cable tie. Neither of us sees a need for it yet. Oil it
 against rust and leave it. *Photograph, and Andrew.*
 
-## Noted, for the finishing stage
+## For when it is painted
 
 ### Pulley cover
 

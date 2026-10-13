@@ -93,7 +93,7 @@ each point will be settled part by part when the time comes.
 | Stage | What happens | It ends when |
 | --- | --- | --- |
 | 0. Identify | Which Model L it is, what came with it, what is known of its past, and Andrew's reading of its condition. Nothing moved. | The headstock, drive, slide rest and tailstocks are named and the maker's manual is in hand. |
-| 1. Survey at rest | With no power: the slideways cleaned and oiled only so that things can be moved without harm, then everything turned and traversed by hand. Wear that can be measured without power is measured. Oil, belt and wiring inspected. The finish recorded as found. | Every assembly has a line in the condition register. |
+| 1. Look it over by hand | With no power: the slideways cleaned and oiled only so that things can be moved without harm, then everything turned and traversed by hand. Wear that can be measured without power is measured. Oil, belt and wiring inspected. The finish recorded as found. | Every assembly has a line in the condition register. |
 | 2. Lubricate | Old oil out, the maker's grades in, and every oil point shown to deliver. | Oil is known to reach each bearing and slide. |
 | 3. Electrical | The motor plate decides how it will be supplied. Wiring and switchgear inspected; earth continuity and insulation resistance measured before anything is energised. | It passes, and a supply for it is in place. |
 | 4. First run | No load, lowest speed, short runs, working up. Noise, vibration and bearing temperature watched. | It runs at every speed without distress, or the reason it cannot is known. |
@@ -109,7 +109,7 @@ the strip with a shorter list.
 
 ## Where it stands
 
-**Stage 1, the survey at rest.** The lathe is
+**Stage 1: looking it over by hand, with no power.** The lathe is
 [named](identification.md), and what is wrong with it so far is in the
 [condition register](condition.md). The headstock is back on the bed and
 clamped. The slide rest and tailstock are off. There is no power to it.

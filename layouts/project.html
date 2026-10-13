@@ -7,7 +7,6 @@
     <h1>{{ .Title }}</h1>
     <p class="meta">
       {{- with .Params.kind }}<span>{{ . }}</span>{{ end }}
-      {{- with .Params.status }}<span class="status">{{ . }}</span>{{ end }}
       {{- if not .Date.IsZero }}<span>Started {{ .Date | time.Format "January 2006" }}</span>{{ end }}
       {{- with .Params.author }}<span>Written by {{ . }}</span>{{ end }}
     </p>

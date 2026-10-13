@@ -101,7 +101,6 @@ h1 { font-size: clamp(1.9rem, 1.3rem + 2.6vw, 2.75rem); line-height: 1.12; lette
 .meta { display: flex; flex-wrap: wrap; row-gap: 0.25rem; overflow: hidden; margin: 0; font: 0.875rem/1.4 var(--sans); color: var(--muted); }
 .meta > * { position: relative; margin-left: -1.7rem; padding-left: 1.7rem; margin-right: 1.7rem; }
 .meta > *::before { content: "·"; position: absolute; left: 0.7rem; color: var(--muted); opacity: 0.6; }
-.status { color: var(--straw); font-weight: 600; }
 .in { font: 0.875rem/1.4 var(--sans); color: var(--muted); }
 .empty { color: var(--muted); font-style: italic; }
 
