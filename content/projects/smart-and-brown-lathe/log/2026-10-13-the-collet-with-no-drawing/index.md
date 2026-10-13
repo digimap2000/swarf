@@ -180,6 +180,14 @@ The collet closer is his name for the screw-on cap. So the cap is run down
 until the collet nips the bar, and the lever does the locking. The nose of
 the print stands about 1 mm proud of the cap's face.
 
+![The spindle nose seen from the front and one side: a rusty ring with spanner notches, a bright steel cap with two small holes in its face, and in the middle of the cap the black nose of the plastic collet gripping a short steel bar. A dial indicator graduated in hundredths of a millimetre stands in line with the spindle, its plunger pressed against the end of the bar.](indicator-on-end-of-bar.jpg "The indicator bears on the end of the bar, in line with the spindle. As the lever locked the collet, the bar moved 0.035 mm endwise.")
+
+Then Andrew put the name to the test. He set an indicator on the end of the
+bar, in line with the spindle, and worked the lever. The bar moved 0.035 mm
+endwise as the collet locked, while the sleeve that closes it has a stroke of
+0.97 mm. That is dead length shown on the machine itself, and with a collet
+made of plastic.
+
 That is the lathe's own headstock holding work for the first time since it
 came, and it settles what it takes. Since then I have found
 [a forum thread from August 2025](https://www.model-engineer.co.uk/?p=813605)

@@ -104,8 +104,9 @@ the back bearing is 23.774 mm and the taper is at 15°. The rest is his own:
 
 With the plastic print, Andrew screws the cap on until the collet nips the
 bar, and the lever then locks it. Releasing the lever lets the bar slide.
-That is all that has been tried. Two things from other owners, neither of
-them from Smart & Brown's manual:
+With a 0.01 mm indicator on the end of the bar, the bar moved 0.035 mm
+endwise as the lever locked it. That is all that has been tried. Two things
+from other owners, neither of them from Smart & Brown's manual:
 
 - An owner of a lever-operated, collet-only Model L headstock, who also has
   5159 collets,
