@@ -10,7 +10,7 @@
 {{- $undated := slice }}
 {{- range $project := . }}
   {{- with partial "log.html" $project }}
-    {{- $dated = $dated | append (dict "page" $project "latest" (index . 0) "count" (len .) "date" (index . 0).Date) }}
+    {{- $dated = $dated | append (dict "page" $project "latest" (index . 0) "log" . "date" (index . 0).Date) }}
   {{- else }}
     {{- $undated = $undated | append (dict "page" $project "title" $project.Title) }}
   {{- end }}
@@ -21,7 +21,7 @@
 
 {{- with index $ranked 0 }}
 {{- $p := .page }}
-{{- $count := .count }}
+{{- $log := .log }}
 <article class="hero">
   {{- with partial "cover.html" $p }}
   {{- $img := .Fill "1200x900 webp" }}
@@ -39,7 +39,19 @@
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
       {{- with .Params.summary }}<p>{{ . }}</p>{{ end }}
     </div>
-    <p class="meta"><span><a href="{{ $p.RelPermalink }}">{{ $count }} {{ cond (eq $count 1) "entry" "entries" }} so far</a></span></p>
+    {{- end }}
+    {{- with $log }}
+    {{- with after 1 . | first 2 }}
+    <ul class="more-entries">
+      {{- range . }}
+      <li><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "2 Jan 2006" }}</time> <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{- end }}
+    </ul>
+    {{- end }}
+    {{- $left := sub (len .) 3 }}
+    {{- if gt $left 0 }}
+    <p class="meta"><span><a href="{{ $p.RelPermalink }}#log">{{ $left }} more {{ cond (eq $left 1) "entry" "entries" }}</a></span></p>
+    {{- end }}
     {{- end }}
   </div>
 </article>

@@ -30,7 +30,7 @@
   <div class="prose">{{ .Content }}</div>
 
   <section>
-    <h2 class="label">Log</h2>
+    <h2 class="label" id="log">Log</h2>
     {{- with $log }}
     {{ partial "entry-list.html" (dict "pages" . "project" false) }}
     {{- else }}
