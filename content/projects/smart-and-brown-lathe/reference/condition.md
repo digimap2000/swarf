@@ -10,9 +10,9 @@ and nothing he has seen looks terrible to him.
 
 | What | What happens next |
 | --- | --- |
-| [Oilways](#oilways-both-headstocks) | Find where oil goes in the spare; leave the fitted one's pockets overnight |
+| [Oilways](#oilways-both-headstocks) | Look down the emptied front pocket; try a few drops in place of a pocketful |
 | [Grease at the back bearing](#grease-at-the-back-bearing) | Measure lift and end float; check the manual |
-| [Oil-hole plugs](#oil-hole-plugs) | Make four |
+| [Oil-hole plugs](#oil-hole-plugs) | Make three; check the nipple is the maker's |
 | [Bearing adjusting rings](#bearing-adjusting-rings) | Leave alone; make a C-spanner |
 | [Spindle oil](#spindle-oil) | Buy an ISO VG 32 for running |
 | [Bed](#bed) | Measure wear |
@@ -51,11 +51,21 @@ and the catalogue's account of the PDH.*
 
 ### Oil-hole plugs
 
-A plain hole above each spindle bearing, four in all, under the pulley cover.
-The catalogue cutaway shows each closed by a small knurled plug with a short
-stem. All four are gone. One hole had a nipple pushed into it, which Andrew
-has taken out. Keep the holes covered, and make four plugs once the holes
-are measured. *Andrew, who looked at all four, and the cutaway he found.*
+A plain hole above each bronze bearing: one at the front of the lathe's own
+headstock and two on the spare. The catalogue's cutaway of the PRH shows
+each closed by a small knurled plug with a short stem. All three are gone.
+Keep the holes covered, and make three plugs once the holes are measured.
+*Andrew, who looked at all the holes, and the cutaway he found.*
+
+### Nipple at the back bearing
+
+The hole over the back bearing of the lathe's own headstock had a nipple
+pushed into it, which Andrew has taken out. That bearing is a pair of ball
+races, and the catalogue's photograph of the PDH shows a small upright
+fitting in the same place, so I take the nipple to be the maker's and not a
+substitute for a plug. To check on the part itself: whether it is a push-in
+oil nipple, and whether it fits its counterbore. *Andrew's photograph of the
+back of the headstock, and the catalogue's photograph, as I read it.*
 
 ### Bearing adjusting rings
 

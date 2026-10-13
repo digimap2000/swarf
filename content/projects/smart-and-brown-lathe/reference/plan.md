@@ -124,7 +124,14 @@ A few decisions stand alongside the stages:
 - **Spares.** The set-over tailstock is parked, to be oiled against rust
   and left.
 - **The manual.** Still not in hand, and needed before any headstock is taken
-  apart.
+  apart. A reprint of the Model L data pack is
+  [sold for £67](https://store.lathes.co.uk/document/ms580k): the operating,
+  maintenance and parts manuals, with the parts as cross-sectional drawings,
+  and an electrical schematic. I have recommended buying it. It should say
+  how each bearing is meant to be oiled and how the closer is set, which
+  experiment has not, and the spend is Andrew's to decide.
+- **Spindle oil.** The maker's grade, an ISO VG 32, is to be bought before
+  the spindle turns under power.
 - **Drive.** My intention is that the two original switches go on doing
   their jobs as signals to the inverter, not as switches in the motor's
   supply: forward, off and reverse from one, and two set frequencies from the
@@ -133,55 +140,79 @@ A few decisions stand alongside the stages:
 - **Coolant.** Andrew wants it working in the end. What survives of it is
   looked at when the stand is surveyed.
 
-## The job sheet outstanding
+## The next workshop session
 
-No power for any of this.
+One visit, all of it at the headstock on the bed, with no power. Each group
+says what it settles. Nothing here needs the slide rest, the tailstocks or
+the spare headstock.
 
-### 1. Find where the oil goes
+### Oil: does it reach the front bearing, and whose is the nipple
 
-The oiling is total-loss, and filled pockets on the fitted headstock did not
-fall while the spindle was turned by hand, which a sound close bearing and a
-blocked oilway would both do. What I do not know is how oil gets from a
-pocket into its bearing at all, since the pocket ends on bronze. Oil runs
-freely through the spare, so it can be watched there.
+1. **The nipple from the back bearing.** With it out of its hole: is it a
+   push-in oil nipple, with a sprung ball in its head, and does it go back as
+   a snug fit in the counterbore? A photograph of it beside a rule, and one
+   down the hole it came from.
+2. **The front pocket, emptied.** Wick the oil out and look down it with a
+   light. Is there a hole through the bronze, and where does the small hole
+   in the side of the pocket lead? A photograph.
+3. **A few drops, not a pocketful.** Wipe the spindle dry at both ends of
+   the front bearing. Put three or four drops on the bronze, turn the
+   spindle a hundred times by hand, and look again at the bronze and at both
+   ends of the bearing.
 
-1. On the spare, fill a pocket and watch where the oil comes out: from the
-   ends of the bearing, having gone through it, or from a hole or passage in
-   the casting.
-2. On the fitted headstock, fill both pockets, mark the levels, and leave
-   them overnight. Say whether either has fallen by morning.
+*Settles* whether the nipple goes back as the maker's fitting or a plug is
+made, how oil is meant to get from the pocket to the journal, and whether it
+does. A film a few drops deep cannot hide a loss the way a full pocket did.
 
-**I expect** the oil on the spare to come from a passage and not through the
-bearing, because nothing pours through a close bearing, and the front pocket
-on the fitted headstock to have fallen a little by morning and the back one
-not.
+**I expect** a push-in oil nipple; a hole through the bronze, off to one
+side; and the film to go, with a ring of clean oil showing at one end of the
+bearing.
 
-### 2. Measure the bed for wear
+### Spindle: are its bearings fit to run
 
-How is Andrew's to choose. If it helps: where the undersides of the slot's
-lips are machined, the thickness of each lip by micrometer every two inches,
-with the part under the headstock as the reference, since nothing has slid
-there.
+4. **Lift at the back,** three readings, with the indicator on the plain part
+   of the spindle between the back bearing and the closer.
+5. **End float,** three readings.
+6. **The bore of the spindle** at the back end. The catalogue gives 29/32 in
+   for the PDH.
 
-**I expect** the bed to be within a thousandth or two of an inch along its
-length, because nothing slides on it under load.
+*Settles* whether the preload on the back pair of ball races has survived.
+The front bearing already shows no lift on a 0.01 mm indicator.
 
-### 3. Finish measuring the spindles
+**I expect** nothing on either, and 29/32 in.
 
-On the lathe's own headstock the front bearing has no lift that a 0.01 mm
-indicator can show. Still to take, three readings each: the lift at the back,
-on the plain part of the spindle between the back bearing and the closer, and
-the end float. The back bearing is a preloaded pair of ball races, so both
-should be nothing, and any movement means the preload has gone.
+### Closer: what a steel collet has to suit
 
-The spare has not been measured at all. When it is on the bed and clamped:
-the lift at the nose and at the back, the end float, and how far its nose
-register runs out when the spindle is turned.
+7. **The depth of the 23.84 mm seat,** from the mouth of the sleeve.
+8. **The fluted handwheel.** Does it turn on the spindle, what moves when it
+   does, and is anything locking it?
+9. **The cap.** With the plastic collet nipped on its bar, how far is the cap
+   short of fully home? And its thread: the pitch and the diameter.
 
-And to settle which headstock is which beyond doubt, the bore of each
-spindle. The catalogue gives 29/32 in for the PDH and 63/64 in for the PRH.
+*Settles* how long a collet's tail may be, and how the closer is set for a
+given bar, which nobody has yet been able to tell me.
 
-### 4. The last of the collet seat
+**I expect** the handwheel to turn on a thread and to alter how hard the
+lever closes.
 
-The figures still wanted from the nose are listed on the
-[collets page](collets/index.md#what-is-still-to-measure).
+### Drive: which belt
+
+10. **The pulleys.** The width and diameter of each of the three steps on the
+    headstock pulley, the same for the two loose stepped pulleys, and which
+    of the two fits the motor shaft.
+
+*Settles* the width of belt to find, which loose pulley belongs to this
+lathe, and what speeds the present motor will give, which I can then check
+against the speed plate.
+
+**I expect** one loose pulley to be the headstock's twin, and steps for a
+belt one inch wide, which is what the catalogue gives.
+
+## After that
+
+The bed, the slide rest and the tailstocks make one later session: the bed
+measured for wear, and each slide and barrel tried and measured. The spare
+headstock waits behind the lathe's own.
+
+Meanwhile, without the workshop: I am looking for a 5159 for sale, and for
+whether the Traub collet that Crawford lists beside it is one still made.

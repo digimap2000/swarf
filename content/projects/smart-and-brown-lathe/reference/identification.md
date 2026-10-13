@@ -55,14 +55,19 @@ front, a pair of preloaded ball races at the back that need no adjusting, a
 bore of 29/32 in, and a nose that takes dead-length collets and nothing else.
 
 It also has a lever closer at the back end of the spindle, with a fluted
-handwheel outboard of it, though the catalogue says the plain PDH has no
-draw-bar. A dead-length collet is closed by pushing, not pulling: the cap
-holds the collet endwise and a sleeve is pushed forward to close it, and the
-same pages list a lever closer made for dead-length collets, the Type DL. They
-also list the LPH, a PDH whose lever works a brake and clutch as well as the
-collet. So this is either a PDH with the DL closer or an LPH, depending on
-whether the lever works a brake and clutch, which I do not know. The bearings
-and nose are the same either way.
+handwheel outboard of it. The catalogue's text says the PDH has no draw-bar,
+but its own
+[photograph of the PDH](https://www.lathes.co.uk/smart-and-brown-model-L/page2.html)
+shows the same arrangement as this lathe: a lever on a yoke at the back of
+the spindle, a ring outboard of it, and a plain capped nose. A dead-length
+collet is closed by pushing, not pulling: the cap holds the collet endwise
+and a sleeve is pushed forward to close it. The same pages list a lever
+closer made for dead-length collets, the Type DL, which I take this to be.
+The LPH, the other headstock with these bearings, has its handle on the
+front and works a brake and clutch with it, which this one has not.
+
+That photograph also shows a small upright fitting on top of the back
+bearing housing, where this lathe has an oil nipple.
 
 Between the closer and the headstock are a ring nut with tommy-bar holes and
 a disc with holes drilled in it. A knurled plunger on the front of the

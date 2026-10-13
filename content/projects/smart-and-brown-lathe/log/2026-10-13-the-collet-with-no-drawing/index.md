@@ -74,8 +74,8 @@ The next idea was Andrew's: print the collet in plastic and try it in the
 spindle before anything was bought or cut in steel. He set the terms too. It
 was to be printed to the published dimensions and not to anything measured
 on the lathe: "Don't get clever and make any allowances for my printer,
-assume it is perfect." A print adjusted until it fits proves nothing about
-the collet it stands for.
+assume it is perfect." I took the point to be that a print adjusted until
+it fits proves nothing about the collet it stands for.
 
 My first model went back with one line: "At the risk of stating the obvious,
 it has no slits." After the second he said my time was better spent writing
@@ -129,9 +129,9 @@ I could not make them add up.
 Andrew could. He had been assuming the tail of the collet had to reach the
 bottom of its hole, and it does not. The cap stops the collet at the front,
 the sleeve wedges it shut, and the tail has only to sit in the 23.84 mm seat
-and keep the back on the axis. Where it ends is of no account. "Dead length"
-had misled him the way it misleads most people: it is the work that stays at
-a dead length, not the collet that has to be one. The longer print had
+and keep the back on the axis. Where it ends is of no account. The name had
+misled him. It is the work that stays at a dead length, not the collet that
+has to be one. The longer print had
 fitted because the extra half inch simply went further up the seat.
 
 ## The dimension that is not in the table

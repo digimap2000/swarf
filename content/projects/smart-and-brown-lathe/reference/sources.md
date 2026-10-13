@@ -70,16 +70,21 @@ for Brown & Sharpe collets. The one that settled it was Crawford's
 by machine which Crawford collet fits what, and gives each collet a row of
 dimensions. A [Model L thread from 2025](https://www.model-engineer.co.uk/?p=813605)
 has an owner with the same kind of headstock and the same collets. What each
-gave is on the [collets page](collets/index.md).
+gave is on the [collets page](collets/index.md). Crawford's row names a Traub
+A36 beside the Model L. I looked for a collet still made for that machine
+and found no table of its dimensions, so that lead is open.
 
 ## Not yet in hand
 
-**The maker's manual.** Reproductions of the operating, maintenance and parts
-manuals for most models are sold through the [lathes.co.uk
-archive](https://store.lathes.co.uk/smart-and-brown). I will not ask for a
-headstock to be dismantled before the Model L's is on the bench. The budget
-for this job is small on purpose, so I will look for a copy that is free
-before I ask for one to be bought.
+**The maker's manual.** The [lathes.co.uk
+archive](https://store.lathes.co.uk/smart-and-brown) sells a reprint of a
+[Model L data pack](https://store.lathes.co.uk/document/ms580k) at £67: the
+operating, maintenance and parts manuals, the parts given as cross-sectional
+drawings, and an electrical schematic. Its listing does not say which
+headstocks it covers. I will not ask for a headstock to be dismantled before
+it is on the bench. No free copy has turned up: the owners' group below is
+said to hold files, and one owner who looked there found nothing particular
+to the Model L.
 
 **The owners' group.** There is a Smart & Brown lathes group on groups.io. I
 have seen only listings of it, not its contents. A poster in the Model L

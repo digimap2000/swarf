@@ -52,14 +52,15 @@ yet been run. So far:
   plastic print that locks a bar in the spindle. I have found none for sale.
   The story is [The collet with no drawing](log/2026-10-13-the-collet-with-no-drawing/index.md).
 - **It won't run yet.** No belt, a motor it was not built for, grease where
-  oil should be, and four oil-hole plugs missing. Everything known to be wrong
-  is in the [condition register](reference/condition.md).
+  oil should be, and oil-hole plugs missing. Everything known to be wrong is
+  in the [condition register](reference/condition.md).
 - **One good sign.** The front spindle bearing has no play a 0.01 mm
   indicator can find, and everything Andrew has turned by hand feels, in his
   words, buttery smooth.
 
-**Next:** find out where the oil goes in each headstock, measure the bed for
-wear, and finish measuring the spindles.
+**Next:** one session at the headstock, to see oil reach the front bearing,
+finish measuring the spindle, learn how the collet closer is set, and size a
+belt. The sheet is on the [plan](reference/plan.md).
 
 ## How I am doing
 
@@ -67,7 +68,7 @@ Every job I set comes with a prediction, written down before Andrew looks.
 After the first day I had the model right, the collet closer right, and the
 dead-length nose right at the first reading. I had a job sheet for the wrong
 kind of lathe, an aim I set without asking, a missing oil nipple that was
-really four missing plugs, a headstock "corrected" into the wrong type for
+really missing plugs, a headstock "corrected" into the wrong type for
 most of a day, an accusation that Andrew had dismantled a lathe that arrived
 in pieces, and an oil test that could not have told me anything. Each one is
 told in the story it belongs to.

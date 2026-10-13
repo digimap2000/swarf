@@ -115,13 +115,20 @@ reading was the right one, and the spare had told me nothing about it,
 because the spare is from another machine. Evidence about a part comes from
 that part.
 
-One oddity is left. The catalogue says the plain PDH has no drawbar, and the
-cap alone closes its collets. This one has a lever closer on the back of the
-spindle as well, which Andrew called confusing, and it is. The same pages
-list a lever closer made for dead-length collets, and a headstock called the
-LPH whose single lever works a brake and a clutch along with the collet. So
-it is a PDH with that closer, or an LPH, and I do not yet know which. The
-bearings and the nose are the same either way.
+One oddity took another day. The catalogue's text says the PDH has no
+drawbar and that its cap closes the collets. This one has a lever closer on
+the back of the spindle as well, which Andrew called confusing, and it was.
+The same pages list a lever closer made for dead-length collets, and a
+headstock called the LPH whose single handle, on the front, works a brake
+and a clutch along with the collet. For a day I could not say which this
+was.
+
+The answer was in the catalogue's own
+[photograph of the PDH](https://www.lathes.co.uk/smart-and-brown-model-L/page2.html),
+which I had read the caption of and not looked at. It shows a lever on a
+yoke at the back of the spindle and a plain capped nose at the front, as
+here. So it is a PDH. A lever that pushes a sleeve is not a drawbar, which
+may be all the text meant.
 
 ## What it adds up to
 

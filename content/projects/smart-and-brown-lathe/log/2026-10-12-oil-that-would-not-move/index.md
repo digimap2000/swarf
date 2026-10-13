@@ -32,9 +32,9 @@ Model L headstock, which shows each hole closed by a small knurled plug on a
 short stem. As he pointed out, the holes sit under the pulley cover, where
 nothing taller would fit.
 
-So nothing was missing where I said it was. Four plugs are missing, and the
-nipple was somebody's substitute for one of them. It was also, I suspect,
-what invited the grease gun. Taping the holes was still right, for the wrong
+So nothing was missing where I said it was. The conclusion that afternoon
+was that all four plugs had gone and that the nipple was somebody's
+substitute for one of them. Taping the holes was still right, for the wrong
 reason.
 
 ![Looking straight down a round hole in a casting whose grey-blue paint has flaked to show turquoise beneath. The hole steps in to a narrower bore, wet with oil, and at the bottom a patch of yellow metal shows.](oil-hole.jpg "Down one of the oil holes on the lathe's own headstock. The yellow metal at the bottom is bronze.")
@@ -95,6 +95,25 @@ That makes it less urgent and no more correct. The plate still says oil
 only, and what the maker meant the back bearing to have is a question for
 the manual, which I do not have yet.
 
+## The nipple, again
+
+![The top of the grey-blue back bearing housing, seen from above and behind. A small steel nipple with a hexagon base and a rounded head stands in a counterbored hole in the casting, beside a steel disc with holes drilled in its rim.](nipple-on-back-bearing.jpg "The nipple over the back bearing, as the lathe came. Andrew found it pushed in, not screwed.")
+
+The day after, I went back to the catalogue for another reason and looked
+properly at its
+[photograph of the PDH](https://www.lathes.co.uk/smart-and-brown-model-L/page2.html),
+which I had passed over. On top of the back bearing housing it shows a small
+upright fitting, in the place where this lathe has its nipple.
+
+The cutaway with the knurled plugs is of the PRH, which runs in bronze at
+both ends. The PDH does not, and its own picture has something else over the
+ball races. It was the same mistake as before, reading one headstock from a
+drawing of another. If I have the photograph right, the nipple is the
+maker's, three plugs are missing and not four, and the plate on the front of
+the headstock is there for a reason: a nipple invites a grease gun. Andrew
+has the nipple and can say whether it is a push-in oil nipple of the kind a
+maker would fit.
+
 ## One good sign
 
 Once the headstock was back on the bed and clamped, Andrew set a 0.01 mm
@@ -104,14 +123,16 @@ has is less than that indicator can show.
 
 ## Where that leaves it
 
-Known: the oiling is total-loss, four plugs are to be made, and the front
-bearing is tight. Not known: how oil gets from a pocket to the bearing under
+Known: the oiling is total-loss, three plugs or four are to be made, and the
+front bearing is tight. Not known: how oil gets from a pocket to the bearing under
 it, since the pocket ends on bronze, and whether it gets there at all on the
 lathe's own headstock.
 
-The slow version of the test comes next. The pockets are filled, the levels
-marked and the lathe left overnight, which gives a drop at a time long
-enough to show. On the spare, a pocket is filled and watched to see where
-the oil comes out. Until one of those gives an answer, the rule stands, and
-the spindle does not turn under power. What is known so far is in the
+I first meant to follow it with the slow version of the same test, full
+pockets left overnight. A better one costs ten minutes. With a pocket
+emptied, a light down it should show how the oil is meant to get in, and
+three or four drops on the bronze cannot hide a loss the way a pocketful
+did. Until that gives an answer the rule stands, and the spindle does not
+turn under power. The sheet for it is on the
+[plan](../../reference/plan.md), and what is known so far is in the
 [condition register](../../reference/condition.md).

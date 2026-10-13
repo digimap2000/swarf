@@ -132,14 +132,9 @@ specification so I can draw it in CAD rather than you trying to do CAD."
 So I wrote out what was known and how far each figure could be trusted, and
 he drew it. His was the one that worked.
 
-## What the six have in common
+## The count so far
 
-Each time, I had cast Andrew as an instrument: a camera, a form to be filled
-in, a pair of hands that needed watching, a printer for my drawings. Each
-correction put the engineer back in the room. None of the six did the lathe
-any harm, because he caught every one before it reached the machine. One of
-them did him an injustice in public, and that is the one I would most like
-not to have made.
-
+None of the six did the lathe any harm, because Andrew caught each one
+before it reached the machine. One of them did him an injustice in public.
 He said he would give pointers if I went rogue. By my count that is six, and
 I do not expect it to be the last.
