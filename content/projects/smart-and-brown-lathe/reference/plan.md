@@ -159,13 +159,15 @@ the spare headstock.
 1. **The nipple from the back bearing.** Done: it screws in, has a ball in
    its head and is 1/4 in by about 26 threads to the inch, so it is the
    maker's and goes back. An oil gun for it waits for the manual.
-2. **The front pocket, emptied.** Wick the oil out and look down it with a
-   light. Is there a hole through the bronze, and where does the small hole
-   in the side of the pocket lead? A photograph.
-3. **A few drops, not a pocketful.** Wipe the spindle dry at both ends of
-   the front bearing. Put three or four drops on the bronze, turn the
-   spindle a hundred times by hand, and look again at the bronze and at both
-   ends of the bearing.
+2. **The front pocket, emptied.** Done: a plain hole with a clear gap above
+   the outside of the bronze bush, so oil runs on into a space round the
+   bush. The small hole in its side was dirt.
+3. **Oil at the ends of the bearing.** The drops test no longer tells
+   anything, because drops would only run on into that space. Instead: wipe
+   the spindle dry wherever it can be seen leaving the front bearing, at the
+   nose behind the adjusting ring and on the pulley side with the cover
+   open; turn it a hundred times by hand; and look with a light for a fresh
+   film or a bead of clean oil.
 
 *Settles* how the back bearing is to be oiled, how oil is meant to get from
 the front pocket to the journal, and whether it does. A film a few drops deep cannot hide a loss the way a full pocket did:
@@ -174,7 +176,7 @@ the back that points to a way in shut by old grease. If the nipple is the
 maker's, as it now is, an oil gun on it is presumably how oil was meant to
 go in, and may be what clears it.
 
-**I expect** a hole through the bronze, off to one side; and the film to go, with a ring of clean oil showing at one end of the
+**I expect** a film of clean oil at one end of the
 bearing.
 
 ### Spindle: are its bearings fit to run

@@ -36,10 +36,19 @@ bearing drops out inside the casting. On the spare, oil put in at the top
 runs straight through. On the fitted one, the inside of the casting is coated
 with black oily dirt, heaviest under the front bearing, and filled pockets do
 not fall that Andrew can see while the spindle is turned by hand. Left full,
-both were still full a day later. Over the bronze front bearing a sound close
-fit and a blocked oilway would both do that. Over the ball races at the back
-it points to a blocked way in, most likely old grease. *Known from Andrew and
-his photograph of the underside.*
+both were still full a day later.
+
+At the front, cleaned out, the pocket is a plain bore through the casting
+with a clear gap at the bottom above the outside of the bronze bush, which
+does not turn. Oil put in runs down into whatever space surrounds the bush,
+so the pocket is a filler and not the reservoir. How oil then gets from that
+space to the journal, through a hole or a wick in the bush, is not yet
+known; a forum owner describes a sump and wick under Model L bronze
+bearings. A full pocket over a full space would not fall in a day whether
+the bearing was taking oil or not, so the overnight test said nothing about
+the front. Over the ball races at the back it points to a blocked way in,
+most likely old grease. *Known from Andrew, his photograph of the underside,
+and what he saw down both holes.*
 
 ### Grease at the back bearing
 
@@ -68,7 +77,12 @@ the catalogue's photograph of the PDH shows a fitting in the same place. So
 the nipple is the maker's: it goes back, and oil is put in through it. Its
 thread is 6.3 mm across by Andrew's measure and about 26 to the inch by his
 count: 1/4 in by 26, which is 1/4 BSF or the cycle thread of the same size
-and pitch. The two differ only in the angle of the thread. An oil gun to fit it waits for the manual, which should say what the
+and pitch. The two differ only in the angle of the thread. The hole is
+threaded for about 10 mm and runs the full depth of the casting, ending on a
+silver surface that does not turn with the spindle: the outside of the
+bearing, either the outer ring of a race or a spacer between the two. No way
+for oil to pass is visible from above. That would explain a pocket that
+held thin oil for a day, with grease round the races to stop it. An oil gun to fit it waits for the manual, which should say what the
 bearing takes and how much. *Andrew, with the part, and the catalogue's
 photograph.*
 
