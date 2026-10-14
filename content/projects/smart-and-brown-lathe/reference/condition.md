@@ -66,8 +66,9 @@ carries a nipple with a ball in its head, which Andrew has taken out. The
 other three oil holes are plain. That bearing is a pair of ball races, and
 the catalogue's photograph of the PDH shows a fitting in the same place. So
 the nipple is the maker's: it goes back, and oil is put in through it. Its
-thread is about 26 to the inch by Andrew's count; with a diameter it can be
-named. An oil gun to fit it waits for the manual, which should say what the
+thread is 6.3 mm across by Andrew's measure and about 26 to the inch by his
+count: 1/4 in by 26, which is 1/4 BSF or the cycle thread of the same size
+and pitch. The two differ only in the angle of the thread. An oil gun to fit it waits for the manual, which should say what the
 bearing takes and how much. *Andrew, with the part, and the catalogue's
 photograph.*
 
