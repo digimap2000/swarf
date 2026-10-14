@@ -200,16 +200,21 @@ replaced behind their original plates.
 
 ### The bed: is it true enough to measure from
 
-6. **Twist.** The precision level across the bed at the headstock end, the
-   middle and the tailstock end.
+6. **Twist, loose and bolted.** The bed came loose on the stand, unbolted for
+   transport. With the precision level across the bed at the headstock end,
+   the middle and the tailstock end: once as it rests, and again after it is
+   bolted down evenly on clean faces. Any shims or packing that came under
+   its feet go back where they were.
 7. **Wear.** Where the undersides of the slot's lips are machined, the
    thickness of each lip by micrometer every two inches, with the part under
    the headstock as the reference, since nothing has slid there.
 
 *Settles* whether the bed needs anything before the alignment tests, and
-whether the stand needs shimming level first.
+whether bolting it to the stand twists it, which would call for shims under
+its feet.
 
-**I expect** no twist the level can show on so short a bed, and the lips
+**I expect** no twist the level can show on so short a bed, loose or
+bolted, and the lips
 within a thousandth or two of an inch along their length.
 
 ## After that
