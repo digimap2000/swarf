@@ -16,7 +16,7 @@ and nothing he has seen looks terrible to him.
 | [Bearing adjusting rings](#bearing-adjusting-rings) | Front one loose: leave as found until the manual says how it is set |
 | [Spindle oil](#spindle-oil) | On order |
 | [Bed](#bed) | Measure wear |
-| [Collets](#collets) | Buy a used 5159 in a useful bore |
+| [Collets](#collets) | Buy a used 5159 when the spindle is ready to run |
 | [Belt](#belt) | Settle the length with Bracehand |
 | [Motor pulleys](#motor-pulleys) | Choose the better; true the small step's rim if needed |
 | [Motor](#motor) | Settle at the electrical stage |

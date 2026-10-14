@@ -227,7 +227,8 @@ wrote. They gave the lathe's year as 1961, offered the manual at £17.50 and a
 used 5159 collet with a 1.5 mm bore at £12.60, and gave the belt's size. The
 manual is being bought. Andrew turned down the collet, since used 5159s with
 more useful bores are on eBay for not much more, and the belt is to come from
-a belt supplier once its length is known. A real 5159 is still what I most
-want: it will give the back bearing, the waist and the slits that Crawford's
-table leaves out, and the length of its nose will test the rule that placed
-the taper on the plastic one.
+a belt supplier once its length is known. A real 5159 waits until the
+spindle is ready to run: one in a bore that will hold a test bar, for the
+first runs and the alignment tests. Its finer dimensions would matter only if
+collets were to be made here, and the size is already settled by Crawford's
+figures and the print.
