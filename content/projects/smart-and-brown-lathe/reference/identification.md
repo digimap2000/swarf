@@ -59,7 +59,8 @@ This one's smallest bore, measured from the back, is the collet's seat at
 23.84 mm, larger than the catalogue's figure.
 
 It also has a lever closer at the back end of the spindle, with a fluted
-handwheel outboard of it. The catalogue's text says the PDH has no draw-bar,
+handwheel outboard of it, fixed to the spindle for turning it by hand. The
+catalogue's text says the PDH has no draw-bar,
 but its own
 [photograph of the PDH](https://www.lathes.co.uk/smart-and-brown-model-L/page2.html)
 shows the same arrangement as this lathe: a lever on a yoke at the back of

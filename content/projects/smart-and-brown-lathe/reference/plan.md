@@ -190,17 +190,16 @@ front bearing has no lift either. Both ends are sound.
 
 ### Closer: what a steel collet has to suit
 
-7. **The depth of the 23.84 mm seat,** from the mouth of the sleeve.
-8. **The fluted handwheel.** Does it turn on the spindle, what moves when it
-   does, and is anything locking it?
-9. **The cap.** With the plastic collet nipped on its bar, how far is the cap
-   short of fully home? And its thread: the pitch and the diameter.
+7. **The seat.** Done: it begins about 41.3 mm in from the sleeve's mouth,
+   so a 5159's back bearing sits in it.
+8. **The fluted handwheel.** Done: it is fixed to the spindle, for turning
+   it by hand, with no locking screw and no part in the closer. I expected
+   it to be the closer's adjustment, and was wrong.
+9. **The cap.** The printed collet's head stands about 0.9 mm proud of the
+   sleeve's mouth. The cap's thread is not needed yet.
 
-*Settles* how long a collet's tail may be, and how the closer is set for a
-given bar, which nobody has yet been able to tell me.
-
-**I expect** the handwheel to turn on a thread and to alter how hard the
-lever closes.
+*Settled:* the cap alone sets the closer for a given bar, and a 5159's tail
+has room in the seat.
 
 ### Drive: which belt
 

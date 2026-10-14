@@ -59,6 +59,8 @@ Measured by Andrew with the cap off.
 | Closing taper in the sleeve's mouth | 24.55 mm opening to 1.18 in (29.97 mm) over about 0.39 in (9.9 mm) | 15.3° a side. The 30.2 mm head stands about 0.4 mm proud of the mouth. |
 | Stroke of the sleeve | 0.97 mm | Closes the collet by about 0.5 mm on diameter at most |
 | Hole in the cap | 1.0 in | The nose passes through; the shoulder bears on the cap |
+| Where the seat begins | About 41.3 mm in from the sleeve's mouth | The back bearing of a 5159 lies about 43 to 55 mm in, so it sits in the seat with room to spare |
+| The printed collet seated in the sleeve | Its head about 0.9 mm proud of the mouth | About 0.4 mm worked out from Crawford's figures; the print's head is chamfered and printed |
 
 ### Not in Crawford's table
 
@@ -79,9 +81,8 @@ Measured by Andrew with the cap off.
 
 ### What is still to measure
 
-- The depth of the 23.84 mm seat.
+- How far the 23.84 mm seat runs back, beyond where a 5159's tail reaches.
 - How far the cap can travel on its thread, and whether it ever meets a stop.
-- What the fluted handwheel at the back does.
 - The form of the coned seat inside the cap, and the thread the cap screws
   on by.
 
@@ -102,8 +103,11 @@ the back bearing is 23.774 mm and the taper is at 15°. The rest is his own:
 
 ### Setting the closer
 
-With the plastic print, Andrew screws the cap on until the collet nips the
-bar, and the lever then locks it. Releasing the lever lets the bar slide.
+The cap is the adjustment. With the plastic print, Andrew screws the cap on
+until the collet nips the bar, and the lever then locks it. Releasing the
+lever lets the bar slide. The fluted handwheel at the back of the spindle is
+fixed to it and only turns the spindle by hand; it plays no part in the
+setting.
 With a 0.01 mm indicator on the end of the bar, the bar moved 0.035 mm
 endwise as the lever locked it. That is all that has been tried. Two things
 from other owners, neither of them from Smart & Brown's manual:
