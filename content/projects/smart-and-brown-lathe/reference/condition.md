@@ -12,7 +12,7 @@ and nothing he has seen looks terrible to him.
 | --- | --- |
 | [Oilways](#oilways-both-headstocks) | Look down the emptied front pocket; try a few drops in place of a pocketful |
 | [Grease at the back bearing](#grease-at-the-back-bearing) | Measure lift and end float; check the manual |
-| [Oil-hole plugs](#oil-hole-plugs) | Make three; check the nipple is the maker's |
+| [Oil-hole plugs](#oil-hole-plugs) | Make three; refit the nipple |
 | [Bearing adjusting rings](#bearing-adjusting-rings) | Leave alone; make a C-spanner |
 | [Spindle oil](#spindle-oil) | On order |
 | [Bed](#bed) | Measure wear |
@@ -61,13 +61,13 @@ Keep the holes covered, and make three plugs once the holes are measured.
 
 ### Nipple at the back bearing
 
-The hole over the back bearing of the lathe's own headstock had a nipple
-pushed into it, which Andrew has taken out. That bearing is a pair of ball
-races, and the catalogue's photograph of the PDH shows a small upright
-fitting in the same place, so I take the nipple to be the maker's and not a
-substitute for a plug. To check on the part itself: whether it is a push-in
-oil nipple, and whether it fits its counterbore. *Andrew's photograph of the
-back of the headstock, and the catalogue's photograph, as I read it.*
+The hole over the back bearing of the lathe's own headstock is threaded, and
+carries a nipple with a ball in its head, which Andrew has taken out. The
+other three oil holes are plain. That bearing is a pair of ball races, and
+the catalogue's photograph of the PDH shows a fitting in the same place. So
+the nipple is the maker's: it goes back, and oil is put in through it. Its
+thread is still to be recorded. *Andrew, with the part, and the catalogue's
+photograph.*
 
 ### Bearing adjusting rings
 

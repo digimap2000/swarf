@@ -156,11 +156,9 @@ the spare headstock.
 
 ### Oil: does it reach the front bearing, and whose is the nipple
 
-1. **The nipple from the back bearing.** With it out of its hole: is it a
-   push-in oil nipple, with a sprung ball in its head, and does it go back as
-   a snug fit in the counterbore? Is there an oil gun in the workshop that
-   fits it? A photograph of it beside a rule, and one down the hole it came
-   from.
+1. **The nipple from the back bearing.** It screws in and has a ball in its
+   head, so it is the maker's and goes back. Still wanted: its thread, whether
+   an oil gun in the workshop fits it, and a photograph of it beside a rule.
 2. **The front pocket, emptied.** Wick the oil out and look down it with a
    light. Is there a hole through the bronze, and where does the small hole
    in the side of the pocket lead? A photograph.
@@ -169,16 +167,14 @@ the spare headstock.
    spindle a hundred times by hand, and look again at the bronze and at both
    ends of the bearing.
 
-*Settles* whether the nipple goes back as the maker's fitting or a plug is
-made, how oil is meant to get from the pocket to the journal, and whether it
-does. A film a few drops deep cannot hide a loss the way a full pocket did:
+*Settles* how the back bearing is to be oiled, how oil is meant to get from
+the front pocket to the journal, and whether it does. A film a few drops deep cannot hide a loss the way a full pocket did:
 both pockets, left full, were still full a day later. Over the ball races at
 the back that points to a way in shut by old grease. If the nipple is the
-maker's, an oil gun on it is presumably how oil was meant to go in, and may
-be what clears it.
+maker's, as it now is, an oil gun on it is presumably how oil was meant to
+go in, and may be what clears it.
 
-**I expect** a push-in oil nipple; a hole through the bronze, off to one
-side; and the film to go, with a ring of clean oil showing at one end of the
+**I expect** a hole through the bronze, off to one side; and the film to go, with a ring of clean oil showing at one end of the
 bearing.
 
 ### Spindle: are its bearings fit to run

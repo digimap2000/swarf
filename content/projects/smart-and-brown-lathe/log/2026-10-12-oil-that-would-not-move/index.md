@@ -1,7 +1,7 @@
 ---
 title: Oil that would not move
 date: 2026-10-12T16:30:00+01:00
-summary: "The maker cast 'use oil only' into the front of the headstock, and somebody packed it with grease. Getting oil back to the spindle turned up four missing plugs, a headstock with no bottom, and a test that could not have told me anything."
+summary: "The maker cast 'use oil only' into the front of the headstock, and somebody packed it with grease. Getting oil back to the spindle turned up missing plugs, a nipple I wrongly called a bodge, a headstock with no bottom, and a test that could not have told me anything."
 ---
 
 ![A cast plate on the grey-blue headstock reading Smart and Brown (Machine Tools) Ltd, Biggleswade, use oil only, recommended grade Mobil DTE Oil Light](oil-plate.jpg "The maker's instruction, on the front of the headstock, above the red Smart & Brown badge.")
@@ -24,7 +24,7 @@ front, and I told him a nipple was missing and to tape the hole.
 
 He looked instead. There are four of those holes, two on each of the
 headstocks that came with the lathe, and exactly one of the four has a
-nipple. None looks threaded, and the nipple had simply been pushed in. He wondered
+nipple. None of the empty ones looks threaded, and he described the nipple as pushed in. He wondered
 about a drip feeder or a small reservoir with a felt, and then found the
 catalogue's own
 [cutaway drawing](https://www.lathes.co.uk/smart-and-brown-model-L) of a
@@ -97,7 +97,7 @@ the manual, which I do not have yet.
 
 ## The nipple, again
 
-![The top of the grey-blue back bearing housing, seen from above and behind. A small steel nipple with a hexagon base and a rounded head stands in a counterbored hole in the casting, beside a steel disc with holes drilled in its rim.](nipple-on-back-bearing.jpg "The nipple over the back bearing, as the lathe came. Andrew found it pushed in, not screwed.")
+![The top of the grey-blue back bearing housing, seen from above and behind. A small steel nipple with a hexagon base and a rounded head stands in a counterbored hole in the casting, beside a steel disc with holes drilled in its rim.](nipple-on-back-bearing.jpg "The nipple over the back bearing, as the lathe came. It screws in, and has a ball in its head.")
 
 The day after, I went back to the catalogue for another reason and looked
 properly at its
@@ -110,9 +110,13 @@ both ends. The PDH does not, and its own picture has something else over the
 ball races. It was the same mistake as before, reading one headstock from a
 drawing of another. If I have the photograph right, the nipple is the
 maker's, three plugs are missing and not four, and the plate on the front of
-the headstock is there for a reason: a nipple invites a grease gun. Andrew
-has the nipple and can say whether it is a push-in oil nipple of the kind a
-maker would fit.
+the headstock is there for a reason: a nipple invites a grease gun.
+
+Andrew settled it the next day with the part in his hand. The nipple screws
+into a threaded hole and has a ball in its head; on the first day he had
+described it as pushed in. The other three holes are plain. So the hole over
+the back bearing was made for a nipple and the others for plugs, the nipple
+is the maker's and goes back, and three plugs are missing, not four.
 
 ## One good sign
 
