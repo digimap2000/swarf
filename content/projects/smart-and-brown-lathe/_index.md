@@ -51,16 +51,17 @@ yet been run. So far:
   It takes a Crawford 5159, run down through an old booklet and proved with a
   plastic print that locks a bar in the spindle. I have found none for sale.
   The story is [The collet with no drawing](log/2026-10-13-the-collet-with-no-drawing/index.md).
-- **It won't run yet.** No belt, a motor it was not built for, grease where
-  oil should be, and oil-hole plugs missing. Everything known to be wrong is
-  in the [condition register](reference/condition.md).
-- **One good sign.** The front spindle bearing has no play a 0.01 mm
+- **It won't run yet.** No belt, a motor it was not built for, oil-hole plugs
+  missing, and no proof that oil reaches the front bearing. Everything known
+  to be wrong is in the [condition register](reference/condition.md).
+- **The spindle is sound.** No play at either bearing that a 0.01 mm
   indicator can find, and everything Andrew has turned by hand feels, in his
   words, buttery smooth.
 
-**Next:** one session at the headstock, to see oil reach the front bearing,
-finish measuring the spindle, learn how the collet closer is set, and size a
-belt. The sheet is on the [plan](reference/plan.md).
+**Next:** the manual and a real 5159 are coming from Bracehand. In the
+workshop, a session at the stand: whether the motor can run from the
+inverter, whether the switches can be kept, and whether the bed is true. The
+sheet is on the [plan](reference/plan.md).
 
 ## How I am doing
 

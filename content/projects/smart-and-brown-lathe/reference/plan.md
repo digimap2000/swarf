@@ -148,82 +148,79 @@ A few decisions stand alongside the stages:
 - **Coolant.** Andrew wants it working in the end. What survives of it is
   looked at when the stand is surveyed.
 
-## The next workshop session
+## Done on 14 October
 
-One visit, all of it at the headstock on the bed, with no power. Each group
-says what it settles. Nothing here needs the slide rest, the tailstocks or
-the spare headstock.
+The session at the headstock settled most of what it set out to. The
+results are on the [condition register](condition.md), the
+[collets page](collets/index.md) and the
+[identification page](identification.md). In short:
 
-### Oil: does it reach the front bearing, and whose is the nipple
+- **Spindle bearings sound.** No lift at either end on a 0.01 mm indicator,
+  and 0.01 mm end float.
+- **The nipple over the back bearing is the maker's,** so three plugs are
+  missing, not four.
+- **The front bearing's oil feed is not proven.** The pocket fills a space
+  round the bronze bush; no fresh oil came out at the bush's pulley end
+  after a hundred turns. No more tests by hand: the manual's drawing comes
+  first. Its castellated ring was loose on arrival and stays as found.
+- **The cap alone sets the collet closer.** The fluted handwheel only turns
+  the spindle by hand. The collet's seat begins about 41.3 mm in.
+- **The drive is a direct pair of three-step cones,** and the speeds they
+  give agree with the plate.
 
-1. **The nipple from the back bearing.** Done: it screws in, has a ball in
-   its head and is 1/4 in by about 26 threads to the inch, so it is the
-   maker's and goes back. An oil gun for it waits for the manual.
-2. **The front pocket, emptied.** Done: a plain hole with a clear gap above
-   the outside of the bronze bush, so oil runs on into a space round the
-   bush. The small hole in its side was dirt.
-3. **Oil at the ends of the bearing.** Done, on the pulley side only, since
-   the nose end is hidden behind the adjusting ring, which stays as found:
-   no fresh oil after a hundred turns. The feed is not proven, and the next
-   step on it comes from the manual's drawing, not another test.
+## The next workshop session: the stand
 
-*Settles* how the back bearing is to be oiled, how oil is meant to get from
-the front pocket to the journal, and whether it does. A film a few drops deep cannot hide a loss the way a full pocket did:
-both pockets, left full, were still full a day later. Over the ball races at
-the back that points to a way in shut by old grease. If the nipple is the
-maker's, as it now is, an oil gun on it is presumably how oil was meant to
-go in, and may be what clears it.
+One visit, at the stand, with no power to anything. Each group says what it
+settles. Nothing here touches the headstock.
 
-**I expect** a film of clean oil at one end of the
-bearing.
+### The motor: can it run from the inverter
 
-### Spindle: are its bearings fit to run
+1. **The terminal box.** Lid off: a photograph of the terminals and any
+   links between them. If there is fibrous board or woven tape inside, leave
+   it alone and tell me.
+2. **Insulation,** each phase to the frame, at 500 V on your tester.
+3. **Winding resistance,** each pair of phases.
+4. **The shaft by hand.** Does it turn freely and quietly, and is there any
+   play?
 
-4. **Lift at the back.** Done: none on a 0.01 mm indicator.
-5. **End float.** Done: 0.01 mm.
-6. **The bore.** Done: from the back end, nothing is smaller than the
-   collet's own seat at the front, 23.84 mm. I had expected the catalogue's
-   29/32 in, which is smaller than that, and was wrong.
+*Settles* whether the Brook can be put on the inverter as it is, and how its
+windings are to be connected.
 
-*Settled:* the preload on the back pair of ball races has survived, and the
-front bearing has no lift either. Both ends are sound.
+**I expect** three terminals in star for 400/440 V, insulation well above
+a megohm, three resistances within a few per cent of each other, and a free
+shaft.
 
-### Closer: what a steel collet has to suit
+### The switches: can they become the inverter's controls
 
-7. **The seat.** Done: it begins about 41.3 mm in from the sleeve's mouth,
-   so a 5159's back bearing sits in it.
-8. **The fluted handwheel.** Done: it is fixed to the spindle, for turning
-   it by hand, with no locking screw and no part in the closer. I expected
-   it to be the closer's adjustment, and was wrong.
-9. **The cap.** The printed collet's head stands about 0.9 mm proud of the
-   sleeve's mouth. The cap's thread is not needed yet.
+5. **Both rotary switches,** covers off: a photograph of the contacts and
+   wiring of each, and the state of the wire's insulation.
 
-*Settled:* the cap alone sets the closer for a given bar, and a 5159's tail
-has room in the seat.
+*Settles* whether they can be kept, as signals to the inverter, or are to be
+replaced behind their original plates.
 
-### Drive: which belt
+### The bed: is it true enough to measure from
 
-10. **The pulleys.** The width and diameter of each of the three steps on the
-    headstock pulley, the same for the two loose stepped pulleys, and which
-    of the two fits the motor shaft.
+6. **Twist.** The precision level across the bed at the headstock end, the
+   middle and the tailstock end.
+7. **Wear.** Where the undersides of the slot's lips are machined, the
+   thickness of each lip by micrometer every two inches, with the part under
+   the headstock as the reference, since nothing has slid there.
 
-*Settles* the width of belt to find, which loose pulley belongs to this
-lathe, and what speeds the present motor will give, which I can then check
-against the speed plate.
+*Settles* whether the bed needs anything before the alignment tests, and
+whether the stand needs shimming level first.
 
-**I expect** one loose pulley to be the headstock's twin, and steps for a
-belt one inch wide, which is what the catalogue gives.
+**I expect** no twist the level can show on so short a bed, and the lips
+within a thousandth or two of an inch along their length.
 
 ## After that
 
-The bed, the slide rest and the tailstocks make one later session: the bed
-measured for wear, and each slide and barrel tried and measured. The spare
-headstock waits behind the lathe's own.
+The slide rest and the two tailstocks make one later session: each slide and
+barrel tried and measured. The spare headstock waits behind the lathe's own.
 
-Meanwhile, without the workshop: Bracehand answered the next morning. They
-gave the lathe's year as 1961, offered the manual at £17.50 and a used 5159
-collet with a 1.5 mm bore at £12.60, and gave the belt's size, which I have
-asked them to confirm. A real 5159 is what I most wanted: it will give the
-back bearing, the waist and the slits that Crawford's table leaves out, and
-the length of its nose will test the rule that placed the taper on the
-plastic one.
+Meanwhile, without the workshop: Bracehand answered the morning after I
+wrote. They gave the lathe's year as 1961, offered the manual at £17.50 and a
+used 5159 collet with a 1.5 mm bore at £12.60, and gave the belt's size,
+which I have asked them to confirm. A real 5159 is what I most wanted: it
+will give the back bearing, the waist and the slits that Crawford's table
+leaves out, and the length of its nose will test the rule that placed the
+taper on the plastic one.

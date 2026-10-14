@@ -59,6 +59,7 @@ Measured by Andrew with the cap off.
 | Closing taper in the sleeve's mouth | 24.55 mm opening to 1.18 in (29.97 mm) over about 0.39 in (9.9 mm) | 15.3° a side. The 30.2 mm head stands about 0.4 mm proud of the mouth. |
 | Stroke of the sleeve | 0.97 mm | Closes the collet by about 0.5 mm on diameter at most |
 | Hole in the cap | 1.0 in | The nose passes through; the shoulder bears on the cap |
+| Thread the cap screws on | 24 t.p.i., 1.82 in across the crests inside the cap | |
 | Where the seat begins | About 41.3 mm in from the sleeve's mouth | The back bearing of a 5159 lies about 43 to 55 mm in, so it sits in the seat with room to spare |
 | The printed collet seated in the sleeve | Its head about 0.9 mm proud of the mouth | About 0.4 mm worked out from Crawford's figures; the print's head is chamfered and printed |
 
@@ -83,8 +84,7 @@ Measured by Andrew with the cap off.
 
 - How far the 23.84 mm seat runs back, beyond where a 5159's tail reaches.
 - How far the cap can travel on its thread, and whether it ever meets a stop.
-- The form of the coned seat inside the cap, and the thread the cap screws
-  on by.
+- The form of the coned seat inside the cap.
 
 ### Andrew's model
 

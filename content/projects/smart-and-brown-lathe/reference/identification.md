@@ -104,6 +104,21 @@ phase, 3.1 amps at full load, 1,430 r.p.m., 50 cycles, 2 horsepower. At
 would give the first. So either the lathe's own motor was replaced, or this
 one never belonged to it.
 
+The drive is a plain pair of three-step cones, one on the spindle and one on
+the motor, with no countershaft. Andrew measured them:
+
+| Pulley | Steps, diameter | Width of each step | Bore |
+| --- | --- | --- | --- |
+| On the spindle | 2.8, 3.8 and 4.8 in | 1.16 in | |
+| Two loose ones for the motor, alike | 2.6, 3.6 and 4.6 in | 1.16 in | 1 in, keyed, as is the motor's shaft |
+
+Each pair of steps adds up to 7.4 in, so one belt serves all three. From the
+diameters alone, a motor at 1,430 r.p.m. gives about 775, 1,355 and 2,350
+r.p.m., within three per cent of the plate's lower row, and one at half that
+speed gives the upper row. So the original motor ran at about 1,430 and 715
+r.p.m., and an inverter at 50 and 25 cycles would give both rows from the
+Brook.
+
 ## The stand, the slide rest and the tailstocks
 
 The stand is a cast cabinet with a tray round the top, a large door at the
