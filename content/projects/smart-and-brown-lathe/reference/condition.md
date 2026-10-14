@@ -162,7 +162,8 @@ Out of the stand. A single-speed Brook, 2 h.p., 400/440 V three-phase, where
 the lathe's change-pole switch and speed plate are for a motor with two
 speeds. It was loose when Andrew got the lathe. There is a platform for it in
 the stand with a lever to slacken the belt, and two stepped pulleys for it.
-Andrew's inverter gives up to 415 V three-phase, which suits it. Whether the
+Andrew's inverter gives up to 415 V three-phase from a single-phase supply
+and is rated at 2.2 kW, which is more than the Brook's 2 h.p., about 1.5 kW. Whether the
 two switches can be kept as signals to the inverter is settled at the
 electrical stage. *Its plate, and the plates on the switches.*
 
