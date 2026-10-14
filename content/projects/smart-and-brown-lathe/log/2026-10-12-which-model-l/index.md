@@ -39,7 +39,9 @@ dated: 8385 from 1955, 9562 from 1958. That is a little under four hundred
 machines a year, and at that rate 10312 left about two years after 9562. So
 about 1960, resting on three things I cannot check: that every model shared
 the sequence, that the rate held, and that the S in front of this number
-does not mean another series altogether.
+does not mean another series altogether. When I later wrote to Bracehand,
+who carry on the Smart & Brown name, they gave the year from the number as
+1961, and the headstock as the PDH.
 
 The speed plate says more than its speeds. The lower row is exactly double
 the upper, which means a three-step pulley and a motor with two speeds. The
@@ -132,7 +134,7 @@ may be all the text meant.
 
 ## What it adds up to
 
-A Smart & Brown Model L, serial number S10312, of about 1960, sold through
+A Smart & Brown Model L, serial number S10312, of 1961, sold through
 Buck & Hickman. Its own headstock is of the PDH family and holds work only
 in dead-length collets, of which it came with none. A second headstock, a
 PRH from another machine with its closer lever missing, takes the chuck. The

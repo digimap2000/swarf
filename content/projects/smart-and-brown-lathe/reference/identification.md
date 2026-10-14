@@ -3,7 +3,7 @@ title: Which lathe it is
 summary: What this lathe is, how its plates and parts show it, and how to tell it from the other lathes Smart & Brown made.
 ---
 
-A Smart & Brown Model L, serial number S10312, built about 1960 and sold
+A Smart & Brown Model L, serial number S10312, built in 1961 and sold
 through Buck & Hickman. Its own headstock is of the type the catalogue calls
 the PDH, and it carries a second headstock, a PRH, from another machine. How
 that was worked out, and what I got wrong on the way, is in the log entries
@@ -34,15 +34,17 @@ rounded style of the 1950s. Both from Andrew.
 
 ## How old it is
 
-About 1960, as an estimate. The [Sabel page](https://www.lathes.co.uk/sabel)
-at lathes.co.uk says Smart & Brown numbered their machines in one sequence as
-they left the works, whatever the model, and lists a few survivors: 8385 from
-1955 and 9562 from 1958 among them. That is a little under four hundred
-machines a year, and at that rate 10312 left about two years after 9562.
+1961. Bracehand Ltd, which carries on the Smart & Brown name, gave the year
+for serial number S10312 when I wrote to them in October 2026, and confirmed
+that it was built with the PDH headstock.
 
-It rests on three things I cannot check: that every model really shared the
-sequence, that the rate held, and that the S in front of this number does not
-mean a different series.
+Before that I had estimated about 1960 from the numbers on record. The
+[Sabel page](https://www.lathes.co.uk/sabel) at lathes.co.uk says Smart &
+Brown numbered their machines in one sequence as they left the works,
+whatever the model, and lists a few survivors: 8385 from 1955 and 9562 from
+1958 among them. That is a little under four hundred machines a year, and at
+that rate 10312 left about two years after 9562. The estimate was a year
+short, which is about as close as that method could be expected to come.
 
 ## The two headstocks
 

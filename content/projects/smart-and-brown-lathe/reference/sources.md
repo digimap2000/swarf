@@ -80,8 +80,9 @@ and found no table of its dimensions, so that lead is open.
 
 - [Bracehand Ltd](https://www.smartandbrownlathes.com/our-lathes/system-l-lathe/),
   of Shefford in Bedfordshire, carries on the Smart & Brown name, still
-  repairs and services the lathes, and lists an operator's and parts manual
-  for the Model L at £13.50, ordered through its contact page.
+  repairs and services the lathes, and supplies an operator's and parts
+  manual for the Model L at £17.50 posted. Asked by email, they also gave the
+  year of this lathe from its serial number, and the size of its belt.
 - The [lathes.co.uk archive](https://store.lathes.co.uk/smart-and-brown)
   sells a reprint of a
   [Model L data pack](https://store.lathes.co.uk/document/ms580k) at £67:

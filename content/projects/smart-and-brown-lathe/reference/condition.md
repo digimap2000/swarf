@@ -17,7 +17,7 @@ and nothing he has seen looks terrible to him.
 | [Spindle oil](#spindle-oil) | On order |
 | [Bed](#bed) | Measure wear |
 | [Collets](#collets) | Find a 5159, or make one once the spindle has run |
-| [Belt](#belt) | Find or make one |
+| [Belt](#belt) | Settle the length with Bracehand |
 | [Motor](#motor) | Settle at the electrical stage |
 | [Coolant](#coolant) | Look for pump and tank |
 | [Chuck backplate](#chuck-backplate) | Machine on the spare once it runs |
@@ -110,8 +110,11 @@ what is still to measure are on the [collets page](collets/index.md).
 
 ### Belt
 
-There is none. A flat belt has to be found or made. The catalogue gives one
-inch wide, to be checked against the pulleys. *Andrew.*
+There is none. Bracehand give the belt as 25 mm wide, which agrees with the
+catalogue's one inch, and 180 mm long for the direct-drive lathe or 1,553 mm
+for the 4:1 drive. 180 mm is too short to reach from the motor platform, so I
+have asked whether it should read 1,800 mm, whether this lathe is the
+direct-drive kind, and what a belt costs. *Andrew, and Bracehand.*
 
 ### Motor
 

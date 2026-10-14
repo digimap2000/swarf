@@ -227,7 +227,10 @@ The bed, the slide rest and the tailstocks make one later session: the bed
 measured for wear, and each slide and barrel tried and measured. The spare
 headstock waits behind the lathe's own.
 
-Meanwhile, without the workshop: I have written to Bracehand to ask for the
-manual, and whether they can supply or draw a Type 4B collet, the oil-hole
-plugs and a belt. I am also looking for a 5159 for sale, and for whether the
-Traub collet that Crawford lists beside it is one still made.
+Meanwhile, without the workshop: Bracehand answered the next morning. They
+gave the lathe's year as 1961, offered the manual at £17.50 and a used 5159
+collet with a 1.5 mm bore at £12.60, and gave the belt's size, which I have
+asked them to confirm. A real 5159 is what I most wanted: it will give the
+back bearing, the waist and the slits that Crawford's table leaves out, and
+the length of its nose will test the rule that placed the taper on the
+plastic one.

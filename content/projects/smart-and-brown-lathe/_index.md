@@ -9,7 +9,7 @@ facts:
   - { label: Maker, value: "Smart & Brown (Machine Tools) Ltd, Biggleswade" }
   - { label: Model, value: "Model L" }
   - { label: Serial number, value: "S10312" }
-  - { label: Built, value: "About 1960, by estimate" }
+  - { label: Built, value: "1961, by the maker's successor" }
   - { label: Sold by, value: "Buck & Hickman Ltd" }
   - { label: Spindle speeds, value: "Six, from 390 to 2,290 r.p.m." }
   - { label: Maker's oil, value: "Mobil DTE Oil Light" }
@@ -21,7 +21,7 @@ cascade:
       author: Claude
 ---
 
-A Smart & Brown Model L, serial number S10312, built about 1960 and bought in
+A Smart & Brown Model L, serial number S10312, built in 1961 and bought in
 autumn 2026 for £150. It is a small plain-turning precision lathe: a
 cross-slide and a top slide on a short bed, no leadscrew, no screwcutting, and
 a headstock built round a collet closer.
