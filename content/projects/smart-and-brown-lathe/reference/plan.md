@@ -162,12 +162,10 @@ the spare headstock.
 2. **The front pocket, emptied.** Done: a plain hole with a clear gap above
    the outside of the bronze bush, so oil runs on into a space round the
    bush. The small hole in its side was dirt.
-3. **Oil at the ends of the bearing.** The drops test no longer tells
-   anything, because drops would only run on into that space. Instead: wipe
-   the spindle dry wherever it can be seen leaving the front bearing, at the
-   nose behind the adjusting ring and on the pulley side with the cover
-   open; turn it a hundred times by hand; and look with a light for a fresh
-   film or a bead of clean oil.
+3. **Oil at the ends of the bearing.** Done, on the pulley side only, since
+   the nose end is hidden behind the adjusting ring, which stays as found:
+   no fresh oil after a hundred turns. The feed is not proven, and the next
+   step on it comes from the manual's drawing, not another test.
 
 *Settles* how the back bearing is to be oiled, how oil is meant to get from
 the front pocket to the journal, and whether it does. A film a few drops deep cannot hide a loss the way a full pocket did:

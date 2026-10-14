@@ -46,7 +46,13 @@ space to the journal, through a hole or a wick in the bush, is not yet
 known; a forum owner describes a sump and wick under Model L bronze
 bearings. A full pocket over a full space would not fall in a day whether
 the bearing was taking oil or not, so the overnight test said nothing about
-the front. Over the ball races at the back it points to a blocked way in,
+the front. On 14 October Andrew wiped the spindle where it leaves the pulley
+end of the front bearing and turned it a hundred times by hand: no fresh
+oil, after that space had stood full for two days. The feed to the journal
+is not proven and may be blocked. Three tests by hand have not settled it,
+so there will be no more until the manual's drawing shows how oil is meant
+to reach the bush. At that end the bronze bush can be seen to be split, with
+a slotted steel ring against it. Over the ball races at the back it points to a blocked way in,
 most likely old grease. *Known from Andrew, his photograph of the underside,
 and what he saw down both holes.*
 
