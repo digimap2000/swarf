@@ -55,6 +55,8 @@ a backplate on it. That is the catalogue's
 [Type PDH](https://www.lathes.co.uk/smart-and-brown-model-L): bronze at the
 front, a pair of preloaded ball races at the back that need no adjusting, a
 bore of 29/32 in, and a nose that takes dead-length collets and nothing else.
+This one's smallest bore, measured from the back, is the collet's seat at
+23.84 mm, larger than the catalogue's figure.
 
 It also has a lever closer at the back end of the spindle, with a fluted
 handwheel outboard of it. The catalogue's text says the PDH has no draw-bar,

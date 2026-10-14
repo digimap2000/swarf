@@ -181,13 +181,12 @@ bearing.
 
 4. **Lift at the back.** Done: none on a 0.01 mm indicator.
 5. **End float.** Done: 0.01 mm.
-6. **The bore of the spindle** at the back end. The catalogue gives 29/32 in
-   for the PDH.
+6. **The bore.** Done: from the back end, nothing is smaller than the
+   collet's own seat at the front, 23.84 mm. I had expected the catalogue's
+   29/32 in, which is smaller than that, and was wrong.
 
-*Settles* whether the preload on the back pair of ball races has survived.
-The front bearing already shows no lift on a 0.01 mm indicator.
-
-**I expect** nothing on either, and 29/32 in.
+*Settled:* the preload on the back pair of ball races has survived, and the
+front bearing has no lift either. Both ends are sound.
 
 ### Closer: what a steel collet has to suit
 
