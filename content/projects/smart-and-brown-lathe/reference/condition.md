@@ -66,7 +66,9 @@ carries a nipple with a ball in its head, which Andrew has taken out. The
 other three oil holes are plain. That bearing is a pair of ball races, and
 the catalogue's photograph of the PDH shows a fitting in the same place. So
 the nipple is the maker's: it goes back, and oil is put in through it. Its
-thread is still to be recorded. *Andrew, with the part, and the catalogue's
+thread is about 26 to the inch by Andrew's count; with a diameter it can be
+named. An oil gun to fit it waits for the manual, which should say what the
+bearing takes and how much. *Andrew, with the part, and the catalogue's
 photograph.*
 
 ### Bearing adjusting rings

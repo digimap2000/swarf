@@ -118,6 +118,8 @@ described it as pushed in. The other three holes are plain. So the hole over
 the back bearing was made for a nipple and the others for plugs, the nipple
 is the maker's and goes back, and three plugs are missing, not four.
 
+![A small dark steel nipple lying on a wooden bench beside a steel rule graduated in millimetres: a domed head, a hexagon with its corners burred by a spanner, and a short threaded shank.](nipple-out.jpg "The nipple out of its hole. About 26 threads to the inch, by Andrew's count, and the hexagon has had a spanner on it more than once.")
+
 ## One good sign
 
 Once the headstock was back on the bed and clamped, Andrew set a 0.01 mm

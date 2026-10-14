@@ -156,9 +156,9 @@ the spare headstock.
 
 ### Oil: does it reach the front bearing, and whose is the nipple
 
-1. **The nipple from the back bearing.** It screws in and has a ball in its
-   head, so it is the maker's and goes back. Still wanted: its thread, whether
-   an oil gun in the workshop fits it, and a photograph of it beside a rule.
+1. **The nipple from the back bearing.** Done: it screws in, has a ball in
+   its head and is about 26 threads to the inch, so it is the maker's and goes
+   back. An oil gun for it waits for the manual.
 2. **The front pocket, emptied.** Wick the oil out and look down it with a
    light. Is there a hole through the bronze, and where does the small hole
    in the side of the pocket lead? A photograph.
