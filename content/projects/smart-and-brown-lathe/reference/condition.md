@@ -124,7 +124,8 @@ sit well together. *Andrew, the oils' data sheets, and the Westway label.*
 ### Bed
 
 It came with the headstock, slide rest and tailstock resting on it, not
-fixed. Andrew lifted them off and cleaned it with T-Cut and a Brillo pad. A
+fixed, and itself resting loose on the stand for transport. Its bolts came
+with it; there were no shims under its feet. Andrew lifted them off and cleaned it with T-Cut and a Brillo pad. A
 groove is cut across its front bevel near the headstock end, which looks
 deliberate to both of us. About 32¾ in long, by Andrew's tape as I read it
 from his photograph. To measure for wear, and oil against rust. *Andrew, and
