@@ -16,7 +16,7 @@ and nothing he has seen looks terrible to him.
 | [Bearing adjusting rings](#bearing-adjusting-rings) | Front one loose: leave as found until the manual says how it is set |
 | [Spindle oil](#spindle-oil) | On order |
 | [Bed](#bed) | Measure wear |
-| [Collets](#collets) | Find a 5159, or make one once the spindle has run |
+| [Collets](#collets) | Buy a used 5159 in a useful bore |
 | [Belt](#belt) | Settle the length with Bracehand |
 | [Motor pulleys](#motor-pulleys) | Choose the better; true the small step's rim if needed |
 | [Motor](#motor) | Settle at the electrical stage |
@@ -147,7 +147,8 @@ steps 1.16 in wide and agrees with the catalogue's one inch, and 180 mm long
 for the direct-drive lathe or 1,553 mm for the 4:1 drive. This lathe is
 direct drive by its pulleys: a three-step cone on the motor driving a
 three-step cone on the spindle. 180 mm is too short to reach from the motor
-platform, so the length is to be confirmed with them. *Andrew, and
+platform, so the length is to come from the manual or from measuring with the
+motor on its platform, and the belt from a belt supplier. *Andrew, and
 Bracehand.*
 
 ### Motor pulleys

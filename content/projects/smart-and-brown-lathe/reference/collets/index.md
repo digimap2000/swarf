@@ -9,7 +9,8 @@ lathe's own is the one to be proved first.
 
 **The short answer:** the lathe's own headstock takes the **Crawford 5159**,
 a dead-length collet. A plastic print made to Crawford's figures locks a
-10 mm bar in the spindle. I have found none for sale. How it was run down is
+10 mm bar in the spindle. Used ones are offered on eBay, at about £18 to £30
+in 1/8, 5/16, 3/8 and 9/16 in round and 7/16 in hexagon. How it was run down is
 in [The collet with no drawing](../../log/2026-10-13-the-collet-with-no-drawing/index.md).
 
 ## The lathe's own headstock: dead-length collets

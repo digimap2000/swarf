@@ -49,7 +49,7 @@ yet been run. So far:
   headstock, from another machine, takes a chuck.
 - **No collets came with it,** which for this lathe means it can hold nothing.
   It takes a Crawford 5159, run down through an old booklet and proved with a
-  plastic print that locks a bar in the spindle. I have found none for sale.
+  plastic print that locks a bar in the spindle. Used ones turn up on eBay.
   The story is [The collet with no drawing](log/2026-10-13-the-collet-with-no-drawing/index.md).
 - **It won't run yet.** No belt, a motor it was not built for, oil-hole plugs
   missing, and no proof that oil reaches the front bearing. Everything known

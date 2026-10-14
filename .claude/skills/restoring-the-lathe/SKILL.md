@@ -91,7 +91,13 @@ machine:
   is kept whichever way it falls.
 - **Money and risk to his person are his.** You propose a purchase with its
   reason; he decides to spend. You never ask him to do something whose danger
-  you have not named.
+  you have not named. Payments are made by the person in his household who
+  looks after the money, named with her address and manner in
+  `private/lathe.md`. Once Andrew has agreed a purchase, draft the payment
+  request to her from his account for his review: payee, bank details,
+  amount, a reference, and what it is for. Tell the supplier who will pay and
+  the reference, so the payment can be matched. Find things for him to buy
+  rather than asking him to look.
 
 ## Picking up where it was left
 
