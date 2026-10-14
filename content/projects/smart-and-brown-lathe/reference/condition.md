@@ -13,7 +13,7 @@ and nothing he has seen looks terrible to him.
 | [Oilways](#oilways-both-headstocks) | Look down the emptied front pocket; try a few drops in place of a pocketful |
 | [Grease at the back bearing](#grease-at-the-back-bearing) | Measure lift and end float; check the manual |
 | [Oil-hole plugs](#oil-hole-plugs) | Make three; refit the nipple |
-| [Bearing adjusting rings](#bearing-adjusting-rings) | Leave alone; make a C-spanner |
+| [Bearing adjusting rings](#bearing-adjusting-rings) | Front one loose: leave as found until the manual says how it is set |
 | [Spindle oil](#spindle-oil) | On order |
 | [Bed](#bed) | Measure wear |
 | [Collets](#collets) | Find a 5159, or make one once the spindle has run |
@@ -91,8 +91,15 @@ photograph.*
 The notched ring behind each nose is bruised beside its notches, as if driven
 round with a punch. The cutaway shows these rings set the bronze bearings.
 Leave them alone, learn from the spindle play what the punching did, and make
-a C-spanner to fit before either is moved. *Photographs of both noses, and
-the cutaway.*
+a C-spanner to fit before either is moved.
+
+On the lathe's own headstock the castellated ring at the nose was loose when
+the lathe arrived. It turns by hand, runs on along its thread and stops. The
+front bearing showed no lift on a 0.01 mm indicator with the ring in that
+state, so something else is holding the bush for now; which ring sets the
+clearance and which locks it is a question for the manual. Until it is
+answered the ring stays as found and the spindle does not run under power.
+*Photographs of both noses, the cutaway, and Andrew.*
 
 ### Spindle oil
 
