@@ -179,9 +179,8 @@ bearing.
 
 ### Spindle: are its bearings fit to run
 
-4. **Lift at the back,** three readings, with the indicator on the plain part
-   of the spindle between the back bearing and the closer.
-5. **End float,** three readings.
+4. **Lift at the back.** Done: none on a 0.01 mm indicator.
+5. **End float.** Done: 0.01 mm.
 6. **The bore of the spindle** at the back end. The catalogue gives 29/32 in
    for the PDH.
 

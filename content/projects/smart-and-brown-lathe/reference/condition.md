@@ -11,7 +11,7 @@ and nothing he has seen looks terrible to him.
 | What | What happens next |
 | --- | --- |
 | [Oilways](#oilways-both-headstocks) | Look down the emptied front pocket; try a few drops in place of a pocketful |
-| [Grease at the back bearing](#grease-at-the-back-bearing) | Measure lift and end float; check the manual |
+| [Grease at the back bearing](#grease-at-the-back-bearing) | Check the manual for what it should have |
 | [Oil-hole plugs](#oil-hole-plugs) | Make three; refit the nipple |
 | [Bearing adjusting rings](#bearing-adjusting-rings) | Front one loose: leave as found until the manual says how it is set |
 | [Spindle oil](#spindle-oil) | On order |
@@ -22,7 +22,7 @@ and nothing he has seen looks terrible to him.
 | [Coolant](#coolant) | Look for pump and tank |
 | [Chuck backplate](#chuck-backplate) | Machine on the spare once it runs |
 | [Spare headstock](#spare-headstock-a-prh) | Measure its spindle |
-| [Front spindle bearing](#front-spindle-bearing) | Nothing: it is sound |
+| [Spindle bearings](#spindle-bearings) | Nothing to measure: no lift at either end |
 | [Spare tailstock](#spare-tailstock) | Set aside: oil it and leave it |
 | [Pulley cover](#pulley-cover), [paint](#paint), [bright steel](#bright-steel-on-the-closer) | Dealt with when it is painted |
 
@@ -62,8 +62,8 @@ The pocket under the nipple on the lathe's own headstock was packed with
 grease, against the maker's plate, which says oil only. Andrew cleaned it
 out. The back bearing is a pair of ball races, which grease does not harm the
 way it harms bronze, so this is less urgent than I first made it. Find out
-from the manual what the maker meant it to have, and measure its lift and end
-float, which should both be nothing. *Andrew, his photograph down the hole,
+from the manual what the maker meant it to have. Its lift and end float have
+been measured and it is sound: see below. *Andrew, his photograph down the hole,
 and the catalogue's account of the PDH.*
 
 ### Oil-hole plugs
@@ -176,12 +176,20 @@ that can hold work, so it is not parked. *Photograph, and Andrew.*
 
 ## Sound so far
 
-### Front spindle bearing
+### Spindle bearings
 
-On the lathe's own headstock, clamped to the bed: no lift that a 0.01 mm
-indicator can show. Next, the same reading at the back, and the end float.
-*Andrew, measuring on the collet-closing cap, left a little proud of the
-nose.*
+On the lathe's own headstock, clamped to the bed, with a 0.01 mm dial
+indicator:
+
+| Reading | Result |
+| --- | --- |
+| Lift at the front bearing, on the collet-closing cap | None the indicator can show |
+| Lift at the back bearing, on the spindle between the bearing and the closer | None the indicator can show |
+| End float | 0.01 mm, one division |
+
+So the preload on the back pair of ball races has survived, whatever the
+grease did, and the front bronze bearing is close. Whether it gets oil is
+another matter: see Oilways. *Andrew, 12 and 14 October 2026.*
 
 ## Set aside for now
 
