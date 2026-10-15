@@ -14,11 +14,11 @@ and nothing he has seen looks terrible to him.
 | [Grease at the back bearing](#grease-at-the-back-bearing) | Check the manual for what it should have |
 | [Oil-hole plugs](#oil-hole-plugs) | Make three; refit the nipple |
 | [Bearing adjusting rings](#bearing-adjusting-rings) | Front one loose: leave as found until the manual says how it is set |
-| [Spindle oil](#spindle-oil) | On order |
+| [Spindle oil](#spindle-oil) | In hand; goes in once the manual says how |
 | [Bed](#bed) | Measure wear |
 | [Collets](#collets) | Buy a used 5159 when the spindle is ready to run |
 | [Belt](#belt) | Settle the length with Bracehand |
-| [Motor pulleys](#motor-pulleys) | Choose the better; true the small step's rim if needed |
+| [Motor pulleys](#motor-pulleys) | Being de-rusted; then measure the chips and choose |
 | [Motor](#motor) | Settle at the electrical stage |
 | [Coolant](#coolant) | Look for pump and tank |
 | [Chuck backplate](#chuck-backplate) | Machine on the spare once it runs |
@@ -154,9 +154,13 @@ Bracehand.*
 ### Motor pulleys
 
 Two came with the lathe, alike: steps of 2.6, 3.6 and 4.6 in, each 1.16 in
-wide, bored 1 in with a keyway to fit the motor's shaft. On both, the rim of
-the smallest step has slight damage. Use the better one, and true the rim if
-it would mark the belt. *Andrew.*
+wide, bored 1 in with a keyway to fit the motor's shaft. Both look like plain cast
+iron, unpainted, rusted all over, and on each a piece is broken out of the
+edge at the end of the smallest step. They are in citric acid, bores greased,
+to take the rust off. Then each chip is measured from the edge: a 1 in belt
+on a 1.16 in step leaves about 0.08 in clear at each side, so a chip inside
+that only needs its edge dressed, and one beyond it is in the belt's path.
+The better pulley goes on the motor. *Andrew, and his photographs.*
 
 ### Motor
 

@@ -138,7 +138,7 @@ A few decisions stand alongside the stages:
 - **Spindle oil.** The maker's own, Mobil DTE Light, can be had decanted by
   the [litre](https://www.ebay.co.uk/itm/322454043460) at about £16. Andrew
   found Westway's Light Machine Oil ISO 32 at about £25 for a five-litre
-  can, and I chose that, and it is on order: a mineral oil for circulating
+  can, and I chose that, and it has arrived: a mineral oil for circulating
   systems, which
   its maker lists for use where Mobil DTE Light is specified and as safe
   with bronze. The spindle does not turn under power on anything thinner or
