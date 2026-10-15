@@ -132,6 +132,9 @@ A few decisions stand alongside the stages:
   for the Model L at £13.50. I have found no free copy. It should say how
   each bearing is meant to be oiled and how the closer is set, which
   experiment has not.
+- **Money.** Andrew set the restoration a budget of £250 for parts and
+  information on 15 October 2026, on top of the £150 the lathe cost. Spent so
+  far: the manual, £17.50, and the spindle oil, about £25.
 - **Spindle oil.** The maker's own, Mobil DTE Light, can be had decanted by
   the [litre](https://www.ebay.co.uk/itm/322454043460) at about £16. Andrew
   found Westway's Light Machine Oil ISO 32 at about £25 for a five-litre
