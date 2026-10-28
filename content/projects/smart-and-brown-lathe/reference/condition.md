@@ -10,19 +10,19 @@ and nothing he has seen looks terrible to him.
 
 | What | What happens next |
 | --- | --- |
-| [Oilways](#oilways-both-headstocks) | Look down the emptied front pocket; try a few drops in place of a pocketful |
-| [Grease at the back bearing](#grease-at-the-back-bearing) | Check the manual for what it should have |
-| [Oil-hole plugs](#oil-hole-plugs) | Make three; refit the nipple |
-| [Bearing adjusting rings](#bearing-adjusting-rings) | Front one loose: leave as found until the manual says how it is set |
-| [Spindle oil](#spindle-oil) | In hand; goes in once the manual says how |
+| [Oilways](#oilways-both-headstocks) | The manual does not show the front feed: ask Bracehand |
+| [Oil-hole plugs](#oil-hole-plugs) | Make three; refit the nipple and oil through it |
+| [Bearing adjusting rings](#bearing-adjusting-rings) | Front one loose: leave as found; the manual does not say how it is set, so ask Bracehand |
+| [Spindle oil](#spindle-oil) | In hand; goes in once the front feed is known |
 | [Bed](#bed) | Measure wear |
 | [Collets](#collets) | Buy a used 5159 when the spindle is ready to run |
-| [Belt](#belt) | Settle the length with Bracehand |
+| [Belt](#belt) | Measure the length with the motor on its platform |
+| [Closer yoke](#closer-yoke) | Look for the fitting the manual draws on top |
 | [Motor pulleys](#motor-pulleys) | Being de-rusted; then measure the chips and choose |
 | [Motor](#motor) | Settle at the electrical stage |
 | [Coolant](#coolant) | Look for pump and tank |
 | [Chuck backplate](#chuck-backplate) | Machine on the spare once it runs |
-| [Spare headstock](#spare-headstock-a-prh) | Measure its spindle |
+| [Spare headstock](#spare-headstock-a-prh) | Measure its spindle; find what its back bearing is |
 | [Spindle bearings](#spindle-bearings) | Nothing to measure: no lift at either end |
 | [Spare tailstock](#spare-tailstock) | Set aside: oil it and leave it |
 | [Pulley cover](#pulley-cover), [paint](#paint), [bright steel](#bright-steel-on-the-closer) | Dealt with when it is painted |
@@ -50,9 +50,12 @@ the bearing was taking oil or not, so the overnight test said nothing about
 the front. On 14 October Andrew wiped the spindle where it leaves the pulley
 end of the front bearing and turned it a hundred times by hand: no fresh
 oil, after that space had stood full for two days. The feed to the journal
-is not proven and may be blocked. Three tests by hand have not settled it,
-so there will be no more until the manual's drawing shows how oil is meant
-to reach the bush. At that end the bronze bush can be seen to be split, with
+is not proven and may be blocked. Three tests by hand have not settled it.
+The maker's manual, which arrived as a parts book of drawings with no text,
+does not settle it either: its section through the headstock shows the space
+round the bush, and at its scale no hole or wick through the bush can be made
+out. So the question goes to Bracehand, with the manual's page and part
+numbers. See [A manual with no words](../log/2026-10-28-a-manual-with-no-words/index.md). At that end the bronze bush can be seen to be split, with
 a slotted steel ring against it. Over the ball races at the back it points to a blocked way in,
 most likely old grease. *Known from Andrew, his photograph of the underside,
 and what he saw down both holes.*
@@ -61,17 +64,19 @@ and what he saw down both holes.*
 
 The pocket under the nipple on the lathe's own headstock was packed with
 grease, against the maker's plate, which says oil only. Andrew cleaned it
-out. The back bearing is a pair of ball races, which grease does not harm the
-way it harms bronze, so this is less urgent than I first made it. Find out
-from the manual what the maker meant it to have. Its lift and end float have
-been measured and it is sound: see below. *Andrew, his photograph down the hole,
-and the catalogue's account of the PDH.*
+out. The maker's manual draws the fitting there as an oil nipple, so the
+bearing is meant to have oil, like the rest. It is a pair of ball races,
+which grease does not harm the way it harms bronze, and its lift and end
+float have been measured and it is sound: see below. *Andrew, his photograph
+down the hole, and the manual.*
 
 ### Oil-hole plugs
 
 A plain hole above each bronze bearing: one at the front of the lathe's own
 headstock and two on the spare. The catalogue's cutaway of the PRH shows
-each closed by a small knurled plug with a short stem. All three are gone.
+each closed by a small knurled plug with a short stem, and the maker's manual
+draws the same plug over the front bearing of this family, part L4 934,
+without its sizes. All three are gone.
 Keep the holes covered, and make three plugs once the holes are measured.
 *Andrew, who looked at all the holes, and the cutaway he found.*
 
@@ -83,14 +88,13 @@ other three oil holes are plain. That bearing is a pair of ball races, and
 the catalogue's photograph of the PDH shows a fitting in the same place. So
 the nipple is the maker's: it goes back, and oil is put in through it. Its
 thread is 6.3 mm across by Andrew's measure and about 26 to the inch by his
-count: 1/4 in by 26, which is 1/4 BSF or the cycle thread of the same size
-and pitch. The two differ only in the angle of the thread. The hole is
+count: 1/4 in by 26. The maker's manual labels it a ¼ in BSF oil nipple,
+which settles it against the cycle thread of the same size and pitch. The hole is
 threaded for about 10 mm and runs the full depth of the casting, ending on a
 silver surface that does not turn with the spindle: the outside of the
 bearing, either the outer ring of a race or a spacer between the two. No way
 for oil to pass is visible from above. That would explain a pocket that
-held thin oil for a day, with grease round the races to stop it. An oil gun to fit it waits for the manual, which should say what the
-bearing takes and how much. *Andrew, with the part, and the catalogue's
+held thin oil for a day, with grease round the races to stop it. The manual says nothing of how much oil it takes or how often. *Andrew, with the part, and the catalogue's
 photograph.*
 
 ### Bearing adjusting rings
@@ -104,8 +108,10 @@ On the lathe's own headstock the castellated ring at the nose was loose when
 the lathe arrived. It turns by hand, runs on along its thread and stops. The
 front bearing showed no lift on a 0.01 mm indicator with the ring in that
 state, so something else is holding the bush for now; which ring sets the
-clearance and which locks it is a question for the manual. Until it is
-answered the ring stays as found and the spindle does not run under power.
+clearance and which locks it the manual does not say: its section shows two
+threaded parts in front of the bush, L4 905 and L4 1936, without a word on
+either. Until it is answered the ring stays as found and the spindle does
+not run under power.
 *Photographs of both noses, the cutaway, and Andrew.*
 
 ### Spindle oil
@@ -147,9 +153,9 @@ steps 1.16 in wide and agrees with the catalogue's one inch, and 180 mm long
 for the direct-drive lathe or 1,553 mm for the 4:1 drive. This lathe is
 direct drive by its pulleys: a three-step cone on the motor driving a
 three-step cone on the spindle. 180 mm is too short to reach from the motor
-platform, so the length is to come from the manual or from measuring with the
-motor on its platform, and the belt from a belt supplier. *Andrew, and
-Bracehand.*
+platform, and the manual gives no length, so it is to come from measuring
+with the motor on its platform, and the belt from a belt supplier. *Andrew,
+Bracehand, and the manual.*
 
 ### Motor pulleys
 
@@ -188,8 +194,19 @@ once the lathe runs on that headstock, so that it runs true to it. *Andrew.*
 ### Spare headstock, a PRH
 
 Complete but for its closer lever. Oil put in its pockets runs straight
-through. Its bearings have not been measured. It is the only headstock here
+through. Its bearings have not been measured. The catalogue gives a PRH two
+bronze bearings; the maker's manual draws its back bearing as a pair of ball
+races, in a section it marks as common to the PLH, PRH and PDH. Which this
+one has is to be found from the spare itself. It is the only headstock here
 that can hold work, so it is not parked. *Photograph, and Andrew.*
+
+### Closer yoke
+
+The maker's manual shows the closer's yoke riding on a ring of balls round
+the sleeve, with a small fitting on top of it, part XF 5B, which looks like
+an oil point. It has not been on any list of oil points here. Find whether
+the fitting is on this lathe and what it is, when the closer is next looked
+at. *The manual.*
 
 ## Sound so far
 

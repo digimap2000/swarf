@@ -18,7 +18,8 @@ that was worked out, and what I got wrong on the way, is in the log entries
   pulley and a motor with two speeds, the arrangement the catalogue gives for
   its high-speed machines, though with slightly different figures.
 - **The serial number** is stamped into the top of the bed at the tailstock
-  end, on the land beside the slot, with a dab of red paint after it.
+  end, on the land beside the slot, with a dab of red paint after it. The
+  maker's manual says to look for it on the right-hand end of the bed.
 - **A cast plate on the headstock** reads Smart & Brown (Machine Tools) Ltd,
   Biggleswade, and under that: use oil only, recommended grade Mobil DTE Oil
   Light. The oil sold under that name today is an
@@ -58,6 +59,15 @@ bore of 29/32 in, and a nose that takes dead-length collets and nothing else.
 This one's smallest bore, measured from the back, is the collet's seat at
 23.84 mm, larger than the catalogue's figure.
 
+The maker's parts book draws the bearings in one section for the PLH, PRH and
+PDH, giving the PDH its own spindle (L4/4631). It shows a plain bush at the
+front with two threaded parts in front of it at the nose, L4 905 and
+L4 1936; a pair of angular-contact ball races at the back, marked "N.1906 135
+A.C. E.P. type"; and the stepped pulley on two ball races of its own, marked
+XLS 2" and XLS 2¼". It does not say which of the two parts at the nose sets
+the front bearing. What the book is, and what it leaves out, is in
+[A manual with no words](../log/2026-10-28-a-manual-with-no-words/index.md).
+
 It also has a lever closer at the back end of the spindle, with a fluted
 handwheel outboard of it, fixed to the spindle for turning it by hand. The
 catalogue's text says the PDH has no draw-bar,
@@ -66,8 +76,14 @@ but its own
 shows the same arrangement as this lathe: a lever on a yoke at the back of
 the spindle, a ring outboard of it, and a plain capped nose. A dead-length
 collet is closed by pushing, not pulling: the cap holds the collet endwise
-and a sleeve is pushed forward to close it. The same pages list a lever
-closer made for dead-length collets, the Type DL, which I take this to be.
+and a sleeve is pushed forward to close it. The parts book shows how: a
+tube, L4 4632, runs the length of the spindle bore from the closer to the
+collet. The cap is L4 763, turned by a pin spanner, L4 2808. The lever's
+yoke rides on a ring of balls round the sleeve, with a small fitting on top,
+XF 5B. A detail of the closer is marked as used up to July 1955 production,
+and an older toggle closer is drawn and marked obsolete. The catalogue lists
+a lever closer made for dead-length collets, the Type DL, which I take this
+to be.
 The LPH, the other headstock with these bearings, has its handle on the
 front and works a brake and clutch with it, which this one has not.
 
@@ -75,9 +91,9 @@ That photograph also shows a small upright fitting on top of the back
 bearing housing, where this lathe has an oil nipple.
 
 Between the closer and the headstock are a ring nut with tommy-bar holes and
-a disc with holes drilled in it. A knurled plunger on the front of the
-headstock lines up with the disc, which I take to be a spindle lock. The
-pulley is stepped, for a flat belt.
+a disc with holes drilled in it. The knurled plunger on the front of the
+headstock is what the parts book calls the pulley stop pin, L4 952: the
+spindle lock. The pulley is stepped, for a flat belt.
 
 **The spare is a PRH.** Painted green, so from another machine. Andrew has
 compared it with the catalogue's cutaway of the PRH and finds everything he
@@ -85,6 +101,11 @@ can see matches: a hardened spindle in two adjustable bronze bearings, the
 pulley on ball races of its own, a lever collet closer of the draw-in kind,
 and a nose threaded to take a chuck. Its closer lever is missing, with only
 the stub it fits to.
+
+The parts book disagrees with the catalogue about the PRH's back bearing.
+It draws the pair of ball races as common to the PLH, PRH and PDH, where the
+catalogue gives the PLH and PRH two adjustable bronze bearings. Only the spare
+itself can say which it has.
 
 A lathe whose own headstock can hold only collets, and which has no collets,
 can hold nothing. Andrew's reading is that an earlier owner bought the spare
@@ -103,6 +124,12 @@ phase, 3.1 amps at full load, 1,430 r.p.m., 50 cycles, 2 horsepower. At
 1,430 r.p.m. it would give the second row of the speed plate and nothing
 would give the first. So either the lathe's own motor was replaced, or this
 one never belonged to it.
+
+The parts book draws four drives for the Model L: direct, by countershaft,
+from a floor-mounted motor, and through a gearbox with a clutch. This lathe's
+is the first, the motor on a hinged platform in the stand that a lever on the
+front raises and lowers to slacken the belt. The book does not give the
+belt's length.
 
 The drive is a plain pair of three-step cones, one on the spindle and one on
 the motor, with no countershaft. Andrew measured them:
@@ -125,7 +152,9 @@ The stand is a cast cabinet with a tray round the top, a large door at the
 front and a smaller one low on the left. It is not the pattern in the early
 catalogue pictures, which has double doors and louvres. The slide rest is a
 compound one worked by screw handles, with a swivelling top slide and a
-pillar toolpost: the catalogue's Type CSP.
+pillar toolpost: the catalogue's Type CSP. The parts book draws the CSP in
+two versions, with parallel gibs and with a taper gib; which this one has is
+not yet recorded.
 
 The tailstock on the bed is green, like the spare headstock, and came from
 the same other machine. The second tailstock, loose in the tray, is the one
@@ -163,7 +192,9 @@ lathes.co.uk.
 | PRH/1 and late types | Take 5C collets. Nose 2 in × 8 t.p.i. on the PRH/1. | Angular-contact ball races at the nose, roller at the back. |
 
 And the tailstocks: the TSC, a one-piece casting with a 1 in barrel and a
-No. 1 Morse taper; the TUC, heavier, with a 1¼ in barrel, No. 2 Morse taper
+No. 1 Morse taper, which the parts book confirms, with a lead screw, as it calls the
+barrel's screw, of ⅛ in pitch, changed to 1/10 in from a point it marks only
+as "MT. 24"; the TUC, heavier, with a 1¼ in barrel, No. 2 Morse taper
 and the sole plate for set-over; and the TTC, which carries small collets, for
 production work and sensitive drilling.
 

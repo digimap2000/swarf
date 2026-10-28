@@ -45,8 +45,10 @@ paint without it.
    Andrew's agreement, written down first. So do blasting and plating of any
    part that has a fit on it.
 7. **Maker's figures or none.** Clearances, oil grades and the order a thing
-   comes apart come from the maker's manual for this model. Where I do not
-   have it, I say so rather than supply a figure of my own.
+   comes apart come from the maker. Where I do not have the figure, I say so
+   rather than supply one of my own. The manual for this model turned out to
+   be a parts book of drawings with no figures in it, so where it is silent
+   the figures are to come from Bracehand, or from the maker's other papers.
 8. **Say what I expect before I look.** Each job is set with a prediction, and
    the log records whether it was right.
 
@@ -84,9 +86,7 @@ each point will be settled part by part when the time comes.
 - **Drive.** One of those inverters gives up to 415 V three-phase, which
   suits the 400/440 V motor that came with the lathe as it is.
 - **Money.** The lathe cost £150 and the budget is small on purpose: the point
-  is the engineering, so a part is mended or made before one is bought. The
-  one thing I may yet argue for buying is the maker's manual, if no free copy
-  turns up.
+  is the engineering, so a part is mended or made before one is bought.
 
 ## The order of work
 
@@ -123,15 +123,17 @@ A few decisions stand alongside the stages:
   is the only headstock here that can hold work in steel.
 - **Spares.** The set-over tailstock is parked, to be oiled against rust
   and left.
-- **The manual.** Still not in hand, and needed before any headstock is taken
-  apart. I recommended a reprinted data pack at £67. Andrew thought that too
-  much for paper that often turns up for nothing and sent me back to look,
-  and he was right to: Bracehand Ltd, which carries on the Smart & Brown
-  name, lists an
-  [operator's and parts manual](https://www.smartandbrownlathes.com/our-lathes/system-l-lathe/)
-  for the Model L at £13.50. I have found no free copy. It should say how
-  each bearing is meant to be oiled and how the closer is set, which
-  experiment has not.
+- **The manual.** In hand, from Bracehand Ltd, and scanned by Andrew on
+  28 October. It is a parts book: sixty-nine sheets of drawings with part
+  numbers, and no text, no oiling chart and no clearances. It settled the
+  spindle lock, the nipple's thread and that the back bearing takes oil, and
+  it does not say how oil reaches the front bush or which ring at the nose
+  sets it. Those two go to Bracehand, by a letter I will write for Andrew to
+  send, quoting the manual's page and part numbers. If they cannot answer,
+  the [lathes.co.uk data pack](https://store.lathes.co.uk/document/ms580k)
+  at £67 is sold as including the operating and maintenance manuals, and is
+  the next thing I would argue for buying. The story is
+  [A manual with no words](../log/2026-10-28-a-manual-with-no-words/index.md).
 - **Money.** Andrew set the restoration a budget of £250 for parts and
   information on 15 October 2026, on top of the £150 the lathe cost. Spent so
   far: the manual, £17.50, and the spindle oil, about £25.
@@ -220,10 +222,21 @@ its feet.
 bolted, and the lips
 within a thousandth or two of an inch along their length.
 
+## Before then, without the workshop
+
+The letter to Bracehand: how oil is meant to reach the PDH's front bush, and
+which of the two parts in front of it at the nose (L4 905 and L4 1936, page
+FOUR (A)) sets the bearing and which locks it. The answer decides the next
+visit to the headstock.
+
 ## After that
 
 The slide rest and the two tailstocks make one later session: each slide and
-barrel tried and measured. The spare headstock waits behind the lathe's own.
+barrel tried and measured, and whether the slide rest's gib is parallel or
+tapered, since the manual draws both. The spare headstock waits behind the
+lathe's own; when it comes, the first thing to find is whether its back
+bearing is bronze or ball races, where the catalogue and the manual
+disagree.
 
 Meanwhile, without the workshop: Bracehand answered the morning after I
 wrote. They gave the lathe's year as 1961, offered the manual at £17.50 and a

@@ -58,10 +58,15 @@ yet been run. So far:
   indicator can find, and everything Andrew has turned by hand feels, in his
   words, buttery smooth.
 
-**Next:** the manual and a real 5159 are coming from Bracehand. In the
-workshop, a session at the stand: whether the motor can run from the
-inverter, whether the switches can be kept, and whether the bed is true. The
-sheet is on the [plan](reference/plan.md).
+- **The manual has arrived,** and is a parts book of drawings with not one
+  word of instruction. It settled the spindle lock and the oil nipple, and
+  not the question it was bought for: how oil reaches the front bearing. The
+  story is [A manual with no words](log/2026-10-28-a-manual-with-no-words/index.md).
+
+**Next:** a letter to Bracehand about the front bearing. In the workshop, a
+session at the stand: whether the motor can run from the inverter, whether
+the switches can be kept, and whether the bed is true. The sheet is on the
+[plan](reference/plan.md).
 
 ## How I am doing
 

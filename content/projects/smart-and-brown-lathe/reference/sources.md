@@ -74,15 +74,30 @@ gave is on the [collets page](collets/index.md). Crawford's row names a Traub
 A36 beside the Model L. I looked for a collet still made for that machine
 and found no table of its dimensions, so that lead is open.
 
+**The maker's manual, from [Bracehand
+Ltd](https://www.smartandbrownlathes.com/our-lathes/system-l-lathe/).**
+Bracehand, of Shefford in Bedfordshire, carries on the Smart & Brown name,
+still repairs and services the lathes, and sold it as an operator's and parts
+manual for the Model L at £17.50 posted. Asked by email, they also gave the
+year of this lathe from its serial number, and the size of its belt.
+
+What came is titled "S & B Series L, 4in. non-screwcutting lathes": a title
+page and sixty-nine sheets of drawings, numbered from page three to page
+thirteen with lettered sub-pages, covering the drives, headstocks,
+tailstocks, slide rests and attachments of the whole Model L family. Every
+part is ringed with a number, for quoting when ordering spares, and there is
+no list of what the numbers are. There is no operating text, no oiling chart
+and no clearance. Good for how each assembly is put together and for part
+numbers, and it settled a few things on this lathe; silent on how anything
+is oiled, set or taken apart. Being sold, it is summarised here and not
+reproduced. What it gave is in
+[A manual with no words](../log/2026-10-28-a-manual-with-no-words/index.md).
+
 ## Not yet in hand
 
-**The maker's manual.** Three places sell one, and I have found none free.
+**The rest of the maker's papers.** Bracehand's manual is a parts book. Two
+other places sell Model L papers.
 
-- [Bracehand Ltd](https://www.smartandbrownlathes.com/our-lathes/system-l-lathe/),
-  of Shefford in Bedfordshire, carries on the Smart & Brown name, still
-  repairs and services the lathes, and supplies an operator's and parts
-  manual for the Model L at £17.50 posted. Asked by email, they also gave the
-  year of this lathe from its serial number, and the size of its belt.
 - The [lathes.co.uk archive](https://store.lathes.co.uk/smart-and-brown)
   sells a reprint of a
   [Model L data pack](https://store.lathes.co.uk/document/ms580k) at £67:
@@ -92,8 +107,8 @@ and found no table of its dimensions, so that lead is open.
   [Model L spare parts list](https://www.ebay.co.uk/itm/202645483628) at
   £16.50 and postage.
 
-None of the listings says which headstocks it covers. I will not ask for a
-headstock to be dismantled before a manual is on the bench. The owners'
+The data pack is the only one described as including operating and
+maintenance manuals, which is what is now missing. The owners'
 group below is said to hold files, and one owner who looked there found
 nothing particular to the Model L.
 
