@@ -19,7 +19,7 @@ and nothing he has seen looks terrible to him.
 | [Belt](#belt) | Measure the length with the motor on its platform |
 | [Closer yoke](#closer-yoke) | Look for the fitting the manual draws on top |
 | [Motor pulleys](#motor-pulleys) | Being de-rusted; then measure the chips and choose |
-| [Motor](#motor) | One winding open: find where, starting under the terminal box |
+| [Motor](#motor) | One winding open, leads perished: end shield off to find the break; new leads |
 | [Coolant](#coolant) | Look for pump and tank |
 | [Chuck backplate](#chuck-backplate) | Machine on the spare once it runs |
 | [Spare headstock](#spare-headstock-a-prh) | Measure its spindle; find what its back bearing is |
@@ -191,7 +191,12 @@ the break is, at the stud, in the lead or at the star point inside, is not
 yet known. The open one is the stud at the top right with the conduit
 entry uppermost. Its lead looks sound where it leaves the board, neither
 burnt nor broken, and flexing it made no difference to the reading, so the
-break is not at the stud end of the lead. There is no insulation tester here, so insulation to the frame is
+break is not at the stud end of the lead. With the terminal board lifted, the three leads
+turned out to be rubber-insulated and so brittle that their insulation
+cracked and broke away when moved, leaving bare stranded copper showing on
+each. Whatever the open winding turns out to be, all three leads are to be
+replaced before the motor sees a supply. Andrew is taking an end shield off
+to reach the star point and the joints where the leads meet the windings. There is no insulation tester here, so insulation to the frame is
 not yet measured. The shaft turns freely and quietly by hand, with no play
 Andrew can feel. There is a platform for it in
 the stand with a lever to slacken the belt, and two stepped pulleys for it.
