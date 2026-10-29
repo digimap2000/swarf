@@ -19,7 +19,7 @@ and nothing he has seen looks terrible to him.
 | [Belt](#belt) | Measure the length with the motor on its platform |
 | [Closer yoke](#closer-yoke) | Look for the fitting the manual draws on top |
 | [Motor pulleys](#motor-pulleys) | Being de-rusted; then measure the chips and choose |
-| [Motor](#motor) | Settle at the electrical stage |
+| [Motor](#motor) | Insulation and winding resistance; identify the sheet in the terminal box |
 | [Coolant](#coolant) | Look for pump and tank |
 | [Chuck backplate](#chuck-backplate) | Machine on the spare once it runs |
 | [Spare headstock](#spare-headstock-a-prh) | Measure its spindle; find what its back bearing is |
@@ -172,7 +172,16 @@ The better pulley goes on the motor. *Andrew, and his photographs.*
 
 Out of the stand. A single-speed Brook, 2 h.p., 400/440 V three-phase, where
 the lathe's change-pole switch and speed plate are for a motor with two
-speeds. It was loose when Andrew got the lathe. There is a platform for it in
+speeds. It was loose when Andrew got the lathe.
+
+The terminal box, opened on 29 October: a black moulded terminal board with
+three studs, one lead from the windings on each and no links between them,
+and an earth screw beside it. So the windings are connected inside the motor
+and it is wound for the one voltage on its plate. No supply cable is
+fitted. Through the hole in the middle of the board, round the leads, an
+amber-coloured sheet can be seen. It is not identified: likely varnished
+cloth or pressboard, but it is left alone until it is, under the rule for
+fibrous linings in old electrical gear. There is a platform for it in
 the stand with a lever to slacken the belt, and two stepped pulleys for it.
 Andrew's inverter gives up to 415 V three-phase from a single-phase supply
 and is rated at 2.2 kW, which is more than the Brook's 2 h.p., about 1.5 kW. Whether the
