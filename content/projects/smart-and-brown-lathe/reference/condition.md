@@ -19,7 +19,7 @@ and nothing he has seen looks terrible to him.
 | [Belt](#belt) | Measure the length with the motor on its platform |
 | [Closer yoke](#closer-yoke) | Look for the fitting the manual draws on top |
 | [Motor pulleys](#motor-pulleys) | Being de-rusted; then measure the chips and choose |
-| [Motor](#motor) | Insulation and winding resistance; identify the sheet in the terminal box |
+| [Motor](#motor) | One winding open: find where; identify the sheet in the terminal box |
 | [Coolant](#coolant) | Look for pump and tank |
 | [Chuck backplate](#chuck-backplate) | Machine on the spare once it runs |
 | [Spare headstock](#spare-headstock-a-prh) | Measure its spindle; find what its back bearing is |
@@ -181,7 +181,17 @@ and it is wound for the one voltage on its plate. No supply cable is
 fitted. Through the hole in the middle of the board, round the leads, an
 amber-coloured sheet can be seen. It is not identified: likely varnished
 cloth or pressboard, but it is left alone until it is, under the rule for
-fibrous linings in old electrical gear. There is a platform for it in
+fibrous linings in old electrical gear.
+
+Resistance between the three studs, by Andrew's multimeter on 29 October:
+10.5 ohms across one pair and open circuit across the other two. That is the
+pattern of a star-wound motor with one winding, or its lead, broken: the two
+readings that pass through it are open, and the one that does not reads two
+good windings in series, about 5 ohms each. A delta winding with one break
+would still read across every pair. So the motor cannot run as it is. Where
+the break is, at the stud, in the lead or at the star point inside, is not
+yet known. There is no insulation tester here, so insulation to the frame is
+not yet measured. There is a platform for it in
 the stand with a lever to slacken the belt, and two stepped pulleys for it.
 Andrew's inverter gives up to 415 V three-phase from a single-phase supply
 and is rated at 2.2 kW, which is more than the Brook's 2 h.p., about 1.5 kW. Whether the
