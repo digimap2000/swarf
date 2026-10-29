@@ -19,7 +19,7 @@ and nothing he has seen looks terrible to him.
 | [Belt](#belt) | Measure the length with the motor on its platform |
 | [Closer yoke](#closer-yoke) | Look for the fitting the manual draws on top |
 | [Motor pulleys](#motor-pulleys) | Being de-rusted; then measure the chips and choose |
-| [Motor](#motor) | One winding open: find where; identify the sheet in the terminal box |
+| [Motor](#motor) | One winding open: find where, starting under the terminal box |
 | [Coolant](#coolant) | Look for pump and tank |
 | [Chuck backplate](#chuck-backplate) | Machine on the spare once it runs |
 | [Spare headstock](#spare-headstock-a-prh) | Measure its spindle; find what its back bearing is |
@@ -178,10 +178,8 @@ The terminal box, opened on 29 October: a black moulded terminal board with
 three studs, one lead from the windings on each and no links between them,
 and an earth screw beside it. So the windings are connected inside the motor
 and it is wound for the one voltage on its plate. No supply cable is
-fitted. Through the hole in the middle of the board, round the leads, an
-amber-coloured sheet can be seen. It is not identified: likely varnished
-cloth or pressboard, but it is left alone until it is, under the rule for
-fibrous linings in old electrical gear.
+fitted. Through the hole in the middle of the board, round the leads, the
+copper of the windings can be seen.
 
 Resistance between the three studs, by Andrew's multimeter on 29 October:
 10.5 ohms across one pair and open circuit across the other two. That is the
@@ -190,7 +188,10 @@ readings that pass through it are open, and the one that does not reads two
 good windings in series, about 5 ohms each. A delta winding with one break
 would still read across every pair. So the motor cannot run as it is. Where
 the break is, at the stud, in the lead or at the star point inside, is not
-yet known. There is no insulation tester here, so insulation to the frame is
+yet known. The open one is the stud at the top right with the conduit
+entry uppermost. Its lead looks sound where it leaves the board, neither
+burnt nor broken, and flexing it made no difference to the reading, so the
+break is not at the stud end of the lead. There is no insulation tester here, so insulation to the frame is
 not yet measured. The shaft turns freely and quietly by hand, with no play
 Andrew can feel. There is a platform for it in
 the stand with a lever to slacken the belt, and two stepped pulleys for it.
