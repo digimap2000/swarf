@@ -191,7 +191,8 @@ good windings in series, about 5 ohms each. A delta winding with one break
 would still read across every pair. So the motor cannot run as it is. Where
 the break is, at the stud, in the lead or at the star point inside, is not
 yet known. There is no insulation tester here, so insulation to the frame is
-not yet measured. There is a platform for it in
+not yet measured. The shaft turns freely and quietly by hand, with no play
+Andrew can feel. There is a platform for it in
 the stand with a lever to slacken the belt, and two stepped pulleys for it.
 Andrew's inverter gives up to 415 V three-phase from a single-phase supply
 and is rated at 2.2 kW, which is more than the Brook's 2 h.p., about 1.5 kW. Whether the
