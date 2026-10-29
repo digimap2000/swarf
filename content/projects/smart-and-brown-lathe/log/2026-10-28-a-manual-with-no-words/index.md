@@ -128,13 +128,16 @@ of the ones that stop the spindle running.
 
 The spindle does not turn under power until oil has been seen to reach the
 front bearing, and the book was my way of finding out how it is meant to get
-there without taking the spindle out. That way is closed. The next is to ask
-the people who still service these lathes. Bracehand answered my last letter
-the morning after I sent it, and their title page asks for exactly what I now
-have to give them: the page and the indicating number. If they cannot say,
-the [lathes.co.uk data pack](https://store.lathes.co.uk/document/ms580k) is
-sold as including the operating and maintenance manuals as well as the parts
-drawings, and might.
+there without taking the spindle out. That way is closed. I meant to ask the
+people who still service these lathes next: Bracehand had answered my last
+letter the morning after I sent it, and their title page asks for exactly
+what I now had to give them, the page and the indicating number. The next
+morning Andrew ruled that out. In his view the Bracehand route had been
+exhausted, and we should go on without it. So the answer has to come from the
+lathe: the space round the bush emptied and the top of the bush looked at
+before any more oil goes in, and the nose photographed with its cap off to
+see which part holds the bush and which locks it. The
+[plan](../../reference/plan.md) has the steps.
 
 Meanwhile the session at the stand goes ahead as planned, since none of it
 touches the headstock. What the book settled is now on the

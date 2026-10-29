@@ -10,9 +10,9 @@ and nothing he has seen looks terrible to him.
 
 | What | What happens next |
 | --- | --- |
-| [Oilways](#oilways-both-headstocks) | The manual does not show the front feed: ask Bracehand |
+| [Oilways](#oilways-both-headstocks) | The manual does not show the front feed: look down the emptied pocket at the bush |
 | [Oil-hole plugs](#oil-hole-plugs) | Make three; refit the nipple and oil through it |
-| [Bearing adjusting rings](#bearing-adjusting-rings) | Front one loose: leave as found; the manual does not say how it is set, so ask Bracehand |
+| [Bearing adjusting rings](#bearing-adjusting-rings) | Front one loose: leave as found; photograph the nose to see which part sets the bush |
 | [Spindle oil](#spindle-oil) | In hand; goes in once the front feed is known |
 | [Bed](#bed) | Measure wear |
 | [Collets](#collets) | Buy a used 5159 when the spindle is ready to run |
@@ -54,8 +54,8 @@ is not proven and may be blocked. Three tests by hand have not settled it.
 The maker's manual, which arrived as a parts book of drawings with no text,
 does not settle it either: its section through the headstock shows the space
 round the bush, and at its scale no hole or wick through the bush can be made
-out. So the question goes to Bracehand, with the manual's page and part
-numbers. See [A manual with no words](../log/2026-10-28-a-manual-with-no-words/index.md). At that end the bronze bush can be seen to be split, with
+out. So it is to be answered from the lathe: the pocket and the space round
+the bush emptied and the top of the bush looked at. See [A manual with no words](../log/2026-10-28-a-manual-with-no-words/index.md). At that end the bronze bush can be seen to be split, with
 a slotted steel ring against it. Over the ball races at the back it points to a blocked way in,
 most likely old grease. *Known from Andrew, his photograph of the underside,
 and what he saw down both holes.*

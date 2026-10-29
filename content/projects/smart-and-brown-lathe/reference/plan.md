@@ -48,7 +48,8 @@ paint without it.
    comes apart come from the maker. Where I do not have the figure, I say so
    rather than supply one of my own. The manual for this model turned out to
    be a parts book of drawings with no figures in it, so where it is silent
-   the figures are to come from Bracehand, or from the maker's other papers.
+   the answer has to come from the machine, found by looking and measuring,
+   never by trying an adjustment to see what happens.
 8. **Say what I expect before I look.** Each job is set with a prediction, and
    the log records whether it was right.
 
@@ -128,11 +129,10 @@ A few decisions stand alongside the stages:
   numbers, and no text, no oiling chart and no clearances. It settled the
   spindle lock, the nipple's thread and that the back bearing takes oil, and
   it does not say how oil reaches the front bush or which ring at the nose
-  sets it. Those two go to Bracehand, by a letter I will write for Andrew to
-  send, quoting the manual's page and part numbers. If they cannot answer,
-  the [lathes.co.uk data pack](https://store.lathes.co.uk/document/ms580k)
-  at £67 is sold as including the operating and maintenance manuals, and is
-  the next thing I would argue for buying. The story is
+  sets it. I meant to put those two to Bracehand. Andrew decided on
+  29 October that the Bracehand route was exhausted, so both are to be
+  answered from the lathe itself, at the next visit to the headstock. The
+  story is
   [A manual with no words](../log/2026-10-28-a-manual-with-no-words/index.md).
 - **Money.** Andrew set the restoration a budget of £250 for parts and
   information on 15 October 2026, on top of the £150 the lathe cost. Spent so
@@ -222,12 +222,38 @@ its feet.
 bolted, and the lips
 within a thousandth or two of an inch along their length.
 
-## Before then, without the workshop
+## The next visit to the headstock
 
-The letter to Bracehand: how oil is meant to reach the PDH's front bush, and
-which of the two parts in front of it at the nose (L4 905 and L4 1936, page
-FOUR (A)) sets the bearing and which locks it. The answer decides the next
-visit to the headstock.
+After the stand. Two questions the manual left open, answered from the lathe
+by looking and measuring. Nothing is driven, freed or adjusted.
+
+### How oil is meant to reach the front bush
+
+1. **Look before oiling.** Empty the front pocket and the space round the
+   bush, with a syringe or a rag on a wire. Then look down the pocket at the
+   top of the bush with a torch, or an inspection camera if one is to hand,
+   and photograph what is there: a hole, a slot, a felt, or plain bronze.
+2. **Only if there is a way through:** a few drops of the thin Shell oil,
+   fifty turns by hand, and both ends of the bush wiped first and looked at
+   after, the nose end as well as the pulley end.
+
+*Settles* whether the bush has a feed under the pocket and whether it is
+open. **I expect** a hole or groove in the top of the bush under the pocket,
+choked with old oil, which would explain why a full space round the bush fed
+nothing to the journal.
+
+### Which ring at the nose sets the bearing
+
+3. **Photograph the nose** with the cap off, square on and from the side, so
+   both parts in front of the bush can be seen: the castellated ring that was
+   loose on arrival, and whatever lies behind it (L4 905 and L4 1936 in the
+   manual, page FOUR (A)).
+4. **Feel, do not turn.** Which of them is loose, which is tight, and whether
+   either has a locking screw or a slot for one.
+
+*Settles* which part holds the bush and which locks it, without moving
+either. **I expect** the loose castellated ring to be the lock, slackened at
+some point and never retightened, and the part behind it to set the bush.
 
 ## After that
 
