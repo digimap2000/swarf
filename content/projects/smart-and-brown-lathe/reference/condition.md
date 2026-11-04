@@ -18,7 +18,7 @@ and nothing he has seen looks terrible to him.
 | [Collets](#collets) | Buy a used 5159 when the spindle is ready to run |
 | [Belt](#belt) | Measure the length with the motor on its platform |
 | [Closer yoke](#closer-yoke) | Look for the fitting the manual draws on top |
-| [Motor pulleys](#motor-pulleys) | Clean: tap-test for cracks, measure how deep each chip goes, then choose |
+| [Motor pulleys](#motor-pulleys) | Fill the one shallow chip with JB Weld and turn it true; the other pulley waits on the result |
 | [Motor](#motor) | One winding open, leads perished: end shield off to find the break; new leads |
 | [Coolant](#coolant) | Look for pump and tank |
 | [Chuck backplate](#chuck-backplate) | Machine on the spare once it runs |
@@ -164,12 +164,16 @@ wide, bored 1 in with a keyway to fit the motor's shaft. Both look like plain ca
 iron, unpainted, and both had a piece broken out of the edge at the end of
 the smallest step. Andrew took the rust off in citric acid, bores greased, and
 they came out clean on 4 November. There are three chips between them, each
-in the flared lip at the end of the smallest step. Before anything is done to
-them, each pulley is to be tapped for a ring, since a cracked pulley is not
-one to run at motor speed, and each chip measured from the edge: a 1 in belt
-on a 1.16 in step leaves about 0.08 in clear at each side, so a chip inside
-that only needs its edge dressed, and one beyond it is in the belt's path.
-The better pulley goes on the motor. *Andrew, and his photographs.*
+in the flared lip at the end of the smallest step: one on one pulley, two on
+the other. A 1 in belt on a 1.16 in step leaves about 0.08 in clear at each
+side, so a chip inside that only needs its edge dressed, and one beyond it is
+in the belt's path.
+
+Tapping them for a ring, to look for cracks, did not settle much: neither
+rings like a bell, they are hard to hang, and Andrew would describe one of them
+as having a bit of ring. He chose to repair the pulley with the single chip,
+which is not deep, by filling it with JB Weld and turning it true, and to see
+how that works before attempting the other. *Andrew, and his photographs.*
 
 ### Motor
 
